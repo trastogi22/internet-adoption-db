@@ -40,7 +40,9 @@ Then run:
 - [x] UUCP Mapping Project (encse/uucp-map; 1987-1992; ~8,200 firms; medium/low)
 
 ## Key outputs
-- data/clean/first_connection_by_firm.csv — one row per firm, earliest connection
+- data/clean/firm_internet_connectivity.csv — ** MAIN DELIVERABLE ** (matches the
+  provided example schema): one row per observed connectivity event (~8,500 rows,
+  IETF + UUCP).
 - data/clean/combined_observations.csv — all firm-network-date observations
 - output/tables/ — firms by network / year / confidence
 - output/figures/ — firms_by_year.png, firms_by_network.png

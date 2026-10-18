@@ -27,3 +27,18 @@
 - Flagged: "KMPG" likely a typo for "KPMG" (not altered in data).
 - Open question for supervisors: should non-firms (school districts, training
   institutes) be included, or only private companies? Source lists them together.
+
+## 2026-10-18 — UUCP coverage caveat (IMPORTANT)
+- UUCP "first connection" = first appearance in AVAILABLE map snapshots,
+  not verified true first connection.
+- File coverage by year in encse/uucp-map is highly uneven:
+  1987: 418 files, 1988: 1572, 1989: 2, 1990: 3, 1991: 317, 1992: 2389.
+- Consequences:
+  * 1989-1990 are effectively missing -> firms first connecting then are
+    mis-dated to their next appearance (1991/1992), inflating those years.
+  * Left-censoring: firms already on UUCP before the first map (Apr 1987)
+    all collapse to 1987-04; their true first date is unknown.
+- Implication: UUCP year distribution reflects SNAPSHOT AVAILABILITY as much
+  as actual adoption. Treat UUCP dates as upper bounds / "observed by" dates.
+- Open question for supervisors: acceptable to use "first observed in maps"
+  as the measure, with this caveat? Or restrict to well-covered years only?

@@ -86,8 +86,10 @@ firms["source_url"] = "https://github.com/encse/uucp-map"
 firms["source_quote"] = "#O " + firms["org"]
 firms["confidence"] = firms["looks_like_firm"].map(
     {True: "medium", False: "low"})
-firms["notes"] = firms["is_ambiguous"].map(
-    {True: "flagged: possible BBS/personal/government node", False: ""})
+base_note = "date = first appearance in available UUCP maps (coverage uneven; see decisions_log)"
+amb = firms["is_ambiguous"].map(
+    {True: " | flagged: possible BBS/personal/government node", False: ""})
+firms["notes"] = base_note + amb
 
 cols = ["firm_name_raw","firm_name_clean","network","network_category",
         "connection_date","date_precision","event_type","location_raw",

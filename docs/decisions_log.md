@@ -1,12 +1,12 @@
 # Decisions Log
 
-## 2025-10-15 — Data model
+## 2026-10-13 — Data model
 - Decision: One row per firm-per-network-observation (not one row per firm).
   "First connection" is derived in analysis, not at data entry.
 - Rationale: A firm may appear in multiple networks at different dates;
   collapsing early loses information and hard-codes a definition we may revise.
 
-## 2025-10-15 — IETF Source 1 complete
+## 2026-10-15 — IETF Source 1 complete
 - Extracted 9 orgs from JvNCnet "new on-line members" section, Oct 1992 IMR.
 - Parser challenges: page breaks (form feed \x0c), running footers, and
   "S. C. Johnson" matching the section-marker regex. Documented in code.
@@ -15,7 +15,7 @@
 - Open question: include non-firms (school district, training institutes)?
 - Noted likely typo: "KMPG" -> "KPMG" (not altered in data; flagged in notes).
 
-## 2025-10-16 — IETF Source 1 complete
+## 2026-10-16 — IETF Source 1 complete
 - Extracted 9 orgs from the JvNCnet "new on-line members (fully operational
   October 1992)" section of the October 1992 Internet Monthly Report.
 - Parser challenges solved: page breaks (form feed \x0c), running footers

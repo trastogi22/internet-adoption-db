@@ -20,11 +20,12 @@ conda activate internet-db
 pip install -r requirements.txt
 
 ## Sources incorporated
-- [ ] IETF Internet Monthly Reports
+- [x] IETF Internet Monthly Reports
 - [ ] UUCP Mapping Project (encse/uucp-map)
 
 ## Progress log
-- 2025-10-16: Project initialized.
+- 2025-10-13: Project initialized.
+- 2025-10-16: Source 1 (IETF) complete end-to-end: download -> parse -> clean -> schema -> reviewed.
 
 ## Open questions
 - How to define "first connection" across heterogeneous network types?

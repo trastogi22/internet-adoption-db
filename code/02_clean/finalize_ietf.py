@@ -66,6 +66,16 @@ df["source_url"] = SOURCE_URL
 df["confidence"] = "high"
 df["notes"] = ""
 
+# Hand-review notes (keyed by raw name). Documented, reproducible.
+NOTES = {
+    "Trenton Public Schools": "non-firm: public school district",
+    "KMPG Peat Marwick": "likely typo for KPMG Peat Marwick (accounting firm)",
+    "ICD/Hearst": "subsidiary/division of Hearst",
+    "The Consortium": "ambiguous entity name; identity unverified",
+    "Data-Tech Institute": "possibly training institute; firm status unverified",
+}
+df["notes"] = df["firm_name_clean"].map(NOTES).fillna("")
+
 cols = ["firm_name_raw","firm_name_clean","network","network_category",
         "connection_date","date_precision","event_type","location_raw",
         "city","state","country","source","source_url","source_quote",

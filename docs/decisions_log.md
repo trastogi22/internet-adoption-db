@@ -42,3 +42,12 @@
   as actual adoption. Treat UUCP dates as upper bounds / "observed by" dates.
 - Open question for supervisors: acceptable to use "first observed in maps"
   as the measure, with this caveat? Or restrict to well-covered years only?
+
+## 2026-10-18 — UUCP hand-review (25-row sample)
+- Of 25 random firm records: ~15 clear companies, ~4 divisions/projects of
+  real firms (TRW, Xerox, HP divisions), ~6 non-firms (a high school,
+  placeholder text "Not Organized"/"Private use...", likely hobbyist BBSes).
+- Estimated ~15-25% false-positive rate in the firm set.
+- Added filters: school terms to ACADEMIC_RE; junk/placeholder JUNK_RE.
+- Remaining limitations: BBSes hard to distinguish; divisions inflate counts
+  and need parent-company consolidation (fuzzy matching) — future work.

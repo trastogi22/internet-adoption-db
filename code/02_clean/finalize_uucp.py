@@ -13,7 +13,8 @@ FLAGGED = Path("data/interim/uucp_flagged_nonfirm.csv")
 # Patterns that mark an org as academic / non-firm -> exclude from firm set
 ACADEMIC_RE = re.compile(
     r"\b(univ|university|college|dept\.?|department|institute of tech|"
-    r"school of|faculty|laborator|national lab|polytechnic|academ)",
+    r"school of|faculty|laborator|national lab|polytechnic|academ|"
+    r"high school|elementary|middle school)",
     re.IGNORECASE)
 
 # Patterns hinting at non-company nodes (BBS, personal, government)
@@ -39,6 +40,11 @@ df["org"] = df["org"].fillna("").map(clean_name)
 
 # Drop rows with no org text
 df = df[df["org"] != ""].copy()
+
+JUNK_RE = re.compile(
+    r"^(not organized|private use|personal|none|n/?a|unknown|test)\b",
+    re.IGNORECASE)
+df = df[~df["org"].str.contains(JUNK_RE)].copy()
 
 # Classify
 df["is_academic"] = df["org"].str.contains(ACADEMIC_RE)

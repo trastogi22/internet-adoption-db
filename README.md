@@ -24,8 +24,8 @@ pip install -r requirements.txt
 - [ ] UUCP Mapping Project (encse/uucp-map)
 
 ## Progress log
-- 2025-10-13: Project initialized.
-- 2025-10-16: Source 1 (IETF) complete end-to-end: download -> parse -> clean -> schema -> reviewed.
+- 2026-10-13: Project initialized.
+- 2026-10-16: Source 1 (IETF) complete end-to-end: download -> parse -> clean -> schema -> reviewed.
 
 ## Open questions
 - How to define "first connection" across heterogeneous network types?

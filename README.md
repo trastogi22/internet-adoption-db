@@ -73,4 +73,4 @@ Then run:
 - 2026-10-18: Source 2 (UUCP) complete: parse -> filter -> dedup (~8,200 firms);
   surfaced and documented snapshot-coverage caveat.
 - 2026-10-18: Aggregation + analysis done; combined dataset, figures, tables.
-- 2026-10-18: Pushed to GitHub.
+- 2026-10-18: Pushed to GitHub.jaz

@@ -51,3 +51,13 @@
 - Added filters: school terms to ACADEMIC_RE; junk/placeholder JUNK_RE.
 - Remaining limitations: BBSes hard to distinguish; divisions inflate counts
   and need parent-company consolidation (fuzzy matching) — future work.
+
+## 2026-10-20 — Address-matching: shared-facility problem
+- Found that address-based dedup was dominated by 2 huge groups (89 and 74
+  members) at single addresses (e.g., 4000 Moorpark Ave, San Jose).
+- These are shared UUCP gateways/commercial buildings, NOT duplicate firms
+  (members were unrelated: Credence, Mellon Capital, Caere, XAOS, etc.).
+- Fix: cap address-group size at 5; larger groups treated as shared facilities
+  and excluded from address-duplicate matching.
+- Impact: the dedup statistic before this fix (80.3%, CA) was dominated by
+  these false groups and is not reliable; recomputed after capping.

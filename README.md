@@ -52,6 +52,9 @@ Then run:
   (expected — different networks/eras; name-matching logic verified).
 - UUCP surfaces recognizable early adopters: Sun Microsystems, Texas
   Instruments, Xerox, Motorola, Hewlett-Packard, Pratt & Whitney, ITT.
+- Dedup analysis: ~76% of address-based duplicate pairs are already caught by
+  name+state matching (LinkTransformer); address-checking adds ~24%. Caught and
+  corrected a shared-facility confounder (see docs/dedup_analysis.md).
 
 ## Important caveats
 - UUCP dates = "first appearance in available map snapshots," NOT verified

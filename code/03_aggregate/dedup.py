@@ -20,7 +20,7 @@ STATS = Path("output/tables/dedup_statistic.txt")
 
 # ---- Config: set TEST_STATE to a state name to test on one state,
 #      or None to run all states. Start with testing!
-TEST_STATE = "California"
+TEST_STATE = None
 
 NAME_THRESHOLD = 0.5   # LinkTransformer cosine threshold (tune later)
 

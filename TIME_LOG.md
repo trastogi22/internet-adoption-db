@@ -27,3 +27,6 @@ Approximate total: ~12 hours
 | 2026-10-22 | 6 | Dedup by state + address validation | 0.25h | |
 | 2026-10-22 | 6 | Found/fixed shared-facility confounder | 0.125h | 2 giant address groups polluted stat |
 | 2026-10-22 | 6 | Compute + write up dedup statistic | 0.125h | 75.7% full dataset |
+
+| 2026-10-26 | 7 | Source 3 (NSFNET): find sample, build parser | Xh | Multi-line addresses, intl countries |
+| 2026-10-26 | 7 | Finalize NSFNET + integrate into pipeline | Xh | Fixed connectivity_type mapping |

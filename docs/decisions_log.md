@@ -61,3 +61,13 @@
   and excluded from address-duplicate matching.
 - Impact: the dedup statistic before this fix (80.3%, CA) was dominated by
   these false groups and is not reliable; recomputed after capping.
+
+## 2026-10-26 — Source 3 (NSFNET PRDB) integrated
+- 16 firms from March 1992 T1 routing-additions table; parsed T1 only (T3 is
+  migrations -> avoids double-counting).
+- First international firms: Ascom Hasler (CHE), Dymaxion (CAN).
+- event_type = routing_addition_announced (matches supervisors' example schema).
+- Caveat: routing-DB addition != verified live connectivity or first access.
+- Note: Intermetrics (x5) and Motorola (x4) appear as multiple networks — kept
+  granular; dedup across NSFNET not yet run (optional next step).
+- DOIM is a US Army facility (government) — minor non-firm false positive.

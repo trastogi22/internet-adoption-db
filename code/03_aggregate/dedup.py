@@ -22,7 +22,7 @@ STATS = Path("output/tables/dedup_statistic.txt")
 #      or None to run all states. Start with testing!
 TEST_STATE = None
 
-NAME_THRESHOLD = 0.5   # LinkTransformer cosine threshold (tune later)
+NAME_THRESHOLD = 0.2   # higher = stricter (only very similar names merge)   # LinkTransformer cosine threshold (tune later)
 
 
 def normalize_address(addr):
@@ -45,8 +45,10 @@ def cluster_names_per_state(df):
         else:
             clustered = lt.cluster_rows(
                 g, model="all-MiniLM-L6-v2", on=["firm_name_clean"],
-                cluster_params={"threshold": NAME_THRESHOLD,
-                                "min cluster size": 1, "metric": "cosine"},
+                cluster_type="agglomerative",
+                cluster_params={"threshold": 0.2,
+                                "clustering linkage": "average",
+                                "metric": "cosine"},
             )
             # LinkTransformer adds a cluster column; find it
             cluster_col = [c for c in clustered.columns

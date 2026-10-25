@@ -43,10 +43,27 @@ def map_connectivity_type(row):
     return "unknown"
 
 df = pd.read_csv(IN)
+# Merge in firm_group_id from the dedup output (UUCP rows).
+DEDUP = Path("data/clean/uucp_deduped.csv")
+if DEDUP.exists():
+    dd = pd.read_csv(DEDUP)[["firm_name_raw", "state", "firm_group_id"]]
+    dd = dd.drop_duplicates(subset=["firm_name_raw", "state"])
+    df = df.merge(dd, on=["firm_name_raw", "state"], how="left")
+else:
+    df["firm_group_id"] = pd.NA
+
+# IETF rows and any unmatched UUCP rows get their own unique group ids,
+# continuing numbering after the existing max.
+existing_max = df["firm_group_id"].max()
+start = int(existing_max) + 1 if pd.notna(existing_max) else 0
+missing = df["firm_group_id"].isna()
+df.loc[missing, "firm_group_id"] = range(start, start + missing.sum())
+df["firm_group_id"] = df["firm_group_id"].astype(int)
 
 out = pd.DataFrame()
 out["firm_name_raw"] = df["firm_name_raw"]
 out["firm_name_standardized"] = df["firm_name_clean"]
+out["firm_group_id"] = df["firm_group_id"].values
 out["network_name"] = df["network"]
 out["connectivity_type"] = df.apply(map_connectivity_type, axis=1)
 out["recorded_date"] = df["connection_date"]
@@ -67,7 +84,7 @@ out["evidence"] = df["source_quote"].fillna("")
 out["notes"] = df["notes"].fillna("")
 
 # Column order exactly matching their example
-cols = ["firm_name_raw","firm_name_standardized","network_name",
+cols = ["firm_name_raw","firm_name_standardized","firm_group_id","network_name",
         "connectivity_type","recorded_date","event_type",
         "location_city","location_region","location_country_iso3",
         "location_address_raw","location_type","first_connection_status",

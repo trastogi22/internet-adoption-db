@@ -9,7 +9,7 @@ from pathlib import Path
 import pandas as pd
 
 CLEAN_DIR = Path("data/clean")
-SOURCES = ["ietf_clean.csv", "uucp_clean.csv"]
+SOURCES = ["ietf_clean.csv", "uucp_clean.csv", "nsfnet_clean.csv"]
 
 OUT_ALL = Path("data/clean/combined_observations.csv")
 OUT_FIRST = Path("data/clean/first_connection_by_firm.csv")

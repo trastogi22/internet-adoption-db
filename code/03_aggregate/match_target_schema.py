@@ -22,7 +22,8 @@ STATES = {
     "WA":"Washington","WV":"West Virginia","WI":"Wisconsin","WY":"Wyoming",
 }
 
-COUNTRY_ISO3 = {"USA": "USA"}  # already USA; extend if non-US added
+COUNTRY_ISO3 = {"USA":"USA","CAN":"CAN","CHE":"CHE","ITA":"ITA","DEU":"DEU",
+                "FRA":"FRA","GBR":"GBR","NLD":"NLD","JPN":"JPN"}
 
 # Map our event_type/source to their controlled vocab
 def map_event_type(row):
@@ -32,6 +33,8 @@ def map_event_type(row):
         return "operational_start_reported"
     if src == "uucp_map":
         return "map_appearance_observed"
+    if src == "nsfnet_prdb":
+        return "routing_addition_announced"
     return et
 
 def map_connectivity_type(row):
@@ -40,6 +43,8 @@ def map_connectivity_type(row):
         return "Internet access"
     if src == "uucp_map":
         return "UUCP mail"
+    if src == "nsfnet_prdb":
+        return "Internet access (routing record)"
     return "unknown"
 
 df = pd.read_csv(IN)

@@ -21,3 +21,9 @@
 | 2026-10-18 | 5 | Push to GitHub | 0.5h | Remote URL placeholder + auth token setup |
 
 Approximate total: ~12 hours
+
+| 2026-10-22 | 6 | Data-quality fixes (states, names, junk filter) | 0.25h | |
+| 2026-10-22 | 6 | Install + learn LinkTransformer | 0.25h | slow first import |
+| 2026-10-22 | 6 | Dedup by state + address validation | 0.25h | |
+| 2026-10-22 | 6 | Found/fixed shared-facility confounder | 0.125h | 2 giant address groups polluted stat |
+| 2026-10-22 | 6 | Compute + write up dedup statistic | 0.125h | 75.7% full dataset |

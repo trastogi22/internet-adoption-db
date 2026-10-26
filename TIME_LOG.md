@@ -25,14 +25,14 @@
 | 2026-10-22 | 6 | Debug clustering (SLINK chaining, threshold direction) | 1h | Caught over-merging (97% blob); switched to agglomerative, threshold 0.2 |
 | 2026-10-22 | 6 | Found/fixed shared-facility confounder | 0.25h | 2 giant address groups polluted statistic |
 | 2026-10-22 | 6 | Compute + write up dedup statistic | 0.5h | Final (corrected): 30.4% of address-dupes caught by name+state |
-| 2026-10-25 | 7 | Source 3 (NSFNET): manual sample + first parser | 0.75h | Multi-line addresses, intl countries |
-| 2026-10-25 | 7 | Bulk-download NANOG mbox archives (1992-94) | 0.5h | Found mbox export endpoint; 36 months |
-| 2026-10-25 | 7 | Auto-extract 320 PRDB messages from mboxes | 0.5h | Subject matching + body extraction |
-| 2026-10-25 | 7 | Fix dual-format parser (table + block layouts) | 1h | T1 section changed format mid-1992 |
-| 2026-10-25 | 7 | Finalize + dedup NSFNET (9,407 -> firms, ~30 countries) | 0.5h | Earliest-appearance dedup |
-| 2026-10-25 | 8 | Cross-source firm linking + per-network timelines | 0.5h | 285 multi-network firms |
-| 2026-10-25 | 8 | Finding: UUCP->NSFNET gap analysis + chart | 0.5h | 95% email-first, median 1.1yr |
-| 2026-10-25 | 8 | Documentation (findings.md, decisions, README) | 0.75h | — |
-| 2026-10-25 | 8 | Repo cleanup (junk folders, tidy structure) | 0.25h | Removed stray folders from paste mishaps |
+| 2026-10-26 | 7 | Source 3 (NSFNET): manual sample + first parser | 0.75h | Multi-line addresses, intl countries |
+| 2026-10-26 | 7 | Bulk-download NANOG mbox archives (1992-94) | 0.5h | Found mbox export endpoint; 36 months |
+| 2026-10-26 | 7 | Auto-extract 320 PRDB messages from mboxes | 0.5h | Subject matching + body extraction |
+| 2026-10-26 | 7 | Fix dual-format parser (table + block layouts) | 1h | T1 section changed format mid-1992 |
+| 2026-10-26 | 7 | Finalize + dedup NSFNET (9,407 -> firms, ~30 countries) | 0.5h | Earliest-appearance dedup |
+| 2026-10-26 | 8 | Cross-source firm linking + per-network timelines | 0.5h | 285 multi-network firms |
+| 2026-10-26 | 8 | Finding: UUCP->NSFNET gap analysis + chart | 0.5h | 95% email-first, median 1.1yr |
+| 2026-10-26 | 8 | Documentation (findings.md, decisions, README) | 0.75h | — |
+| 2026-10-26 | 8 | Repo cleanup (junk folders, tidy structure) | 0.25h | Removed stray folders from paste mishaps |
 
-**Approximate total: ~20 hours**
+Approximate total: ~20 hours**

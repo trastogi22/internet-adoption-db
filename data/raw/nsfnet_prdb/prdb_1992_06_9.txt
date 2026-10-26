@@ -1,0 +1,59 @@
+The following networks have been added to the NSFNET policy-based routing
+database, and routes should be in effect by 08:00 EDT Thursday.
+ 
+T1 Network:
+----------
+No additions.
+
+Total configured T1 networks: 5676
+ 
+ 
+T3 Network: 
+----------
+AS 685 - NorthWestNet Regional Network
+            Gate IP:  192.35.180.8
+          Gate Name:  seattle2-gw.nwnet.net
+           Location:  ENSS 143 - University of Washington
+        Protocol:  BOTH
+
+
+Added 48 NorthWestNet (AS 685) T1 primary nets to the T3 backbone. 
+
+Changed 196 Alternet (AS 701/702) nets to lower T3 backbone metrics
+so Alternet can prefer T3 backbone.
+ 
+Total configured T3 networks: 3887
+ 
+*****************************************************************
+ 
+The configuration reports, map information sheets, and configuration files
+which reflect these changes are available for anonymous ftp on nis.nsf.net
+as usual.
+ 
+    nsfnet/announced.networks - configuration reports
+ 
+               latest report for:
+                        -  NSFNET T1 has the file extension .now
+                        -  NSFNET T3 has the file extension 3.now
+ 
+    nsfnet/backbone.configuration - configuration files for the routing
+                                    software for each NSS
+ 
+               latest report for:
+                        -  NSFNET T1 has the file format config.nss#
+                        -  NSFNET T3 has the file extension .t3p
+ 
+ 
+Please send all requests for configuration changes to nsfnet-admin@merit.edu
+using the NSFNET configuration forms.  The forms are available on-line.
+from the nis.nsf.net machine.  Use ftp and the anonymous login to get on the
+machine.  Do a "cd nsfnet/announced.networks" and get the files TEMPLATE.NET,
+TEMPLATE.GATE, and TEMPLATE.AS.
+ 
+*******************************
+  --Steve Widmayer
+    Merit/NSFNET
+ 
+
+
+

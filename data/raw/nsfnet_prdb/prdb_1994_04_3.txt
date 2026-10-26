@@ -1,0 +1,1431 @@
+------------------------------------------------------------------------------
+New format for Metric:AS lists coming later in this and all reports. See below.
+------------------------------------------------------------------------------
+
+The following changes have been made to the NSFNET policy-based routing
+database and will be installed on the backbone by 08:00  EDT:
+
+
+                            Total =      As +   Bs  +   Cs  +  Aggs
+   Configured Networks      29243 =      29    4605   24520      89
+   Added Networks             216 =       0      10     181      25
+   Deleted Networks            25 =       0       0      25       0
+
+
+
+IP address      Net name           Country  Priority:AS
+----------      --------           -------  -----------
+142.98/16       DOEWAN2               C:CA  1:603 2:601 3:602
+142.212/16      INACW                 C:CA  1:601 2:603 3:602
+146.241/16      MAXUS                 C:US  1:2149 2:174
+147.74/16       CAPE                  C:US  1:297 2:372
+156.76/16       WEPCO                 C:US  1:2149 2:174
+158.36/14       UNINETT1-CIDR         C:NO  1:1800 2:1879 3:1133 4:1240
+162.52/16       PETROINFO             C:US  1:2551
+163.205/16      NASA3                 C:US  1:297 2:372
+163.206/16      NASA4                 C:US  1:297 2:372
+168.84/16       GI-B                  C:US  1:2386 2:1321
+168.119/16      GCTI-B                C:US  1:560 2:701
+192.4.139/24    BELLCORE-UNUSED       C:US  1:1957
+192.5.93/24     SRI-DEMO              C:US  1:200 2:201
+192.32/16       WELLFLEET-C-BLOCK     C:US  1:560 2:701
+192.36.32/24    UPPSALA-L1            C:SE  1:1957
+192.50.189/24   TOSHIBA-NET1          C:JP  1:1240 2:1800
+192.77.42/24    NASA-KSC16            C:US  1:297 2:372
+192.77.60/24    CRIM-CNET12           C:CA  1:603 2:601 3:602
+192.89.240/24   LINTURI1              C:FI  1:701 2:1800
+192.89.241/24   LINTURI2              C:FI  1:701 2:1800
+192.138.162/24  INFOSWITCH1           C:US  1:2149 2:174
+192.147.160/20  NWNET10               C:US  1:685 2:73 3:101
+192.148.157/24  TELECOM-C             C:AU  1:372 2:297
+192.150.52/22   SSW2-5                C:US  1:204 2:1206
+192.157.67/24   ICMNET-4              C:CO  1:1800 2:1240
+192.165.148/24  SE-AS-MED             C:SE  1:1957
+192.204/16      NETBLK-PREPNET-C      C:US  1:204 2:1206
+192.208.34/24   DEC-EXTERNAL          C:US  1:701 2:702
+192.220/16      NETBLK-NWNET          C:US  1:685 2:73 3:101
+192.245.136/24  WRLCNET               C:US  1:86 2:279
+192.253.70/24   DSI-NET70             C:US  1:274 2:60
+193.8.2/24      BERNER-BLOCK-8        C:CH  1:1957
+193.10.16/24    SE-AS-LAN             C:SE  1:1957
+193.10.24/24    SE-AS-LAN             C:SE  1:1957
+193.10.127/24   SE-AKADEM-MTA         C:SE  1:1957
+193.31.10/24    SOFTCON-MUC           C:DE  1:701 2:1800
+193.31.11/24    SOFTCON-MUC           C:DE  1:701 2:1800
+193.40.226/24   ENMB-NET-C-40-226     C:EE  1:1800 2:1879 3:1133 4:1240
+193.40.227/24   ENMB-NET-C-40-227     C:EE  1:1800 2:1879 3:1133 4:1240
+193.40.228/24   ENMB-NET-C-40-228     C:EE  1:1800 2:1879 3:1133 4:1240
+193.44.76/24    UDAC-SERVER           C:SE  1:1957
+193.48.2/24     FR-OR-VETONA          C:FR  1:1800 2:1240 3:1133 4:1674
+193.48.172/24   FR-ENSAE01            C:FR  1:1800 2:1240 3:1133 4:1674
+193.50.222/24   FR-PICTEL02           C:FR  1:1800 2:1240 3:1133 4:1674
+193.50.223/24   FR-PICTEL03           C:FR  1:1800 2:1240 3:1133 4:1674
+193.50.252/24   FR-PICTEL04           C:FR  1:1800 2:1240 3:1133 4:1674
+193.50.253/24   FR-PICTEL05           C:FR  1:1800 2:1240 3:1133 4:1674
+193.70.236/24   SODALIA-NET           C:IT  1:1957
+193.70.237/24   SODALIA-NET           C:IT  1:1957
+193.74.232/24   EUNET-BE              C:BE  1:1957
+193.74.240/24   COIBE                 C:BE  1:1957
+193.80.234/24   PM-DATA               C:AT  1:701 2:1800
+193.120.232/24  FEXCO2                C:IE  1:1957
+193.125.158/24  EXPO                  C:RU  1:701 2:1800
+193.128.40/24   PIPEX-INTERAS         C:GB  1:1957
+193.128.77/24   HCS                   C:GB  1:1800 2:1240
+193.136.48/24   INESCP-NET-SUPER      C:PT  1:1800 2:1133 3:1240
+193.136.49/24   INESCP-NET-SUPER      C:PT  1:1800 2:1133 3:1240
+193.136.50/24   INESCP-NET-SUPER      C:PT  1:1800 2:1133 3:1240
+193.136.52/24   INESCP-NET-SUPER      C:PT  1:1800 2:1133 3:1240
+193.136.144/24  ISEG-1                C:PT  1:1800 2:1133 3:1240
+193.141.104/24  INDIVIDUAL-NET        C:DE  1:1324 2:1800 3:1240 4:1133
+193.141.230/24  THESYS-NET3           C:DE  1:1324 2:1800 3:1240 4:1133
+193.141.231/24  THESYS-NET4           C:DE  1:1324 2:1800 3:1240 4:1133
+193.142.16/24   NLWCNET               C:FI  1:1957
+193.156/15      UNITNET-CIDR          C:NO  1:1800 2:1879 3:1133 4:1240
+193.175.40/24   FH-WORMS-NET-C-175-40 C:DE  1:293 2:291
+193.175.41/24   FH-WORMS-NET-C-175-41 C:DE  1:293 2:291
+193.175.42/24   FH-WORMS-NET-C-175-42 C:DE  1:293 2:291
+193.175.43/24   FH-WORMS-NET-C-175-43 C:DE  1:293 2:291
+193.175.44/24   FH-WORMS-NET-C-175-44 C:DE  1:293 2:291
+193.175.45/24   FH-WORMS-NET-C-175-45 C:DE  1:293 2:291
+193.175.46/24   FH-WORMS-NET-C-175-46 C:DE  1:293 2:291
+193.175.47/24   FH-WORMS-NET-C-175-47 C:DE  1:293 2:291
+193.219.32/19   LITNET-CIDR           C:LT  1:1800 2:1879 3:1133 4:1240
+194.49.56/24    BREZING               C:DE  1:1324 2:1800 3:1240 4:1133
+194.49.57/24    BUOHLER               C:DE  1:1324 2:1800 3:1240 4:1133
+194.49.58/24    DARABOS               C:DE  1:1324 2:1800 3:1240 4:1133
+198.6.201/24    CCSI-NET              C:US  1:701 2:702
+198.6.226/24    SVCDUDES              C:US  1:701 2:702
+198.6.227/24    SVCDUDES              C:US  1:701 2:702
+198.55.8/21     MAGEE-NET1-8          C:US  1:204 2:1206
+198.59/16       NETBLK-WESTNET        C:US  1:209 2:210
+198.59.192/18   NETBLK-WESTNET        C:US  1:1800 2:1240 3:209 4:210
+198.60/16       NETBLK-WESTNET        C:US  1:210 2:209
+198.60.200/24   WESTNET               C:US  1:210 2:209
+198.60.201/24   WESTNET               C:US  1:210 2:209
+198.60.202/24   WESTNET               C:US  1:210 2:209
+198.60.203/24   WESTNET               C:US  1:210 2:209
+198.60.204/24   WESTNET               C:US  1:210 2:209
+198.60.205/24   WESTNET               C:US  1:210 2:209
+198.60.206/24   WESTNET               C:US  1:210 2:209
+198.60.207/24   WESTNET               C:US  1:210 2:209
+198.78.246/24   KNXCOLL-NET           C:US  1:279 2:86
+198.79.76/24    REDGATE-NET           C:US  1:279 2:86
+198.85.254/24   LOUISBURG7            C:US  1:1329
+198.95.32/24    CREAF-C-95-32         C:US  1:200 2:201
+198.95.33/24    CREAF-C-95-33         C:US  1:200 2:201
+198.95.34/24    CREAF-C-95-34         C:US  1:200 2:201
+198.95.35/24    CREAF-C-95-35         C:US  1:200 2:201
+198.95.36/24    CREAF-C-95-36         C:US  1:200 2:201
+198.95.37/24    CREAF-C-95-37         C:US  1:200 2:201
+198.95.38/24    CREAF-C-95-38         C:US  1:200 2:201
+198.95.39/24    CREAF-C-95-39         C:US  1:200 2:201
+198.95.40/24    CREAF-C-95-40         C:US  1:200 2:201
+198.95.41/24    CREAF-C-95-41         C:US  1:200 2:201
+198.95.42/24    CREAF-C-95-42         C:US  1:200 2:201
+198.95.43/24    CREAF-C-95-43         C:US  1:200 2:201
+198.95.44/24    CREAF-C-95-44         C:US  1:200 2:201
+198.95.45/24    CREAF-C-95-45         C:US  1:200 2:201
+198.95.46/24    CREAF-C-95-46         C:US  1:200 2:201
+198.95.47/24    CREAF-C-95-47         C:US  1:200 2:201
+198.101.16/24   GTE-SPACENET1         C:US  1:86 2:279
+198.101.17/24   GTE-SPACENET2         C:US  1:86 2:279
+198.101.24/24   GTE-SPACENET9         C:US  1:86 2:279
+198.104/16      NWNET-BLK2            C:US  1:685 2:73 3:101
+198.105.232/22  MSOFT-1               C:US  1:685 2:73 3:101
+198.106/16      NWNET-BLK2            C:US  1:685 2:73 3:101
+198.107/16      NWNET-BLK2            C:US  1:685 2:73 3:101
+198.114.200/24  NHC-5                 C:US  1:560 2:701
+198.114.201/24  NHC-5                 C:US  1:560 2:701
+198.124.104/24  LAMONT-ARM            C:US  1:293 2:291
+198.136.8/21    MAGEE-NET9-16         C:US  1:204 2:1206
+198.146.149/24  EXCEED-NET2           C:US  1:279 2:86
+198.150.9/24    WISC-MERITER          C:US  1:1225 2:267 3:266
+198.150.38/24   PANVERA               C:US  1:1225 2:267 3:266
+198.151.231/24  NET-SILVERLINE2       C:US  1:1800 2:1240
+198.161.118/24  DBCORP-AB             C:CA  1:602 2:601 3:603
+198.162.1/24    EKCCNET               C:CA  1:602 2:601 3:603
+198.164.3/24    NET-GFC-NB-CA         C:CA  1:602 2:601 3:603
+198.168.44/24   UQUEBEC-8             C:CA  1:603 2:601 3:602
+198.168.45/24   UQUEBEC-9             C:CA  1:603 2:601 3:602
+198.168.46/24   UQUEBEC-10            C:CA  1:603 2:601 3:602
+198.168.47/24   UQUEBEC-11            C:CA  1:603 2:601 3:602
+198.169.9/24    PSC-GOV-SK-CA         C:CA  1:603 2:601 3:602
+198.187.252/24  IEA-NET               C:US  1:1982
+198.202.66/24   SALKNET               C:US  1:195 2:1740
+198.206.162/24  FSR                   C:US  1:1982
+198.236/15      OPEN-BLK1             C:US  1:685 2:73 3:101
+198.238/15      NWNET-BLK3            C:US  1:685 2:73 3:101
+198.243/16      NETBLK-NET-CSN-BLK2   C:US  1:209 2:210
+198.247.241/24  DTNCOM                C:US  1:93
+198.247.243/24  SOAPNOTES             C:US  1:93
+198.252.228/24  TELOS-NET             C:US  1:2149 2:174
+199.2.28/24     BIGTREE-DOM           C:US  1:1240 2:1800
+199.4.218/24    NFBCAL                C:US  1:1240 2:1800
+199.35/16       NETBLK-NETCOMCBLK-2   C:US  1:2551
+199.45.70/24    ONLINESYS             C:CA  1:701 2:702
+199.54/15       DSI-CIDR-BLK-INTERNAL C:US  1:274 2:60
+199.60.30/24    BCSD42-N5             C:CA  1:602 2:601 3:603
+199.60.31/24    BCSD42-N5             C:CA  1:602 2:601 3:603
+199.71.69/24    OPC-ON-CA             C:CA  1:601 2:603 3:602
+199.71.80/24    OHI-NET               C:CA  1:601 2:603 3:602
+199.74.153/24   BAMS-C-74-153         C:US  1:97
+199.74.154/24   BAMS-C-74-154         C:US  1:97
+199.74.155/24   BAMS-C-74-155         C:US  1:97
+199.74.156/24   BAMS-C-74-156         C:US  1:97
+199.74.157/24   BAMS-C-74-157         C:US  1:97
+199.74.158/24   BAMS-C-74-158         C:US  1:97
+199.79.249/24   BOULDERCREEK          C:US  1:1240 2:1800
+199.86.16/24    STPAUL1               C:US  1:1225 2:267 3:266 4:555
+199.86.17/24    STPAUL2               C:US  1:1225 2:267 3:266 4:555
+199.86.18/24    STPAUL3               C:US  1:1225 2:267 3:266 4:555
+199.86.19/24    STPAUL4               C:US  1:1225 2:267 3:266 4:555
+199.86.66/24    MRNET-BLOCK3          C:US  1:1225 2:267 3:266 4:555
+199.86.67/24    MRNET-BLOCK4          C:US  1:1225 2:267 3:266 4:555
+199.86.88/24    MRNET-BLOCK3          C:US  1:1225 2:267 3:266 4:555
+199.86.89/24    MRNET-BLOCK4          C:US  1:1225 2:267 3:266 4:555
+199.86.90/24    MRNET-BLOCK5          C:US  1:1225 2:267 3:266 4:555
+199.86.91/24    MRNET-BLOCK6          C:US  1:1225 2:267 3:266 4:555
+199.86.92/24    MRNET-BLOCK7          C:US  1:1225 2:267 3:266 4:555
+199.86.93/24    MRNET-BLOCK8          C:US  1:1225 2:267 3:266 4:555
+199.86.94/24    MRNET-BLOCK9          C:US  1:1225 2:267 3:266 4:555
+199.86.95/24    MRNET-BLOCK10         C:US  1:1225 2:267 3:266 4:555
+199.89.187/24   SEI2                  C:US  1:1240 2:1800
+199.98.142/24   PSINET-C5             C:US  1:2149 2:174
+199.98.143/24   PSINET-C5             C:US  1:2149 2:174
+199.98.144/24   PSINET-C5             C:US  1:2149 2:174
+199.98.145/24   PSINET-C5             C:US  1:2149 2:174
+199.98.146/24   PSINET-C5             C:US  1:2149 2:174
+199.98.147/24   PSINET-C5             C:US  1:2149 2:174
+199.98.148/24   PSINET-C5             C:US  1:2149 2:174
+199.104/16      NETBLK-WESTNET-W2     C:US  1:210 2:209
+199.117/16      NETBLK-CSN-BLK3       C:US  1:209 2:210
+199.117.16/24   CSN-BLK3              C:US  1:209 2:210
+199.120.212/24  MYRI-NET              C:US  1:1740
+199.124.8/21    CPF-LAN               C:US  1:22
+199.164.137/24  ARCOM                 C:US  1:1740
+199.164.166/24  ARMORY-SUB            C:US  1:1240 2:1800
+199.165.174/24  TRIPS                 C:US  1:1240 2:1800
+199.174.5/24    NET-NLIC              C:US  1:1240 2:1800
+199.181.178/24  NET-SLCL              C:US  1:1330 2:93
+199.181.179/24  ZAK                   C:US  1:1982
+199.181.180/24  ITRONIXNET-2          C:US  1:1982
+199.181.197/24  STS-INC-NET           C:US  1:1332
+199.190.24/24   MHPCC                 C:US  1:3381
+199.190.25/24   MPHCC                 C:US  1:3381
+199.199.1/24    MRNET-C-BLOCK4        C:US  1:1225 2:267 3:266 4:555
+199.201.8/24    CLARKNET2-CBLK3       C:US  1:1800 2:1240
+199.201.9/24    CLARKNET2-CBLK3       C:US  1:1800 2:1240
+199.201.10/24   CLARKNET2-CBLK3       C:US  1:1800 2:1240
+199.201.11/24   CLARKNET2-CBLK3       C:US  1:1800 2:1240
+199.201.12/24   CLARKNET2-CBLK3       C:US  1:1800 2:1240
+199.201.13/24   CLARKNET2-CBLK3       C:US  1:1800 2:1240
+199.201.14/24   CLARKNET2-CBLK3       C:US  1:1800 2:1240
+199.201.15/24   CLARKNET2-CBLK3       C:US  1:1800 2:1240
+200.9.107/24    UECE-ANCE             C:BR  1:293 2:291
+202.17.120/24   SGU                   C:JP  1:1240 2:1800
+202.17.121/24   SGU                   C:JP  1:1240 2:1800
+202.17.122/24   SGU                   C:JP  1:1240 2:1800
+202.17.123/24   SGU                   C:JP  1:1240 2:1800
+202.17.124/24   SGU                   C:JP  1:1240 2:1800
+202.17.125/24   SGU                   C:JP  1:1240 2:1800
+202.17.126/24   SGU                   C:JP  1:1240 2:1800
+202.17.127/24   SGU                   C:JP  1:1240 2:1800
+202.26.2/24     NETBLK-JAPAN-INET-C7  C:JP  1:1957
+
+Deletions:
+--192.6.1/24    HP-NETS2              C:US  5:560
+--192.245.1/24  FCR-IP-1              C:US  1:560 2:701
+--192.245.2/24  FCR-IP-2              C:US  1:560 2:701
+--198.49.178/24 LAHS-NET              C:US  1:68 2:209 3:210
+--198.84.4/24   WDC-PUBNIX1           C:US  1:1957
+--198.84.5/24   WDC-PUBNIX2           C:US  1:1957
+--198.84.6/24   WDC-PUBNIX3           C:US  1:1957
+--198.84.7/24   WDC-PUBNIX4           C:US  1:1957
+--198.133.171/24 LAMS-NET              C:US  1:68 2:209 3:210
+--202.35.80/24  KMSNET-C-35-80        C:JP  1:1240 2:1800
+--202.35.81/24  KMSNET-C-35-81        C:JP  1:1240 2:1800
+--202.35.82/24  KMSNET-C-35-82        C:JP  1:1240 2:1800
+--202.35.83/24  KMSNET-C-35-83        C:JP  1:1240 2:1800
+--202.35.84/24  KMSNET-C-35-84        C:JP  1:1240 2:1800
+--202.35.85/24  KMSNET-C-35-85        C:JP  1:1240 2:1800
+--202.35.86/24  KMSNET-C-35-86        C:JP  1:1240 2:1800
+--202.35.87/24  KMSNET-C-35-87        C:JP  1:1240 2:1800
+--202.35.88/24  KMSNET-C-35-88        C:JP  1:1240 2:1800
+--202.35.89/24  KMSNET-C-35-89        C:JP  1:1240 2:1800
+--202.35.90/24  KMSNET-C-35-90        C:JP  1:1240 2:1800
+--202.35.91/24  KMSNET-C-35-91        C:JP  1:1240 2:1800
+--202.35.92/24  KMSNET-C-35-92        C:JP  1:1240 2:1800
+--202.35.93/24  KMSNET-C-35-93        C:JP  1:1240 2:1800
+--202.35.94/24  KMSNET-C-35-94        C:JP  1:1240 2:1800
+--202.35.95/24  KMSNET-C-35-95        C:JP  1:1240 2:1800
+
+
+
+
+Expanded listing, sorted by country, then by organization:
+==========================================================
+
+
+Australia
+---------
+
+    Telecom Australia, 32 Pirie Street, Adelaide, South Australia, 5000,
+                                                                      AUSTRALIA
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        --------------
+        192.148.157/24   TELECOM-C (AU)
+
+
+Austria
+-------
+
+    PM-Data OEG, Entschendorf 45, A-8321 St. Margareten, AUSTRIA
+        1:701   Alternet
+        2:1800  ICM-Atlantic
+        -------------
+        193.80.234/24    PM-DATA (AT)
+
+
+Belgium
+-------
+
+    C.O.I. NV, Interleuvenlaan 16, B-3001 Leuven, BELGIUM
+        1:1957  ANSCIX-AS
+        -------------
+        193.74.240/24    COIBE (BE)
+
+
+    EUnet Belgium nv/sa, Stapelhuisstraat 13, B-3000 Leuven, BELGIUM
+        1:1957  ANSCIX-AS
+        -------------
+        193.74.232/24    EUNET-BE (BE)
+
+
+Brazil
+------
+
+    Universidade Estadual do Ceara / Departamento de Informatica, Av. Paranjana
+                                           1700. Campus do Itapery., Fortaleza,
+                                                       Ceara, 60740-000, BRAZIL
+        1:293   Energy Science Network (FIX-East)
+        2:291   Energy Science Network (FIX-West)
+        ------------
+        200.9.107/24     UECE-ANCE (BR)
+
+
+Canada
+------
+
+    Atmospheric Environmental Service, 4905 Dufferin Ave., Downsview, ON,
+                                                                 M3H5T4, CANADA
+        1:603   CA*net in Montreal
+        2:601   CA*net in Toronto
+        3:602   CA*net in Vancouver
+        ---------
+        142.98/16        DOEWAN2 (CA)
+
+
+    Centre de Recherche Informatique de Montreal, 1801, avenue Mcgill College,
+                                          Montreal, Quebec, QC, H3A 2N4, CANADA
+        1:603   CA*net in Montreal
+        2:601   CA*net in Toronto
+        3:602   CA*net in Vancouver
+        ------------
+        192.77.60/24     CRIM-CNET12 (CA)
+
+
+    DBCORP Information Systems Inc., 2060 Sunlife Plaza, 140 Fourth Avenue
+                                             S.W., Calgary, AB, T2P 3N4, CANADA
+        1:602   CA*net in Vancouver
+        2:601   CA*net in Toronto
+        3:603   CA*net in Montreal
+        --------------
+        198.161.118/24   DBCORP-AB (CA)
+
+
+    East Kootenay Community College, Box 8500, Cranbrook, BC, V1C 5L7, CANADA
+        1:602   CA*net in Vancouver
+        2:601   CA*net in Toronto
+        3:603   CA*net in Montreal
+        ------------
+        198.162.1/24     EKCCNET (CA)
+
+
+    Gulf Fisheries Centre, 343 Archibald Street, Moncton, NB, E1C 9B6, CANADA
+        1:602   CA*net in Vancouver
+        2:601   CA*net in Toronto
+        3:603   CA*net in Montreal
+        ------------
+        198.164.3/24     NET-GFC-NB-CA (CA)
+
+
+    Indian and Northern Affairs Canada, 10 Wellington Street, 7th Floor, North
+                                               Tower, Hull, QC, K1A 0H4, CANADA
+        1:601   CA*net in Toronto
+        2:603   CA*net in Montreal
+        3:602   CA*net in Vancouver
+        ----------
+        142.212/16       INACW (CA)
+
+
+    Online Systems of Canada, 1024 Hyde Park Road, London, ON, N6A 4B7, CANADA
+        1:701   Alternet
+        2:702   Alternet
+        ------------
+        199.45.70/24     ONLINESYS (CA)
+
+
+    Ontario Prevention Clearinghouse, 415 Yonge Street, Suite 1200, Toronto,
+                                                            ON, M5B 2E7, CANADA
+        1:601   CA*net in Toronto
+        2:603   CA*net in Montreal
+        3:602   CA*net in Vancouver
+        ------------
+        199.71.69/24     OPC-ON-CA (CA)
+
+
+    Ottawa Heart Institute, 1053 Carling Avenue, H2-231, Ottawa, ON, K1Y 4E9,
+                                                                         CANADA
+        1:601   CA*net in Toronto
+        2:603   CA*net in Montreal
+        3:602   CA*net in Vancouver
+        ------------
+        199.71.80/24     OHI-NET (CA)
+
+
+    Public Service Commission, 2103 11th Ave., Regina, SK, S4P 3V7, CANADA
+        1:603   CA*net in Montreal
+        2:601   CA*net in Toronto
+        3:602   CA*net in Vancouver
+        ------------
+        198.169.9/24     PSC-GOV-SK-CA (CA)
+
+
+    School District #42 (Maple Ridge -- Pitt Meadows), 22225 Brown Avenue,
+                                               Maple Ridge, BC, V2X 8N6, CANADA
+        1:602   CA*net in Vancouver
+        2:601   CA*net in Toronto
+        3:603   CA*net in Montreal
+        ------------
+        199.60.30/24     BCSD42-N5 (CA)
+        199.60.31/24     BCSD42-N5 (CA)
+
+
+    Universite du Quebec, 2875 Bld.Laurier, Ste-Foy, QC, G1V2M3, CANADA
+        1:603   CA*net in Montreal
+        2:601   CA*net in Toronto
+        3:602   CA*net in Vancouver
+        -------------
+        198.168.44/24    UQUEBEC-8 (CA)
+        198.168.45/24    UQUEBEC-9 (CA)
+        198.168.46/24    UQUEBEC-10 (CA)
+        198.168.47/24    UQUEBEC-11 (CA)
+
+
+Colombia
+--------
+
+    Telecom Colombia, Transv 49 N 105-84, Bogota, COLOMBIA
+        1:1800  ICM-Atlantic
+        2:1240  ICM-Pacific
+        -------------
+        192.157.67/24    ICMNET-4 (CO)
+
+
+Estonia
+-------
+
+    Estonian National Maritime Board, Tartu mnt 13, EE0105 Tallinn, ESTONIA
+        1:1800  ICM-Atlantic
+        2:1879  EUROPE-RS
+        3:1133  CERN/DANTE
+        4:1240  ICM-Pacific
+        -------------
+        193.40.226/24    ENMB-NET-C-40-226 (EE)
+        193.40.227/24    ENMB-NET-C-40-227 (EE)
+        193.40.228/24    ENMB-NET-C-40-228 (EE)
+
+
+Finland
+-------
+
+    Nordic Lan & Wan Communication Oy, Sinikalliontie 14B, 02630 Espoo, FINLAND
+        1:1957  ANSCIX-AS
+        -------------
+        193.142.16/24    NLWCNET (FI)
+
+
+    R. Linturi Ltd, Wihurinaukio 2, FI-00570 Helsinki, FINLAND
+        1:701   Alternet
+        2:1800  ICM-Atlantic
+        -------------
+        192.89.240/24    LINTURI1 (FI)
+        192.89.241/24    LINTURI2 (FI)
+
+
+France
+------
+
+    CIMU Ecole veterinaire de Nantes, case postale 3013, 44087 Nantes CEDEX 03,
+                                                                         FRANCE
+        1:1800  ICM-Atlantic
+        2:1240  ICM-Pacific
+        3:1133  CERN/DANTE
+        4:1674  CERN/DANTE
+        -----------
+        193.48.2/24      FR-OR-VETONA (FR)
+
+
+    ENSAE - Timbre J020, 3 avenue Pierre Larousse, 92241 Malakoff CEDEX, FRANCE
+        1:1800  ICM-Atlantic
+        2:1240  ICM-Pacific
+        3:1133  CERN/DANTE
+        4:1674  CERN/DANTE
+        -------------
+        193.48.172/24    FR-ENSAE01 (FR)
+
+
+    ENSAM, Porte de Paris, 71250 Cluny, FRANCE
+        1:1800  ICM-Atlantic
+        2:1240  ICM-Pacific
+        3:1133  CERN/DANTE
+        4:1674  CERN/DANTE
+        -------------
+        193.50.222/24    FR-PICTEL02 (FR)
+        193.50.223/24    FR-PICTEL03 (FR)
+        193.50.252/24    FR-PICTEL04 (FR)
+        193.50.253/24    FR-PICTEL05 (FR)
+
+
+Germany
+-------
+
+    Fachhochschule - Rheinland Pfalz, Abt. Worms, Erenburgerstr. 19, Worms,
+                                                               D-67549, GERMANY
+        1:293   Energy Science Network (FIX-East)
+        2:291   Energy Science Network (FIX-West)
+        -------------
+        193.175.40/24    FH-WORMS-NET-C-175-40 (DE)
+        193.175.41/24    FH-WORMS-NET-C-175-41 (DE)
+        193.175.42/24    FH-WORMS-NET-C-175-42 (DE)
+        193.175.43/24    FH-WORMS-NET-C-175-43 (DE)
+        193.175.44/24    FH-WORMS-NET-C-175-44 (DE)
+        193.175.45/24    FH-WORMS-NET-C-175-45 (DE)
+        193.175.46/24    FH-WORMS-NET-C-175-46 (DE)
+        193.175.47/24    FH-WORMS-NET-C-175-47 (DE)
+
+
+    Individual Network e. V., Linkstr. 15, D-65933 Frankfurt am Main,
+                                                             Frankfurt, GERMANY
+        1:1324  ANS New York City - DNSS 35
+        2:1800  ICM-Atlantic
+        3:1240  ICM-Pacific
+        4:1133  CERN/DANTE
+        --------------
+        193.141.104/24   INDIVIDUAL-NET (DE)
+
+
+    SOFTCON Gesellschaft fuer Softwareentwicklung mbH, Gruenwalder Weg 28g,
+                                                   D-82041 Oberhaching, GERMANY
+        1:701   Alternet
+        2:1800  ICM-Atlantic
+        ------------
+        193.31.10/24     SOFTCON-MUC (DE)
+        193.31.11/24     SOFTCON-MUC (DE)
+
+
+    Softwarebuero Buohler, Muehlenweg 10, D-88521 Erisdorf, GERMANY
+        1:1324  ANS New York City - DNSS 35
+        2:1800  ICM-Atlantic
+        3:1240  ICM-Pacific
+        4:1133  CERN/DANTE
+        ------------
+        194.49.57/24     BUOHLER (DE)
+
+
+    THESYS GmbH, Haarbergstrasse 61, Postfach 194, D-99079 Erfurt, GERMANY
+        1:1324  ANS New York City - DNSS 35
+        2:1800  ICM-Atlantic
+        3:1240  ICM-Pacific
+        4:1133  CERN/DANTE
+        --------------
+        193.141.230/24   THESYS-NET3 (DE)
+        193.141.231/24   THESYS-NET4 (DE)
+
+
+    UNIX Softwaredevelopment Brezing, Burgstrasse 24, D-72800 Eningen, GERMANY
+        1:1324  ANS New York City - DNSS 35
+        2:1800  ICM-Atlantic
+        3:1240  ICM-Pacific
+        4:1133  CERN/DANTE
+        ------------
+        194.49.56/24     BREZING (DE)
+
+
+    UNIX Softwaredevelopment and DATABASE Maintenance Darabos,
+                                         Baumgartenstrasse 6/2, D-73084 Salach,
+                                                                        GERMANY
+        1:1324  ANS New York City - DNSS 35
+        2:1800  ICM-Atlantic
+        3:1240  ICM-Pacific
+        4:1133  CERN/DANTE
+        ------------
+        194.49.58/24     DARABOS (DE)
+
+
+Ireland
+-------
+
+    Foreign Exchange Co Ltd, Iveragh Road, Killorglin, CO KERRY, IRELAND
+        1:1957  ANSCIX-AS
+        --------------
+        193.120.232/24   FEXCO2 (IE)
+
+
+Italy
+-----
+
+    Sodalia S.p.A., Via Brennero 364, I-38100 Trento, ITALY
+        1:1957  ANSCIX-AS
+        -------------
+        193.70.236/24    SODALIA-NET (IT)
+        193.70.237/24    SODALIA-NET (IT)
+
+
+Japan
+-----
+
+    Japan Network Information Center, c/o Computer Centre, University of Tokyo,
+                                           Yayoi 2-11-16, Bunkyo-ku, Tokyo 113,
+                                                                          JAPAN
+        1:1957  ANSCIX-AS
+        -----------
+        202.26.2/24      NETBLK-JAPAN-INET-C7 (JP)
+
+
+    Sapporo Gakuin University, 11, Bunkyoudai, Ebetsu-city, Hokkaido 069, JAPAN
+        1:1240  ICM-Pacific
+        2:1800  ICM-Atlantic
+        -------------
+        202.17.120/24    SGU (JP)
+        202.17.121/24    SGU (JP)
+        202.17.122/24    SGU (JP)
+        202.17.123/24    SGU (JP)
+        202.17.124/24    SGU (JP)
+        202.17.125/24    SGU (JP)
+        202.17.126/24    SGU (JP)
+        202.17.127/24    SGU (JP)
+
+
+    Toshiba Corporation, Research & Development Center,, Engneering Information
+                                          System Dept., 1, Komukai Toshiba-cho,
+                                                 Saiwai-ku, Kawasaki 210, JAPAN
+        1:1240  ICM-Pacific
+        2:1800  ICM-Atlantic
+        -------------
+        192.50.189/24    TOSHIBA-NET1 (JP)
+
+
+Lithuania
+---------
+
+    Institute of Mathematics and Informatics, A.Gostauto 12, LT-2600 Vilnius,
+                                                                      LITHUANIA
+        1:1800  ICM-Atlantic
+        2:1879  EUROPE-RS
+        3:1133  CERN/DANTE
+        4:1240  ICM-Pacific
+        -------------
+        193.219.32/19    LITNET-CIDR (LT)
+
+
+Norway
+------
+
+    SINTEF Runit, N-7034 Trondheim, NORWAY
+        1:1800  ICM-Atlantic
+        2:1879  EUROPE-RS
+        3:1133  CERN/DANTE
+        4:1240  ICM-Pacific
+        ---------
+        158.36/14        UNINETT1-CIDR (NO)
+        193.156/15       UNITNET-CIDR (NO)
+
+
+Portugal
+--------
+
+    INESC-Porto, Lg. Mompilher, 22, P-4007 Porto CODEX, PORTUGAL
+        1:1800  ICM-Atlantic
+        2:1133  CERN/DANTE
+        3:1240  ICM-Pacific
+        -------------
+        193.136.48/24    INESCP-NET-SUPER (PT)
+        193.136.49/24    INESCP-NET-SUPER (PT)
+        193.136.50/24    INESCP-NET-SUPER (PT)
+        193.136.52/24    INESCP-NET-SUPER (PT)
+
+
+    Universidade Tecnica de Lisboa, Instituto Superior de Economia e Gestao,
+                                            Rua Miguel Lupi, 20, P-1200 LISBOA,
+                                                                       PORTUGAL
+        1:1800  ICM-Atlantic
+        2:1133  CERN/DANTE
+        3:1240  ICM-Pacific
+        --------------
+        193.136.144/24   ISEG-1 (PT)
+
+
+Russian Federation
+------------------
+
+    RELCOM Corp., 3, Raspletina st., Moscow, RUSSIAN FEDERATION
+        1:701   Alternet
+        2:1800  ICM-Atlantic
+        --------------
+        193.125.158/24   EXPO (RU)
+
+
+Sweden
+------
+
+    Akademiska Sjukhuset Uppsala, Medicintekniska avd., S-751 85 Uppsala,
+                                                                         SWEDEN
+        1:1957  ANSCIX-AS
+        --------------
+        192.165.148/24   SE-AS-MED (SE)
+
+
+    Akademiska sjukhuset, MTA, S-751 85 Uppsala, SWEDEN
+        1:1957  ANSCIX-AS
+        ------------
+        193.10.16/24     SE-AS-LAN (SE)
+        193.10.24/24     SE-AS-LAN (SE)
+        193.10.127/24    SE-AKADEM-MTA (SE)
+
+
+    Uppsala Lans Landsting, Box 602, S-751 25 Uppsala, SWEDEN
+        1:1957  ANSCIX-AS
+        ------------
+        192.36.32/24     UPPSALA-L1 (SE)
+
+
+    Uppsala Universitet, UDAC, Box 174, S-751 04 Uppsala, SWEDEN
+        1:1957  ANSCIX-AS
+        ------------
+        193.44.76/24     UDAC-SERVER (SE)
+
+
+Switzerland
+-----------
+
+    Berner Versicherung, Abteilung ST, Sulgeneckstrasse 19, CH-3018 BERNE,
+                                                                    SWITZERLAND
+        1:1957  ANSCIX-AS
+        ----------
+        193.8.2/24       BERNER-BLOCK-8 (CH)
+
+
+United Kingdom
+--------------
+
+    Harrier Computer Systems Ltd, Unit 1a, Falcon Business Park, Finchampstead,
+                                                       RG11 4QQ, UNITED KINGDOM
+        1:1800  ICM-Atlantic
+        2:1240  ICM-Pacific
+        -------------
+        193.128.77/24    HCS (GB)
+
+
+    PIPEX, 216 Cambridge Science Park, Milton Road, Cambridge, CB4 4WA,
+                                                        England, UNITED KINGDOM
+        1:1957  ANSCIX-AS
+        -------------
+        193.128.40/24    PIPEX-INTERAS (GB)
+
+
+United States
+-------------
+
+    Arcom Electronics, San Jose, CA, USA
+        1:1740  CERFnet
+        --------------
+        199.164.137/24   ARCOM (US)
+
+
+    Battelle PNL, PO Box 999, Richland, WA 99352, USA
+        1:293   Energy Science Network (FIX-East)
+        2:291   Energy Science Network (FIX-West)
+        --------------
+        198.124.104/24   LAMONT-ARM (US)
+
+
+    Bell Atlantic Mobil Systems, Route 202, Bedminster, NJ 19355, USA
+        1:97    JvNCnet Regional Network
+        -------------
+        199.74.153/24    BAMS-C-74-153 (US)
+        199.74.154/24    BAMS-C-74-154 (US)
+        199.74.155/24    BAMS-C-74-155 (US)
+        199.74.156/24    BAMS-C-74-156 (US)
+        199.74.157/24    BAMS-C-74-157 (US)
+        199.74.158/24    BAMS-C-74-158 (US)
+
+
+    Bell Communications Research, Morris Research and Engineering Center, 445
+                                                   South Street, Morristown, NJ
+                                                                07960-6454, USA
+        1:1957  ANSCIX-AS
+        ------------
+        192.4.139/24     BELLCORE-UNUSED (US)
+
+
+    Bolt Beranek and Newman, 10 Moulton Street, Cambridge, MA 02138, USA
+        1:274   DSI - Defense Simulation Internet (FIX-East)
+        2:60    DSI - Defense Simulation Internet (FIX-West)
+        -------------
+        192.253.70/24    DSI-NET70 (US)
+        199.54/15        DSI-CIDR-BLK-INTERNAL (US)
+
+
+    Canter & Siegel, P.O.Box 13510, Scottsdale, AZ 85267, USA
+        1:2149  PSINET-2
+        2:174   NYSERNet Regional Network / PSI
+        -------------
+        199.98.145/24    PSINET-C5 (US)
+
+
+    Centocor, Inc., 200 Great Valley Parkway, Malvern, PA 19355, USA
+        1:2149  PSINET-2
+        2:174   NYSERNet Regional Network / PSI
+        -------------
+        199.98.147/24    PSINET-C5 (US)
+
+
+    Clark Internet Services, Inc., 10600 Route 108, Ellicott City, MD 21042,
+                                                                            USA
+        1:1800  ICM-Atlantic
+        2:1240  ICM-Pacific
+        ------------
+        199.201.8/24     CLARKNET2-CBLK3 (US)
+        199.201.9/24     CLARKNET2-CBLK3 (US)
+        199.201.10/24    CLARKNET2-CBLK3 (US)
+        199.201.11/24    CLARKNET2-CBLK3 (US)
+        199.201.12/24    CLARKNET2-CBLK3 (US)
+        199.201.13/24    CLARKNET2-CBLK3 (US)
+        199.201.14/24    CLARKNET2-CBLK3 (US)
+        199.201.15/24    CLARKNET2-CBLK3 (US)
+
+
+    Colorado SuperNet, Inc., Colorado School of Mines, 1500 Illinois, Golden,
+                                                                  CO 80401, USA
+        1:209   Westnet Regional Network (Colorado Attachment) - ENSS 141
+        2:210   Westnet Regional Network (Utah Attachment) - ENSS 142
+        ----------
+        198.243/16       NETBLK-NET-CSN-BLK2 (US)
+        199.117/16       NETBLK-CSN-BLK3 (US)
+        199.117.16/24    CSN-BLK3 (US)
+
+
+    Columbia Sportswear Company, 6600 North Baltimore, P.O. Box 83239,
+                                                        Portland, OR 97283, USA
+        1:2149  PSINET-2
+        2:174   NYSERNet Regional Network / PSI
+        -------------
+        199.98.148/24    PSINET-C5 (US)
+
+
+    Commander-In-Chief, Pacific Fleet, 250 Makalapa Drive, Parl Harbor, HI
+                                                                96860-7000, USA
+        1:22    NOSC (Naval Ocean Systems Center)
+        ------------
+        199.124.8/21     CPF-LAN (US)
+
+
+    Commuter Communications, 6201 Middle Fiskville Rd, Suite 1115, Austin, TX
+                                                                     78752, USA
+        1:701   Alternet
+        2:702   Alternet
+        ------------
+        198.6.201/24     CCSI-NET (US)
+
+
+    CompuTech, West 1005 Ninth Ave. Suite 202, Spokane, WA 99204, USA
+        1:1982  Northwest Nexus
+        --------------
+        198.187.252/24   IEA-NET (US)
+
+
+    Computer Services, Department of Public Works, City of St. Paul, 700 City
+                                          Hall Annex, 25 West 4th Street, Saint
+                                                       Paul, MN 55102-1631, USA
+        1:1225  CICNET at Argonne Labs
+        2:267   CICNET at UIUC
+        3:266   CICNET at MERIT
+        4:555   Minnesota Supercomputer Center Network (MSCNet)
+        ------------
+        199.86.16/24     STPAUL1 (US)
+        199.86.17/24     STPAUL2 (US)
+        199.86.18/24     STPAUL3 (US)
+        199.86.19/24     STPAUL4 (US)
+
+
+    Creative Labs, 1901 McCarthy Blvd, Milpitas, CA 95035, USA
+        1:200   BARRNet
+        2:201   BARRNet
+        ------------
+        198.95.32/24     CREAF-C-95-32 (US)
+        198.95.33/24     CREAF-C-95-33 (US)
+        198.95.34/24     CREAF-C-95-34 (US)
+        198.95.35/24     CREAF-C-95-35 (US)
+        198.95.36/24     CREAF-C-95-36 (US)
+        198.95.37/24     CREAF-C-95-37 (US)
+        198.95.38/24     CREAF-C-95-38 (US)
+        198.95.39/24     CREAF-C-95-39 (US)
+        198.95.40/24     CREAF-C-95-40 (US)
+        198.95.41/24     CREAF-C-95-41 (US)
+        198.95.42/24     CREAF-C-95-42 (US)
+        198.95.43/24     CREAF-C-95-43 (US)
+        198.95.44/24     CREAF-C-95-44 (US)
+        198.95.45/24     CREAF-C-95-45 (US)
+        198.95.46/24     CREAF-C-95-46 (US)
+        198.95.47/24     CREAF-C-95-47 (US)
+
+
+    Data Transmission Network Corp, 9110 West Dodge Road, Suite 200, Omaha, NE
+                                                                     68114, USA
+        1:93    MIDnet
+        --------------
+        198.247.241/24   DTNCOM (US)
+
+
+    Eastern Space and Missile Center, ESMC/SCPX, Patrick AFB, FL 32925, USA
+        1:297   Nasa Science Network (FIX-East)
+        2:372   Nasa Science Network (FIX-West)
+        ---------
+        147.74/16        CAPE (US)
+
+
+    ExCEED, Inc, P.O. Box 70, Jamestown, TN 38556, USA
+        1:279   SURANET Regional Network (Georgia Tech)
+        2:86    SURANET Regional Network (College Park)
+        --------------
+        198.146.149/24   EXCEED-NET2 (US)
+
+
+    First Step Research, 1004 North Polk Ext., Moscow, ID 83843, USA
+        1:1982  Northwest Nexus
+        --------------
+        198.206.162/24   FSR (US)
+
+
+    GTE Spacenet Corp., 1700 Old Meadow Road, McLean, VA 22102, USA
+        1:86    SURANET Regional Network (College Park)
+        2:279   SURANET Regional Network (Georgia Tech)
+        -------------
+        198.101.16/24    GTE-SPACENET1 (US)
+        198.101.17/24    GTE-SPACENET2 (US)
+        198.101.24/24    GTE-SPACENET9 (US)
+
+
+    General Cinema Theatres, 1300 Boylston Street, Chestnut Hill, MA 02167, USA
+        1:560   NEARnet Regional Network
+        2:701   Alternet
+        ----------
+        168.119/16       GCTI-B (US)
+
+
+    General Instrument, 6262 Lusk Blvd, San Diego, CA 92121, USA
+        1:2386  INS-AS
+        2:1321  ANS San Francisco - DNSS 11
+        ---------
+        168.84/16        GI-B (US)
+
+
+    HappMIS, Inc., 106 Garlish Drive, Elk Grove Village, IL 60007, USA
+        1:2149  PSINET-2
+        2:174   NYSERNet Regional Network / PSI
+        -------------
+        199.98.143/24    PSINET-C5 (US)
+
+
+    Itronix, Corporation, South 801 Steven's, Spokane, WA 99204, USA
+        1:1982  Northwest Nexus
+        --------------
+        199.181.180/24   ITRONIXNET-2 (US)
+
+
+    Knoxville College, 205 McKee Hall, MIS Dept., 901 College Street,
+                                                       Knoxville, TN 37291, USA
+        1:279   SURANET Regional Network (Georgia Tech)
+        2:86    SURANET Regional Network (College Park)
+        -------------
+        198.78.246/24    KNXCOLL-NET (US)
+
+
+    Louisburg College, 502 North Main Street, Louisburg, NC 27549-7704, USA
+        1:1329  ANS Greensboro - DNSS 75
+        -------------
+        198.85.254/24    LOUISBURG7 (US)
+
+
+    MRNet, 511 11th ave s, Box 212, Minneapolis, MN 55415, USA
+        1:1225  CICNET at Argonne Labs
+        2:267   CICNET at UIUC
+        3:266   CICNET at MERIT
+        4:555   Minnesota Supercomputer Center Network (MSCNet)
+        ------------
+        199.199.1/24     MRNET-C-BLOCK4 (US)
+
+
+    Magee-Womens Hospital, 300 Halket Street, Pittsburgh, PA 15213-3180, USA
+        1:204   PSCNET Regional Network
+        2:1206  PSCNET Regional Network
+        -----------
+        198.55.8/21      MAGEE-NET1-8 (US)
+        198.136.8/21     MAGEE-NET9-16 (US)
+
+
+    Maui High Performance Computing Center, 535 Lipoa Parkway, Suite 201,
+                                                           Kihei, HI 96753, USA
+        1:3381  MHPCC-AS
+        -------------
+        199.190.24/24    MHPCC (US)
+        199.190.25/24    MPHCC (US)
+
+
+    Maxus Energy Corporation, 717 North Harwood Street, Dallas, TX 75201, USA
+        1:2149  PSINET-2
+        2:174   NYSERNet Regional Network / PSI
+        ----------
+        146.241/16       MAXUS (US)
+
+
+    Microsoft, 3635 - 157th Ave. N.E., Redmond, WA 98052-6399, USA
+        1:685   NorthWestNet Regional Network
+        2:73    NorthWestNet Regional Network
+        3:101   NorthWestNet Regional Network
+        --------------
+        198.105.232/22   MSOFT-1 (US)
+
+
+    Minnesota Regional Network, 511 11th Ave. S., Minneapolis, MN 55415, USA
+        1:1225  CICNET at Argonne Labs
+        2:267   CICNET at UIUC
+        3:266   CICNET at MERIT
+        4:555   Minnesota Supercomputer Center Network (MSCNet)
+        ------------
+        199.86.66/24     MRNET-BLOCK3 (US)
+        199.86.67/24     MRNET-BLOCK4 (US)
+        199.86.88/24     MRNET-BLOCK3 (US)
+        199.86.89/24     MRNET-BLOCK4 (US)
+        199.86.90/24     MRNET-BLOCK5 (US)
+        199.86.91/24     MRNET-BLOCK6 (US)
+        199.86.92/24     MRNET-BLOCK7 (US)
+        199.86.93/24     MRNET-BLOCK8 (US)
+        199.86.94/24     MRNET-BLOCK9 (US)
+        199.86.95/24     MRNET-BLOCK10 (US)
+
+
+    Mount Bonnell, Inc., 1201 West 24th Street, Suite 103, Austin, TX 78705,
+                                                                            USA
+        1:2149  PSINET-2
+        2:174   NYSERNet Regional Network / PSI
+        -------------
+        199.98.142/24    PSINET-C5 (US)
+
+
+    Myricom, Inc., 325 N. Santa Anita Ave., Arcadia, CA 91006, USA
+        1:1740  CERFnet
+        --------------
+        199.120.212/24   MYRI-NET (US)
+
+
+    NASA Kennedy Space Center, Kennedy Space Center, FL 32899, USA
+        1:297   Nasa Science Network (FIX-East)
+        2:372   Nasa Science Network (FIX-West)
+        ----------
+        163.205/16       NASA3 (US)
+        163.206/16       NASA4 (US)
+
+
+    NASA Kennedy Space Center, Mail Stop DL-ESS-13, Kennedy Space Center, FL
+                                                                     32899, USA
+        1:297   Nasa Science Network (FIX-East)
+        2:372   Nasa Science Network (FIX-West)
+        ------------
+        192.77.42/24     NASA-KSC16 (US)
+
+
+    NETCOM On-line Communications Services, Inc., 4000 Moorpark Ave, Suite 209,
+                                                        San Jose, CA 95117, USA
+        1:2551  NETCOM
+        ---------
+        199.35/16        NETBLK-NETCOMCBLK-2 (US)
+
+
+    Network Systems Laboratory Digital, 505 Hamilton Ave, Palo ALto, CA 94301,
+                                                                            USA
+        1:701   Alternet
+        2:702   Alternet
+        -------------
+        192.208.34/24    DEC-EXTERNAL (US)
+
+
+    New Hampshire College, 2500 North River Road, Manchester, NH 03104, USA
+        1:560   NEARnet Regional Network
+        2:701   Alternet
+        --------------
+        198.114.200/24   NHC-5 (US)
+        198.114.201/24   NHC-5 (US)
+
+
+    North Star Financial, 2-2600 East Cliff Drive, Santa Cruz, CA 95062, USA
+        1:1240  ICM-Pacific
+        2:1800  ICM-Atlantic
+        -------------
+        199.79.249/24    BOULDERCREEK (US)
+
+
+    NorthWestNet, 15400 SE 30th Place, Suite 202, Bellevue, WA 98007, USA
+        1:685   NorthWestNet Regional Network
+        2:73    NorthWestNet Regional Network
+        3:101   NorthWestNet Regional Network
+        ----------
+        192.147.160/20   NWNET10 (US)
+        192.220/16       NETBLK-NWNET (US)
+        198.104/16       NWNET-BLK2 (US)
+        198.106/16       NWNET-BLK2 (US)
+        198.107/16       NWNET-BLK2 (US)
+        198.238/15       NWNET-BLK3 (US)
+
+
+    Northern Life Insurance Company, PO Box 12530, Seattle, WA 98111, USA
+        1:1240  ICM-Pacific
+        2:1800  ICM-Atlantic
+        ------------
+        199.174.5/24     NET-NLIC (US)
+
+
+    Oregon Department of Education, 700 Pringle Parkway SE, Salem, OR
+                                                                97310-0290, USA
+        1:685   NorthWestNet Regional Network
+        2:73    NorthWestNet Regional Network
+        3:101   NorthWestNet Regional Network
+        ----------
+        198.236/15       OPEN-BLK1 (US)
+
+
+    PREPnet, 305 S. Craig St., Pittsburgh, PA 15213, USA
+        1:204   PSCNET Regional Network
+        2:1206  PSCNET Regional Network
+        ----------
+        192.204/16       NETBLK-PREPNET-C (US)
+
+
+    PanVera, 565 Science Drive, Madison, WI 53711, USA
+        1:1225  CICNET at Argonne Labs
+        2:267   CICNET at UIUC
+        3:266   CICNET at MERIT
+        -------------
+        198.150.38/24    PANVERA (US)
+
+
+    Petroleum Information, 4100 E. Dry Creek Road, Littleton, CO 80122, USA
+        1:2551  NETCOM
+        ---------
+        162.52/16        PETROINFO (US)
+
+
+    Petroleum Science International, Inc., 3503 Cedar Knolls Dr., Ste. A,
+                                                        Kingwood, TX 77339, USA
+        1:2149  PSINET-2
+        2:174   NYSERNet Regional Network / PSI
+        -------------
+        199.98.144/24    PSINET-C5 (US)
+
+
+    Redgate Communications, 660 Beachland Blvd., Vero Beach, FL 32963, USA
+        1:279   SURANET Regional Network (Georgia Tech)
+        2:86    SURANET Regional Network (College Park)
+        ------------
+        198.79.76/24     REDGATE-NET (US)
+
+
+    S.O.A.P Notes, Inc, 3140 O Street, Lincoln, NE 68510, USA
+        1:93    MIDnet
+        --------------
+        198.247.243/24   SOAPNOTES (US)
+
+
+    SRI International, 333 Ravenswood Avenue, Menlo Park, CA 94025, USA
+        1:200   BARRNet
+        2:201   BARRNet
+        -----------
+        192.5.93/24      SRI-DEMO (US)
+
+
+    Sensimetrics Corp., 26 Landsdowne St., Cambridge, MA 02139, USA
+        1:2149  PSINET-2
+        2:174   NYSERNet Regional Network / PSI
+        -------------
+        199.98.146/24    PSINET-C5 (US)
+
+
+    Sequoia Technology Research, 28 Cortez Rd., Redwood City, CA 94062, USA
+        1:1240  ICM-Pacific
+        2:1800  ICM-Atlantic
+        -----------
+        199.2.28/24      BIGTREE-DOM (US)
+
+
+    Silicon Engineering, 269 Mt Hermon Road, Suite #207, Scotts Valley, CA
+                                                                     95066, USA
+        1:1240  ICM-Pacific
+        2:1800  ICM-Atlantic
+        -------------
+        199.89.187/24    SEI2 (US)
+
+
+    Silverline Industries, Inc, 2605W 22nd Street, Suite 38, Oakbrook, IL
+                                                                     60521, USA
+        1:1800  ICM-Atlantic
+        2:1240  ICM-Pacific
+        --------------
+        198.151.231/24   NET-SILVERLINE2 (US)
+
+
+    Soft Switch, Incorporated, 640 Lee Road, Wayne, PA 19087-5698, USA
+        1:204   PSCNET Regional Network
+        2:1206  PSCNET Regional Network
+        -------------
+        192.150.52/22    SSW2-5 (US)
+
+
+    Software Ventures Corp., 2907 Claremont Ave., Berkeley, CA 94705, USA
+        1:701   Alternet
+        2:702   Alternet
+        ------------
+        198.6.226/24     SVCDUDES (US)
+        198.6.227/24     SVCDUDES (US)
+
+
+    Solutions Through Software, 6851 South Holly Circle, Suite 135, Englewood,
+                                                                  CO 80112, USA
+        1:1332  ANS Denver - DNSS 99
+        --------------
+        199.181.197/24   STS-INC-NET (US)
+
+
+    St. Louis County Library, 1640 South Lindbergh Blvd., St. Louis, MO 63131,
+                                                                            USA
+        1:1330  ANS St. Louis - DNSS 83
+        2:93    MIDnet
+        --------------
+        199.181.178/24   NET-SLCL (US)
+
+
+    THE ARMORY, 305 McMillan Dr, Santa Cruz, CA 95060, USA
+        1:1240  ICM-Pacific
+        2:1800  ICM-Atlantic
+        --------------
+        199.164.166/24   ARMORY-SUB (US)
+
+
+    TRIPS CENTRAL PARTNERSHIP, 325A River St, Santa Cruz, CA 95060, USA
+        1:1240  ICM-Pacific
+        2:1800  ICM-Atlantic
+        --------------
+        199.165.174/24   TRIPS (US)
+
+
+    Teknekron Infoswitch Corporation, 4425 Cambridge Road, Fort Worth, TX
+                                                                     76155, USA
+        1:2149  PSINET-2
+        2:174   NYSERNet Regional Network / PSI
+        --------------
+        192.138.162/24   INFOSWITCH1 (US)
+
+
+    Telos Corporation, 460 Herndon Pkwy, Herndon, VA 22070, USA
+        1:2149  PSINET-2
+        2:174   NYSERNet Regional Network / PSI
+        --------------
+        198.252.228/24   TELOS-NET (US)
+
+
+    The National Federation of the Blind of California, 317 Laurel St. #2,
+                                                      Santa Cruz, CA 95060, USA
+        1:1240  ICM-Pacific
+        2:1800  ICM-Atlantic
+        ------------
+        199.4.218/24     NFBCAL (US)
+
+
+    The Salk Institute, 10010 North Torrey Pines Road, La Jolla, CA 92037, USA
+        1:195   SDSC Regional network
+        2:1740  CERFnet
+        -------------
+        198.202.66/24    SALKNET (US)
+
+
+    University of Wisconsin - Madison, 1210 West Dayton Street, Madison, WI
+                                                                     53706, USA
+        1:1225  CICNET at Argonne Labs
+        2:267   CICNET at UIUC
+        3:266   CICNET at MERIT
+        ------------
+        198.150.9/24     WISC-MERITER (US)
+
+
+    Washington Research Library Consortium, 4207 Forbes Boulevard, Lanham, MD
+                                                                     20706, USA
+        1:86    SURANET Regional Network (College Park)
+        2:279   SURANET Regional Network (Georgia Tech)
+        --------------
+        192.245.136/24   WRLCNET (US)
+
+
+    Wellfleet Communications Inc., 12 DeAngelo Drive, Bedford, MA 01730, USA
+        1:560   NEARnet Regional Network
+        2:701   Alternet
+        ---------
+        192.32/16        WELLFLEET-C-BLOCK (US)
+
+
+    Westnet, 3645 Marine Street, U. of Colorado, Boulder, CO 80309-0455, USA
+        1:209   Westnet Regional Network (Colorado Attachment) - ENSS 141
+        2:210   Westnet Regional Network (Utah Attachment) - ENSS 142
+        ---------
+        198.59/16        NETBLK-WESTNET (US)
+
+
+    Westnet, 3645 Marine Street, U. of Colorado, Boulder, CO 80309-0455, USA
+        1:1800  ICM-Atlantic
+        2:1240  ICM-Pacific
+        3:209   Westnet Regional Network (Colorado Attachment) - ENSS 141
+        4:210   Westnet Regional Network (Utah Attachment) - ENSS 142
+        -------------
+        198.59.192/18    NETBLK-WESTNET (US)
+
+
+    Westnet, 3645 Marine Street, U. of Colorado, Boulder, CO 80309-0455, USA
+        1:210   Westnet Regional Network (Utah Attachment) - ENSS 142
+        2:209   Westnet Regional Network (Colorado Attachment) - ENSS 141
+        ---------
+        198.60/16        NETBLK-WESTNET (US)
+        198.60.200/24    WESTNET (US)
+        198.60.201/24    WESTNET (US)
+        198.60.202/24    WESTNET (US)
+        198.60.203/24    WESTNET (US)
+        198.60.204/24    WESTNET (US)
+        198.60.205/24    WESTNET (US)
+        198.60.206/24    WESTNET (US)
+        198.60.207/24    WESTNET (US)
+        199.104/16       NETBLK-WESTNET-W2 (US)
+
+
+    Wisconsin Electric Power Co., 231 West Michigan, Milwaukee, WI 53210, USA
+        1:2149  PSINET-2
+        2:174   NYSERNet Regional Network / PSI
+        ---------
+        156.76/16        WEPCO (US)
+
+
+    Zak Designs, Inc., South 1604 Garfield Rd., Spokane, WA 99204, USA
+        1:1982  Northwest Nexus
+        --------------
+        199.181.179/24   ZAK (US)
+
+
+
+==========================================================
+
+The following Midlevel/Regional peering sessions have also been added:
+
+
+AS 22 - NOSC (Naval Ocean Systems Center) (US) - ENSS 135
+
+    Peer:  198.17.46.102 - Naval Ocean Systems Center, San Diego, CA
+                                                92152-5000, USA - gnop.nosc.mil
+
+
+==========================================================
+
+The configuration reports which reflect today's update will be 
+available for anonymous ftp on nic.merit.edu by 08:00  EDT:
+
+configuration reports --
+  nic.merit.edu:nsfnet/announced.networks:
+
+     as-as.now  as-gw.now  ans_core.now  country.now  net-comp.now  
+     nets.doc  nets.non-classful  nets.tag.now  nets.unl.now
+
+NSS routing software configuration files --
+  nic.merit.edu:nsfnet/backbone.configuration:
+
+     gated.nss<NSS number>.t3p
+
+Information is also avaiable through the PRDB whois server.  Type
+"whois -h prdb.merit.edu help" for details.
+
+--------------------------------------------------------------------------
+REPORT CHANGES:                                     (Updated March 24, 1994)
+
+Metric:AS(NSS) - Historically, peer networks with multiple connections
+to AS 690 could only select which of those connections their networks
+would take by creating "Fake" AS numbers, and using those in the PRDB
+Metric:AS announcement lists.   Some time in the next few weeks we will
+begin supporting an expanded syntax, where the AS may be followed by
+an optional NSS peer number in parentheses.  Eventually, this syntax will
+be used to replace most or all of the current Fake ASs.
+
+This change will affect *all* places that the announcement lists are 
+reported:  all whois queries, all network reports, this "NWG" report,
+and the Auto-NACR.  If you have code which parses these announcement lists, 
+please be aware that that code may need modifications soon.
+
+
+CIDR Reports:  There is a new "whois" option to list aggregates in the PRDB:
+
+		  whois -h prdb.merit.edu listaggs
+
+will produce a listing of the currently registered aggregates.  There is
+also a new report on "nestings" of PRDB-registered aggregates with their 
+more specific routes:  nets.non-classful.
+
+Anyone considering configuring an aggregate into the PRDB (and you all
+should be!) is encouraged to pre-check that aggregate by typing the command:
+
+		  whois -h prdb.merit.edu 'aggchk <agg>'
+
+(where "<agg>" is the aggregate description).  This command will list
+all of the other entries in the PRDB that are more specific routes of <agg>,
+as well as any aggregates all ready configured that contain <agg>.  The 
+output includes the AUP and announcement lists of each of the nets printed, 
+with discrepancies flagged.  This is the same program that we use for 
+sanity-checking the NACRs that you submit.
+
+
+The archived discussion list "db-disc@merit.edu" exists for discussion of 
+PRDB issues.  Send a message to "db-disc-request@merit.edu" to subscribe.
+						--Dale Johnson (dsj@merit.edu)
+--------------------------------------------------------------------------
+
+Please send all requests for configuration changes to nsfnet-admin@merit.edu
+using the NSFNET configuration forms.  The forms are available on-line
+from the nic.merit.edu machine.  Use ftp and the anonymous login to get on the
+machine.  Do a "cd nsfnet/announced.networks" and get the files template.net,
+template.net.README, template.gate, and template.as.
+
+*** Note: As of March 1, 1994, NSFNET AUP NACRs must use the template.net
+*** (NACR) version 7.1, or the NACR will be returned unprocessed.
+
+*******************************
+
+  --Steve Widmayer            Merit/NSFNET   skw@merit.edu
+  --Enke Chen                 Merit/NSFNET   enke@merit.edu
+  --Steven J. Richardson      Merit/NSFNET   sjr@merit.edu
+
+
+

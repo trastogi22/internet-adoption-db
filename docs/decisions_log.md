@@ -71,3 +71,17 @@
 - Note: Intermetrics (x5) and Motorola (x4) appear as multiple networks — kept
   granular; dedup across NSFNET not yet run (optional next step).
 - DOIM is a US Army facility (government) — minor non-firm false positive.
+
+## 2026-10-26 — NSFNET expanded to full 1992-1994 series
+- Bulk-downloaded NANOG monthly mbox archives (1992-1994), extracted 320
+  "Additions to the NSFNET routing database" messages automatically.
+- Found the T1 section switched formats mid-1992: early = table layout,
+  later = labeled-block layout ("Network IP:/Location:/Country Code:").
+  Parser now handles BOTH.
+- 9,407 raw records -> deduped to earliest appearance per network+org.
+- Now covers ~30 countries (France, Germany, UK, Australia, Japan, etc.) —
+  major international expansion.
+- Caveats: (1) weekly messages create redundancy (handled by earliest-appearance
+  dedup); (2) includes T1->T3 migrations of already-connected nets — earliest-
+  appearance dedup prevents double-dating; (3) routing-DB addition != verified
+  live first connection; (4) a firm may hold many networks (kept granular).

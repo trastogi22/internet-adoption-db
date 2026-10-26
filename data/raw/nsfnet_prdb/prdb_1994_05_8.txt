@@ -1,0 +1,1744 @@
+------------------------------------------------------------------------------
+CIDR Progress Report:  4645 Nets, 50 ASs, 522 Aggregates.  Details below.
+New format "Metric:AS(NSS)" has arrived in this and all reports. See below.
+------------------------------------------------------------------------------
+
+The following changes have been made to the NSFNET policy-based routing
+database and will be installed on the backbone by 08:00  EDT:
+
+
+                            Total =      As +   Bs  +   Cs  +  Aggs
+   Registered Networks      32258 =      29    4719   26965     545
+   Configured Networks      30456 =      29    4719   25165     543
+   Added Networks             362 =       1      11     323      27
+   Deleted Networks            18 =       1       1      12       4
+
+
+
+
+IP address      Net name           Country  Priority:AS
+----------      --------           -------  -----------
+50/8            JITCNET2              C:US  1:568 2:19
+129.17/16       HONEYWELL2            C:US  1:1225 2:267 3:266 4:555
+139.152/16      TOKYO-GAS             C:JP  1:2149 2:174
+148.89/16       UNOCAL-RM             C:US  1:1740
+157.120/16      ABCCONET              C:JP  1:2149 2:174
+164.46/16       T-COSMOSNET           C:JP  1:2149 2:174
+164.162/16      YAMANOUCHI-N          C:JP  1:1240 2:1800
+164.221/16      NSBNET                C:US  1:568 2:19
+164.227/16      CENTERNET-A           C:US  1:19 2:568
+167.91/16       DISD                  C:US  1:3354 2:114
+170.110/16      ITA-B                 C:US  1:86 2:279
+170.129/16      SMCORP                C:US  1:2149 2:174
+192.47.1/24     KYUTECH-NET           C:JP  1:372 2:297
+192.52.83/24    DMSTSTD               C:US  1:771 2:372 3:297
+192.67.63/24    CIRR-DOM              C:US  1:1240 2:1800
+192.92.103/24   KSC                   C:US  1:701(136) 2:701(134)
+192.107.113/24  KNOWLEDGENET          C:NZ  1:372 2:297
+192.121.177/24  SE-NIOH               C:SE  1:1800 2:1879 3:1133 4:1240
+192.125.0/19    HARTMANN-0-39         C:DE  1:1324 2:1800 3:1240 4:1133
+192.146.219/24  SOUTHPOWER2           C:NZ  1:372 2:297
+192.152.18/24   JITCTEMPEST1          C:US  1:568 2:19
+192.152.19/24   JITC-PSN1             C:US  1:568 2:19
+192.204.0/17    PREPNET               C:US  1:3577 2:204 3:1206 4:1324
+192.204.0/18    PREPNET               C:US  1:1324 2:3577 3:204 4:1206
+192.204.0/21    PREPNET               C:US  1:3577 2:204 3:1206 4:1324
+192.204.8/22    PREPNET               C:US  1:3577 2:204 3:1206 4:1324
+192.204.16/23   PREPNET               C:US  1:3577 2:204 3:1206 4:1324
+192.204.20/22   PREPNET               C:US  1:3577 2:204 3:1206 4:1324
+192.204.48/22   PREPNET               C:US  1:3577 2:204 3:1206 4:1324
+192.204.64/21   PREPNET               C:US  1:1324 2:3577 3:204 4:1206
+192.204.88/21   PREPNET               C:US  1:1324 2:3577 3:204 4:1206
+192.204.96/20   PREPNET               C:US  1:1324 2:3577 3:204 4:1206
+192.204.98/23   PREPNET               C:US  1:3577 2:204 3:1206 4:1324
+192.204.100/22  PREPNET               C:US  1:3577 2:204 3:1206 4:1324
+192.204.112/21  PREPNET               C:US  1:1324 2:3577 3:204 4:1206
+192.204.120/22  PREPNET               C:US  1:1324 2:3577 3:204 4:1206
+192.204.128/17  PREPNET               C:US  1:3577 2:204 3:1206 4:1324
+192.204.160/21  PREPNET               C:US  1:3577 2:204 3:1206 4:1324
+192.204.168/21  PREPNET               C:US  1:3577 2:204 3:1206 4:1324
+192.204.176/23  PREPNET               C:US  1:3577 2:204 3:1206 4:1324
+192.204.188/23  PREPNET               C:US  1:3577 2:204 3:1206 4:1324
+192.204.191/24  ANTERRA               C:US  1:1324 2:3577 3:204 4:1206
+192.204.192/18  PREPNET               C:US  1:3577 2:204 3:1206 4:1324
+192.204.252/22  PREPNET               C:US  1:3577 2:204 3:1206 4:1324
+192.207.35/24   LBL-IP-NET5           C:US  1:293(144) 2:293(145) 3:200 4:201
+192.231.49/24   NET-BLK1-XENERGY-C-23 C:US  1:1800 2:1240
+192.231.50/24   NET-BLK1-XENERGY-C-23 C:US  1:1800 2:1240
+192.231.51/24   NET-BLK1-XENERGY-C-23 C:US  1:1800 2:1240
+192.231.52/24   NET-BLK1-XENERGY-C-23 C:US  1:1800 2:1240
+192.238.65/24   GROUPW1               C:US  1:1800 2:1240
+192.238.66/24   GROUPW2               C:US  1:1800 2:1240
+192.238.67/24   GROUPW3               C:US  1:1800 2:1240
+192.238.68/24   GROUPW4               C:US  1:1800 2:1240
+192.238.69/24   GROUPW5               C:US  1:1800 2:1240
+192.238.70/24   GROUPW6               C:US  1:1800 2:1240
+192.238.71/24   GROUPW7               C:US  1:1800 2:1240
+192.238.72/24   GROUPW8               C:US  1:1800 2:1240
+192.238.73/24   GROUPW9               C:US  1:1800 2:1240
+192.238.74/24   GROUPW10              C:US  1:1800 2:1240
+192.238.75/24   GROUPW11              C:US  1:1800 2:1240
+192.238.76/24   GROUPW12              C:US  1:1800 2:1240
+192.238.77/24   GROUPW13              C:US  1:1800 2:1240
+192.238.78/24   GROUPW14              C:US  1:1800 2:1240
+192.238.79/24   GROUPW15              C:US  1:1800 2:1240
+192.238.80/24   GROUPW16              C:US  1:1800 2:1240
+192.238.81/24   GROUPW17              C:US  1:1800 2:1240
+192.238.82/24   GROUPW18              C:US  1:1800 2:1240
+192.238.83/24   GROUPW19              C:US  1:1800 2:1240
+192.238.84/24   GROUPW20              C:US  1:1800 2:1240
+192.238.85/24   GROUPW21              C:US  1:1800 2:1240
+192.238.86/24   GROUPW22              C:US  1:1800 2:1240
+192.238.87/24   GROUPW23              C:US  1:1800 2:1240
+192.238.88/24   GROUPW24              C:US  1:1800 2:1240
+192.238.89/24   GROUPW25              C:US  1:1800 2:1240
+192.238.90/24   GROUPW26              C:US  1:1800 2:1240
+192.238.91/24   GROUPW27              C:US  1:1800 2:1240
+192.238.92/24   GROUPW28              C:US  1:1800 2:1240
+192.238.93/24   GROUPW29              C:US  1:1800 2:1240
+192.238.94/24   GROUPW30              C:US  1:1800 2:1240
+192.238.95/24   GROUPW31              C:US  1:1800 2:1240
+192.238.96/24   GROUPW32              C:US  1:1800 2:1240
+192.238.97/24   GROUPW33              C:US  1:1800 2:1240
+192.238.98/24   GROUPW34              C:US  1:1800 2:1240
+192.238.99/24   GROUPW35              C:US  1:1800 2:1240
+192.238.100/24  GROUPW36              C:US  1:1800 2:1240
+192.238.101/24  GROUPW37              C:US  1:1800 2:1240
+192.238.102/24  GROUPW38              C:US  1:1800 2:1240
+192.238.103/24  GROUPW39              C:US  1:1800 2:1240
+192.238.104/24  GROUPW40              C:US  1:1800 2:1240
+192.238.105/24  GROUPW41              C:US  1:1800 2:1240
+192.238.106/24  GROUPW42              C:US  1:1800 2:1240
+192.238.107/24  GROUPW43              C:US  1:1800 2:1240
+192.238.108/24  GROUPW44              C:US  1:1800 2:1240
+192.238.109/24  GROUPW45              C:US  1:1800 2:1240
+192.238.110/24  GROUPW46              C:US  1:1800 2:1240
+192.238.111/24  GROUPW47              C:US  1:1800 2:1240
+192.238.112/24  GROUPW48              C:US  1:1800 2:1240
+192.238.113/24  GROUPW49              C:US  1:1800 2:1240
+192.238.114/24  GROUPW50              C:US  1:1800 2:1240
+192.238.115/24  GROUPW51              C:US  1:1800 2:1240
+192.238.116/24  GROUPW52              C:US  1:1800 2:1240
+192.238.117/24  GROUPW53              C:US  1:1800 2:1240
+192.238.118/24  GROUPW54              C:US  1:1800 2:1240
+192.238.119/24  GROUPW55              C:US  1:1800 2:1240
+192.238.120/24  GROUPW56              C:US  1:1800 2:1240
+192.238.121/24  GROUPW57              C:US  1:1800 2:1240
+192.238.122/24  GROUPW58              C:US  1:1800 2:1240
+192.238.123/24  GROUPW59              C:US  1:1800 2:1240
+192.238.124/24  GROUPW60              C:US  1:1800 2:1240
+192.238.125/24  GROUPW61              C:US  1:1800 2:1240
+192.238.126/24  GROUPW62              C:US  1:1800 2:1240
+192.238.127/24  GROUPW63              C:US  1:1800 2:1240
+192.244.246/24  ASNET                 C:JP  1:372 2:297
+193.12.179/24   SE-NIOH-NET2          C:SE  1:1800 2:1879 3:1133 4:1240
+193.37.236/24   SHERWOOD9             C:GB  1:1957
+193.55.224/24   FR-NCY-CHU01          C:FR  1:1800 2:1240 3:1133 4:1674
+193.55.225/24   FR-NCY-CHU02          C:FR  1:1800 2:1240 3:1133 4:1674
+193.55.226/24   FR-NCY-CHU03          C:FR  1:1800 2:1240 3:1133 4:1674
+193.55.228/24   FR-NCY-CHU05          C:FR  1:1800 2:1240 3:1133 4:1674
+193.55.230/24   FR-NCY-CHU07          C:FR  1:1800 2:1240 3:1133 4:1674
+193.55.231/24   FR-NCY-CHU08          C:FR  1:1800 2:1240 3:1133 4:1674
+193.55.232/24   FR-NCY-CHU09          C:FR  1:1800 2:1240 3:1133 4:1674
+193.55.233/24   FR-NCY-CHU10          C:FR  1:1800 2:1240 3:1133 4:1674
+193.80.235/24   CSC-NET               C:AT  1:701(136) 2:1800
+193.124.251/24  RPANET                C:RU  1:701(136) 2:1800
+193.125.211/24  RPOLNET               C:RU  1:701(136) 2:1800
+193.130.237/24  BGERS1                C:GB  1:701(136) 2:701(134) 3:1800
+194.34.163/24   GPL                   C:GB  1:1957
+194.45.17/24    WAVEDATA              C:DE  1:1324 2:1800 3:1240 4:1133
+194.51.4/24     DT-RAIN               C:FR  1:1800 2:1240 3:1133 4:1674
+196.7/16        NETBLK-TICSA-BLK1     C:ZA  1:1957
+198.6.225/24    DERWENT-2             C:US  1:701(136) 2:701(134)
+198.73.135/24   CCIW-NET1             C:CA  1:577(133) 2:577(137) 3:577(143)
+198.73.136/24   CCIW-NET2             C:CA  1:577(133) 2:577(137) 3:577(143)
+198.97.9/24     NET-BLK2-XENERGY-C-97 C:US  1:1800 2:1240
+198.97.10/24    NET-BLK2-XENERGY-C-97 C:US  1:1800 2:1240
+198.97.11/24    NET-BLK2-XENERGY-C-97 C:US  1:1800 2:1240
+198.97.12/24    NET-BLK2-XENERGY-C-97 C:US  1:1800 2:1240
+198.97.13/24    NET-BLK2-XENERGY-C-97 C:US  1:1800 2:1240
+198.112.66/24   CHAMPLAIN-NET2        C:US  1:560 2:701(136)
+198.116.52/24   NETBLK-NSI            C:US  1:297 2:372
+198.120.18/24   NETBLK-NSI            C:US  1:372 2:297
+198.123.63/24   NETBLK-NSI            C:US  1:372 2:297
+198.138.231/24  JVNC-C1-NET232        C:US  1:97
+198.139.71/24   HISNJ1-NET            C:US  1:97
+198.139.72/24   HISNJ2-NET            C:US  1:97
+198.165.1/24    CABOT-NFLD-C-165-1    C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.2/24    CABOT-NFLD-C-165-2    C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.3/24    CABOT-NFLD-C-165-3    C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.4/24    CABOT-NFLD-C-165-4    C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.5/24    CABOT-NFLD-C-165-5    C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.6/24    CABOT-NFLD-C-165-6    C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.7/24    CABOT-NFLD-C-165-7    C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.8/24    CABOT-NFLD-C-165-8    C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.9/24    CABOT-NFLD-C-165-9    C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.10/24   CABOT-NFLD-C-165-10   C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.11/24   CABOT-NFLD-C-165-11   C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.12/24   CABOT-NFLD-C-165-12   C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.13/24   CABOT-NFLD-C-165-13   C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.14/24   CABOT-NFLD-C-165-14   C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.15/24   CABOT-NFLD-C-165-15   C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.16/24   CABOT-NFLD-C-165-16   C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.20/24   WESTVIK-NET-C-165-20  C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.21/24   WESTVIK-NET-C-165-21  C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.22/24   WESTVIK-NET-C-165-22  C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.23/24   WESTVIK-NET-C-165-23  C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.32/24   NFGOV-NET-C-165-32    C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.33/24   NFGOV-NET-C-165-33    C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.34/24   NFGOV-NET-C-165-34    C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.35/24   NFGOV-NET-C-165-35    C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.36/24   NFGOV-NET-C-165-36    C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.37/24   NFGOV-NET-C-165-37    C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.38/24   NFGOV-NET-C-165-38    C:CA  1:577(137) 2:577(133) 3:577(143)
+198.165.39/24   NFGOV-NET-C-165-39    C:CA  1:577(137) 2:577(133) 3:577(143)
+198.166.226/24  NOVIX-NS-CA           C:CA  1:577(137) 2:577(133) 3:577(143)
+198.178.154/24  NET-MNENET            C:US  1:1800 2:1240
+198.180.4/22    WA-DTED-BLK           C:US  1:685 2:73 3:101
+198.187.0/22    WA-DIS2-NET1          C:US  1:685 2:73 3:101
+198.235.184/24  CICA277HOME           C:CA  1:577(133) 2:577(137) 3:577(143)
+199.1.40/24     NET-NATP-1            C:US  1:1240 2:1800
+199.2.252/24    NET-IMPACT-C-2-252    C:US  1:1240 2:1800
+199.2.253/24    NET-IMPACT-C-2-253    C:US  1:1240 2:1800
+199.2.254/24    NET-IMPACT-C-2-254    C:US  1:1240 2:1800
+199.2.255/24    NET-IMPACT-C-2-255    C:US  1:1240 2:1800
+199.4.192/24    OPTEC                 C:US  1:1240 2:1800
+199.26.174/24   BOOKNET2              C:US  1:1332
+199.45.73/24    ORA-NET               C:CA  1:701(136) 2:701(134)
+199.79.228/24   TXASHLTH11            C:US  1:3354 2:114
+199.84.42/24    NETBLK-TGI-NET-C-84-4 C:CA  1:577(137) 2:577(133) 3:577(143)
+199.84.43/24    NETBLK-TGI-NET-C-84-4 C:CA  1:577(137) 2:577(133) 3:577(143)
+199.84.44/24    NETBLK-TGI-NET-C-84-4 C:CA  1:577(137) 2:577(133) 3:577(143)
+199.84.45/24    NETBLK-TGI-NET-C-84-4 C:CA  1:577(137) 2:577(133) 3:577(143)
+199.84.46/24    NETBLK-TGI-NET-C-84-4 C:CA  1:577(137) 2:577(133) 3:577(143)
+199.84.47/24    NETBLK-TGI-NET-C-84-4 C:CA  1:577(137) 2:577(133) 3:577(143)
+199.84.48/24    NETBLK-TGI-NET-C-84-4 C:CA  1:577(137) 2:577(133) 3:577(143)
+199.84.49/24    NETBLK-TGI-NET-C-84-4 C:CA  1:577(137) 2:577(133) 3:577(143)
+199.84.50/24    NETBLK-TGI-NET-C-84-5 C:CA  1:577(137) 2:577(133) 3:577(143)
+199.84.51/24    NETBLK-TGI-NET-C-84-5 C:CA  1:577(137) 2:577(133) 3:577(143)
+199.84.52/24    NETBLK-TGI-NET-C-84-5 C:CA  1:577(137) 2:577(133) 3:577(143)
+199.84.53/24    NETBLK-TGI-NET-C-84-5 C:CA  1:577(137) 2:577(133) 3:577(143)
+199.84.54/24    NETBLK-TGI-NET-C-84-5 C:CA  1:577(137) 2:577(133) 3:577(143)
+199.84.55/24    NETBLK-TGI-NET-C-84-5 C:CA  1:577(137) 2:577(133) 3:577(143)
+199.84.56/24    NETBLK-TGI-NET-C-84-5 C:CA  1:577(137) 2:577(133) 3:577(143)
+199.84.57/24    NETBLK-TGI-NET-C-84-5 C:CA  1:577(137) 2:577(133) 3:577(143)
+199.84.58/24    NETBLK-TGI-NET-C-84-5 C:CA  1:577(137) 2:577(133) 3:577(143)
+199.84.59/24    NETBLK-TGI-NET-C-84-5 C:CA  1:577(137) 2:577(133) 3:577(143)
+199.84.60/24    NETBLK-TGI-NET-C-84-6 C:CA  1:577(137) 2:577(133) 3:577(143)
+199.84.61/24    NETBLK-TGI-NET-C-84-6 C:CA  1:577(137) 2:577(133) 3:577(143)
+199.84.155/24   MPACT                 C:CA  1:577(137) 2:577(133) 3:577(143)
+199.88.133/24   SCIOSNOVA             C:US  1:2551
+199.88.178/24   TXASHLTH12            C:US  1:3354 2:114
+199.88.241/24   NETBLK-TML-C          C:US  1:701(136) 2:701(134)
+199.92.176/24   SHIELDS               C:US  1:560 2:701(136)
+199.98.246/24   NETBLK-PSINET-C5      C:US  1:2149 2:174
+199.98.252/24   PSINET                C:US  1:2149 2:174
+199.98.253/24   PSINET                C:US  1:2149 2:174
+199.98.254/24   PSINET                C:US  1:2149 2:174
+199.98.255/24   PSINET                C:US  1:2149 2:174
+199.128/16      USDA-CBLK             C:US  1:209 2:210
+199.129/16      USDA-CBLK             C:US  1:209 2:210
+199.170.72/24   ACCSYS-NET            C:US  1:701(136) 2:701(134)
+199.170.84/24   IGLOU-NET             C:US  1:701(136) 2:701(134)
+199.170.85/24   IGLOU-NET             C:US  1:701(136) 2:701(134)
+199.170.104/24  INTERVAL-DOM          C:US  1:701(136) 2:701(134)
+199.170.105/24  INTERVAL-DOM          C:US  1:701(136) 2:701(134)
+199.170.106/24  INTERVAL-DOM          C:US  1:701(136) 2:701(134)
+199.170.107/24  INTERVAL-DOM          C:US  1:701(136) 2:701(134)
+199.170.108/24  INTERVAL-DOM          C:US  1:701(136) 2:701(134)
+199.170.109/24  INTERVAL-DOM          C:US  1:701(136) 2:701(134)
+199.170.110/24  INTERVAL-DOM          C:US  1:701(136) 2:701(134)
+199.170.111/24  INTERVAL-DOM          C:US  1:701(136) 2:701(134)
+199.170.126/24  EZNET                 C:US  1:701(136) 2:701(134)
+199.170.137/24  AMARANTH1             C:US  1:701(136) 2:701(134)
+199.170.211/24  NEA-NET               C:US  1:701(136) 2:701(134)
+199.181.218/24  NET-NC-BSIS           C:US  1:1329
+199.190.243/24  OSTECH                C:US  1:1324
+199.201.175/24  FRACTAL               C:US  1:1240 2:1800
+199.211.81/24   PSNSDTBOSTON          C:US  1:19 2:568
+199.234.1/24    GALT                  C:US  1:3577 2:204 3:1206 4:1324
+199.240.0/24    HUSKERNET             C:US  1:93
+199.240.1/24    HUSKERNET             C:US  1:93
+199.240.2/24    HUSKERNET             C:US  1:93
+199.240.3/24    HUSKERNET             C:US  1:93
+199.240.4/24    HUSKERNET             C:US  1:93
+199.240.5/24    HUSKERNET             C:US  1:93
+199.240.6/24    HUSKERNET             C:US  1:93
+199.240.7/24    HUSKERNET             C:US  1:93
+199.240.8/24    HUSKERNET             C:US  1:93
+199.240.9/24    HUSKERNET             C:US  1:93
+199.240.10/24   HUSKERNET             C:US  1:93
+199.240.11/24   HUSKERNET             C:US  1:93
+199.240.12/24   HUSKERNET             C:US  1:93
+199.240.13/24   HUSKERNET             C:US  1:93
+199.240.14/24   HUSKERNET             C:US  1:93
+199.240.15/24   HUSKERNET             C:US  1:93
+199.240.16/24   HUSKERNET             C:US  1:93
+199.240.17/24   HUSKERNET             C:US  1:93
+199.240.18/24   HUSKERNET             C:US  1:93
+199.240.19/24   HUSKERNET             C:US  1:93
+199.240.20/24   HUSKERNET             C:US  1:93
+199.240.21/24   HUSKERNET             C:US  1:93
+199.240.22/24   HUSKERNET             C:US  1:93
+199.240.23/24   HUSKERNET             C:US  1:93
+199.240.24/24   HUSKERNET             C:US  1:93
+199.240.25/24   HUSKERNET             C:US  1:93
+199.240.26/24   HUSKERNET             C:US  1:93
+199.240.27/24   HUSKERNET             C:US  1:93
+199.240.28/24   HUSKERNET             C:US  1:93
+199.240.29/24   HUSKERNET             C:US  1:93
+199.240.30/24   HUSKERNET             C:US  1:93
+199.240.31/24   HUSKERNET             C:US  1:93
+199.240.32/24   HUSKERNET             C:US  1:93
+199.240.33/24   HUSKERNET             C:US  1:93
+199.240.34/24   HUSKERNET             C:US  1:93
+199.240.35/24   HUSKERNET             C:US  1:93
+199.240.36/24   HUSKERNET             C:US  1:93
+199.240.37/24   HUSKERNET             C:US  1:93
+199.240.38/24   HUSKERNET             C:US  1:93
+199.240.39/24   HUSKERNET             C:US  1:93
+199.240.40/24   HUSKERNET             C:US  1:93
+199.240.41/24   HUSKERNET             C:US  1:93
+199.240.42/24   HUSKERNET             C:US  1:93
+199.240.43/24   HUSKERNET             C:US  1:93
+199.240.44/24   HUSKERNET             C:US  1:93
+199.240.45/24   HUSKERNET             C:US  1:93
+199.240.46/24   HUSKERNET             C:US  1:93
+199.240.47/24   HUSKERNET             C:US  1:93
+199.240.48/24   HUSKERNET             C:US  1:93
+199.240.49/24   HUSKERNET             C:US  1:93
+199.240.50/24   HUSKERNET             C:US  1:93
+199.240.51/24   HUSKERNET             C:US  1:93
+199.240.52/24   HUSKERNET             C:US  1:93
+199.240.53/24   HUSKERNET             C:US  1:93
+199.240.54/24   HUSKERNET             C:US  1:93
+199.240.55/24   HUSKERNET             C:US  1:93
+199.240.56/24   HUSKERNET             C:US  1:93
+199.240.57/24   HUSKERNET             C:US  1:93
+199.240.58/24   HUSKERNET             C:US  1:93
+199.240.59/24   HUSKERNET             C:US  1:93
+199.240.60/24   HUSKERNET             C:US  1:93
+199.240.61/24   HUSKERNET             C:US  1:93
+199.240.62/24   HUSKERNET             C:US  1:93
+199.240.63/24   HUSKERNET             C:US  1:93
+199.242.137/24  GROK                  C:US  1:200 2:201
+199.242.223/24  SPECTRAL              C:US  1:1800 2:1240
+199.245.174/24  WOOFNET               C:US  1:200 2:201
+199.245.239/24  SIGNALS               C:US  1:1800 2:1240
+200.9.102/24    CEFETPR.BR            C:BR  1:293(145) 2:293(144)
+200.9.115/24    CAST                  C:JM  1:1800 2:1240
+202.11.60/24    GENETICSNET1          C:JP  1:372 2:297
+202.11.61/24    GENETICSNET2          C:JP  1:372 2:297
+202.17.205/24   IYONET6               C:JP  1:1240 2:1800
+202.17.241/24   SCCNET                C:JP  1:372 2:297
+202.24.240/24   NNCT-NET1             C:JP  1:372 2:297
+202.24.241/24   NNCT-NET2             C:JP  1:372 2:297
+202.24.242/24   NNCT-NET3             C:JP  1:372 2:297
+202.24.243/24   NNCT-NET4             C:JP  1:372 2:297
+202.24.244/24   NNCT-NET5             C:JP  1:372 2:297
+202.24.245/24   NNCT-NET6             C:JP  1:372 2:297
+202.24.246/24   NNCT-NET7             C:JP  1:372 2:297
+202.24.247/24   NNCT-NET8             C:JP  1:372 2:297
+202.33.15/24    PFUISNET              C:JP  1:2149 2:174
+202.36.28/24    PLANET-NZ             C:NZ  1:372 2:297
+202.36.29/24    MAFFMR-NZ             C:NZ  1:372 2:297
+202.36.30/24    LIC-NZ                C:NZ  1:372 2:297
+202.36.31/24    LIC-NZ                C:NZ  1:372 2:297
+202.36.33/24    TV-NZ                 C:NZ  1:372 2:297
+202.36.34/24    BLDGRES-NZ            C:NZ  1:372 2:297
+202.36.35/24    GALEN-NZ              C:NZ  1:372 2:297
+202.36.36/24    ICONZ-NZ              C:NZ  1:372 2:297
+202.36.40/24    CLHAM-NZ              C:NZ  1:372 2:297
+202.36.42/24    CHEP-NZ               C:NZ  1:372 2:297
+202.36.43/24    TRANSDATA-NZ          C:NZ  1:372 2:297
+202.36.44/24    SSS-NZ                C:NZ  1:372 2:297
+202.36.134/24   NETBLK-HORT-HAM       C:NZ  1:372 2:297
+202.36.135/24   NETBLK-HORT-HAM       C:NZ  1:372 2:297
+202.36.156/24   DELTEC-NZ             C:NZ  1:372 2:297
+202.36.158/24   NETBLK-WATERCARE      C:NZ  1:372 2:297
+202.36.159/24   NETBLK-WATERCARE      C:NZ  1:372 2:297
+202.36.160/24   NETBLK-WATERCARE      C:NZ  1:372 2:297
+202.36.161/24   NETBLK-WATERCARE      C:NZ  1:372 2:297
+202.36.163/24   ND-CO-NZ              C:NZ  1:372 2:297
+202.36.168/24   NETBLK-RBNZ           C:NZ  1:372 2:297
+202.36.169/24   NETBLK-RBNZ           C:NZ  1:372 2:297
+202.36.172/24   NZTSY-CBLK            C:NZ  1:372 2:297
+202.36.173/24   NZTSY-CBLK            C:NZ  1:372 2:297
+202.36.186/24   NZCUST-1-NZ           C:NZ  1:372 2:297
+202.36.187/24   NZCUST-1-NZ           C:NZ  1:372 2:297
+202.36.188/24   NZCUST-2-NZ           C:NZ  1:372 2:297
+202.36.189/24   NZCUST-2-NZ           C:NZ  1:372 2:297
+202.36.190/24   NZCUST-2-NZ           C:NZ  1:372 2:297
+202.36.191/24   NZCUST-2-NZ           C:NZ  1:372 2:297
+202.49.8/24     SOUTHPOWER-CBLK       C:NZ  1:372 2:297
+202.49.9/24     SOUTHPOWER-CBLK       C:NZ  1:372 2:297
+202.49.10/24    SOUTHPOWER-CBLK       C:NZ  1:372 2:297
+202.49.11/24    SOUTHPOWER-CBLK       C:NZ  1:372 2:297
+202.49.12/24    SOUTHPOWER-CBLK       C:NZ  1:372 2:297
+202.49.13/24    SOUTHPOWER-CBLK       C:NZ  1:372 2:297
+202.49.15/24    LANDCORPF-AP          C:NZ  1:372 2:297
+202.252.96/24   NIFTYOFC-NET          C:JP  1:2149 2:174
+202.252.97/24   NIFTYOFC-NET          C:JP  1:2149 2:174
+202.254.111/24  SANEINET              C:JP  1:372 2:297
+
+Deletions:
+--3/8           GE-INTERNET           C:US  1:1957
+--133.22/16     KIDNET                C:JP  1:372 2:297
+--192.125.2/23  HARTMANN-1-40         C:DE  1:1324 2:1800 3:1240 4:1133
+--192.125.4/22  HARTMANN-1-40         C:DE  1:1324 2:1800 3:1240 4:1133
+--192.125.8/21  HARTMANN-1-40         C:DE  1:1324 2:1800 3:1240 4:1133
+--192.125.16/20 HARTMANN-1-40         C:DE  1:1324 2:1800 3:1240 4:1133
+--196.7.0/24    TICSA-1-0             C:ZA  1:1957
+--196.7.2/24    REALTIME              C:ZA  1:1957
+--196.7.3/24    NETLINE-SA            C:ZA  1:1957
+--196.7.4/24    INFOLINE-NET          C:ZA  1:1957
+--196.7.5/24    OIT-NET-C             C:ZA  1:1957
+--196.7.16/24   NETBLK-TICSA-BLK1     C:ZA  1:1957
+--196.7.18/24   NETBLK-TICSA-BLK1     C:ZA  1:1957
+--196.7.19/24   NETBLK-TICSA-BLK1     C:ZA  1:1957
+--196.7.20/24   NETBLK-TICSA-BLK1     C:ZA  1:1957
+--196.7.21/24   NETBLK-TICSA-BLK1     C:ZA  1:1957
+--196.7.22/24   NETBLK-TICSA-BLK1     C:ZA  1:1957
+--196.7.23/24   NETBLK-TICSA-BLK1     C:ZA  1:1957
+
+
+
+
+Expanded listing, sorted by country, then by organization:
+==========================================================
+
+
+Austria
+-------
+
+    Cyberdynamics Systems Coop., Finkengang 30, A-4048 Puchenau, Austria,
+                                                                        AUSTRIA
+        1:701(136) Alternet
+        2:1800  ICM-Atlantic
+        -------------
+        193.80.235/24    CSC-NET (AT)
+
+
+Brazil
+------
+
+    CEFET-PR Centro Fed. Educacao Tecnologica do Parana, Av. Sete de
+                                        Setembro,3165, Curitiba, PR, 80230-901,
+                                                                         BRAZIL
+        1:293(145) Energy Science Network (ESnet)
+        2:293(144) Energy Science Network (ESnet)
+        ------------
+        200.9.102/24     CEFETPR.BR (BR)
+
+
+Canada
+------
+
+    Cabot College, P.O. Box 1693, St. John's, NF, A1C 5P7, CANADA
+        1:577(137) CA-NET-AS
+        2:577(133) CA-NET-AS
+        3:577(143) CA-NET-AS
+        ------------
+        198.165.1/24     CABOT-NFLD-C-165-1 (CA)
+        198.165.2/24     CABOT-NFLD-C-165-2 (CA)
+        198.165.3/24     CABOT-NFLD-C-165-3 (CA)
+        198.165.4/24     CABOT-NFLD-C-165-4 (CA)
+        198.165.5/24     CABOT-NFLD-C-165-5 (CA)
+        198.165.6/24     CABOT-NFLD-C-165-6 (CA)
+        198.165.7/24     CABOT-NFLD-C-165-7 (CA)
+        198.165.8/24     CABOT-NFLD-C-165-8 (CA)
+        198.165.9/24     CABOT-NFLD-C-165-9 (CA)
+        198.165.10/24    CABOT-NFLD-C-165-10 (CA)
+        198.165.11/24    CABOT-NFLD-C-165-11 (CA)
+        198.165.12/24    CABOT-NFLD-C-165-12 (CA)
+        198.165.13/24    CABOT-NFLD-C-165-13 (CA)
+        198.165.14/24    CABOT-NFLD-C-165-14 (CA)
+        198.165.15/24    CABOT-NFLD-C-165-15 (CA)
+        198.165.16/24    CABOT-NFLD-C-165-16 (CA)
+
+
+    Canada Centre for Inland Waters, 867 Lakeshore Road P.O.Box 5050,
+                                                         Burlington, ON, CANADA
+        1:577(133) CA-NET-AS
+        2:577(137) CA-NET-AS
+        3:577(143) CA-NET-AS
+        -------------
+        198.73.135/24    CCIW-NET1 (CA)
+        198.73.136/24    CCIW-NET2 (CA)
+
+
+    Canadian Institute of Chartered Accountants, 277 Wellington Street, West,
+                                                   Toronto, ON, M5V 3H2, CANADA
+        1:577(133) CA-NET-AS
+        2:577(137) CA-NET-AS
+        3:577(143) CA-NET-AS
+        --------------
+        198.235.184/24   CICA277HOME (CA)
+
+
+    MPACT Immedia Inc., 1155, boul. Rene-Levesque west, suite 2250, Montreal,
+                                                            QC, H3B 4T3, CANADA
+        1:577(137) CA-NET-AS
+        2:577(133) CA-NET-AS
+        3:577(143) CA-NET-AS
+        -------------
+        199.84.155/24    MPACT (CA)
+
+
+    NOVIX-NS-CA, PO Box 25082 Clayton Park, Halifax, NS, B3M 3N8, CANADA
+        1:577(137) CA-NET-AS
+        2:577(133) CA-NET-AS
+        3:577(143) CA-NET-AS
+        --------------
+        198.166.226/24   NOVIX-NS-CA (CA)
+
+
+    Newfoundland Provincial Government, Dept. of Works, Services, and
+                                             Transportation; P.O. Box 8700, St.
+                                                    John's, NF, A1B 4J6, CANADA
+        1:577(137) CA-NET-AS
+        2:577(133) CA-NET-AS
+        3:577(143) CA-NET-AS
+        -------------
+        198.165.32/24    NFGOV-NET-C-165-32 (CA)
+        198.165.33/24    NFGOV-NET-C-165-33 (CA)
+        198.165.34/24    NFGOV-NET-C-165-34 (CA)
+        198.165.35/24    NFGOV-NET-C-165-35 (CA)
+        198.165.36/24    NFGOV-NET-C-165-36 (CA)
+        198.165.37/24    NFGOV-NET-C-165-37 (CA)
+        198.165.38/24    NFGOV-NET-C-165-38 (CA)
+        198.165.39/24    NFGOV-NET-C-165-39 (CA)
+
+
+    ORA Canada, Inc., Suite 100, 267 Richmond Rd., Ottawa, Ontario, K12 6X3,
+                                                                         CANADA
+        1:701(136) Alternet
+        2:701(134) Alternet
+        ------------
+        199.45.73/24     ORA-NET (CA)
+
+
+    Teleglobe Canada Inc., 625 Rue Belmont, Montreal, QC, H3B 2M1, CANADA
+        1:577(137) CA-NET-AS
+        2:577(133) CA-NET-AS
+        3:577(143) CA-NET-AS
+        ------------
+        199.84.42/24     NETBLK-TGI-NET-C-84-4 (CA)
+        199.84.43/24     NETBLK-TGI-NET-C-84-4 (CA)
+        199.84.44/24     NETBLK-TGI-NET-C-84-4 (CA)
+        199.84.45/24     NETBLK-TGI-NET-C-84-4 (CA)
+        199.84.46/24     NETBLK-TGI-NET-C-84-4 (CA)
+        199.84.47/24     NETBLK-TGI-NET-C-84-4 (CA)
+        199.84.48/24     NETBLK-TGI-NET-C-84-4 (CA)
+        199.84.49/24     NETBLK-TGI-NET-C-84-4 (CA)
+        199.84.50/24     NETBLK-TGI-NET-C-84-5 (CA)
+        199.84.51/24     NETBLK-TGI-NET-C-84-5 (CA)
+        199.84.52/24     NETBLK-TGI-NET-C-84-5 (CA)
+        199.84.53/24     NETBLK-TGI-NET-C-84-5 (CA)
+        199.84.54/24     NETBLK-TGI-NET-C-84-5 (CA)
+        199.84.55/24     NETBLK-TGI-NET-C-84-5 (CA)
+        199.84.56/24     NETBLK-TGI-NET-C-84-5 (CA)
+        199.84.57/24     NETBLK-TGI-NET-C-84-5 (CA)
+        199.84.58/24     NETBLK-TGI-NET-C-84-5 (CA)
+        199.84.59/24     NETBLK-TGI-NET-C-84-5 (CA)
+        199.84.60/24     NETBLK-TGI-NET-C-84-6 (CA)
+        199.84.61/24     NETBLK-TGI-NET-C-84-6 (CA)
+
+
+    Westviking College, Fisher Building; 141 O'Connell Drive, Corner Brook, NF,
+                                                                A2H 6H6, CANADA
+        1:577(137) CA-NET-AS
+        2:577(133) CA-NET-AS
+        3:577(143) CA-NET-AS
+        -------------
+        198.165.20/24    WESTVIK-NET-C-165-20 (CA)
+        198.165.21/24    WESTVIK-NET-C-165-21 (CA)
+        198.165.22/24    WESTVIK-NET-C-165-22 (CA)
+        198.165.23/24    WESTVIK-NET-C-165-23 (CA)
+
+
+France
+------
+
+    CHU (Centre Hospitalier Universitaire) de Nancy/CRIH, Hopital MARIN, 92,
+                                              Av. du Mal de Lattre de Tassigny,
+                                                          F-54000 Nancy, FRANCE
+        1:1800  ICM-Atlantic
+        2:1240  ICM-Pacific
+        3:1133  CERN/DANTE
+        4:1674  CERN/DANTE
+        -------------
+        193.55.224/24    FR-NCY-CHU01 (FR)
+        193.55.225/24    FR-NCY-CHU02 (FR)
+        193.55.226/24    FR-NCY-CHU03 (FR)
+        193.55.228/24    FR-NCY-CHU05 (FR)
+        193.55.230/24    FR-NCY-CHU07 (FR)
+        193.55.231/24    FR-NCY-CHU08 (FR)
+        193.55.232/24    FR-NCY-CHU09 (FR)
+        193.55.233/24    FR-NCY-CHU10 (FR)
+
+
+    Reseau de la Direction Technique, Transpac, Direction Technique / IRHD, 87,
+                                         rue du Gouverneur General EBOUE, 92441
+                                              Issy les Moulineaux CEDEX, FRANCE
+        1:1800  ICM-Atlantic
+        2:1240  ICM-Pacific
+        3:1133  CERN/DANTE
+        4:1674  CERN/DANTE
+        -----------
+        194.51.4/24      DT-RAIN (FR)
+
+
+Germany
+-------
+
+    Hartmann & Braun AG, Graefstr. 97, D-60487 Frankfurt am Main, GERMANY
+        1:1324  ANS New York City - DNSS 35
+        2:1800  ICM-Atlantic
+        3:1240  ICM-Pacific
+        4:1133  CERN/DANTE
+        ------------
+        192.125.0/19     HARTMANN-0-39 (DE)
+
+
+    WAVEDATA EDV-Handling Martin Cracauer, Waldstrasse 200, D-22846
+                                              Norderstedt, D-22846, GERMANY
+        1:1324  ANS New York City - DNSS 35
+        2:1800  ICM-Atlantic
+        3:1240  ICM-Pacific
+        4:1133  CERN/DANTE
+        ------------
+        194.45.17/24     WAVEDATA (DE)
+
+
+Jamaica
+-------
+
+    College of Arts, Science and Technology, 237 Old Hope Road, Kingston 6,
+                                                                        Jamaica
+        1:1800  ICM-Atlantic
+        2:1240  ICM-Pacific
+        ------------
+        200.9.115/24     CAST (JM)
+
+
+Japan
+-----
+
+    ABC Corporation, 13-35, 2-chome, Kameido, Koutou-ku, Tokyo, JAPAN
+        1:2149  PSINET-2
+        2:174   NYSERNet Regional Network / PSI
+        ----------
+        157.120/16       ABCCONET (JP)
+
+
+    Association for Propagation of the Knowledge of Genetics, 1706-8 Yata,
+                                                  Mishima, Shizuoka, 411, JAPAN
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        ------------
+        202.11.60/24     GENETICSNET1 (JP)
+        202.11.61/24     GENETICSNET2 (JP)
+
+
+    KAKUDA Space Propulsion Laboratory, 1 Kimigaya Koganesawa, Kakuda, Miyagi,
+                                                                  981-15, JAPAN
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        --------------
+        192.244.246/24   ASNET (JP)
+
+
+    KUBOTA Systems incorporation, 1-2-47, Shikituhigashi, Naniwaku, Osaka-City,
+                                                                     556, JAPAN
+        1:2149  PSINET-2
+        2:174   NYSERNet Regional Network / PSI
+        ---------
+        164.46/16        T-COSMOSNET (JP)
+
+
+    Kyushu Institute of Technology, Sensui-cho 1-1, Tobata, Kitakyushu, 804,
+                                                                          JAPAN
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        -----------
+        192.47.1/24      KYUTECH-NET (JP)
+
+
+    Matsuyama University, 4-2 Bunkyo-cho, Matsuyama-shi, Ehime 790, JAPAN
+        1:1240  ICM-Pacific
+        2:1800  ICM-Atlantic
+        -------------
+        202.17.205/24    IYONET6 (JP)
+
+
+    NIFTY Corporation, OMORI BELLPORT A 26-1 Minami-oi 6-chome, Shinagawa-ku
+                                                                   Tokyo, JAPAN
+        1:2149  PSINET-2
+        2:174   NYSERNet Regional Network / PSI
+        -------------
+        202.252.96/24    NIFTYOFC-NET (JP)
+        202.252.97/24    NIFTYOFC-NET (JP)
+
+
+    Nara National College of Technology, 22 Yata, Yamato-Koriyama, Nara,
+                                                                  639-11, JAPAN
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        -------------
+        202.24.240/24    NNCT-NET1 (JP)
+        202.24.241/24    NNCT-NET2 (JP)
+        202.24.242/24    NNCT-NET3 (JP)
+        202.24.243/24    NNCT-NET4 (JP)
+        202.24.244/24    NNCT-NET5 (JP)
+        202.24.245/24    NNCT-NET6 (JP)
+        202.24.246/24    NNCT-NET7 (JP)
+        202.24.247/24    NNCT-NET8 (JP)
+
+
+    PFU Limited, 2-7-11, Fukami-nishi, Yamato-shi, Kanagawa 242, JAPAN
+        1:2149  PSINET-2
+        2:174   NYSERNet Regional Network / PSI
+        ------------
+        202.33.15/24     PFUISNET (JP)
+
+
+    Saitama Cancer Center, 818 Komuro, Ina, Kitaadachi-gun, Saitama, 362, JAPAN
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        -------------
+        202.17.241/24    SCCNET (JP)
+
+
+    Sanei Co., Ltd., Maple Bldg 4F, 3-26 Kami-Nobori, Naka-ku, Hiroshima, 730,
+                                                                          JAPAN
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        --------------
+        202.254.111/24   SANEINET (JP)
+
+
+    Tokyo Gas Co., Ltd., 2-3, Nakase, Mihama-ku, Chiba-shi, Chiba 260-91, JAPAN
+        1:2149  PSINET-2
+        2:174   NYSERNet Regional Network / PSI
+        ----------
+        139.152/16       TOKYO-GAS (JP)
+
+
+    Yamanouchi Pharmaceutical Co., Ltd., 1-1-8, Azusawa, Itabashi-ku, Tokyo,
+                                                                     174, JAPAN
+        1:1240  ICM-Pacific
+        2:1800  ICM-Atlantic
+        ----------
+        164.162/16       YAMANOUCHI-N (JP)
+
+
+New Zealand
+-----------
+
+    Building Research Association of NZ, Private Bag 50908, Porirua, NEW
+                                                                        ZEALAND
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        ------------
+        202.36.34/24     BLDGRES-NZ (NZ)
+
+
+    CHEP, P. O. Box 11-261, Ellerslie, Auckland, NEW ZEALAND
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        ------------
+        202.36.42/24     CHEP-NZ (NZ)
+
+
+    Central Internet Services, C/- P. O. Box 6721, Auckland, NEW ZEALAND
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        ------------
+        202.36.36/24     ICONZ-NZ (NZ)
+
+
+    ComputerLand Hamilton, P. O. Box 9160, Hamilton, NEW ZEALAND
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        ------------
+        202.36.40/24     CLHAM-NZ (NZ)
+
+
+    Deltec New Zealand Ltd, P.O. Box 51123, Tawa, NEW ZEALAND
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        -------------
+        202.36.156/24    DELTEC-NZ (NZ)
+
+
+    Galen Group, P. O. Box 105-354, Auckland Central, NEW ZEALAND
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        ------------
+        202.36.35/24     GALEN-NZ (NZ)
+
+
+    Horticulture and Food Research Institute Limited, Ruakura Agricultural
+                                                  Centre, Hamilton, NEW ZEALAND
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        -------------
+        202.36.134/24    NETBLK-HORT-HAM (NZ)
+        202.36.135/24    NETBLK-HORT-HAM (NZ)
+
+
+    Landcorp Farming, P.O. Box 5349, Wellington, NEW ZEALAND
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        ------------
+        202.49.15/24     LANDCORPF-AP (NZ)
+
+
+    Livestock Improvement Corporation Ltd., Private Bag 3016, Hamilton, NEW
+                                                                        ZEALAND
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        ------------
+        202.36.30/24     LIC-NZ (NZ)
+        202.36.31/24     LIC-NZ (NZ)
+
+
+    MAF Fisheries Marine Research, P. O. Box 297, Wellington, NEW ZEALAND
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        ------------
+        202.36.29/24     MAFFMR-NZ (NZ)
+
+
+    Network Dynamics Limited, 68 Mandeville Street, Riccarton, Christchurch,
+                                                                    NEW ZEALAND
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        -------------
+        202.36.163/24    ND-CO-NZ (NZ)
+
+
+    New Zealand Customs, Plaza Main Road, Box 51166, Tawa, NEW ZEALAND
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        -------------
+        202.36.186/24    NZCUST-1-NZ (NZ)
+        202.36.187/24    NZCUST-1-NZ (NZ)
+        202.36.188/24    NZCUST-2-NZ (NZ)
+        202.36.189/24    NZCUST-2-NZ (NZ)
+        202.36.190/24    NZCUST-2-NZ (NZ)
+        202.36.191/24    NZCUST-2-NZ (NZ)
+
+
+    PlaNet Communications Ltd., P. O. Box 10-344, Auckland, NEW ZEALAND
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        ------------
+        202.36.28/24     PLANET-NZ (NZ)
+
+
+    Reserve Bank of New Zealand, 2 The Terrace, Wellington, NEW ZEALAND
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        -------------
+        202.36.168/24    NETBLK-RBNZ (NZ)
+        202.36.169/24    NETBLK-RBNZ (NZ)
+
+
+    Scientific Software and Systems Limited, P.O. Box 38-490, Petone,
+                                                        Wellington, NEW ZEALAND
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        --------------
+        192.107.113/24   KNOWLEDGENET (NZ)
+
+
+    Scientific Software and Systems Ltd., P. O. Box 38-490, Wellington Mail
+                                                Centre, Wellington, NEW ZEALAND
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        ------------
+        202.36.44/24     SSS-NZ (NZ)
+
+
+    Southpower, C/O Computer Services, Southpower, Private Bag, Christchurch,
+                                                                    NEW ZEALAND
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        --------------
+        192.146.219/24   SOUTHPOWER2 (NZ)
+
+
+    Southpower, Private Bag 4999, Chrictchurch, NEW ZEALAND
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        -----------
+        202.49.8/24      SOUTHPOWER-CBLK (NZ)
+        202.49.9/24      SOUTHPOWER-CBLK (NZ)
+        202.49.10/24     SOUTHPOWER-CBLK (NZ)
+        202.49.11/24     SOUTHPOWER-CBLK (NZ)
+        202.49.12/24     SOUTHPOWER-CBLK (NZ)
+        202.49.13/24     SOUTHPOWER-CBLK (NZ)
+
+
+    THE TREASURY, SYSTEMS SUPPORT, THE TREASURY, PO BOX 3724, WELLINGTON, NEW
+                                                                        ZEALAND
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        -------------
+        202.36.172/24    NZTSY-CBLK (NZ)
+        202.36.173/24    NZTSY-CBLK (NZ)
+
+
+    Television New Zealand, P. O. Box 3819, Auckland, NEW ZEALAND
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        ------------
+        202.36.33/24     TV-NZ (NZ)
+
+
+    Transdata Corporation Ltd, Groome Poyry House, 4 Kingsford Smith Place,
+                                        Auckland Airport, Auckland, NEW ZEALAND
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        ------------
+        202.36.43/24     TRANSDATA-NZ (NZ)
+
+
+    Watercare Services Limited, 21 Pitt Street, Private Bag 92521, Auckland,
+                                                                    NEW ZEALAND
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        -------------
+        202.36.158/24    NETBLK-WATERCARE (NZ)
+        202.36.159/24    NETBLK-WATERCARE (NZ)
+        202.36.160/24    NETBLK-WATERCARE (NZ)
+        202.36.161/24    NETBLK-WATERCARE (NZ)
+
+
+Russian Federation
+------------------
+
+    Kostroma Police Administration, Information center, Sovietskaya str. 90,
+                                            156602 Kostroma, RUSSIAN FEDERATION
+        1:701(136) Alternet
+        2:1800  ICM-Atlantic
+        --------------
+        193.124.251/24   RPANET (RU)
+
+
+    Ryazan Police Administration, Information center, Michurina Sq, 106, 390000
+                                                     Ryazan, RUSSIAN FEDERATION
+        1:701(136) Alternet
+        2:1800  ICM-Atlantic
+        --------------
+        193.125.211/24   RPOLNET (RU)
+
+
+South Africa
+------------
+
+    The Internetworking Company of Southern Africa (Pty) Ltd, Box 15525,
+                                                   Vlaeberg, 8018, SOUTH AFRICA
+        1:1957  ANSCIX-AS
+        --------
+        196.7/16         NETBLK-TICSA-BLK1 (ZA)
+
+
+Sweden
+------
+
+    Arbetsmiljo Institutet, Ekelundsv 16, S-171 84 Solna, SWEDEN
+        1:1800  ICM-Atlantic
+        2:1879  EUROPE-RS
+        3:1133  CERN/DANTE
+        4:1240  ICM-Pacific
+        --------------
+        192.121.177/24   SE-NIOH (SE)
+        193.12.179/24    SE-NIOH-NET2 (SE)
+
+
+United Kingdom
+--------------
+
+    British Gas Plc, Engineering Research Station, Newcastle Upon Tyne,
+                                              England, NE99 1LH, UNITED KINGDOM
+        1:701(136) Alternet
+        2:701(134) Alternet
+        3:1800  ICM-Atlantic
+        --------------
+        193.130.237/24   BGERS1 (GB)
+
+
+    Genesis Project Limited, International Trade Centre Belfast, Interpoint,
+                                           20-24 York Street, Belfast, Northern
+                                              Ireland, BT15 1AQ, UNITED KINGDOM
+        1:1957  ANSCIX-AS
+        -------------
+        194.34.163/24    GPL (GB)
+
+
+    Sherwood Computer Services Plc, North House, 11 St Edwards Way, Romford,
+                                        Essex, England, RM1 4AR, UNITED KINGDOM
+        1:1957  ANSCIX-AS
+        -------------
+        193.37.236/24    SHERWOOD9 (GB)
+
+
+United States
+-------------
+
+    Access Systems, Inc., 4115 Meadow Field Court, Fairfax, VA 22033, USA
+        1:701(136) Alternet
+        2:701(134) Alternet
+        -------------
+        199.170.72/24    ACCSYS-NET (US)
+
+
+    Amaranth Communications, 4525 Creekmore Street, Pensacola, FL 32303, USA
+        1:701(136) Alternet
+        2:701(134) Alternet
+        --------------
+        199.170.137/24   AMARANTH1 (US)
+
+
+    Anterra Inc., 217 Horsham Road, Hatboro, PA 19040, USA
+        1:1324  ANS New York City - DNSS 35
+        2:3577  PREPnet-WEST
+        3:204   PSCNET Regional Network
+        4:1206  PSCNET Regional Network
+        --------------
+        192.204.191/24   ANTERRA (US)
+
+
+    Basic Health Management, 1611 North Kent, Suite 508, Arlington, VA 22209,
+                                                                            USA
+        1:2149  PSINET-2
+        2:174   NYSERNet Regional Network / PSI
+        -------------
+        199.98.255/24    PSINET (US)
+
+
+    Broadway & Seymour, Inc., 128 South Tryon Street, Charlotte, NC 28202, USA
+        1:1329  ANS Greensboro - DNSS 75
+        --------------
+        199.181.218/24   NET-NC-BSIS (US)
+
+
+    Central Iowa Model Railroad (NET-CIRR), 1321 Colmar Dr., Plano, TX 75023,
+                                                                            USA
+        1:1240  ICM-Pacific
+        2:1800  ICM-Atlantic
+        ------------
+        192.67.63/24     CIRR-DOM (US)
+
+
+    Champlain College, 163 South Willard Street, Burlington, VT 05401, USA
+        1:560   NEARnet Regional Network
+        2:701(136) Alternet
+        -------------
+        198.112.66/24    CHAMPLAIN-NET2 (US)
+
+
+    Copper Electronics, Inc., 3315 Gilmore Industrial Boulevard, Louisville, KY
+                                                                     40213, USA
+        1:701(136) Alternet
+        2:701(134) Alternet
+        -------------
+        199.170.84/24    IGLOU-NET (US)
+        199.170.85/24    IGLOU-NET (US)
+
+
+    Dallas Independent School District, 3700 Ross Avenue, Dallas, TX 75204, USA
+        1:3354  THENET-AS-1
+        2:114   SESQUINET Regional Network
+        ---------
+        167.91/16        DISD (US)
+
+
+    Defense Information Systems Agen., Bld. 53705, Attn. Logicon(M. Chasse),
+                                               Ft. Huachuca, AZ 85613-7020, USA
+        1:568   Milnet (FIX-West)
+        2:19    Milnet (FIX-East)
+        -------------
+        192.152.18/24    JITCTEMPEST1 (US)
+        192.152.19/24    JITC-PSN1 (US)
+
+
+    Derwent, Inc., 1313 Dolly Madison Blvd., McLean, VA 22101, USA
+        1:701(136) Alternet
+        2:701(134) Alternet
+        ------------
+        198.6.225/24     DERWENT-2 (US)
+
+
+    Early Childhood Intervention, 4412 Spicewood Springs Road, Bldng 600,
+                                                          Austin, TX 78759, USA
+        1:3354  THENET-AS-1
+        2:114   SESQUINET Regional Network
+        -------------
+        199.88.178/24    TXASHLTH12 (US)
+
+
+    Emtek Healthcare Systems, 1501 W. Fountainhead Parkway, Suite 190, Tempe,
+                                                                  AZ 85282, USA
+        1:2149  PSINET-2
+        2:174   NYSERNet Regional Network / PSI
+        -------------
+        199.98.254/24    PSINET (US)
+
+
+    Fannie Mae, 3900 Wisconsin Ave NW, Washington, DC 20016, USA
+        1:2149  PSINET-2
+        2:174   NYSERNet Regional Network / PSI
+        -------------
+        199.98.246/24    NETBLK-PSINET-C5 (US)
+
+
+    Foothills, East 13506 Farwell Road, Spokane, WA 99207, USA
+        1:701(136) Alternet
+        2:701(134) Alternet
+        --------------
+        199.170.126/24   EZNET (US)
+
+
+    Fractal Design Corp, 335 Spreckels Dr., Aptos, CA 95003, USA
+        1:1240  ICM-Pacific
+        2:1800  ICM-Atlantic
+        --------------
+        199.201.175/24   FRACTAL (US)
+
+
+    GALT Technologies Inc., 414 South Craig Street, Suite 287, Pittsburgh, PA
+                                                                     15213, USA
+        1:3577  PREPnet-WEST
+        2:204   PSCNET Regional Network
+        3:1206  PSCNET Regional Network
+        4:1324  ANS New York City - DNSS 35
+        ------------
+        199.234.1/24     GALT (US)
+
+
+    Global Enterprise Services, Inc., 3 Independence Way, Princeton, NJ 08540,
+                                                                            USA
+        1:97    JvNCnet Regional Network
+        --------------
+        198.138.231/24   JVNC-C1-NET232 (US)
+
+
+    Group Residing On (big) Knoll, 1015 Rosa Ave., Sunnyvale, CA 94086, USA
+        1:200   BARRNet
+        2:201   BARRNet
+        --------------
+        199.245.174/24   WOOFNET (US)
+
+
+    Group Residing On (big) Knoll, 23465 BelAire Ct., Los Gatos, CA 95030, USA
+        1:200   BARRNet
+        2:201   BARRNet
+        --------------
+        199.242.137/24   GROK (US)
+
+
+    Group W Information Services, 1 Research Drive, Shelton, CT 06484, USA
+        1:1800  ICM-Atlantic
+        2:1240  ICM-Pacific
+        -------------
+        192.238.65/24    GROUPW1 (US)
+        192.238.66/24    GROUPW2 (US)
+        192.238.67/24    GROUPW3 (US)
+        192.238.68/24    GROUPW4 (US)
+        192.238.69/24    GROUPW5 (US)
+        192.238.70/24    GROUPW6 (US)
+        192.238.71/24    GROUPW7 (US)
+        192.238.72/24    GROUPW8 (US)
+        192.238.73/24    GROUPW9 (US)
+        192.238.74/24    GROUPW10 (US)
+        192.238.75/24    GROUPW11 (US)
+        192.238.76/24    GROUPW12 (US)
+        192.238.77/24    GROUPW13 (US)
+        192.238.78/24    GROUPW14 (US)
+        192.238.79/24    GROUPW15 (US)
+        192.238.80/24    GROUPW16 (US)
+        192.238.81/24    GROUPW17 (US)
+        192.238.82/24    GROUPW18 (US)
+        192.238.83/24    GROUPW19 (US)
+        192.238.84/24    GROUPW20 (US)
+        192.238.85/24    GROUPW21 (US)
+        192.238.86/24    GROUPW22 (US)
+        192.238.87/24    GROUPW23 (US)
+        192.238.88/24    GROUPW24 (US)
+        192.238.89/24    GROUPW25 (US)
+        192.238.90/24    GROUPW26 (US)
+        192.238.91/24    GROUPW27 (US)
+        192.238.92/24    GROUPW28 (US)
+        192.238.93/24    GROUPW29 (US)
+        192.238.94/24    GROUPW30 (US)
+        192.238.95/24    GROUPW31 (US)
+        192.238.96/24    GROUPW32 (US)
+        192.238.97/24    GROUPW33 (US)
+        192.238.98/24    GROUPW34 (US)
+        192.238.99/24    GROUPW35 (US)
+        192.238.100/24   GROUPW36 (US)
+        192.238.101/24   GROUPW37 (US)
+        192.238.102/24   GROUPW38 (US)
+        192.238.103/24   GROUPW39 (US)
+        192.238.104/24   GROUPW40 (US)
+        192.238.105/24   GROUPW41 (US)
+        192.238.106/24   GROUPW42 (US)
+        192.238.107/24   GROUPW43 (US)
+        192.238.108/24   GROUPW44 (US)
+        192.238.109/24   GROUPW45 (US)
+        192.238.110/24   GROUPW46 (US)
+        192.238.111/24   GROUPW47 (US)
+        192.238.112/24   GROUPW48 (US)
+        192.238.113/24   GROUPW49 (US)
+        192.238.114/24   GROUPW50 (US)
+        192.238.115/24   GROUPW51 (US)
+        192.238.116/24   GROUPW52 (US)
+        192.238.117/24   GROUPW53 (US)
+        192.238.118/24   GROUPW54 (US)
+        192.238.119/24   GROUPW55 (US)
+        192.238.120/24   GROUPW56 (US)
+        192.238.121/24   GROUPW57 (US)
+        192.238.122/24   GROUPW58 (US)
+        192.238.123/24   GROUPW59 (US)
+        192.238.124/24   GROUPW60 (US)
+        192.238.125/24   GROUPW61 (US)
+        192.238.126/24   GROUPW62 (US)
+        192.238.127/24   GROUPW63 (US)
+
+
+    Health & Human Services Commission, 4807 Spicewood Springs Road, Bldng 4,
+                                                          Austin, TX 78759, USA
+        1:3354  THENET-AS-1
+        2:114   SESQUINET Regional Network
+        -------------
+        199.79.228/24    TXASHLTH11 (US)
+
+
+    Heart Institute of New Jersey, 3 Cooper Plaza - Suite 311, Camden, NJ
+                                                                     08103, USA
+        1:97    JvNCnet Regional Network
+        -------------
+        198.139.71/24    HISNJ1-NET (US)
+        198.139.72/24    HISNJ2-NET (US)
+
+
+    Honeywell, Inc., Plaza South Building, Honeywell Plaza, Minneapolis, MN
+                                                                     55408, USA
+        1:1225  CICNET at Argonne Labs
+        2:267   CICNET at UIUC
+        3:266   CICNET at MERIT
+        4:555   Minnesota Supercomputer Center Network (MSCNet)
+        ---------
+        129.17/16        HONEYWELL2 (US)
+
+
+    Hughes STX Corporation, 4400 Forbes Boulevard, Lanham, MD 20706, USA
+        1:2149  PSINET-2
+        2:174   NYSERNet Regional Network / PSI
+        -------------
+        199.98.252/24    PSINET (US)
+
+
+    Impact Technologies, 2320 West Peoria Avenue Suite A103, Phoenix, AZ 85029,
+                                                                            USA
+        1:1240  ICM-Pacific
+        2:1800  ICM-Atlantic
+        ------------
+        199.2.252/24     NET-IMPACT-C-2-252 (US)
+        199.2.253/24     NET-IMPACT-C-2-253 (US)
+        199.2.254/24     NET-IMPACT-C-2-254 (US)
+        199.2.255/24     NET-IMPACT-C-2-255 (US)
+
+
+    Information Technology, Naval Submarine Base, 1009 Skate St., Silverdale,
+                                                             WA 98315-1095, USA
+        1:568   Milnet (FIX-West)
+        2:19    Milnet (FIX-East)
+        ----------
+        164.221/16       NSBNET (US)
+
+
+    Interval Research Corp., 1801 Page Mill Rd., Bldg. C, Palo Alto, CA 94304,
+                                                                            USA
+        1:701(136) Alternet
+        2:701(134) Alternet
+        --------------
+        199.170.104/24   INTERVAL-DOM (US)
+        199.170.105/24   INTERVAL-DOM (US)
+        199.170.106/24   INTERVAL-DOM (US)
+        199.170.107/24   INTERVAL-DOM (US)
+        199.170.108/24   INTERVAL-DOM (US)
+        199.170.109/24   INTERVAL-DOM (US)
+        199.170.110/24   INTERVAL-DOM (US)
+        199.170.111/24   INTERVAL-DOM (US)
+
+
+    Joint Tactical Command,Control, & Communications Agency, Joint
+                                             Interoperability Test Center, Fort
+                                                   Huachuca, AZ 85613-7020, USA
+        1:568   Milnet (FIX-West)
+        2:19    Milnet (FIX-East)
+        ----
+        50/8             JITCNET2 (US)
+
+
+    KineticSystems Corporation, 11 Maryknoll Drive, Lockport, IL 60441, USA
+        1:701(136) Alternet
+        2:701(134) Alternet
+        -------------
+        192.92.103/24    KSC (US)
+
+
+    Lawrence Berkeley Laboratory, One Cyclotron Road, Berkeley, CA 94720, USA
+        1:293(144) Energy Science Network (ESnet)
+        2:293(145) Energy Science Network (ESnet)
+        3:200   BARRNet
+        4:201   BARRNet
+        -------------
+        192.207.35/24    LBL-IP-NET5 (US)
+
+
+    Mnematics Inc., 7 William Street, Spark Hill, NY 10976, USA
+        1:1800  ICM-Atlantic
+        2:1240  ICM-Pacific
+        --------------
+        198.178.154/24   NET-MNENET (US)
+
+
+    NASA Ames Research Center, MS 233-8, Moffett Field, CA 95014, USA
+        1:297   Nasa Science Network (FIX-East)
+        2:372   Nasa Science Network (FIX-West)
+        -------------
+        198.116.52/24    NETBLK-NSI (US)
+
+
+    NASA Ames Research Center, MS 233-8, Moffett Field, CA 95014, USA
+        1:372   Nasa Science Network (FIX-West)
+        2:297   Nasa Science Network (FIX-East)
+        -------------
+        198.120.18/24    NETBLK-NSI (US)
+        198.123.63/24    NETBLK-NSI (US)
+
+
+    NASA/Johnson Space Center, NASA Road 1, Building 32, Houston, TX 77058, USA
+        1:771   Nasa Science Network (Houston)
+        2:372   Nasa Science Network (FIX-West)
+        3:297   Nasa Science Network (FIX-East)
+        ------------
+        192.52.83/24     DMSTSTD (US)
+
+
+    NEA Development Corporation, 1119 St. Paul Street, Baltimore, MD 21202, USA
+        1:701(136) Alternet
+        2:701(134) Alternet
+        --------------
+        199.170.211/24   NEA-NET (US)
+
+
+    Naval Surface Warfare Center,Crane Division, Code 0552 B-3173, Crane, IN
+                                                                     47522, USA
+        1:19    Milnet (FIX-East)
+        2:568   Milnet (FIX-West)
+        ----------
+        164.227/16       CENTERNET-A (US)
+
+
+    North American Trade Point, 41 South High Street, Columbus, OH 43215, USA
+        1:1240  ICM-Pacific
+        2:1800  ICM-Atlantic
+        -----------
+        199.1.40/24      NET-NATP-1 (US)
+
+
+    OPTEC, Inc., 7324 SW Durham, Portland, OR 97224, USA
+        1:1240  ICM-Pacific
+        2:1800  ICM-Atlantic
+        ------------
+        199.4.192/24     OPTEC (US)
+
+
+    OS Technologies Corporation, 79 Tyler Road, Townsend, MA 01469, USA
+        1:1324  ANS New York City - DNSS 35
+        --------------
+        199.190.243/24   OSTECH (US)
+
+
+    PREPnet, 305 S. Craig St., Pittsburgh, PA 15213, USA
+        1:3577  PREPnet-WEST
+        2:204   PSCNET Regional Network
+        3:1206  PSCNET Regional Network
+        4:1324  ANS New York City - DNSS 35
+        ------------
+        192.204.0/17     PREPNET (US)
+
+
+    PREPnet, 305 S. Craig St., Pittsburgh, PA 15213, USA
+        1:1324  ANS New York City - DNSS 35
+        2:3577  PREPnet-WEST
+        3:204   PSCNET Regional Network
+        4:1206  PSCNET Regional Network
+        ------------
+        192.204.0/18     PREPNET (US)
+
+
+    PREPnet, 305 S. Craig St., Pittsburgh, PA 15213, USA
+        1:3577  PREPnet-WEST
+        2:204   PSCNET Regional Network
+        3:1206  PSCNET Regional Network
+        4:1324  ANS New York City - DNSS 35
+        ------------
+        192.204.0/21     PREPNET (US)
+        192.204.8/22     PREPNET (US)
+        192.204.16/23    PREPNET (US)
+        192.204.20/22    PREPNET (US)
+        192.204.48/22    PREPNET (US)
+
+
+    PREPnet, 305 S. Craig St., Pittsburgh, PA 15213, USA
+        1:1324  ANS New York City - DNSS 35
+        2:3577  PREPnet-WEST
+        3:204   PSCNET Regional Network
+        4:1206  PSCNET Regional Network
+        -------------
+        192.204.64/21    PREPNET (US)
+        192.204.88/21    PREPNET (US)
+        192.204.96/20    PREPNET (US)
+
+
+    PREPnet, 305 S. Craig St., Pittsburgh, PA 15213, USA
+        1:3577  PREPnet-WEST
+        2:204   PSCNET Regional Network
+        3:1206  PSCNET Regional Network
+        4:1324  ANS New York City - DNSS 35
+        -------------
+        192.204.98/23    PREPNET (US)
+        192.204.100/22   PREPNET (US)
+
+
+    PREPnet, 305 S. Craig St., Pittsburgh, PA 15213, USA
+        1:1324  ANS New York City - DNSS 35
+        2:3577  PREPnet-WEST
+        3:204   PSCNET Regional Network
+        4:1206  PSCNET Regional Network
+        --------------
+        192.204.112/21   PREPNET (US)
+        192.204.120/22   PREPNET (US)
+
+
+    PREPnet, 305 S. Craig St., Pittsburgh, PA 15213, USA
+        1:3577  PREPnet-WEST
+        2:204   PSCNET Regional Network
+        3:1206  PSCNET Regional Network
+        4:1324  ANS New York City - DNSS 35
+        --------------
+        192.204.128/17   PREPNET (US)
+        192.204.160/21   PREPNET (US)
+        192.204.168/21   PREPNET (US)
+        192.204.176/23   PREPNET (US)
+        192.204.188/23   PREPNET (US)
+        192.204.192/18   PREPNET (US)
+        192.204.252/22   PREPNET (US)
+
+
+    PUGET SOUND NAVAL SHIPYARD DETACHMENT BOSTON, 495 SUMMER ST., BOSTON, MA
+                                                                02210-2144, USA
+        1:19    Milnet (FIX-East)
+        2:568   Milnet (FIX-West)
+        -------------
+        199.211.81/24    PSNSDTBOSTON (US)
+
+
+    Pete Davis Consulting, 7 Railroard Avenue Suite G, Bedford, MA 01730, USA
+        1:1800  ICM-Atlantic
+        2:1240  ICM-Pacific
+        --------------
+        199.245.239/24   SIGNALS (US)
+
+
+    Scios Nova Inc., 2450 Bayshore Parkway, Mountain View, CA 94043, USA
+        1:2551  NETCOM
+        -------------
+        199.88.133/24    SCIOSNOVA (US)
+
+
+    Shields Health Care Group, 365 Westgate Drive, Brockton, MA 02401, USA
+        1:560   NEARnet Regional Network
+        2:701(136) Alternet
+        -------------
+        199.92.176/24    SHIELDS (US)
+
+
+    Spectral Sciences, Inc., 99 South Bedford Street, Burlington, MA 01803, USA
+        1:1800  ICM-Atlantic
+        2:1240  ICM-Pacific
+        --------------
+        199.242.223/24   SPECTRAL (US)
+
+
+    Standard Microsystems Corporation, 300 Kennedy Drive, Hauppauge, NY 11788,
+                                                                            USA
+        1:2149  PSINET-2
+        2:174   NYSERNet Regional Network / PSI
+        ----------
+        170.129/16       SMCORP (US)
+
+
+    State of Washington Dept Info Svcs, DIS/TSD MS 2450, Olympia, WA
+                                                                98504-2450, USA
+        1:685   NorthWestNet Regional Network
+        2:73    NorthWestNet Regional Network
+        3:101   NorthWestNet Regional Network
+        ------------
+        198.187.0/22     WA-DIS2-NET1 (US)
+
+
+    TML Information Services, 116-55 Queens Blvd, Room 206, Forest Hills, NY
+                                                                     11375, USA
+        1:701(136) Alternet
+        2:701(134) Alternet
+        -------------
+        199.88.241/24    NETBLK-TML-C (US)
+
+
+    Tattered Cover Bookstore, 2955 East First Avenue, Denver, CO 80206, USA
+        1:1332  ANS Denver - DNSS 99
+        -------------
+        199.26.174/24    BOOKNET2 (US)
+
+
+    U.S. Department of Agriculture, USDA Addressing Authority, 3825 East
+                                           Mulberry St., Ft. Collins, CO 80524,
+                                                                            USA
+        1:209   Westnet Regional Network (Colorado Attachment) - ENSS 141
+        2:210   Westnet Regional Network (Utah Attachment) - ENSS 142
+        ----------
+        199.128/16       USDA-CBLK (US)
+        199.129/16       USDA-CBLK (US)
+
+
+    US Department of Commerce, International Trade Administration, Washington,
+                                                                  DC 20230, USA
+        1:86    SURANET Regional Network (College Park)
+        2:279   SURANET Regional Network (Georgia Tech)
+        ----------
+        170.110/16       ITA-B (US)
+
+
+    University of Nebraska, Lincoln, Computing Resource Center, Walter Scott
+                                              Engineering Building, Lincoln, NE
+                                                                     68508, USA
+        1:93    MIDnet
+        ------------
+        199.240.0/24     HUSKERNET (US)
+        199.240.1/24     HUSKERNET (US)
+        199.240.2/24     HUSKERNET (US)
+        199.240.3/24     HUSKERNET (US)
+        199.240.4/24     HUSKERNET (US)
+        199.240.5/24     HUSKERNET (US)
+        199.240.6/24     HUSKERNET (US)
+        199.240.7/24     HUSKERNET (US)
+        199.240.8/24     HUSKERNET (US)
+        199.240.9/24     HUSKERNET (US)
+        199.240.10/24    HUSKERNET (US)
+        199.240.11/24    HUSKERNET (US)
+        199.240.12/24    HUSKERNET (US)
+        199.240.13/24    HUSKERNET (US)
+        199.240.14/24    HUSKERNET (US)
+        199.240.15/24    HUSKERNET (US)
+        199.240.16/24    HUSKERNET (US)
+        199.240.17/24    HUSKERNET (US)
+        199.240.18/24    HUSKERNET (US)
+        199.240.19/24    HUSKERNET (US)
+        199.240.20/24    HUSKERNET (US)
+        199.240.21/24    HUSKERNET (US)
+        199.240.22/24    HUSKERNET (US)
+        199.240.23/24    HUSKERNET (US)
+        199.240.24/24    HUSKERNET (US)
+        199.240.25/24    HUSKERNET (US)
+        199.240.26/24    HUSKERNET (US)
+        199.240.27/24    HUSKERNET (US)
+        199.240.28/24    HUSKERNET (US)
+        199.240.29/24    HUSKERNET (US)
+        199.240.30/24    HUSKERNET (US)
+        199.240.31/24    HUSKERNET (US)
+        199.240.32/24    HUSKERNET (US)
+        199.240.33/24    HUSKERNET (US)
+        199.240.34/24    HUSKERNET (US)
+        199.240.35/24    HUSKERNET (US)
+        199.240.36/24    HUSKERNET (US)
+        199.240.37/24    HUSKERNET (US)
+        199.240.38/24    HUSKERNET (US)
+        199.240.39/24    HUSKERNET (US)
+        199.240.40/24    HUSKERNET (US)
+        199.240.41/24    HUSKERNET (US)
+        199.240.42/24    HUSKERNET (US)
+        199.240.43/24    HUSKERNET (US)
+        199.240.44/24    HUSKERNET (US)
+        199.240.45/24    HUSKERNET (US)
+        199.240.46/24    HUSKERNET (US)
+        199.240.47/24    HUSKERNET (US)
+        199.240.48/24    HUSKERNET (US)
+        199.240.49/24    HUSKERNET (US)
+        199.240.50/24    HUSKERNET (US)
+        199.240.51/24    HUSKERNET (US)
+        199.240.52/24    HUSKERNET (US)
+        199.240.53/24    HUSKERNET (US)
+        199.240.54/24    HUSKERNET (US)
+        199.240.55/24    HUSKERNET (US)
+        199.240.56/24    HUSKERNET (US)
+        199.240.57/24    HUSKERNET (US)
+        199.240.58/24    HUSKERNET (US)
+        199.240.59/24    HUSKERNET (US)
+        199.240.60/24    HUSKERNET (US)
+        199.240.61/24    HUSKERNET (US)
+        199.240.62/24    HUSKERNET (US)
+        199.240.63/24    HUSKERNET (US)
+
+
+    Unocal Corporation- Refining and Marketing/Information, 376 South Valencia
+                                                    Avenue, Brea, CA 92621, USA
+        1:1740  CERFnet
+        ---------
+        148.89/16        UNOCAL-RM (US)
+
+
+    Veda Inc., 300 Exploration, Lexington Park, MD 20653, USA
+        1:2149  PSINET-2
+        2:174   NYSERNet Regional Network / PSI
+        -------------
+        199.98.253/24    PSINET (US)
+
+
+    WA State Dept. of Trade & Economic Development, 101 General Admin Bldg.
+                                           MS-2500, Olympia, WA 98504-2500, USA
+        1:685   NorthWestNet Regional Network
+        2:73    NorthWestNet Regional Network
+        3:101   NorthWestNet Regional Network
+        ------------
+        198.180.4/22     WA-DTED-BLK (US)
+
+
+    Xenergy, INC., 3 Burlington Woods, Burlington, MA 01803, USA
+        1:1800  ICM-Atlantic
+        2:1240  ICM-Pacific
+        -------------
+        192.231.49/24    NET-BLK1-XENERGY-C-23 (US)
+        192.231.50/24    NET-BLK1-XENERGY-C-23 (US)
+        192.231.51/24    NET-BLK1-XENERGY-C-23 (US)
+        192.231.52/24    NET-BLK1-XENERGY-C-23 (US)
+        198.97.9/24      NET-BLK2-XENERGY-C-97 (US)
+        198.97.10/24     NET-BLK2-XENERGY-C-97 (US)
+        198.97.11/24     NET-BLK2-XENERGY-C-97 (US)
+        198.97.12/24     NET-BLK2-XENERGY-C-97 (US)
+        198.97.13/24     NET-BLK2-XENERGY-C-97 (US)
+
+
+
+AS690 CIDR Squeezings Report:  4645 Nets, 50 ASs, 522 Aggregates
+----------------------------------------------------------------
+
+4645 (77%) of the ever-announced more-specific routes within aggregates have
+     been withdrawn.  409 of those were withdrawn within the last week.
+                      479 the week before that.
+                      596 the week before that.
+
+  50 ASs have registered aggregates in the PRDB.
+  49 of those are announcing aggregates.
+  42 have withdrawn at least one more specific route.
+
+ 522 Aggregates are configured.
+ 473 of these were Top-Level Aggregates (not nested in another aggregate).
+ 389 of these are being  announced to AS690.
+ 333 of those have at least one subnet configured (the other 56 may be saving.
+                                 the Internet future subnet announcements).
+ 281 have stopped announcing at least one configured more specific route.
+ 275 have stopped announcing half of their configured more specific routes.
+ 270 have stopped announcing most (80%) of their more specific routes.
+
+See merit.edu:pub/nsfnet/cidr/cidr_savings for more detail.
+-----------------------------------------------------------
+
+
+==========================================================
+
+The configuration reports which reflect today's update will be 
+available for anonymous ftp on nic.merit.edu by 08:00  EDT:
+
+configuration reports --
+  nic.merit.edu:nsfnet/announced.networks:
+
+     as-as.now  as-gw.now  ans_core.now  country.now  net-comp.now  
+     nets.doc  nets.non-classful  nets.tag.now  nets.unl.now
+
+NSS routing software configuration files --
+  nic.merit.edu:nsfnet/backbone.configuration:
+
+     gated.nss<NSS number>.t3p
+
+Information is also avaiable through the PRDB whois server.  Type
+"whois -h prdb.merit.edu help" for details.
+
+--------------------------------------------------------------------------
+REPORT CHANGES:                                     (Updated May 20, 1994)
+
+Metric:AS(NSS) - Historically, peer networks with multiple connections
+to AS 690 could only select which of those connections their networks
+would take by creating "Fake" AS numbers, and using those in the PRDB
+Metric:AS announcement lists.   We have now begin supporting an
+expanded syntax, where the AS may be followed by an optional NSS peer
+number in parentheses.  Eventually, this syntax will be used to replace
+most or all of the current Fake ASs.
+
+This change affects *all* places that the announcement lists are 
+reported:  all whois queries, all network reports, this "NWG" report,
+and the Auto-NACR.  If you have code which parses these announcement lists, 
+please be aware that that code may need modifications.
+
+
+CIDR Reports:  There is a new "whois" option to list aggregates in the PRDB:
+
+		  whois -h prdb.merit.edu listaggs
+
+will produce a listing of the currently registered aggregates.  There is
+also a new report on "nestings" of PRDB-registered aggregates with their 
+more specific routes:  nets.non-classful.
+
+Anyone considering configuring an aggregate into the PRDB (and you all
+should be!) is encouraged to pre-check that aggregate by typing the command:
+
+		  whois -h prdb.merit.edu 'aggchk <agg>'
+
+(where "<agg>" is the aggregate description).  This command will list
+all of the other entries in the PRDB that are more specific routes of <agg>,
+as well as any aggregates all ready configured that contain <agg>.  The 
+output includes the AUP and announcement lists of each of the nets printed, 
+with discrepancies flagged.  This is the same program that we use for 
+sanity-checking the NACRs that you submit.
+
+
+The archived discussion list "db-disc@merit.edu" exists for discussion of 
+PRDB issues.  Send a message to "db-disc-request@merit.edu" to subscribe.
+						--Dale Johnson (dsj@merit.edu)
+--------------------------------------------------------------------------
+
+Please send all requests for configuration changes to nsfnet-admin@merit.edu
+using the NSFNET configuration forms.  The forms are available on-line
+from the nic.merit.edu machine.  Use ftp and the anonymous login to get on the
+machine.  Do a "cd nsfnet/announced.networks" and get the files template.net,
+template.net.README, template.gate, and template.as.
+
+*** Note: As of March 1, 1994, NSFNET AUP NACRs must use the template.net
+*** (NACR) version 7.1, or the NACR will be returned unprocessed.
+
+*******************************
+
+  --Steve Widmayer            Merit/NSFNET   skw@merit.edu
+  --Enke Chen                 Merit/NSFNET   enke@merit.edu
+  --Steven J. Richardson      Merit/NSFNET   sjr@merit.edu
+
+
+

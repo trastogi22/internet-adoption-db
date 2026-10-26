@@ -1,0 +1,161 @@
+The following networks have been added to the NSFNET policy-based routing
+database:
+ 
+T1 Network:
+ 
+Net #            Net Name        Primary  Secondary    Location
+--------        -----------      -------  ---------    --------
+131.231         LUT-AC-UK          274       60        Loughborough
+                                                       University, University
+                                                       of Technology,
+                                                       Loughborough LE11 3TU,
+                                                       UNITED KINGDOM
+
+151.195         CHP                1206      204       Children's Hospital of
+                                                       Pittsburgh, 3705 Fifth
+                                                       Avenue, Pittsburgh, PA
+                                                       15213
+
+157.134         OAR                266       267       Ohio Academic Resources
+                                                       Network, 1224 Kinnear
+                                                       Road, Columbus, OH
+                                                       43212
+
+192.73.228      SILVACO            200       754       Silvaco Data Systems,
+                                                       4701 Patrick Henry
+                                                       Drive, Building 6,
+                                                       Santa Clara, CA 95054
+
+192.83.245      PORTAL1            200       754       Portal Communications
+                                                       Company, 10385 Cherry
+                                                       Tree Lane, Cupertino,
+                                                       CA 95014
+
+192.132.95      FRANZNET           701       279       Franz Incorporated,
+                                                       1995 University Ave,
+                                                       Berkeley, Ca  94704
+
+192.135.47      CSISDN             200       754       Connective Strategies
+                                                       International, 465B
+                                                       Fairchild Drive, Suite
+                                                       207, Mountain View, CA
+                                                       94043
+
+192.135.237     MPL106             22                  Marine Physical
+                                                       Lab/UCSD, Univ of CA at
+                                                       San Diego, La Jolla, CA
+                                                       92023-0704
+
+192.135.238     MPL4               22                  Marine Physical
+                                                       Lab/UCSD, Univ of CA at
+                                                       San Diego, La Jolla, CA
+                                                       92023-0704
+
+192.138.88      OVL                266       267       Ohio Supercomputer
+                                                       Center, 1224 Kinnear
+                                                       Road, Columbus, OH
+                                                       43212
+
+
+
+Total NSFNET T1 announced networks: 4320
+
+The following T1 gates have also been added:
+
+Router Internet Address: 192.12.211.3
+Router Internet Name: T3 enss 137
+Router AS Number: 756 (T1-T3 Network Interconnect (Princeton, NJ))
+NSS number colocated with router:   8
+Router type: T3 ENSS RS 6000
+
+
+T3 Network: 
+
+    Network IP:  128.2
+  Network Name:  CMU-NET
+      Location:  Carnegie-Mellon University, Computer Science Department,
+                 Schenley Park, Pittsburgh, PA 15213
+  Country Code:  US
+    1:1206  PSCNET
+
+
+    Network IP:  151.195
+  Network Name:  CHP
+      Location:  Children's Hospital of Pittsburgh, 3705 Fifth Avenue,
+                 Pittsburgh, PA  15213
+  Country Code:  US
+    1:1206  PSCNET
+ 
+
+    Network IP:  192.73.228
+  Network Name:  SILVACO
+      Location:  Silvaco Data Systems, 4701 Patrick Henry Drive, Building 6,
+                 Santa Clara, CA 95054
+  Country Code:  US
+     1:200  BARRNet
+
+
+    Network IP:  192.83.245
+  Network Name:  PORTAL1
+      Location:  Portal Communications Company, 10385 Cherry Tree Lane,
+                 Cupertino, CA 95014
+  Country Code:  US
+     1:200  BARRNet
+
+
+    Network IP:  192.132.95
+  Network Name:  FRANZNET
+      Location:  Franz Incorporated, 1995 University Ave, Berkeley, Ca  94704
+  Country Code:  US
+    42:701  Alternet Router
+
+
+    Network IP:  192.135.47
+  Network Name:  CSISDN
+      Location:  Connective Strategies International, 465B Fairchild Drive,
+                 Suite 207, Mountain View, CA 94043
+  Country Code:  US
+     1:200  BARRNet
+
+
+Total NSFNET T3 announced networks: 961 
+ 
+The following T3 gates have also been added: 
+
+        AS Number:  757
+         AS Notes:  T1-T3 Network Interconnect (Princeton, NJ)
+  AS Country Code:  US
+  BkBn: 690   NSS: 140.222.137 - ENSS137
+                                 Princeton, NJ
+ Gate: 192.12.211.1 - NSS 8
+                      JVNC, Princeton, NJ
+
+
+The configuration reports, map information sheets, and configuration files
+which reflect these changes are available for anonymous ftp on nis.nsf.net
+as usual. 
+
+    nsfsites - configuration reports
+
+               latest report for:
+			-  NSFNET T1 has the file extension .now
+                	-  NSFNET T3 has the file extension 3.now
+
+    nsfconfg - configuration files for the routing software for each NSS
+
+               latest report for:
+                        -  NSFNET T1 has the file format config.nss#
+                	-  NSFNET T3 has the file extension .t3p
+
+
+Please send all requests for configuration changes to nsfnet-admin@merit.edu
+using the NSFNET configuration forms.  The forms are available on-line
+from the nis.nsf.net machine.  Use ftp and the anonymous login to get on the
+machine.  Do a "cd nsfsites" and grab the files TEMPLATE.NET, TEMPLATE.GATE,
+and TEMPLATE.AS.
+ 
+  --Steve Widmayer
+    Merit/NSFNET
+ 
+
+

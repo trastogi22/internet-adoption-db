@@ -38,7 +38,7 @@ Then run:
 ## Sources incorporated
 - [x] IETF Internet Monthly Reports (Oct 1992; 9 orgs, JvNCnet; high confidence)
 - [x] UUCP Mapping Project (encse/uucp-map; 1987-1992; ~8,200 firms; medium/low)
-- [x] NSFNET PRDB routing additions (Mar 1992; 16 firms incl. international; medium)
+- [x] NSFNET PRDB routing additions (1992-1994; 5,642 firms; ~30 countries; medium)
 
 ## Key outputs
 - data/clean/firm_internet_connectivity.csv — ** MAIN DELIVERABLE ** (matches the
@@ -58,6 +58,9 @@ Then run:
   corrected a shared-facility confounder (see docs/dedup_analysis.md).
 - Three sources, three network types (regional IP, UUCP mail, NSFNET routing),
   three countries (USA, Switzerland, Canada). NSFNET adds the first non-US firms.
+- 14,276 observations across 3 network types and ~30 countries. NSFNET PRDB
+  (bulk-extracted from 320 NANOG messages) adds broad international coverage:
+  Germany, France, UK, Australia, Japan, Taiwan, etc.
 
 ## Important caveats
 - UUCP dates = "first appearance in available map snapshots," NOT verified

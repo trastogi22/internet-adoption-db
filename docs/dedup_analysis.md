@@ -53,3 +53,21 @@ polluted 80.3% (6,853 pairs) to a reliable 85.9% (206 pairs).
 - data/clean/uucp_deduped.csv — all rows + firm_group_id + addr_group
 - output/tables/dedup_statistic.txt — the statistic
 
+## Finding: Email-before-IP adoption progression
+Of firms observed on BOTH UUCP (email) and NSFNET (IP routing):
+- N = 285 firms
+- 95.1% appeared on UUCP before NSFNET
+- Median gap: 1.1 years (mean 2.4 years)
+
+Examples: Adobe (UUCP 1987 -> NSFNET 1992), 3M (1987 -> 1992),
+AIM Technology (1987 -> 1993).
+
+Interpretation: firms adopted email connectivity before IP/internet
+connectivity, consistent with UUCP being cheaper/easier to join early on.
+
+CAVEAT (important): the two sources have non-overlapping date windows
+(UUCP 1987-1992, NSFNET 1992-1994). This structurally biases toward
+"UUCP first" — a firm cannot appear in NSFNET before 1992, and UUCP data
+thins after 1992. So the 95% directionality is partly real, partly a
+windowing artifact. The median gap should be read as a lower bound on the
+true lead time (many firms were likely on UUCP before our 1987 start too).

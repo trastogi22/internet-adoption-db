@@ -34,5 +34,11 @@
 | 2026-10-26 | 8 | Finding: UUCP->NSFNET gap analysis + chart | 0.5h | 95% email-first, median 1.1yr |
 | 2026-10-26 | 8 | Documentation (findings.md, decisions, README) | 0.75h | — |
 | 2026-10-26 | 8 | Repo cleanup (junk folders, tidy structure) | 0.25h | Removed stray folders from paste mishaps |
+| 2026-10-26 | 9 | Diagnose LinkTransformer value vs. normalization | 0.5h | Found normalization already catches most variants |
+| 2026-10-26 | 9 | Threshold tuning + cluster inspection (0.2 vs 0.1) | 0.75h | 0.2 over-merged same-template universities; chose 0.1 |
+| 2026-10-26 | 9 | Fix academic filter (intl universities, protect "Universal") | 0.5h | 204 -> 0 academic rows; Universal firms kept |
+| 2026-10-26 | 9 | Integrate LinkTransformer 0.1 into cross-source linking | 0.5h | 314 multi-network firms; finding robust to method |
+| 2026-10-26 | 9 | Resolve git divergence (website vs local edits) | 0.25h | Merged README web-edit with local commits |
+| 2026-10-26 | 9 | Documentation + professor update | 0.5h | dedup_analysis, findings, message |
 
-Approximate total: ~20 hours**
+Approximate total: ~23 hours

@@ -83,3 +83,22 @@ Chose 0.1 for cross-source linking, applied to the firm set (academics excluded,
 since the few remaining false merges are same-template institutions).
 Conclusion: normalization does most of the work; LinkTransformer at 0.1 adds a
 small set of genuine variant merges (typos, &/and, singular/plural, abbreviations).
+
+## Cross-source firm linking (final)
+Method: LinkTransformer (all-MiniLM-L6-v2, agglomerative, threshold 0.1,
+blocked by country), applied on normalized firm names.
+
+- Exact-normalized matching: 10,500 unique firms
+- + LinkTransformer: 10,171 unique firms (329 additional merges, 3%)
+- Merges validated by inspection: coherent (Netcom spelling variants,
+  HP/Hewlett-Packard, Motorola divisions, &/and, singular/plural). No blobs.
+- Threshold choice: 0.1 chosen over 0.2 because 0.2 over-merged same-template
+  institutions (e.g., "Universidad de Murcia/Oviedo" wrongly grouped).
+
+Impact on the finding:
+- Multi-network firms: 285 (exact) -> 314 (LinkTransformer)
+- Email-before-IP finding ROBUST to method:
+  exact: 95.1% UUCP-first, median 1.1yr
+  LT:    95.5% UUCP-first, median 1.1yr
+Conclusion: normalization does most of the work; LinkTransformer adds a small
+set of genuine variant merges. The core finding does not depend on the method.

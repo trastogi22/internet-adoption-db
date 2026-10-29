@@ -75,8 +75,10 @@ def strip_trailing_location(name):
 
 # ---------- Filters ----------
 ACADEMIC_RE = re.compile(
-    r"\b(univ|university|college|institute of tech|school of|faculty|"
-    r"polytechnic|high school|elementary|middle school)\b",
+    r"\b(universit(y|ies|aet|a|e)|universid(ad|ade)|"
+    r"college|colleges|community college|"
+    r"fachhochschule|hochschule|polytechnic|conservatoire|"
+    r"institute of technolog|school of|faculty of)\b",
     re.IGNORECASE)
 
 JUNK_RE = re.compile(

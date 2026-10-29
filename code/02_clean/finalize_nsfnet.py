@@ -7,8 +7,11 @@ IN = Path("data/interim/nsfnet_candidates.csv")
 OUT = Path("data/clean/nsfnet_clean.csv")
 
 ACADEMIC_RE = re.compile(
-    r"\b(univ|university|college|institute of tech|studi|universit[ae]|"
-    r"school of|polytechnic|hochschule|ecole|academ)\b", re.IGNORECASE)
+    r"\b(universit(y|ies|aet|a|e)|universid(ad|ade)|"
+    r"college|colleges|community college|"
+    r"fachhochschule|hochschule|polytechnic|conservatoire|"
+    r"institute of technolog|school of|faculty of)\b",
+    re.IGNORECASE)
 
 ISO3 = {"USA":"USA","CAN":"CAN","CHE":"CHE","ITA":"ITA","DEU":"DEU","FRA":"FRA",
         "GBR":"GBR","JPN":"JPN","NLD":"NLD","SWE":"SWE","AUS":"AUS","BEL":"BEL",

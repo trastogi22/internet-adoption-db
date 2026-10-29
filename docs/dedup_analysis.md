@@ -71,3 +71,15 @@ CAVEAT (important): the two sources have non-overlapping date windows
 thins after 1992. So the 95% directionality is partly real, partly a
 windowing artifact. The median gap should be read as a lower bound on the
 true lead time (many firms were likely on UUCP before our 1987 start too).
+
+## Cross-source linking: LinkTransformer vs normalization
+Exact-normalized matching already catches suffix/case/punctuation variants
+(Adobe Inc. = Adobe Incorporated, etc.). LinkTransformer adds marginal merges:
+- threshold 0.2: +930 (8.9%) but ~half false (same-template universities merged:
+  "Universidad de Murcia/Oviedo/Extremadura" wrongly grouped).
+- threshold 0.1: +329 (3.1%), high quality (R.R.Donnelley = RR Donnelley,
+  Utah Power & Light = Utah Power and Light, Tektronix Graphic/Graphics typo).
+Chose 0.1 for cross-source linking, applied to the firm set (academics excluded,
+since the few remaining false merges are same-template institutions).
+Conclusion: normalization does most of the work; LinkTransformer at 0.1 adds a
+small set of genuine variant merges (typos, &/and, singular/plural, abbreviations).

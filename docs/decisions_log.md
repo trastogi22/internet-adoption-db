@@ -85,3 +85,14 @@
   dedup); (2) includes T1->T3 migrations of already-connected nets — earliest-
   appearance dedup prevents double-dating; (3) routing-DB addition != verified
   live first connection; (4) a firm may hold many networks (kept granular).
+
+## 2026-10-28 — Improved academic filter (international + Universal protection)
+- Previous filter missed non-English universities (Universitaet, Universidad,
+  Fachhochschule) and risked dropping "Universal*" firms.
+- New regex matches real university terms (universit[y/aet/a/e], universidad,
+  college(s), fachhochschule, hochschule, polytechnic, conservatoire) while
+  protecting "Universal"/"Universe" company names.
+- Verified: Universal Instruments/Electronics/Systems kept as firms;
+  Universitaet Hannover, Universidad de Madrid, Maricopa Community Colleges excluded.
+- Known limitation: a few typo'd English university names ("Univeristy",
+  "Universuity") still slip through (~10-20 rows); accepted as negligible.

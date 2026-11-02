@@ -31,7 +31,7 @@ df = df.drop_duplicates(subset=["net_number", "org"], keep="first")
 
 # Flag + exclude academics
 df["is_academic"] = df["org"].str.contains(ACADEMIC_RE)
-firms = df[~df["is_academic"]].copy()
+firms = df.copy()
 
 # Map to schema
 firms["firm_name_raw"] = firms["org"]

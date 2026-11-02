@@ -108,7 +108,7 @@ df = df[~df["org"].str.contains(JUNK_RE)].copy()
 # Separate academics (exclude from firm set but keep a record)
 df["is_academic"] = df["org"].str.contains(ACADEMIC_RE)
 df[df["is_academic"]].to_csv(FLAGGED, index=False)
-firms = df[~df["is_academic"]].copy()
+firms = df.copy()
 
 # Clean names: strip leaked trailing location
 firms["org_clean"] = firms["org"].map(strip_trailing_location)

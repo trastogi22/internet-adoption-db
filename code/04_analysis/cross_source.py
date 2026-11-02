@@ -23,6 +23,7 @@ def norm(s):
     return re.sub(r"\s+", " ", s).strip()
 
 df = pd.read_csv(IN)
+df = df[df["entity_type"] == "firm"].copy()   # firm-level analysis only
 df["norm_key"] = df["firm_name_standardized"].map(norm)
 df = df[df["norm_key"] != ""].copy()
 df["country"] = df["location_country_iso3"].fillna("USA")

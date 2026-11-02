@@ -17,4 +17,5 @@
 | source_url | str | Link |
 | source_quote | str | Verbatim text from source |
 | confidence | str | high / medium / low |
-| notes | str | Free text |
+| notes | str | Free text | 
+| entity_type | string | firm / school / military / government / infrastructure / other. Lets analyses filter groups. Firms are the main set; infrastructure (ANS-CIX, backbones, NICs) typically excluded. | firm |

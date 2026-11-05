@@ -40,5 +40,10 @@
 | 2026-10-26 | 9 | Integrate LinkTransformer 0.1 into cross-source linking | 0.5h | 314 multi-network firms; finding robust to method |
 | 2026-10-26 | 9 | Resolve git divergence (website vs local edits) | 0.25h | Merged README web-edit with local commits |
 | 2026-10-26 | 9 | Documentation + professor update | 0.5h | dedup_analysis, findings, message |
+| 2026-10-27 | 10 | Build entity_type classifier (firm/school/military/gov/infra/other) | 0.75h | Precedence rules + false-positive traps (Ameritech, FedEx) |
+| 2026-10-27 | 10 | Keep schools flagged (stop pre-excluding); reclassify natl labs | 0.5h | Per supervisor; schools now 2,195 rows, filterable |
+| 2026-10-27 | 10 | Verify classification + handle edge cases | 0.25h | Univ-of-NM-at-Los-Alamos correctly = school |
+| 2026-10-27 | 10 | Refilter firm-level finding (entity_type==firm) | 0.25h | 308 firms, 95.5% UUCP-first holds |
+| 2026-10-27 | 11 | Prepare slide deck (sources, dedup, examples, next steps) | 1h | Per supervisor request; content from data |
 
-Approximate total: ~23 hours
+Approximate total: ~28 hours

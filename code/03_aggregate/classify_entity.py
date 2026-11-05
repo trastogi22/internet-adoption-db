@@ -45,15 +45,22 @@ INFRA = re.compile(
 GOVERNMENT = re.compile(
     r"\b(nasa\b|u\.?s\.? geological|usda|federal reserve|"
     r"bureau of standards|national bureau|geological survey|"
-    r"department of (energy|defense|agriculture|commerce)|"
+    r"department of (energy|defense|agriculture|commerce|water|"
+    r"transportation|health|the interior)|"
     r"\bdoe\b|\bdod\b|u\.?s\.? government|federal aviation|"
     r"environmental protection|census bureau|"
     r"los alamos|sandia|lawrence livermore|lawrence berkeley|"
-    r"oak ridge|argonne|brookhaven|national laborator|national labs)\b", re.I)
+    r"oak ridge|argonne|brookhaven|national laborator|national labs|"
+    r"national institutes? of health|\bnih\b|"
+    r"centers for disease|federal judicial|federal judical|"  # note the typo variant
+    r"city of |county of |state of |"
+    r"veterans administration|postal service|"
+    r"institute for defense analyses)\b", re.I)
 
 # Exclusions: names that LOOK like a category but are firms
 FIRM_OVERRIDE = re.compile(
-    r"\b(ameritech|ameritec|federal express|fedex)\b", re.I)
+    r"\b(ameritech|ameritec|federal express|fedex|"
+    r"itt defense|trw (military|electronics and defense|defense))\b", re.I)
 
 
 def classify(nm):

@@ -105,3 +105,14 @@
 - TRW Military/Defense divisions -> firm (company divisions, per supervisor).
 - Verified 8 test cases pass. Known limitation: keyword-based; small/obscure
   government bodies and ambiguous names may still misclassify (~edge cases).
+
+## 2026-11-05 — BITNET (BITEARN NODES) evaluated and EXCLUDED
+- Located a BITEARN NODES snapshot (Dec 1988, ~2,700 nodes) embedded on a
+  personal blog (icopiedyou.com).
+- Excluded for now due to:
+  (1) Uncertain provenance — personal site, not an authoritative archive;
+      cannot verify completeness/integrity.
+  (2) Date unreliable — single snapshot; every node collapses to 1988-12 as an
+      upper bound, not a connection date (no timing resolution).
+- Decision: integrity of the dataset outweighs one additional (shaky) source.
+  May revisit if an authoritative, multi-snapshot BITNET source is found.

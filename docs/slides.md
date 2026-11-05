@@ -8,7 +8,7 @@ NSFNET PRDB routing additions	NSFNET IP routing	1992–93	3,262	Medium
 Scale: 16,433 observations · 10,000 unique firms · 30 countries
 
 Entity types (classified, filterable):
-firm 13,640 · school 2,195 · infrastructure 297 · government 157 · military 144
+firm 13,582 · school 2,195 · infrastructure 297 · government 216 · military 143
 
 Top countries: USA 13,962 · Germany 384 · France 377 · Canada 258 · UK 219 · Italy 186 · Australia 175 · Japan 111
 

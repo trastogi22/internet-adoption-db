@@ -96,3 +96,12 @@
   Universitaet Hannover, Universidad de Madrid, Maricopa Community Colleges excluded.
 - Known limitation: a few typo'd English university names ("Univeristy",
   "Universuity") still slip through (~10-20 rows); accepted as negligible.
+
+## 2026-11-05 — entity_type refinement
+- Expanded government to catch NIH, CDC, cities/counties/states,
+  "Department of [gov function]", federal judicial, national labs, etc.
+- Key distinction preserved: "Department of X" (government) vs "X Department"
+  (company, e.g., Pacific Bell Training Dept) -> the latter stays "firm".
+- TRW Military/Defense divisions -> firm (company divisions, per supervisor).
+- Verified 8 test cases pass. Known limitation: keyword-based; small/obscure
+  government bodies and ambiguous names may still misclassify (~edge cases).

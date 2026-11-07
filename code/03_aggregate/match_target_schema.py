@@ -35,6 +35,8 @@ def map_event_type(row):
         return "map_appearance_observed"
     if src == "nsfnet_prdb":
         return "routing_addition_announced"
+    if src == "arpanet_ddn":
+        return "directory_listing"
     return et
 
 def map_connectivity_type(row):
@@ -45,6 +47,8 @@ def map_connectivity_type(row):
         return "UUCP mail"
     if src == "nsfnet_prdb":
         return "Internet access (routing record)"
+    if src == "arpanet_ddn":
+        return "ARPANET/DDN"
     return "unknown"
 
 df = pd.read_csv(IN)

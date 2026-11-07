@@ -22,12 +22,17 @@ SCHOOL = re.compile(
 # --- MILITARY --- (armed forces units/labs; NOT company 'Defense' divisions)
 MILITARY = re.compile(
     r"\b(u\.?\s?s\.?\s?army|u\.?\s?s\.?\s?navy|\bnavy\b|naval|air force|"
-    r"marine corps|signal (battalion|brigade)|army (corps|institute|"
-    r"ballistic|construction|medical|artificial)|"
-    r"strategic defense initiative|defense logistics agency|"
-    r"defense contract administration|naval (ocean|sea|research|academy)|"
-    r"letterman army|ballistic research|military electronics|"
-    r"\bapo\b|armed forces)\b", re.I)
+    r"marine corps|signal (battalion|brigade)|"
+    r"strategic defense initiative|defense logistics|"
+    r"defense contract administration|"
+    r"\bapo\b|armed forces|"
+    r"air base|air force base|army depot|"
+    r"\barmy\b|\bair force\b|\bafb\b|military|"
+    r"rome air development|wright-patterson|anniston|"
+    r"^af[a-z]{2,}|^a[df]/|^adtc|^darcom|^cecom|^navelex|^navsea|"
+    r"^radc|^nosc|^nrl|^esd\b|^sac\b|^tac\b|^afb\b|"
+    r"^hq |^hqda|^usaf|^usmc)",
+    re.I)
 
 # --- NATIONAL LABS --> 'other' per instruction ---
 NATLAB = re.compile(

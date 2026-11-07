@@ -116,3 +116,14 @@
       upper bound, not a connection date (no timing resolution).
 - Decision: integrity of the dataset outweighs one additional (shaky) source.
   May revisit if an authoritative, multi-snapshot BITNET source is found.
+
+## 2026-11-07 — ARPANET/DDN integrated + entity_type caveat
+- Added ARPANET/DDN directories (1974-1984, professor-provided transcriptions),
+  extending timeline to 1974. 2,844 orgs via earliest-appearance across 7 snapshots.
+- entity_type on ARPANET is noisier than other sources: many cryptic 1970s-80s
+  military codes (AD/, AF-prefix, DARCOM, NOSC). Expanded military regex to catch
+  named units + common prefixes; residual obscure codes may stay "firm".
+- Recommendation: early-ARPANET "firm" subset should be spot-checked before use.
+  Military retained and flagged (per supervisor).
+- Date = earliest directory appearance, NOT verified first connection;
+  transcribed from scans (some OCR artifacts).

@@ -19,7 +19,7 @@ df["year"] = df["year"].astype(int)
 
 # ---- Chart 1: New firm observations per year, stacked by network ----
 pivot = (df.groupby(["year", "connectivity_type"]).size()
-           .unstack(fill_value=0).reindex(range(1987, 1995), fill_value=0))
+           .unstack(fill_value=0).reindex(range(1974, 1995), fill_value=0))
 
 fig, ax = plt.subplots(figsize=(9, 5))
 pivot.plot(kind="bar", stacked=True, ax=ax,
@@ -45,7 +45,7 @@ print("Saved adoption_by_network.png")
 # ---- Chart 2: Cumulative firms online (earliest appearance per firm) ----
 # earliest year per firm (across networks) to avoid double counting
 first = df.groupby("firm_name_standardized")["year"].min()
-by_year = first.value_counts().reindex(range(1987, 1995), fill_value=0).sort_index()
+by_year = first.value_counts().reindex(range(1974, 1995), fill_value=0).sort_index()
 cumulative = by_year.cumsum()
 
 fig, ax = plt.subplots(figsize=(9, 5))
@@ -71,7 +71,7 @@ print("Saved adoption_cumulative.png")
 top = df["location_country_iso3"].value_counts().head(6).index
 sub = df[df["location_country_iso3"].isin(top)]
 cp = (sub.groupby(["year", "location_country_iso3"]).size()
-        .unstack(fill_value=0).reindex(range(1987, 1995), fill_value=0))
+        .unstack(fill_value=0).reindex(range(1974, 1995), fill_value=0))
 # Drop USA to see the others (USA dwarfs all)
 non_us = [c for c in cp.columns if c != "USA"]
 

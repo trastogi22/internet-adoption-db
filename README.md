@@ -1,20 +1,26 @@
 # Internet Adoption Database
 
 Dataset of the month/year each company first connected to the internet or an
-early predecessor (ARPANET, USENET, BITNET, NSFNET, regional IP networks, etc.).
+early predecessor (ARPANET, UUCP/USENET, NSFNET, regional IP networks).
 
 Repo: https://github.com/trastogi22/internet-adoption-db
 
 ## Goal
-Clean dataset: firm name, network, first-connection date, location, source, notes.
+Clean dataset: firm name, network, first-connection date, location, entity type,
+source, notes.
+
+## Dataset at a glance
+- **19,277 observations** across **4 sources**, spanning **1974–1993**
+- **15,418 firms** (+ schools/military/government/infrastructure, flagged + filterable)
+- 22 countries (USA-dominated; international firms mainly via NSFNET)
 
 ## Structure
 - code/ — scripts (download -> clean -> aggregate -> analysis)
 - data/raw/ — unaltered source data (do not edit; large files gitignored)
 - data/interim/ — intermediate cleaned outputs
 - data/clean/ — final aggregated datasets (the deliverable)
-- docs/ — data dictionary, decisions log, findings, progress notes
-- output/ — figures and summary tables
+- docs/ — data dictionary, decisions log, findings, sources roadmap
+- output/ — figures (maps, adoption charts) and tables (funnel, multi-network)
 
 ## Setup
     conda create -n internet-db python=3.11 -y
@@ -22,9 +28,13 @@ Clean dataset: firm name, network, first-connection date, location, source, note
     pip install -r requirements.txt
 
 ## How to run (in order)
-First clone the UUCP raw data:
+Clone UUCP raw data first:
 
     git clone https://github.com/encse/uucp-map.git data/raw/uucp_maps
+
+ARPANET/DDN (transcribed directories in data/raw/arpanet_1978/):
+
+    python code/02_clean/clean_arpanet.py
 
 IETF + UUCP:
 
@@ -35,77 +45,87 @@ IETF + UUCP:
 
 NSFNET PRDB (bulk download + extract from NANOG mbox archives):
 
-    python code/01_download/download_nsfnet_mbox.py      # download monthly mboxes
-    python code/01_download/extract_prdb_from_mbox.py    # extract PRDB messages
-    python code/02_clean/clean_nsfnet.py                 # parse (dual-format)
-    python code/02_clean/finalize_nsfnet.py              # filter, dedup -> schema
+    python code/01_download/download_nsfnet_mbox.py
+    python code/01_download/extract_prdb_from_mbox.py
+    python code/02_clean/clean_nsfnet.py
+    python code/02_clean/finalize_nsfnet.py
 
-Aggregate + analyze:
+Aggregate + classify + analyze:
 
-    python code/03_aggregate/aggregate.py                # combine sources
-    python code/03_aggregate/dedup.py                    # LinkTransformer dedup + statistic
-    python code/03_aggregate/match_target_schema.py      # deliverable in target schema
-    python code/04_analysis/analysis.py                  # summary tables + figures
-    python code/04_analysis/cross_source.py              # cross-source firm timelines
+    python code/03_aggregate/aggregate.py              # combine sources
+    python code/03_aggregate/match_target_schema.py    # deliverable schema
+    python code/03_aggregate/classify_entity.py        # entity_type field
+    python code/04_analysis/funnel.py                  # sample funnel (raw->clean)
+    python code/04_analysis/cross_source.py            # cross-source timelines + finding
+    python code/04_analysis/adoption_viz.py            # adoption-over-time charts
+    python code/04_analysis/country_map.py             # country choropleth maps
 
 ## Sources incorporated
-- [x] IETF Internet Monthly Reports (Oct 1992; 9 orgs, JvNCnet; high confidence)
-- [x] UUCP Mapping Project (encse/uucp-map; 1987-1992; ~8,200 firms; medium/low)
-- [x] NSFNET PRDB routing additions (1992-1994; 5,642 firms; ~30 countries; medium)
+- [x] ARPANET/DDN directories (1974–1984; 7 snapshots; ~2,800 orgs; transcribed)
+- [x] UUCP Mapping Project (encse/uucp-map; 1987–1992; ~9,400 firms; medium/low)
+- [x] NSFNET PRDB routing additions (1992–1993; ~7,000 rows; medium)
+- [x] IETF Internet Monthly Reports (Oct 1992; 9 firms, JvNCnet; high confidence)
 
-## Dataset at a glance
-- 14,276 observations; 10,501 unique firms
-- 3 network types: regional IP (JvNCnet), UUCP mail, NSFNET routing
-- ~30 countries (USA, Germany, France, UK, Australia, Japan, Taiwan, ...)
+## entity_type field
+Each row classified: firm / school / military / government / infrastructure.
+Lets analyses include/exclude groups. Firms (15,418) are the main analysis set;
+the other ~3,900 are retained but filterable.
 
 ## Key outputs
-- data/clean/firm_internet_connectivity.csv — **MAIN DELIVERABLE** (matches the
-  provided example schema): one row per observed connectivity event (~14,300 rows,
-  all three sources), with firm_group_id for within-source firm linking.
+- data/clean/firm_internet_connectivity.csv — **MAIN DELIVERABLE** (one row per
+  observed connectivity event; includes entity_type and firm_group_id)
 - data/clean/firm_network_timeline.csv — first connection per firm per network
-- output/tables/multi_network_firms.csv — firms appearing in >1 network
-- output/figures/ — firms_by_year, firms_by_network, uucp_to_nsfnet_gap
+- output/tables/ — sample funnel, multi-network firms
+- output/figures/ — country_map(_log), adoption_by_network, adoption_cumulative,
+  adoption_by_country (US vs intl), uucp_to_nsfnet_gap
 
 ## Key findings
-- **Email before IP:** of 285 firms observed on both UUCP (email) and NSFNET
-  (IP routing), 95% appeared on UUCP first, median 1.1 years earlier (e.g.,
-  Adobe: UUCP 1987 -> NSFNET 1992). Suggests firms adopted email before IP
-  connectivity. (Caveat below.)
-- **Dedup statistic:** only ~30% of address-based duplicate pairs are also caught
-  by name+state matching (LinkTransformer, threshold 0.2), so address-checking
-  uniquely identifies ~70% of duplicates. See docs/dedup_analysis.md.
-- Recognizable early adopters surfaced: Sun Microsystems, Texas Instruments,
-  Xerox, Motorola, Hewlett-Packard, Adobe, 3M, MCI, plus international firms.
+- **Timeline 1974–1993**, full arc ARPANET -> UUCP -> NSFNET.
+- **Email before IP:** of firms observed on both UUCP (email) and NSFNET (IP
+  routing), ~95% appeared on UUCP first, median ~1.1 years earlier (robust to
+  exact vs. LinkTransformer matching). e.g., Adobe: UUCP 1987 -> NSFNET 1992.
+- **Sample funnel:** large raw->clean reductions are deduplication of repeat
+  observations (e.g., UUCP 113k records -> 9.4k firms = same firms across monthly
+  maps), NOT discarded data. Reproducible via code/04_analysis/funnel.py.
+- **Dedup method:** normalized-name matching + LinkTransformer (agglomerative,
+  threshold 0.1 cross-source / 0.2 within-source, blocked by state/country),
+  validated by cluster inspection. See docs/dedup_analysis.md.
+- Recognizable early adopters: Xerox PARC, BBN, Sun, TI, Motorola, HP, Adobe,
+  3M, plus international firms.
 
 ## Important caveats
-- **Source date windows differ** (UUCP 1987-92, NSFNET 1992-94), which biases the
-  "email before IP" finding toward UUCP-first; read the 1.1-year gap as a lower bound.
-- UUCP dates = "first appearance in available map snapshots," NOT verified first
-  connection. Coverage is uneven (1989: 2 files, 1990: 3 files), inflating 1991-92.
-- NSFNET dates = routing-database addition announcements, not verified live
-  connectivity; weekly messages deduped to earliest appearance; includes some
-  T1->T3 migrations of already-connected nets.
-- Left-censoring: firms on UUCP before Apr 1987 collapse to 1987-04.
-- Firm filter has ~15-25% false positives (divisions, schools, BBSes).
-- Dedup validated by inspecting clusters; earlier attempts over-merged (SLINK
-  chaining) before switching to agglomerative/threshold 0.2.
+- Dates = "first observed in source," NOT verified first connection.
+- Coverage gaps: 1985–86 (no source), UUCP 1989–90 (sparse snapshots) —
+  annotated on all charts; not real adoption pauses.
+- Source date windows differ (ARPANET 1974–84, UUCP 1987–92, NSFNET 1992–93),
+  biasing the email-before-IP gap; read as a lower bound.
+- ARPANET/DDN: transcribed from scans (some OCR artifacts); entity_type noisier
+  (cryptic 1970s–80s military codes); early-era "firm" subset should be spot-checked.
+- UUCP dates = first appearance in available map snapshots; left-censored at 1987-04.
+- NSFNET = routing-database announcements; weekly messages deduped to earliest;
+  includes some T1->T3 migrations of already-connected nets.
+- USA dominance partly real, partly source coverage (UUCP/ARPANET US-heavy).
+- BITNET evaluated and excluded (unverifiable single-snapshot source).
 
 ## Open questions / supervisor guidance
-1. Scope of "firm": exclude universities/schools; keep non-profits separately
-   (per supervisor guidance). Non-school non-profits of separate interest.
-2. UUCP date interpretation: "first observed in maps" accepted (per supervisor).
-3. Entity granularity: keep branches granular, link to parent for roll-up
-   (per supervisor); firm_group_id implemented within-source; cross-source
-   linking is next.
-4. Target: any predecessor, tracking each first connection per network
-   (per supervisor) — implemented via per-network timelines.
+- Scope of "firm": universities/schools excluded from the firm set but retained +
+  flagged via entity_type; military kept + flagged (per supervisor).
+- UUCP/ARPANET date interpretation: "first observed" accepted (per supervisor).
+- Entity granularity: branches kept granular, linked via firm_group_id; cross-
+  source linking implemented (LinkTransformer).
+- Target: any predecessor, tracking first connection per network (per supervisor)
+  — implemented via per-network timelines.
+- Next: breadth (Harte Hanks/Aberdeen representative panel, needs access) vs.
+  depth (more IETF months, HOSTS.TXT, RFCs). See professor correspondence.
 
 ## Progress log
 - 2026-10-13: Project initialized.
-- 2026-10-18: Sources 1-2 (IETF, UUCP) complete; aggregation, analysis, docs;
-  pushed to GitHub.
-- 2026-10-22: LinkTransformer dedup + address validation; corrected clustering
-  (SLINK blob -> agglomerative 0.2); statistic 30.4%; shared-facility fix.
-- 2026-10-25: Source 3 (NSFNET) expanded to full 1992-94 via bulk mbox download
-  + 320-message extraction; dual-format parser; ~30 countries.
-- 2026-10-25: Cross-source linking; finding: 95% email-before-IP, median 1.1yr.
+- 2026-10-18: Sources IETF + UUCP; aggregation, analysis, docs; pushed.
+- 2026-10-22: LinkTransformer dedup (validated); clustering corrected
+  (SLINK blob -> agglomerative 0.2); dedup statistic; shared-facility fix.
+- 2026-10-25: NSFNET expanded to full 1992–93 via bulk mbox download +
+  320-message extraction; dual-format parser.
+- 2026-11-05: entity_type classification (firm/school/military/gov/infra);
+  cross-source finding (95% email-before-IP); refined academic/military filters.
+- 2026-11-07: ARPANET/DDN integrated (1974–84) -> timeline now 1974–1993;
+  sample funnel, country maps, two-panel adoption charts.

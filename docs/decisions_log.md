@@ -149,3 +149,12 @@ Ruled out: National ICT surveys (restricted microdata — too costly/not viable)
   (relevant to CSNET source, Lukas priority #3) for future use.
 - Next: parse new-member sections across reports (multi-network, format varies
   by year/network) to extract high-confidence firms. NOT YET PARSED.
+
+## 2026-11-17 — IETF Monthly Reports parsed + integrated
+- Bulk-downloaded 108 IMRs (1988-96) from history.rfc-editor.org/imr/.
+- Parsed new-member sections (JvNCnet, NEARnet, PREPnet, etc.); extractable
+  member lists found mainly 1991-1994. Extracted 277 unique member-firms
+  (up from 9). High confidence ("new/operational" statements).
+- entity_type tags ~70 as school, ~200 as firm. Date = report month (filename).
+- Limitation: precision favored over recall; page-break/wrap formatting misses
+  some firms per list (accepted after iteration). No prose/address junk remains.

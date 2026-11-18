@@ -127,3 +127,25 @@
   Military retained and flagged (per supervisor).
 - Date = earliest directory appearance, NOT verified first connection;
   transcribed from scans (some OCR artifacts).
+
+## 2026-11-17 - Source roadmap — approved by supervisor
+Approved (first four, in priority):
+1. More IETF Monthly Reports (NEARnet/CERFnet/NorthWestNet)
+2. HOSTS.TXT + Internet Numbers RFCs (ARPANET-era)
+3. CSNET (industrial research labs; archival lead)
+4. Harte Hanks / Aberdeen (broad U.S. panel; needs Baker Library access)
+
+Ruled out: National ICT surveys (restricted microdata — too costly/not viable).
+
+## 2026-11-17 — Bulk-sourced Internet Monthly Reports (1988-1996)
+- Goal: expand IETF source beyond the single Oct 1992 report (Lukas priority #1).
+- The IETF mail archive (mailarchive.ietf.org) is Cloudflare-blocked -> not
+  scriptable. archive.org doesn't have the IMRs. ISI FTP is decommissioned (000).
+- Found the accessible bulk archive via the Oct 1992 file's own text (ISI/FTP
+  reference) -> rfc-editor museum redirect -> history.rfc-editor.org/imr/.
+- Files named imr[YYMM].txt; bulk-downloaded 108 reports (1988-01 to 1996-12)
+  with a curl loop. Verified real content (varying sizes), not HTML error pages.
+- NOTE: also found csnet-transition-bulletin and RAREreports on history site
+  (relevant to CSNET source, Lukas priority #3) for future use.
+- Next: parse new-member sections across reports (multi-network, format varies
+  by year/network) to extract high-confidence firms. NOT YET PARSED.

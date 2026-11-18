@@ -1,0 +1,3587 @@
+
+
+
+
+
+
+~
+
+
+
+
+
+
+
+
+
+February 1993
+
+
+INTERNET MONTHLY REPORTS
+------------------------
+
+The purpose of these reports is to communicate to the Internet Research
+Group the accomplishments, milestones reached, or problems discovered by
+the participating organizations.
+
+     This report is for Internet information purposes only, and is not
+     to be quoted in other publications without permission from the
+     submitter.
+
+Each organization is expected to submit a 1/2 page report on the first
+business day of the month describing the previous month's activities.
+
+These reports should be submitted via network mail to:
+
+     Ann Westine Cooper (Cooper@ISI.EDU)
+     NSF Regional reports - Susan Calcari (calcaris@cerf.net)
+
+Requests to be added or deleted from the Internet Monthly report list
+should be sent to "imr-request@isi.edu".
+
+     Details on obtaining the current IMR, or back issues, via FTP or
+     EMAIL may be obtained by sending an EMAIL message to "rfc-
+     info@ISI.EDU" with the message body "help: ways_to_get_imrs".  For
+     example:
+
+             To: rfc-info@ISI.EDU
+             Subject: getting imrs
+
+             help: ways_to_get_imrs
+
+
+
+
+
+
+
+Cooper                                                          [Page 1]
+
+Internet Monthly Report                                    February 1993
+
+
+TABLE OF CONTENTS
+
+  INTERNET ACTIVITIES BOARD
+
+     IAB MESSAGE  . . . .  . . . . . . . . . . . . . . . . . . page  3
+     INTERNET RESEARCH REPORTS . . . . . . . . . . . . . . . . page  3
+        PRIVACY AND SECURITY . . . . . . . . . . . . . . . . . page  3
+     INTERNET ENGINEERING REPORTS  . . . . . . . . . . . . . . page  4
+
+  Internet Projects
+
+     ANSNET BACKBONE ENGINEERING . . . . . . . . . . . . . . . page  9
+     BOLT BERANEK AND NEWMAN, INC.,  . . . . . . . . . . . . . page 16
+     CREN  . . . . . . . . . . . . . . . . . . . . . . . . . . page 18
+     ISI . . . . . . . . . . . . . . . . . . . . . . . . . . . page 19
+     JANET . . . . . . . . . . . . . . . . . . . . . . . . . . page 22
+     JVNCNET . . . . . . . . . . . . . . . . . . . . . . . . . page 23
+     MERIT/MICHNET . . . . . . . . . . . . . . . . . . . . . . page 24
+     NEARNET (NEW ENGLAND ACADEMIC AND RESEARCH NETWORK) . . . page 28
+     NNSC, UCAR/BOLT BERANEK and NEWMAN, INC., . . . . . . . . page 29
+     NORTHWESTNET  . . . . . . . . . . . . . . . . . . . . . . page 29
+     NSFNET/INFORMATION SERVICES . . . . . . . . . . . . . . . page 30
+     PREPnet . . . . . . . . . . . . . . . . . . . . . . . . . page 32
+     SDSC (SAN DIEGO SUPERCOMPUTER CENTER) . . . . . . . . . . page 33
+     UCL . . . . . . . . . . . . . . . . . . . . . . . . . . . page 34
+     USER SERVICES REPORT  . . . . . . . . . . . . . . . . . . page 35
+
+  CALENDAR OF EVENTS . . . . . . . . . . . . . . . . . . . . . page 63
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cooper                                                          [Page 2]
+
+Internet Monthly Report                                    February 1993
+
+
+
+IAB MESSAGE
+
+     The Internet Architecture Board (IAB) will meet on Tuesday, March
+     30 during the IETF meeting in Columbus, Ohio.  The meeting location
+     will be posted in the IETF registration area.  The meeting will
+     start at 7:30 PM and end by 10:00 PM.  Observers are welcome to
+     attend this open meeting.
+
+     This will be the first face-to-face meeting of the "new" IAB,
+     following the selection/confirmation of 6 new IAB members by the
+     Internet Society Trustees.
+
+     Lyman Chapin, (lyman@BBN.COM)
+     Bob Braden (Braden@ISI.EDU)
+
+INTERNET RESEARCH REPORTS
+-------------------------
+
+     PRIVACY AND SECURITY
+     --------------------
+
+        The PSRG met in San Diego on February 8-10.  PSRG members
+        continued work on an Internet Security Architecture document.
+        An initial, very rough draft of the document was reviewed in
+        detail and many revisions were proposed.  A format was adopted
+        for additional sections of the document, and members volunteered
+        to write several of these sections.  Rob Shirey, who is acting
+        as editor of the document, will be making revisions and
+        accepting additional inputs in preparation for producing the
+        next draft of the document.
+
+        Following the PSRG meeting, on 2/11-12, the first PSRG Workshop
+        on Network and Distributed System Security took place in San
+        Diego.  This workshop, co-sponsored by Lawerence Livermore
+        National Laboratory and the Internet Society, was organized by
+        Dan Nessett (LLNL).  Dan and the rest of the PSRG members acted
+        as the program committee for this workshop, selecting 12 papers
+        from over 20 submissions.  Over 160 attendees spent two days in
+        this single-track, eight-session workshop.  Proceedings were
+        provided to attendees and an second printing of the proceedings
+        is being undertaken to satisfy additional demand.  Plans are
+        underway to make this an annual event, under Internet Society
+        sponsorship.  Dan Nessett will serve as chair for next years
+        event, with Rob Shirey (Mitre) and Russ Housley (Xerox) as
+        program committee chairs.
+
+
+
+
+
+Cooper                                                          [Page 3]
+
+Internet Monthly Report                                    February 1993
+
+
+        The next PSRG meeting is tentatively scheduled for July 7-9, in
+        Cambridge (UK), immediately preceding the IETF meeting in
+        Amsterdam.
+
+        Steve Kent <kent@BBN.COM>
+
+INTERNET ENGINEERING REPORTS
+----------------------------
+
+     1. Let me remind everyone that the next IETF meeting will be held
+        in Columbus, Ohio from March 29th through April 2, 1993 (yes,
+        this does mean that the IESG Open Plenary will be held on April
+        First), and is being co-hosted by OARNet and The Ohio State
+        University. The Newcomers' Orientation and the Registration
+        Reception will be held on Sunday, March 28. Registration
+        information has already been sent and updates will be made to
+        the IETF Announcement list.
+
+        Note that the 27th meeting of the IETF, scheduled for July of
+        1993, will be held in Amsterdam, The Netherlands, and will be
+        co-hosted by SURFnet and RARE. This will be the first time an
+        IETF meeting has been held outside of North America. The
+        Secretariat will be distributing information and instructions
+        for making hotel reservations relatively soon to facilitate
+        making travel plans and arrangements, but are NOT accepting
+        meeting registrations for Amsterdam at this time.
+
+     2. The IESG adopted the following policy on the scheduling of BOFs
+        during IETF Plenary meetings. This policy goes into effect
+        following the Columbus, Ohio meeting in March, 1993.
+
+        1. All BOFs wishing to meet during an IETF Plenary must have the
+           approval of the appropriate Area Director. The Secretariat
+           will NOT schedule or allocate time slots without the explicit
+           approval of the Area Director.
+
+        2. The purpose of a BOF is to conduct a single, brief discussion
+           or to ascertain interest and establish goals for a working
+           group. All BOF organizers are required to submit a brief
+           written report of what transpired during the BOF meeting
+           together with a roster of attendees to the IETF Secretariat
+           for inclusion in the proceedings.
+
+        3. A BOF can only be held once (ONE slot at one IETF Plenary
+           meeting).
+
+        4. Under unusual circumstances an Area Director can, at his/her
+           discretion, allow a BOF to meet for a second time. Typically,
+
+
+
+Cooper                                                          [Page 4]
+
+Internet Monthly Report                                    February 1993
+
+
+           though not a requirement, this is to develop a charter to be
+           submitted to the IESG.
+
+        5. BOFs are not permitted to meet three times.
+
+        6. Non-IETF groups wishing to participate in IETF meetings may
+           hold a BOF, for single-event discussion, or may pursue
+           creation of normal IETF working groups, for on-going
+           interactions and disussions. The rules governing such BOFs
+           are the same as for all other IETF BOFs and working groups.
+
+        7. When necessary, IETF WGs will be given priority for meeting
+           space over IETF BOFs.
+
+     3. The IESG approved or recommended the following nine actions
+        during the month of February, 1993:
+
+        o  Network Time Protocol <rfc1305> be published as a Draft
+           Standard.
+        o  SMTP Service Extensions <draft-rose-extensions> be published
+           as a Proposed Standard.
+        o  SMTP Service Extension for Message Size Declaration
+           <draft-moore-extension-size> be published as a Proposed
+           Standard.
+        o  Transition of Internet Mail from Just-Send-8 to
+           8Bit-SMTP/MIME <draft-ietf-smtpext-transition> be published
+           as an Informational RFC.
+        o  SMTP Service Extension for 8bit-MIMEtransport
+           <draft-ietf-smtpext-8bit-mime> be published as a Proposed
+           Standard.
+        o  Lightweight Directory Access Protocol
+           <draft-ietf-osids-lightdirect> be published as a Proposed
+           Standard.
+        o  The String Representation of Standard Attribute Syntaxes
+           <draft-ietf-osids-syntaxes> be published as a Proposed
+           Standard.
+        o  Directed ARP <draft-ietf-iplpdn-directed_arp> be published
+           as an Experimental Protocol.
+        o  DUA Metrics <draft-ietf-osids-dua-metrics> be published as
+           an Informational RFC.
+
+
+
+
+
+
+
+
+
+
+
+Cooper                                                          [Page 5]
+
+Internet Monthly Report                                    February 1993
+
+
+     4. The IESG issued three Last Calls to the IETF during the month
+        of February, 1993:
+
+           IEEE 802.5 Token Ring MIB <rfc1231>
+           IEEE 802.4 Token Bus MIB <rfc1230>
+           Path MTU Discovery <rfc1191>
+
+     5. Three new Working Groups were formed during the month of
+        February, 1993:
+
+           Minimal OSI Upper-Layers (thinosi)
+           Network Training Materials (trainmat)
+           Integrated Directory Services (ids)
+
+        Additionally, three working Groups were concluded during the
+        month:
+
+           Directory Information Services Infrastructure (disi)
+           Ethernet MIB (ethermib)
+           DS1/DS3 MIB (trunkmib)
+
+     6. Twenty-two (22) Internet Draft actions were taken during the
+        month of February, 1993:
+
+      (Revised draft (o), New Draft (+) )
+
+       WG           I-D Title <Filename>
+      ------        --------------------------------------------------
+      (netdata)  o  Network Database Protocol
+                    <draft-ietf-netdata-netdata-04.txt>
+      (ospf)     o  OSPF Version 2 Traps
+                    <draft-ietf-ospf-trapmib-02.txt>
+      (netdata)  o  Network Database Implementation Information Internet
+                    Draft <draft-ietf-netdata-implement-03.txt>
+      (x400ops)  o  Routing coordination for X.400 MHS services within
+                    a multi protocol / multi network environment Table
+                    Format V3 for static routing
+                    <draft-ietf-x400ops-mhs-service-04.txt>
+      (none)     o  An Architecture for IP Address Allocation with CIDR
+                    <draft-rekhter-ipaddress-guide-08.txt>
+      (smtpext)  o  SMTP Service Extensions
+                    <draft-rose-extensions-07.txt>
+      (smtpext)  o  SMTP Service Extension for Message Size Declaration
+                    <draft-moore-extension-size-05.txt>
+      (mimemhs)  o  HARPOON: Rules for downgrading messages from
+                    X.400/88 to X.400/84 when MIME content-types are
+                    present in the messages
+                    <draft-ietf-mimemhs-harpoon-01.txt>
+
+
+
+Cooper                                                          [Page 6]
+
+Internet Monthly Report                                    February 1993
+
+
+      (pip)      o  Pip Header Processing
+                    <draft-ietf-pip-processing-01.txt>
+      (noop)     o  An Echo Function for ISO 8473
+                    <draft-ietf-noop-echo-01.txt>
+      (none)     o  RFC 1327 tutorial
+                    <draft-houttuin-rfc1327-tutor-01.txt, .ps>
+      (smtpext)  o  SMTP Service Extension for 8bit-MIMEtransport
+                    <draft-ietf-smtpext-8bit-mime-01.txt>
+      (x400ops)  o  Using the Internet DNS to maintain X.400 MHS Routing
+                    Informations <draft-ietf-x400ops-dnsx400rout-01.txt>
+      (iesg)     +  IESG Advice from Experience with Path MTU Discovery
+                    <draft-ietf-iesg-mtuexperience-00.txt>
+      (none)     +  RAP: Internet Route Access Protocol
+                    <draft-ullmann-rap-00.txt>
+      (none)     o  Classless Inter-Domain Routing (CIDR): an Address
+                    Assignment and Aggregation Strategy
+                    <draft-fuller-cidr-strategy-01.txt>
+      (822ext)   +  Mechanisms for Specifying and Describing the Format
+                    of Internet Message Bodies
+                    <draft-ietf-822ext-mime2-00.txt, .ps>
+      (none)     +  A User Agent Configuration Mechanism For Multimedia
+                    Mail Format Information
+                    <draft-borenstein-mailcap2-00.txt, .ps>
+      (iplpdn)   +  The Transmission of Multi-protocol Datagrams over
+                    Circuit-mode ISDN
+                    <draft-ietf-iplpdn-multi-isdn-00.txt>
+      (iplpdn)   +  Parameter Negotiation for the Multiprotocol
+                    Interconnect
+                    <draft-ietf-iplpdn-para-negotiation-00.txt>
+      (pip)      +  Pip Near-term Architecture
+                    <draft-ietf-pip-architecture-00.txt>
+      (x400ops)  +  Evaluation of ADMDs and Integration aspects with
+                    respect to the R&D messaging community
+                    <draft-ietf-x400ops-evaluation-admd-00.txt>
+
+     7. Sixteen (16) RFC's were published during the month of February,
+        1993.
+
+         RFC    St   WG        Title
+        ------- --  --------   -------------------------------------
+        RFC1384 I   (osids)    Naming Guidelines for Directory Pilots
+        RFC1413 PS  (ident)    Identification Server
+        RFC1414 PS  (ident)    Ident MIB
+        RFC1416 E   (telnet)   Telnet Authentication Option
+        RFC1417 I   (none)     NADF Standing Documents: A Brief Overview
+        RFC1421 PS  (pem)      Privacy Enhancement for Internet
+                               Electronic Mail: Part I: Message
+                               Encryption and Authentication Procedures
+
+
+
+Cooper                                                          [Page 7]
+
+Internet Monthly Report                                    February 1993
+
+
+        RFC1422 PS  (pem)      Privacy Enhancement for Internet
+                               Electronic Mail: Part II:
+                               Certificate-Based Key Management
+        RFC1423 PS  (pem)      Privacy Enhancement for Internet
+                               Electronic Mail: Part III: Algorithms,
+                               Modes, and Identifiers
+        RFC1424 PS  (pem)      Privacy Enhancement for Internet
+                               Electronic Mail: Part IV: Key
+                               Certification and Related Services
+        RFC1425 PS  (smtpext)  SMTP Service Extensions
+        RFC1426 PS  (smtpext)  SMTP Service Extension for
+                               8bit-MIMEtransport
+        RFC1427 PS  (smtpext)  SMTP Service Extension for Message Size
+                               Declaration
+        RFC1428 I   (smtpext)  Transition of Internet Mail from
+                               Just-Send-8 to 8Bit-SMTP/MIME
+        RFC1429 I   (none)     Listserv Distribute Protocol
+        RFC1430 I   (osids)    A Strategic Plan for Deploying an
+                               Internet X.500 Directory Service
+        RFC1431 I   (osids)    DUA Metrics
+
+
+     St(atus): ( S) Internet Standard
+               (PS) Proposed Standard
+               (DS) Draft Standard
+               ( E) Experimental
+               ( I) Informational
+
+     Steve Coya (scoya@cnri.reston.va.us)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cooper                                                          [Page 8]
+
+Internet Monthly Report                                    February 1993
+
+
+INTERNET PROJECTS
+-----------------
+
+ANSNET BACKBONE ENGINEERING
+---------------------------
+
+     Network Status Summary
+     ======================
+
+     The deployment of the AIX 3.2 operating system on the T3 routers is
+     tentatively scheduled to begin during the first week in April '93,
+     pending the successful completion of system test in March.  The
+     upgrade will involve a hard disk swap over 4 weekend maintenance
+     windows to be scheduled in April.
+
+     The ANSnet forwarding table now supports over 7K destinations that
+     are actively announced.  New adapter microcode and routing protocol
+     changes are being implemented to increase the current capacity of
+     the on-card forwarding tables beyond 10K destination networks.
+
+     Minor routing software enhancements to the rcp_routed software were
+     made in February to support the migration to AIX 3.2, as well as
+     more efficient logging support, and fixes for third party routing
+     exchanges.
+
+     T1 backbone dismantling activities continued in February, and will
+     be completed in March.
+
+     T3 network performance tests were conducted in February in
+     cooperation with Pittsburgh Supercomputer Center.  Preliminary
+     results have correlated peak performance observations that are
+     close to the maxiumum theoretical adapter bandwidth.
+
+     Backbone Traffic and Routing Statistics
+     =======================================
+
+     The total inbound packet count for the network (measured using SNMP
+     interface counters) was 26,404,260,412 on T3 ENSS interfaces, up
+     8.5% from January.  The total packet count into the network
+     (including all ENSS serial interfaces was 30,358,722,577.
+
+     As of February 28, the number of networks configured in the Merit
+     Policy Routing Database was 9582 for the T3 backbone. Of these,
+     1955 were never announced to the T3 backbone (e.g. silent nets).
+     Merit is working with the regionals to reduce the number of
+     "silent" nets in the policy routing database.  The maximum number
+     of networks announced to the T3 backbone during the month (from
+     samples collected every 15 minutes) was 7013.  Average announced
+
+
+
+Cooper                                                          [Page 9]
+
+Internet Monthly Report                                    February 1993
+
+
+     networks on 2/28 were 6978.
+
+     The overall average number of networks announced via the primary
+     configured AS path was around 95% in February.
+
+     AIX 3.2 Migration Plan Status
+     =============================
+
+     The T3 backbone software upgrade to support the AIX 3.2 operating
+     system is tentatively scheduled to be begin on April 3rd, pending
+     the completion of system testing in March.
+
+     The upgrade will be administered by swapping out CNSS/ENSS disk
+     drives loaded with AIX 3.1 with new AIX 3.2 disk drives at each
+     site.  The process involves several steps including AIX 3.2 Hard
+     Drive Creation, Hard Drive Installation, and Phased Deployment.
+     Most of the upgrade tasks have been automated via shell scripts to
+     assure uniform processes across systems.
+
+     Replicas of each CNSS/ENSS file system will be created in the lab
+     on the AIX 3.2 platform.  This replica will be shipped with a
+     backup tape for use during "fall back" procedures, in the unlikely
+     event of a drive failure on site.  Other tools such as AIX 3.2 boot
+     diskettes will be shipped to support this new platform in the
+     field.
+
+     The hard drives on routers at all sites will be backed up prior to
+     the hard drive installation.  This AIX 3.1 platform backup could be
+     used during "fall back" procedures.  All configuration files that
+     might have changed since the replica drive was made will be
+     preserved on a neighboring CNSS/ENSS for comparison after the
+     system is brought up with AIX 3.2.
+
+     AIX 3.2 Phased Deployment
+     -------------------------
+
+     The Deployment will occur in four (4) phases.  Each of these phases
+     will occur on consecutive weekends starting on Friday April 2nd
+     around 23:00 local time and continuing into Saturday morning.  Each
+     phase will include upgrades to selected CNSS nodes and their
+     adjacent ENSS nodes during the same maintenance window.  The CNSS
+     upgrades will be staggered in pairs to allow optimal use of T1
+     backup circuits at T3 ENSS's as well as to maintain continuous
+     monitoring capabilities by either the ANS Ann Arbor primary NOC, or
+     the New York backup NOC.  The tentative schedule (pending
+     completion of system testing in March) is as follows:
+
+
+
+
+
+Cooper                                                         [Page 10]
+
+Internet Monthly Report                                    February 1993
+
+
+     Phase I    (April 2)  - Washington D.C.
+     Phase II   (April 16) - Seattle/Denver, San Francisco/Los Angeles
+     Phase II   (April 23) - Greensboro/Atlanta, Houston/St. Louis
+     Phase IV   (April 30) - Hartford/New York City, Cleveland/Chicago
+
+     The staggering of upgrades between the CNSS and its adjacent ENSS
+     will reduce the ENSS outage approximately the elapsed time of their
+     site upgrade. The upgrade process to a router is as follows:
+
+     (1)     Upgrade T3-B CNSS router, bring up routing
+
+     (2)     Upgrade the T3-C and associated T3 ENSS's simultaneously,
+             bring up routing
+
+     (3)     Upgrade T1-C and associated T1 ENSS's, bring up routing.
+
+             This process will be followed for the first CNSS pair then
+             the second CNSS pair.
+
+     Installation Fall Back Procedures
+     ---------------------------------
+
+     In the unlikely event that a disk failure occurs (in shipping or
+     installation), the following fall back procedures will be followed:
+
+     1.      Install site from AIX 3.2 BACKUP for that machine (shipped
+             with hard drive).
+
+     2.      Install site from AIX 3.2 BACKUP of another machine on site.
+             (applies to CNSS ONLY, disk is shipped with hard drive)
+
+     3.      Re-install AIX 3.1 hard drive
+
+     4.      Install site from AIX 3.1 BACKUP for that machine (created
+             before 3.2 install started).
+
+     AIX 3.2 Testing
+     ---------------
+
+     The AIX 3.2 testing proceeded during February, and scheduled to
+     complete by mid-March.  Most of the problems that have been fixed
+     during the latter part of the system test cycle relate to the
+     interaction between the routing daemon and the 3.2 kernel routing
+     tables.  One of the more significant changes in the 3.2 kernel is
+     the support a radix trie forwarding table.
+
+
+
+
+
+
+Cooper                                                         [Page 11]
+
+Internet Monthly Report                                    February 1993
+
+
+     Growth in Destination Networks
+     ==============================
+
+     The following table (provided by Enke Chen at Merit) illustrates
+     the growth in the ANSnet router forwarding tables (maximal number
+     of announced networks of each month):
+
+     MONTH           MAX             RATE(%)
+     =====           ====            ======
+     07/92           4596
+     08/92           4866            5.9
+     09/92           5070            4.2
+     10/92           5432            7.1
+     11/92           5772            6.3
+     12/92           6239            8.1
+     01/93           6654            6.7
+
+           (Avg monthly growth rate: 6.4%)
+
+     The interface forwarding tables on the ANSnet routers are currently
+     configured to support 10K destinations.  In the near term,
+     microcode changes will be deployed to support improved address
+     compression in the forwarding tables which will support 12K
+     destinations.  Following the AIX 3.2 deployment, ANS will deploy
+     GATED software.  The GATED routing daemon will support a number of
+     enhancements that increase the forwarding table capacity.
+
+     BGP4 within GATED will support CIDR aggregation.  The kernel,
+     microcode and routing daemon support for CIDR is expected to reduce
+     the rate of growth in the number of on-card routes.  ANSnet will
+     configure to receive and redistribute aggregated routes to other
+     networks that support BGP4.  ANSnet will also perform proxy
+     aggregation for networks that are not running BGP4.  No capability
+     is planned to explode/de-aggregate supernet routes to allow re-
+     advertising them to non-BGP4 neighbors.
+
+     Routing Software Changes
+     ========================
+
+     Changes to the rcp_routed software on the T3 network included
+     improving the logging performance on ENSS206 (Geneva) since there
+     are over 200 routes announced by 3rd party peers.  Other changes
+     support the planned migration from AIX 3.1 to AIX 3.2 software,
+     support for handling multiple peer routers with multiple interfaces
+     to the ENSS (typically one FDDI and one ethernet per peer), and
+     additional changes to address problems associated with changing
+     third party route announcements.
+
+
+
+
+Cooper                                                         [Page 12]
+
+Internet Monthly Report                                    February 1993
+
+
+     Release notes are available for anonymous ftp in:
+
+          ftp.ans.net:/pub/info/t3-rcp_routed/Release-Notes
+
+     Routing Stability Measured on the T3 Network
+     ============================================
+
+     During February, internal routing stability was measured by short
+     term disconnect times (disconnects of five minutes duration or
+     less).  Overall the network saw almost 99% complete routing
+     stability (no internal disconnects in any part of the network).
+     All individual nodes reported 99.8% stability or better. ENSS206
+     (Geneva) continued to experience circuit problems and reported 1
+     hour and 20 minutes of short term BGP disconnect time over the
+     course of the month.  Taking into account the configuration runs,
+     ENSS206 had only 25 minutes of instability.  All other nodes
+     reported less than 51 minutes or about 98.9% stability.  Only 10
+     nodes reported less than 99.9% stability.  The configuration runs
+     accounted for the majority of the instability.  Only ENSS201 (a new
+     installation) experienced higher instability at 48 minutes (outside
+     the configuration window).  Only 5 nodes reported more than 15
+     minutes of instability outside the configuration window during the
+     entire month.
+
+     The external routing stability report covers data gathered during
+     the following interval:
+
+     Feb  1 00:11:12 UTC - Feb 28 19:05:14 UTC
+
+     During the reporting period 241,195 IBGP updates were received from
+     536 distinct AS paths. These updates contained 591,707 network
+     numbers (or an average of 2.5 networks per update or 1,103.9
+     updates per AS path). There were 2,448 distinct network number. The
+     most unstable network during this period was contained in 5,263
+     unreachables.
+
+     The total number of updates and number of AS paths were up slightly
+     from the January data.  There were fewer updates per AS path. We
+     have been forwarding reports to selected peer networks to help
+     identify and eliminate chronic route flaps.  The automation of
+     these reports is in progress so that the data can be sent daily for
+     any AS which supports  networks that were unstable in the previous
+     day.
+
+     RS960 FDDI Deployment Status
+     ============================
+
+     During February we installed new FDDI adapters on ENSS141
+
+
+
+Cooper                                                         [Page 13]
+
+Internet Monthly Report                                    February 1993
+
+
+     (Boulder), and ENSS142 (WestNet).
+
+     It has come to our attention that some peer network routers may be
+     taking a performance hit by setting the MTU to 4000 bytes to match
+     the T3 backbone MTU.  On the T3 backbone, packets received larger
+     than 4000 bytes are fragmented on the FDDI card (with the first
+     fragment being 4000 bytes).  This will be changed when AIX 3.2 is
+     deployed.  The MTU will then increase to 4352 bytes on both the T3
+     and FDDI cards.  We will still be able to *receive* packets larger
+     than 4352 bytes in size, and fragment them (with first fragment
+     being 4352 bytes).  However we will not *send* packets of size
+     larger than 4352 bytes.  We therefore suggest that peer networks
+     using FDDI set their router MTUs to default maximum.
+
+     CNSS97 Maintenance
+     ==================
+
+     During January and early February we experienced problems with the
+     CNSS97 (Denver) router which results in the reset of several T3
+     interfaces.  This affected ENSS141 (Salt Lake City), and ENSS142
+     (Boulder) nodes.  On 2/13, the router system board and one of the
+     T3 interfaces were swapped out.  During the change, ENSS141/ENSS142
+     were rehomed to CNSS96.  They were rehomed back to CNSS97 following
+     the upgrade.  No further problems have been experienced on CNSS97
+     since then.
+
+     T1 Dismantling Near Completion
+     ==============================
+
+     During February we dismantled and removed most of the T1 backbone
+     RT equipment.  Some of this equipment was donated to regional
+     network locations and will remain onsite.  There are still 5 sites
+     for which the remainder of this equipment will be packed and
+     shipped in March.
+
+     OSI Configuration Activities
+     ============================
+
+     EON (OSI Encapsulator) systems will be installed to support OSI
+     traffic destined for the T3 backbone at ENSS136 (College Park) to
+     support MAE-East, and within OARnet to support the March IETF
+     meeting.
+
+     International Circuit Maintenance
+     =================================
+
+     Special maintenance was conducted to support problem identification
+     and resolution on international circuits to ENSS173 (Mexico), and
+
+
+
+Cooper                                                         [Page 14]
+
+Internet Monthly Report                                    February 1993
+
+
+     ENSS206 (Geneva).
+
+     ANSnet Performance Testing
+     ==========================
+
+     A set of performance tests were conducted on the T3 backbone on
+     2/19 in cooperation with Pittsburgh Supercomputer Center (Matt
+     Mathis).  The tests involved use of a PSC developed tool "uping",
+     which can be viewed as windowed version of traceroute.  It measures
+     data rate and loss as functions of ttl (distance into a pipe), mtu,
+     and window size.
+
+     All tests were done with MTU=4000 bytes (The current backbone MTU).
+     There was no observed packet loss from the PSC Cray C90 to ENSS132
+     (Pittsbugh) at any rate tested.  The measured bandwidth to CNSS41
+     (Cleveland) was 20.8 Mb/S (650 pps).  The measured bandwidth to
+     CNSS40 (also Cleveland), and all points further west to the San
+     Diego Supercomputer Center was 17.6 Mb/S (550 pps).  This seem to
+     be due to two factors.  The first is the ambient load on the T3
+     network.  The second is that the RS960 HSSI interface cards that
+     connect to T3 DSUs are clocked by the DSU (22.5Mbps), however the
+     HSSI interface cards that are connected to other HSSI interfaces in
+     the POP are clocked using on-card clocking and are therefore
+     limited to 20Mbps.  This will be changed on a new revision to the
+     RS960 card later in 1993.
+
+     PSC provided the uping program to ANS along with the data he
+     collected during the 2/19 PSC-SDSC test.  ANS ran some tests on the
+     T3 testnet using the "uping" program.  There was no other traffic
+     on testnet during these measurements.  ANS observed up to 19.648
+     Mbps from the ANS Elmsford T3 ENSS to two testnet CNSS nodes.  This
+     confirms that the clock rate on intra-POP links is 20Mbps.
+
+     In the coming months, ANS will attempt to correlate the other
+     background traffic with the uping traffic, and identify any sources
+     of congestion using on card RS960 instrumentation.
+
+     New ANSnet ENSS Nodes Activated in February
+     ===========================================
+
+     ENSS            Customer                Access          Date Active
+     ----            --------                ------          -----------
+     E220            NetIOWA                 56K             02/12
+     E219            Westlaw                 56K             02/19
+     E218            Westlaw                 56K             02/23
+     E201            SHARE                   T1              02/28
+
+     Jordan Becker (becker@ans.net)
+
+
+
+Cooper                                                         [Page 15]
+
+Internet Monthly Report                                    February 1993
+
+
+BOLT BERANEK AND NEWMAN INC.
+----------------------------
+
+     Defense Simulation Internet (DSI)
+
+     The following is a synopsis of the various DSI activities that
+     occurred during February.
+
+     During this period, we finished alpha testing of the ST2 router
+     software.  New video teleconferencing software was also
+     successfully tested.
+
+     Packet aggregation software was deployed on the secure side of the
+     network to increase the effective throughput of the Network
+     Encryption System (NES).  BBN is continuing development of the NES
+     security software using an ST Encapsulated Processor (STEP).
+
+     Efforts have also begun on a major demonstration that will occur in
+     the May time frame.  It will be conducted for the May AUSA
+     conference to be held in Orlando, Florida.  Advancements in
+     simulation technology will be demonstrated over a wide area
+     network.
+
+     To date, more than 55 sites have been installed in CONUS, Hawaii,
+     Europe, and Korea, with the most recent being installed in sites
+     located on the East Coast of the United States.  In addition,
+     several more sites are in the process of being added to the
+     network.  Lastly, all five sites in Europe have been installed,
+     with some awaiting final approval to operate in a secure mode.
+
+     Real-time Multicast Communications and Applications
+
+     On February 9th, we demonstrated the use of the Video Information
+     Server (VIS) over a wide area network at DARPA.  The set of
+     machines that comprises the VIS was located at BBN and a client
+     machine running video applications was set up at DARPA for the
+     demo.  The machines were located on local Ethernets (at each site)
+     and these were in turn connected to the DARTNET which supported the
+     wide area communications.
+
+     The video server machines are Sun workstations.  These machines
+     control a variety of video devices including video disc players and
+     analog video switches.  One of the server machines contains a
+     Parallax board which is used to convert analog video to digital
+     video for transmission over the wide area net. The video server
+     also contains a WAIS database of video information, obtained by
+     recording and decoding closed captioned video and indexing the
+     closed captioned text to the video.  Users search the WAIS database
+
+
+
+Cooper                                                         [Page 16]
+
+Internet Monthly Report                                    February 1993
+
+
+     to select video of interest.
+
+     The client machine used in the demo was a Sun workstation with a
+     Parallax board which is used to receive and decode digital video
+     and display the video in a window on the workstation.  All of the
+     video control, i.e. searching the video database for the desired
+     video clip, locating an appropriate video device to play the clip,
+     and controlling the video device (i.e. forward, pause, play, etc.),
+     was done remotely over the wide area network.  There were no local
+     video devices.  The video was delivered digitally over the wide
+     area network.
+
+     This demo showed several new features of the Video Information
+     Server.  The original VIS was designed to work in a local area.
+     Not only was video delivered via analog lines, but many of the
+     control mechanisms relied on features only available in a local
+     area network, for example, local file sharing as a method for
+     obtaining information about video clips.  The demo showed not only
+     the digital delivery of video, but also the use of new mechanisms
+     for video searching and control of video devices, which enable
+     these functions to be done on a wide area network.  We have now
+     demonstrated the use of the Video Information Server in a wide area
+     network, and will continue to work on this system to improve
+     reliability and add new features.
+
+     In parallel with the VIS efforts, we have completed implementation
+     of "anycasting" service and a version of "multi-level flows".
+
+     o Anycasting is a concept that allows an application to address a
+       replicated object and find the nearest/best one.  This feature
+       can make it possible to place relatively static information about
+       servers and services in regional service directories distributed
+       throughout the Internet, while allowing the choice of a
+       particular server (of an indefinite and dynamically changing
+       group of servers) to be made by the network according to network
+       and client conditions.
+
+     o Multi-level data flows are a special case of resource
+       coordination in which a group of information flows forms a whole:
+       for example, different levels of video resolution.  Network
+       support for multi-level data flows can be used to permit a
+       recipient to specify what part of the total data flow should be
+       conveyed, when the data has been separated into, say, high,
+       medium, and low resolution components.  This is useful in
+       extending applications such as video conferencing into
+       environments where some of the sites may be connected by low
+       speed links.  The source sends at full rate to the multicast
+       address, but only the low resolution data would be delivered to
+
+
+
+Cooper                                                         [Page 17]
+
+Internet Monthly Report                                    February 1993
+
+
+       the disadvantaged sites.
+
+     Over the next couple of months, we will be experimenting with and
+     enhancing these services and integrating them with the Video
+     Information Server.
+
+     Scaleability
+
+     During the past month, there have been two major activities on the
+     scaleability project.
+
+     The network simulator component has been updated to use InterViews
+     version 3.1, rather than 2.6, so that future work on the network
+     topology editor can make use of the Unidraw graphical editor
+     toolkit.  Work was also started on adding delay modeling to the
+     network simulator.
+
+     The other major scaleability activity has been to define and
+     characterize a set of potential scaling techniques for
+     investigation under the algorithm study portion of the project.
+     Approximately a dozen potential techniques have been identified,
+     and an experimental plan and analysis procedure has been defined
+     for each.  These algorithm studies will be submitted to the project
+     sponsors for selection of the set which will actually be explored
+     as part of the current effort.
+
+     Inter-Domain Policy Routing
+
+     During February, we continued to make progress in preparing for the
+     Internet pilot demonstration of IDPR.  We have spent most of our
+     time getting one SPARCstation to function as three separate policy
+     gateways in three separate administrative domains.  The task may
+     sound simple, but it involves a certain amount of "art", given the
+     fact that we do not have a Sun source license.  We have a little
+     more testing to do before we will be ready to place the software in
+     the Internet.
+
+     Karen Seo <kseo@BBN.COM>
+
+CREN - CORPORATION FOR RESEARCH AND EDUCATIONAL NETWORKING (CREN)
+----------------------------------------------------------------
+
+     A draft CREN RFP for development of list-management software for
+     Unix platforms on the Internet is being reviewed internally and
+     should have been released about March 5 for public comment and
+     consideration.
+
+
+
+
+
+Cooper                                                         [Page 18]
+
+Internet Monthly Report                                    February 1993
+
+
+     A moderated LISTSERV list, crenlist@bitnic.educom.edu, has been
+     established for receipt of comments and suggestions about how to
+     improve the RFP.  This list will also be used to respond to
+     questions of interpretation from prospective responders and others.
+     All interested parties are encouraged to self-subscribe to this
+     list by sending the command SUB CRENLIST your-name as the message
+     text of a mail message to LISTSERV@bitnic.educom.edu.  List
+     archives are available from LISTSERV@bitnic.educom.edu and may be
+     obtained by sending the command SEND CRENLIST LOG9303 (for the
+     March '93 archive) as message text in the same or another mail
+     message to listserv@bitnic.educom.edu.
+
+     Text, PostScript, and RTF interchange format versions of the draft
+     and final RFP will also be made available for anonymous ftp as the
+     files ip-listserv.txt, etc., in the directory /cren-rfp on the
+     (Unix) machine info.cren.net, as they are released.
+
+     Our intent is to release a final version of the RFP by about March
+     19, with proposals due a month later.
+
+     by Jim Conklin <CONKLIN@bitnic.educom.edu>
+
+ISI
+---
+
+     GIGABIT NETWORKING
+
+     Infrastructure
+
+     17 RFCs were published this month.
+
+        RFC 1399:  Reynolds, J., "Request for Comments Summary"
+                   RFC Numbers 1300-1399, February 1992.
+
+        RFC 1416:  Borman, D., "Telnet Authentication Option",
+                   Cray Research, Inc., "February 1993.
+
+        RFC 1417:  The North American Diretory Forum, "NADF
+                   Standing Documents:  A Brief Overview"
+                   February 1993.
+
+        RFC 1418:  Rose, M., "SNMP over OSI", Dover Beach
+                   Consulting, Inc., March 1993.
+
+        RFC 1419:  Minshall, G., (Novell), and M. Ritter, (Apple
+                   Computer, Inc.), "SNMP Over AppleTalk",
+                   March 1992.
+
+
+
+
+Cooper                                                         [Page 19]
+
+Internet Monthly Report                                    February 1993
+
+
+        RFC 1420:  Bostock, S., "SNMP Over IPX", Novell, Inc.
+                   March 1993.
+
+        RFC 1421:  Linn, J., "Privacy Enhancement for Internet
+                   Electronic Mail:  Part I: Message Encryption
+                   and Authentication Procedures", February 1993.
+
+        RFC 1422:  Kent, S., "Privacy Enhancement for Internet
+                   Electronic Mail: Part II: Certificate-Based
+                   Key Management", BBN, February 1993.
+
+        RFC 1423:  Balenson, D., " "Privacy Enhancement for Internet
+                   Electronic Mail: Part III:  Algorithms, Modes,
+                   and Identifiers", TIS, February 1992.
+
+        RFC 1424:  Kaliski, B., "Privacy Enhancement for Internet
+                   Electronic Mail: Part IV: Key Certification and
+                   Related Services", RSA Laboratories,
+                   February 1993.
+
+        RFC 1425:  Klensin, J., (UN University), N., Freed, (Innosoft
+                   Int`l), M. Rose, (Dover Beach Consulting, Inc.)
+                   E. Stefferud (Network Management Associates, Inc.)
+                   D. Crocker, (The Branch Office), "SMTP Service
+                   Extensions", February 1993.
+
+        RFC 1426:  Klensin, J., (UN University), N., Freed, (Innosoft
+                   Int'l), M. Rose, (Dover Beach Consulting, Inc.)
+                   E. Stefferud (Network Management Associates, Inc.)
+                   D. Crocker, (The Branch Office), "SMTP Service
+                   Extension for 8bit-MIMEtransport", February 1993
+
+        RFC 1427:  Klensin, J., (UN University), N., Freed, (Innosoft
+                   Int'l), M. Rose, (Dover Beach Consulting, Inc.)
+                   E. Stefferud (Network Management Associates, Inc.)
+                   D. Crocker, (The Branch Office), "SMTP Service
+                   Extension for Message Size Declaration", February 1993
+
+        RFC 1428:  Vaudreuil, G., "Transition of Internet Mail from
+                   Just-Send-8 to 8bit-SMTP/MIME", February 1993.
+
+        RFC 1429:  Thomas, E., "Listserv Distribute Protocol", Swedish
+                   University Network, February 1993.
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 20]
+
+Internet Monthly Report                                    February 1993
+
+
+        RFC 1430:  Hardcastle-Kille, S., (ISODE-Consortium), E. Huizer
+                   (SURFnet bv), V. Cerf, (Corporation for National
+                   Research Initiatives), R. Hobby, (University of
+                   California, Davis), S. Kent (Bolt, Beranek and Newman)
+                   "A Strategic Plan for Deploying an Internet X.500
+                   Directory Service", February 1993.
+
+        RFC 1431:  Barker, P., "DUA Metrics", University College London,
+                   February 1992.
+
+     Ann Westine Cooper (Cooper@ISI.EDU)
+
+     MULTIMEDIA CONFERENCING
+
+     This month we extended the teleconferencing facilities at DARPA and
+     ISI by interconnecting the wide-area packet teleconferencing
+     systems, which use DARTnet and DSInet, with the ZAPT local-area
+     desktop conferencing system.  The ZAPT system, installed both at
+     DARPA and ISI, uses analog audio and video with NeXT workstations
+     running a custom extension of Bellcore's Touring Machine software,
+     and provides a local analog distribution and teleconferencing
+     capability.
+
+     MMCC, the multimedia conference control program, allows users to
+     select among different codecs for the different wide-area systems,
+     and among dedicated conference rooms or the interconnect to the
+     desktop system.  To avoid conflicts created by multiple
+     conferencing systems needing access to shared hardware (e.g., MMCC
+     and ZAPT controlling the crossbar switch, echo canceller, video
+     codecs), we integrated resource registration into our device
+     servers.  Now, a client application can use the server to reserve
+     access to the hardware and prevent another teleconferencing
+     application from stealing it.  The resource reservation is also
+     fault tolerant, so that owner failure releases the device.
+
+     Routines for software decoding of the video data stream produced by
+     a Bolter/Concept codec have been integrated into the popular "nv"
+     video tool with much help from Ron Frederick at Xerox PARC. A number
+     of improvements were made in the decoding as well, including
+     interpolation of the data in low-resolution mode.  We are working on
+     arrangements to allow release of the decode routines in binary form.
+
+     The paper, "Case Study: Multimedia Conference Control in a Packet-
+     switched Teleconferencing System", was completed this month, and
+     will appear in the Journal of Internetworking.
+
+     Steve Casner, Eve Schooler, Joe Touch
+     (casner@isi.edu, schooler@isi.edu, touch@isi.edu)
+
+
+
+Cooper                                                         [Page 21]
+
+Internet Monthly Report                                    February 1993
+
+
+JANET
+------
+
+     The bandwidth of the connection between JANET and the NSFNET (ie
+     over the UK/US Fat-pipe) was recently increased from 512 kbit/s to
+     1 Mbit/s.  This is currently being shared between JANET and NASA.
+     (NASA uses part of the bandwidth to support US/UK scientific
+     collaborations.) The link will be reengineered during March to
+     separate the NASA and JANET traffic, with JANET traffic having a
+     dedicated 1 Mbit/s link.
+
+     The increase in bandwidth on the Fat-pipe has meant an increase in
+     load on the router that connects JANET to its international
+     connections (gw.ulcc.ja.net). This is now saturated. The main
+     reason for this is that most of the IP traffic passing through the
+     router is being carried over X.25 (the main transport mechanism for
+     IP across JANET.) Handling this is processor intensive within the
+     routers used (Cisco AGS+/4); in practice they saturate at
+     approximately 2500 pkt/s.  To provide a further increase in
+     performance, an inner backbone of "native" IP (ie direct over HDLC)
+     is being created. When this is in place the routing will be changed
+     so that much of the traffic to and from gw.ulcc.ja.net travels over
+     the HDLC backbone.  This is expected to reduce the processing load
+     on the router, and allow better throughput between JANET and its
+     international links.
+
+     Planning is now well advanced for the creation of the initial phase
+     of the SuperJANET data network. This will be a 34 Mbit/s IP network
+     linking 7 sites in the UK. The implementation of this network is
+     expected to take place at the end of March and beginning of April.
+
+     The total IP traffic switched across JANET in February was
+     approximately 950 Gigabyte. Of this approximately 160 Gigabyte
+     passed through the UK/US Fat-pipe, and approximately 80 Gigabyte to
+     and from EBONE.  The number of hosts attached continues to rise.
+     This is measured, to first order, by the size of the ac.uk domain.
+     As of end February it contained 50828 distinct hosts in 289
+     subdomains.  (This represents approximately 90% of the uk domain.)
+
+     Bob Day (R.Day@jnt.ac.uk)
+
+
+
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 22]
+
+Internet Monthly Report                                    February 1993
+
+
+JVNCNET
+-------
+
+     JvNCnet-Global Enterprise Services, Inc.
+     B6 von Neumann Hall, Princeton, NJ  08544
+     1-800-35-TIGER
+
+     I.  New Information
+        A.  New on-line members (fully operational February 1993)
+             Applied Logic Technologies, Inc.,  New York, NY
+             Balch Hardy Scheinman & Winston, Inc., New York, NY
+             W. Boyce,  North Brunswick, NJ
+             County College of Morris, Randolph, NJ
+             Desknet Systems, Inc., White Plains, NY
+             Knight Services, Seattle, WA
+             Logos, Inc., Mt. Arlington, NJ
+             P. Holsberg, Trenton, NJ
+             Point Source Communications, Colorado Springs, Co
+             Research for Better Schools, Philadelphia, PA
+             Robert Morris College, Coraopolis, PA
+             Shebute, Inc., New York, NY
+             SI 3, Inc., Fairfield, NJ
+             Technibuild, Inc, Princeton Junction, NJ
+             The Software Consulting Company, Darien, CT
+
+     II.     Symposia Series
+             Introduction to Network Protocols
+             Location: Princeton Marriott Forrestal Village,
+             Painsboro, NJ
+
+             One day introductory level seminars on three major protocols
+             currently being used on Local Area Networks are scheduled.
+
+             Recommended audience:  Network and systems managers who
+             work with and support these protocols or who need guidelines
+             to establish a TCP/IP connection.
+
+             Seminars may be taken in sequence or individually.   The fee
+             includes lunch and reference book.
+
+
+
+
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 23]
+
+Internet Monthly Report                                    February 1993
+
+
+             Seminar Date            Instructor
+
+             TCP/IP  3/16            Paul Schragger, Univ. of Delaware
+                                     Vikas Aggarwal, GES, Inc.
+                             Registration 8:30am, session begins 9:00
+             Novell  3/17            Paul Wilson, Novell
+                                     John Dooley, Novell
+                             Registration 8:45; session begins 9:30
+             DECnet  3/18            Ted Koch, Digital Equipment Corp.
+                             Registration 8:30; session begins 9:00
+
+             For more information or to register, contact Rochelle Hammer
+             at  609-258-2409 or send email to hammer@jvnc.net.
+             Single course - JvNCnet members $250 and nonmembers $275
+             by March 9.
+
+             April 1993 seminars: Building a Data Network based on TCP/IP
+             April 14:  Local Area Network
+             April 15:  Wide Area Network
+
+             To place your name on the symposia mailing list,  please
+             send email to hammer@jvnc.net.
+
+     by Rochelle Hammer (hammer@jvnc.net)
+
+MERIT/MICHNET
+-------------
+
+     This month Merit's report is separate from ANS's Backbone
+     Engineering report, which appears elsewhere in the IMR. This makes
+     sense because of the separation of activities of the two groups.
+     Merit's Internet Engineering group has been focusing on routing
+     coordination, database and protocol development, and service
+     aspects for NSFNET; ANS handles operation and engineering of the
+     backbone itself.
+
+     The Merit IE group consists of the following staff members:
+
+             Enke Chen
+             Elise Gerich
+             Sue Hares
+             Laurent Joncheray
+             Ken Latta
+             Gartha Parrish
+             Sheri Repucci
+             John Scudder
+             Steve Widmayer
+             Jessica Yu
+
+
+
+Cooper                                                         [Page 24]
+
+Internet Monthly Report                                    February 1993
+
+
+     Additionally Merit's Network Management Systems group handles
+     database and net management software development and consists of:
+
+             Andy Adams
+             Dale Johnson
+             Chinh Nguyen
+             Bill Norton
+             Steve Richardson
+             Rick Riolo
+
+     Following is a summary of activities and projects pursued during
+     February:
+
+     1. NSFNET Connection to MAE-East
+
+     An agreement was made which allows the NSFNET service to peer with
+     network service provider peers at the Metropolitan Area Ethernet -
+     East (MAE-East), an experimental Network Access Point in the
+     Washington DC area. Currently the AlterNet and PSI networks, and
+     the Global Internet Exchange (GIX) route server are peering with
+     the NSFNET service over this network.
+
+     The GIX route server is operated by the RIPE group in Europe, and
+     will distribute routing announcements for European networks to
+     peers at MAE-East. Merit is collaborating with RIPE, and is working
+     on installing an additional experimental route server for handling
+     non-European routes.
+
+     2. New Policy Routing Database System
+
+     Testing of a new Policy Routing Data Base system based on the
+     Informix package is nearly complete. The system formerly ran on an
+     IBM mainframe using the Spires database system. The new system
+     duplicates all of the features of the current system and is able to
+     handle all of the configuration file and report generation
+     requirements without postprocessing. The system is being phased in
+     by first verifying the configuration file integrity and then
+     performing a suite of tests of the data entry front end. The target
+     date for operational use of the new system is March 15.
+
+     3. Silent Nets
+
+     Merit has started a project to analyze the NSFNET Policy Routing
+     Database (PRDB) to look for networks that are not being announced
+     to the backbone.  Enke Chen of Merit has been sending each regional
+     or midlevel (AS administrator actually) a list of the "silent nets"
+     for their autonomous system.  Our goal is to prune out of the
+     database any networks not being used and not expected to be used in
+
+
+
+Cooper                                                         [Page 25]
+
+Internet Monthly Report                                    February 1993
+
+
+     the near future.  This is important for a couple of reasons: 1) we
+     are approaching a hard limit in the table size in the ANS backbone
+     routers; and 2) storing information for the non-announced networks
+     requires human resources and some router space resources since all
+     of the configured nets are stored in the configuration file on each
+     router.
+
+     As of March 5, there are 10057 networks configured in the database.
+     The number of silent nets for February was 1955, ie. 1955 networks
+     which were in the database as of February 1 were never announced in
+     the entire month.  So far we have received requests to delete about
+     200 of the silent nets.  The maximum number of nets that were
+     announced to the backbone as of 2/28 was 7037. Historical growth in
+     network announcements is summarized in the following table.
+
+     Merit is working with the regional and midlevel network operators
+     to develop methods of expediting the elimination of the silent nets
+     in order to prevent potential operational problems due to routing
+     table size.
+
+     4. Inter-Domain Routing Protocol Development
+
+     Sue Hares and John Scudder are working on development of the IDRP
+     protocol in gated and have made significant progress in the last
+     month. A testbed consisting of RS/6000s (AIX) and 486 systems
+     (running BSD 4.4) is running gated and using the ISO IS-IS
+     protocol.  IDRP is now being tested on this testbed. Merit expects
+     to be able to provide this code to ANS for deployment on the
+     backbone later this year.
+
+     5. Shared Whois Project
+
+     Sheri Repucci has been working with the RIPE and Network Solutions
+     groups to share the data in the Merit Policy Routing Database with
+     the NIC Whois and RIPE NCC. The three organizations have agreed on
+     a common transfer syntax for sharing the data, and Sheri has
+     developed a program which will merge the data and produce reports
+     on conflicts, duplication and missing information. The goal is to
+     allow the data to be synchronized to improve the quality of contact
+     and registration information for networks. The intent is to use
+     X.500 to make the information more accessible and allow backup
+     copies across organizations.
+
+     6. IETF Connectivity
+
+     Merit and ANS have been working with the OARnet staff to ensure
+     that good connectivity will be provided to the IETF in Columbus
+     later this month. ANS will be adding a second T1 circuit for OARnet
+
+
+
+Cooper                                                         [Page 26]
+
+Internet Monthly Report                                    February 1993
+
+
+     to the backbone, which will be used mainly for the mbone
+     audio/video multicast transmission. Merit has re-engineered its
+     Michigan mbone tunnel connections to improve connectivity for
+     MichNet as well as for OARnet. ANS will provide an EON RT system
+     for encapsulation of OSI CLNP datagrams, in order to allow
+     demonstrations of TUBA software.
+
+     7. CA*Net Transition
+
+     As reported in earlier IMR reports, the Canadian backbone, CA*Net,
+     has been transitioning to a new configuration for its connection to
+     the NSFNET service. Initially the connection in three locations
+     (Princeton, Ithaca and Seattle) was via the T1 backbone NSS nodes.
+     In the first phase of the transition, the NSS's were still used but
+     only for the purpose of transit between the CA*Net link and the
+     ethernet to get to the T3 ENSS. This month the CA*Net software has
+     been successfully deployed on the USA-side RT routers which will
+     allow a single RT node to replace the NSS to connect CA*Net to the
+     T3 backbone, in each of the three locations.
+
+     8. CIDR and BGP-4 Configuration
+
+     The target date for deployment of CIDR and BGP-4 capability on the
+     NSFNET backbone service is June, 1993. This will be done in phases,
+     first with gated replacing the current rcp_routed daemon
+     (supporting BGP-3) and later adding BGP-4. After a test phase
+     involving regional and midlevel networks, aggregation will be
+     enabled which will lead to the goal of limiting routing table
+     growth. Merit is working on making design changes to the database
+     as well as specifying new service options for configuration of
+     route aggregation. The backbone service will need to 1) accept
+     aggregates from regional or midlevel peers, 2) announce aggregates
+     to peers, and 3) perform aggregation on behalf of peers for inbound
+     announcements under certain conditions. We will submit an Internet
+     Draft detailing these configuration parameters and service options
+     for discussion at the upcoming IETF.
+
+     Mark Knopper (mak@merit.edu)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 27]
+
+Internet Monthly Report                                    February 1993
+
+
+NEARNET (NEW ENGLAND ACADEMIC AND RESEARCH NETWORK)
+---------------------------------------------------
+
+
+     Membership Update
+
+     As of February 26, 1993, NEARnet has grown to a total of 194 member
+     organizations.
+
+     NEARnet delivers usage statistics to members
+
+     NEARnet now sends weekly line utilization graphs either as email
+     messages containing Postscript graphs or as faxes.  This service
+     has been well received by members who can now use this information
+     to assess their bandwidth requirements.
+
+     Internet Gopher System Presentation to NEARnet members
+
+     Over 150 nearnet members attended the Internet Gopher System
+     Presentation on Thursday, February 18 from 2:00 to 4:00 at the Bolt
+     Beranek and Newman Inc. (BBN) Newman Auditorium in Cambridge,
+     Massachusetts.
+
+     Farhad Xerxes Anklesaria, a designer and member of the Internet
+     Gopher Team was the NEARnet guest speaker for this presentation.
+     Farhad gave an helpful introduction and interesting overview of the
+     Internet Gopher System.  His introduction included a description of
+     Gopher, pointers to problems it was designed to solve, instructions
+     for obtaining the software and using Gopher.  His overview included
+     how Gopher works, and who, when, and how people are using the
+     Gopher System.  Farhad also spent a good deal of time answering
+     several questions during his presentation which made the
+     presentation even more helpful for the attendees.
+
+     The Gopher presentation was videotaped and copies are now available
+     for NEARnet members to borrow.  Please direct any questions or
+     requests to the NEARnet User Services Staff at: nearnet-
+     us@nic.near.net.
+
+     "NEARnet This Month" Bulletin
+
+     The January issue of the "NEARnet This Month" bulletin has been
+     distributed.  Past issues are available via anonymous FTP at
+     nic.near.net, in the directory newsletters/nearnet-this-month.
+
+     by Corinne Carroll <ccarroll@nic.near.ne
+
+
+
+
+
+Cooper                                                         [Page 28]
+
+Internet Monthly Report                                    February 1993
+
+
+NNSC, UCAR/BOLT BERANEK and NEWMAN, INC.
+----------------------------------------
+
+     NSF Network Newsletter Map
+
+     The NNSC Staff has collected updated site list information for the
+     final issue of the NSF Network Newsletter map.  We would like to
+     request that any Internet service providers who have not submitted
+     this information, send their updates to us as soon as possible.
+     Please send this information to Nina Mechta at
+     nmechta@nnsc.nsf.net.
+
+     Transition to new INTERNIC
+
+     The NNSC manager, Cyndi Mills, met with representatives from
+     General Atomics, Network Solutions and AT&T to discuss details of
+     the transition to the new INTERNIC team.
+
+     After March 31, services provided by the NNSC will be transferred
+     to General Atomics and AT&T.  Specific details on this transition
+     will not be available until April 1.
+
+     General Atomics will provide INTERNIC Information Services for the
+     NSFNET and the NREN.  AT&T will provide directory and database
+     services.  Network Solutions will continue to provide registration
+     services.
+
+     The new INTERNIC team will begin operation on April 1, 1993.  The
+     NNSC project's services will be discontinued as of March 31, 1993.
+
+     Corinne Carroll <ccarroll@nnsc.nsf.net>
+
+NORTHWESTNET
+------------
+
+     In February 1993, two new organizations joined the NorthWestNet
+     community, which now numbers over 90 members.  The two new members
+     are the Washington State Department of Information Services
+     (Olympia, WA) and Advanced Hardware Architecture (Moscow, ID).
+
+     In a teleconference meeting 2/25/93, the User Service Committee
+     began planning for the October 1993 NorthWestNet Annual Meeting and
+     discussed the implementation of two working groups that will focus
+     on a new User Services Representative kit and electronic
+     information distribution for the NorthWestNet community.
+
+     On 2/26/93, the NorthWestNet Engineering Advisory Board met.  Among
+     other issues, their agenda covered redundancy options,
+
+
+
+Cooper                                                         [Page 29]
+
+Internet Monthly Report                                    February 1993
+
+
+     implementation of DNS and NNTP servers, FDDI DMZ update, and IXC
+     co-location criteria.
+
+     NorthWestNet                            info@nwnet.net
+     15400 SE 30th Place, Suite 202          Phone: (206) 562-3000
+     Bellevue, WA  98007                     Fax:   (206) 562-4822
+
+     Dr. Eric S. Hood, Executive Director
+     Jan Eveleth, Director of User Services
+     Dan L. Jordt, Director of Technical Services
+     Anthony Naughtin, Manager of Member Relations
+
+     NorthWestNet serves the six state region of Alaska, Idaho, Montana,
+     North Dakota, Oregon, and Washington.
+
+     by Jan Eveleth <eveleth@nwnet.net>
+
+
+NSFNET/INFORMATION SERVICES
+---------------------------
+
+     NSFNET Information Services (Merit Network, Inc.)
+
+     President Bill Clinton released his technology policy statement on
+     22 February.  "Technology for America's Economic Growth: A New
+     Direction to Build Economic Strength," the associated White House
+     press release, and remarks by President Clinton and Vice-President
+     Gore to Silicon Graphics employees introducing the "Technology for
+     America's Economic Growth" policy are available for Anonymous FTP
+     from the directory /nren/clinton.1993 on Merit's information
+     services machine, nic.merit.edu.  These documents are also
+     available via e-mail query: send an electronic mail message to
+
+                     nis-info@nic.merit.edu
+
+     with the first line of text (not the subject) as
+
+                     send filename
+
+     where filename is replaced with one of the following:
+
+     tech.initiative - "Technology for America's Economic Growth:
+             A New Direction to Build Economic Strength,"
+             President Clinton's technology policy.
+
+     tech.initiative.announce - The press release announcing
+             President Clinton's new technology policy.
+
+
+
+
+Cooper                                                         [Page 30]
+
+Internet Monthly Report                                    February 1993
+
+
+     tech.initiative.speech  - President Clinton and
+             Vice-President Gore's remarks to Silicon Graphics
+             employees introducing the Technology for America's
+             Economic Growth policy.
+
+     A few openings remain for the Merit Networking Seminar, March 15-16
+     at the San Francisco Airport Hilton.  Hosted by BARRNET, "Making
+     Your Internet Connection Count: Technology, Tools and Resources"
+     includes an overview of the Internet, its tools and resources, and
+     the national policies that affect its growth.  Nationally known
+     experts will discuss network resources, getting connected, and how
+     the network is effectively being used today by universities,
+     research organizations, libraries, and public schools.  Interactive
+     breakout sessions each day make it possible to get your questions
+     answered by the experts.  A text-only version of the brochure is
+     available via Anonymous FTP to nic.merit.edu as the file
+     /nsfnet/seminar.brochure.march93.  An electronic mail message to
+     nis-info@nic.merit.edu with the first line of text
+
+              send seminar.brochure.march93
+
+     will also retrieve the electronic version of the brochure.
+     Requests for more information may be made to seminar@merit.edu or
+     313/936-3000.
+
+     Elise Gerich, of Merit Internet Engineering, represented the IEPG
+     at the CCIRN meeting in Brussels, Belgium, February 18 and 19.
+     Chris Weider, Merit Information Services, was invited to speak on
+     the technical requirements for the integration of Internet
+     information services at the meeting of NORDUNET in Helsinki,
+     Finland.  Weider discussed similar issues at the Swedish Technical
+     Institute (KTH), Stockholm, Sweden.  Ellen Hoffman, manager of
+     Merit Information Services, and Laura Kelleher, Merit Network
+     Applications Coordinator, presented the "Cruise of the Internet" in
+     Washington, D.C. to members of the Federal Funding Agencies and to
+     staff of the National Archives and Records Administration.  Steve
+     Burdick, Information Services, traveled to the JvNCnet meeting in
+     Princeton, N.J. to participate in their program as host of the
+     "Cruise."
+
+     Jo Ann Ward   (jaw@merit.edu)
+
+
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 31]
+
+Internet Monthly Report                                    February 1993
+
+
+PREPNET
+-------
+
+     PREPnet:
+
+     305 South Craig Street, 2nd Fl.
+     Pittsburgh, PA  15213-3706
+     412-268-7870  fax: 412-268-7875
+     nic@prep.net
+
+     PREPnet has had the following new members since January 1, 1993: In
+     Allentown, Lehigh Valley Hospital will connect at 56K and Lehigh
+
+     County Community College will connect via Lehigh University.  The
+     Pennsylvania Department of Agriculture is will make a connection to
+     our Harrisburg hub at 56K.
+
+     In Philadelphia, The Academy of Natural Sciences will connect at
+     56K, and The Institute for Scientific Information will connect via
+     SLIP.  Treehouse Software and Mt. Lebanon School District will have
+     SLIP connections to our Pittsburgh hub while PDF Solutions and
+     Clarit Corporation will connect via Carnegie Mellon University.
+
+     Tom Bajzek, PREPnet Executive Director, has been re-elected
+     secretary of FARNET.
+
+     The Pittsburgh SMDS demo officially began in November and ended
+     January 31.  Participants included PREPnet, Shadyside Hospital,
+     Carnegie Mellon University, the Pittsburgh Supercomputing Center,
+     and IBM's Industrial Technology Center.  The participants tested
+     traffic matrices and the use of SMDS for Internet access and packet
+     video applications.  The PSC gathered statistics to evaluate
+     throughput of the SMDS link.
+
+     The Bell Atlantic booth at Interop East will include a connection
+     to the Pittsburgh SMDS cloud in order to demonstrate packet video,
+     file transfer, and general Internet access via SMDS.
+
+     PREPnet NIC (prepnet+@andrew.cmu.edu)
+
+
+
+
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 32]
+
+Internet Monthly Report                                    February 1993
+
+
+SDSC (SAN DIEGO SUPERCOMPUTER CENTER)
+-------------------------------------
+
+     SDSC Network Activities
+     =======================
+
+     The physical plant installation of fiber continues.  FDDI to
+     selected offices is complete.  Fiber is also being used to extend
+     V.35 to the various rooms in which VTC services are being offered.
+     The next step is the conversion of the Sequoia 2000 Dec systems
+     from Ethernet over ThinWire to FDDI and Ethernet over fiber.  The
+     later will allow each system to be on both the Center's own LAN and
+     directly connected to the Sequoia Project's private network.  These
+     steps are awaiting a microcode update to the DS5000's.
+
+     CSUnet (the network for the Calif State University System) will be
+     installing their own cisco router on the Center's DMZ Ethernet
+     during March.  This will replace their use of a prort on an SDSC
+     router.
+
+     SDSC will be hosting the first Torrey Mesa MAN planning meeting
+     during March.  This will see if there is enough interest to build
+     such a MAN - one with a min. speed of 100meg.
+
+     SDSC Applied Network Research Group
+     ===================================
+
+     The Applied Network Research Group at SDSC has recently completed
+     its annual report, summarizing progress of its research efforts
+     during the past year, including collaborative efforts with the
+     University of California, San Diego.
+
+     Research topics include:
+
+             o analysis of the existing data and instrumentation of the
+               NSFNET
+             o sampling network traffic data in wide area environments
+             o end-to-end delay and jitter across wide-area networks
+             o routing stability and characteristics
+             o reliability and quality of service metrics; performance
+               evaluation of a multimedia application
+             o and individual statistics of interest for performance
+               evaluation and modeling of a wide area environment.
+
+     We also include research efforts outside the scope of this proposal
+     but within the scope of the larger ANR research agenda, such as our
+     involvement with the CASA gigabit network infrastructure and our
+     participation in NSF's NREN Engineering Group.
+
+
+
+Cooper                                                         [Page 33]
+
+Internet Monthly Report                                    February 1993
+
+
+     Copies of this report are available through Paul Love.
+
+     Travel
+     ======
+
+     Paul Love attended the Jan FARnet meeting held in Denver in
+     conjunction with the ALA's mid-winter meeting.
+
+     by Paul Love <epl@sdsc.edu>
+
+UCL
+----
+
+     Working with Thierry Turletti, INRIA, we now have full interworking
+     h.261 software tested real against GPT and other H.261 hardware
+     codecs. In particular, we can source video from a codec, filter off
+     the H.221 fgraming, packetize and multicast over INRIAs protocol
+     over IP multicast, and decompress and receive under X in pure
+     software quite conveniently.
+
+     WE are now trying to reconnect the UK to the MBone so we can run
+     this multicast internationally (for the Internet and MICE).
+
+     2 papers were submitted to conferences, on CBT Multicast and on a
+     Control-theoretic analysis and design of a video transport
+     protocol.
+
+     A note on the (ironic) unsuitability of RPC for building
+     distributed programs (in particular, conference control systems)
+     was distributed, and will be submitted to a suitable place after
+     comments. It can be ftp-d from cs.ucl.ac.uk, in darpa/conf-rpc.ps.Z
+     ( unix compressed, postscript)
+
+     John Crowcroft (j.crowcroft@CS.UCL.AC.UK)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 34]
+
+Internet Monthly Report                                    February 1993
+
+
+USER SERVICES REPORT
+--------------------
+
+                                 Trip Report
+                      13th RIPE Meeting - Paris, France
+                             NETF - Oslo, Norway
+                                October 1992
+                              Joyce K. Reynolds
+                     USC/Information Sciences Institute
+
+
+The Thirteenth RIPE Meeting
+
+   The Thirteenth RIPE Meeting was held at in October 1992 in Paris,
+   France, with 95 attendees.  Approval of the agenda was first, with
+   parallel sessions starting after general plenaries.  Technical
+   sessions slated for this meeting were postponed until the next
+   meeting in Prague.
+
+General Plenaries
+
+   Daniel Karrenberg presented a second quarterly report on the RIPE
+   NCC.  There was a summary of main topics.  The activities of the last
+   quarter included the Internet Registry, the RIPE Database (DB),
+   Domain Name System (DNS) Area, General, Goals/Evaluation, and future
+   work.
+
+   Internet Registry (IR)
+
+      The IR identified and started up 36 local registries, and
+      developed interim procedures.  It fielded 172+ requests during the
+      last 2 months.  Greater than 50% of the requests were via the
+      postal services or fax.  Two-thirds of the requests were completed
+      in the same day.  89% completed in 5 days.  Class C allocation
+      takes 1.96 days on average.  Class B allocation typically takes
+      two days, but can take up to 24 days, depending upon the
+      application.  The IR assigned 50 Class Bs and 940 Class Cs.  Kudos
+      were given to the local registries for their work and cooperation.
+
+   RIPE Database
+
+      New updates are fully configurable.  They are in process of
+      revising the indexing of software, and there is a new, improved
+      WHOIS server.  There is a new RIPE WHOIS client, and a global
+      exchange format developed.  The RIPE NCC has frequent exchanges
+      with the DDN NIC and Merit.  Would like to work on Internet maps,
+      but the RIPE Map working group has yet to meet.  Tools and
+      guidance are needed from the Map working group.
+
+
+
+Cooper                                                         [Page 35]
+
+Internet Monthly Report                                    February 1993
+
+
+   DNS Area
+
+      The DNS Area provided a regular host count and consistency
+      checking tools.  In regards to document store, the RIPE NCC
+      reorganized all RIPE documents and improved information services.
+      Guidance is needed from the RIPE DNS group.  Statistics are
+      needed!
+
+   General
+
+      The RIPE NCC produced information leaflets, provided several
+      presentations, provided RIPE support, and an IP providers mailing
+      list.  It is in processing of setting up and testing audiocasts.
+      The RIPE NCC has improved the document store, RIPE meeting
+      support, and support structure of RIPE working groups.
+
+   Goals/Evaluation
+
+      The goals are following the NCC Activity Plan (RIPE 35).
+      Priorities are not fixed!  The NOC needs guidance from RIPE (e.g.,
+      working groups, individuals, etc.).  The goals are ambitious and
+      guidance from some RIPE working groups are critical.  What is not
+      in the activity plan is referrals (i.e., refer questions about
+      Internet services to suitable providers).  It is hoped that the
+      new National Science Foundation (NSF) "InterNICs" (the NIC of
+      first and last resort) will be able to refer end users to
+      appropriate NICs/NOCs.
+
+   RIPE Database Statistics
+
+      Most queries come from the .EDU domain, most of which are outside
+      of Europe!!
+
+The Future of the RIPE NCC
+
+   It is an organizational position (neutral, impartial, and a friendly
+   organization).  The RIPE community feels this is a good idea.  RARE
+   feels this should be changed to an organizational unit.  The RIPE NCC
+   must be trusted by all services providers.  This will not change.
+   The RARE Council now understands this.  They provided a short and
+   concise statement of how RARE sees the RIPE NCC.
+
+   In summary, the RIPE NCC has had a good start, and has ambitious
+   goals.  Guidance is needed from RIPE working groups.  It is still
+   FUN!
+
+
+
+
+
+
+Cooper                                                         [Page 36]
+
+Internet Monthly Report                                    February 1993
+
+
+Report from RARE Council of Administration (CoA)
+
+   The RARE Technical Committee (RTC) defines the technical program of
+   RARE, suggests and solicits new activities, defines an annual work
+   plan (which is submitted to CoA), prioritizes Task Force (TF)
+   proposals, and follows other forums (e.g., IETF, RIPE).  Decisions
+   are based on consensus.  Funding of RARE WGs used to be paid by the
+   European Commission (EC), but this is now ending.  Funding currently
+   available is now 25% of what it was.  RTC members include Tom Kalin
+   and Tim Dixon.
+
+   Emphasis on IP Networking
+
+      RARE WGs and TFs are not restricted to OSI.  There is a cultural
+      revolution not yet reflected in the current workplan.  There is a
+      strong desire by CoA to solve the problems that exist.  User
+      services is important, both current work and what is expected.
+      Recognizing the IETF work goes without saying.
+
+      RARE WGs are long lived groups per area of interest.  Membership
+      is open, a convenor is appointed by the RTC, forum of
+      communication (experts and non-experts), two meetings per year
+      (JENC, NSC).  Common meetings (RTC, WG-convenors).  All WGs have
+      charters, a convenor, and a work plan well defined.
+
+      RARE TFs are small, short lived groups (experts).  They address a
+      specific activity, have clear goals and deliverables.  Can be
+      funded or unfunded.  TFs disband after each action.
+
+   Current RARE WGs
+
+      1) WG-CHAR - multiple character sets
+      2) WG-MMM  - multimedia (come up with recommendations)
+      3) WG-ISUS - information services/user services
+      4) WG-LLT  - covered by Layer 1 - Layer 4
+      5) WG-MSG  - developing message services
+      6) WG-NAP  - network application support (not yet available)
+      7) WG-NOP  - operations
+      8) WG-SEC  - security/PEM mail pilot
+
+   RARE Technical Reports (RTRs) have enhanced visibility and
+   credibility of work, and providing peer review and approval.
+
+Traffic Measurements - Torben Nielsen
+
+   Problems with short term sampling of data of one month, six months,
+   etc., plays itself out.  In the Pacific, they have done systematic
+   long term networking.  In the first 6 months of 1992, Torben's group
+
+
+
+Cooper                                                         [Page 37]
+
+Internet Monthly Report                                    February 1993
+
+
+   connected all packets that had flowed through Hawaii (PACCOM
+   topology) and brought up transit traffic to a known entity, while
+   funding mechanisms.
+
+   Goals
+
+      Data Collection - allows for the determination of where the
+      traffic is coming from and going to.  What services are being
+      used, and for how long, what patterns of usage exist and the
+      periodicity of those patterns.
+
+   Traffic Collector Topology
+
+      A lurker was multi-homed (without interfering with measurements).
+      When data (50-70% full data) is transferred to the net, it is
+      compressed and stored on one of two staging disks.  The disks are
+      then dumped to Exabyte type when convenient.  This started on 2
+      Dec 91, and ran more or less until 2 June 1992.
+
+   Results
+
+      40 Exabyte tapes and 13 optical disks were collected.  This is
+      about 90 gigabytes of compressed packet headers (about 175
+      gigabytes uncompressed).  The preliminary observations show 1.4
+      billion packets/280 gigabytes of data, in over 100,000 IP hosts
+      addresses/over 500 networks.
+
+EBONE Strategy Discussion - Bernhard Stockman
+
+   The current intent of the EBONE strategy is to act as a neutral
+   interconnect point and provide Pan European IP services.  It is an
+   open market by stimulating IP provides.  It provides a neutral
+   platform with a strategy document to be produced, which will include
+   a fair cost distribution, and US connectivity included.
+
+Internet Engineering Task Force (IETF) User Services Reports
+
+   Joyce K. Reynolds gave a presentation on the updates to the IETF User
+   Services Area and the Internet Engineering Steering Group's (IESG),
+   "Integrated Information Architecture Plan":
+
+           The User Services Area of the Internet Engineering Task
+           Force (IETF) by Joyce K. Reynolds, <jkrey@isi.edu>
+                           18 September 1992
+
+   When the IETF was first established, it did not immediately create a
+   distinct User Services Area.  As of 1991, this area has grown to take
+   its place with other Internet Engineering Steering Group (IESG) areas
+
+
+
+Cooper                                                         [Page 38]
+
+Internet Monthly Report                                    February 1993
+
+
+   as the importance of a user services forum has increased globally.
+   This area provides an international forum for people interested in
+   all levels of user services, to identify and initiate projects
+   designed to improve the quality of the information available to users
+   of the Internet.
+
+   One continuing goal of the User Services Area is to coordinate the
+   development of user information services by clearly and concisely
+   providing documentation information and distribution for the Internet
+   community.  FYI (For Your Information) RFCs (Request for Comments)
+   are introductory and overview documents for network users.  Their
+   purpose is to make available general information, rather than the
+   protocol specifications or standards that is typical of other RFCs.
+   FYIs are allied to the RFC series of notes, but provides information
+   about who does what on the Internet.  The FYI RFC series has proved a
+   success since its initiation, and its goal is to continue to do so.
+   A current list of FYI RFCs are listed at the end of this document.
+
+   The actual projects of the User Services Area are handled by the
+   creation of Working Groups.  There are currently eleven working
+   groups in this area.
+
+                 IETF User Services Area Working Groups
+
+   Directory Information Services Infrastructure (DISI).  DISI is
+   chartered to facilitate deployment of X.500 Directory Services on the
+   Internet, by producing "Administrator's Guides".
+
+   Internet Anonymous FTP Archives (IAFA).  IAFA is chartered to define
+   a set of recommended standard procedures for the access and
+   administration of anonymous ftp archive sites on the Internet.
+
+   Integration of Internet Information Resources (IIIR).  IIIR is
+   chartered to facilitate interoperability between Internet Information
+   Services, and to develop, specify, and align protocols designed to
+   integrate the plethora of Internet information services (WAIS,
+   archie, Prospero, etc.) into a single "virtually unified information
+   service".
+
+   Internet School Networking (ISN).  ISN is chartered to facilitate the
+   connection of the United States' K-12 (Kindergarten-12th Grade)
+   schools, public and private, to promote school networking in general.
+
+   Networked Information Retrieval (NIR).  NIR is chartered to increase
+   the useful base of information about networked information retrieval
+   tools, their developers, interested organizations, and other
+
+
+
+
+
+Cooper                                                         [Page 39]
+
+Internet Monthly Report                                    February 1993
+
+
+   activities that relate to the production, dissemination, and support
+   of NIR tools.  NIR is a cooperative effort of the IETF, RARE, and
+   CNI.
+
+   Network Information Services Infrastructure (NISI).  NISI is
+   exploring the requirements for common, shared Internet-wide network
+   information services.  The goal is to develop an understanding for
+   what is required to implement an information services
+   "infrastructure" for the Internet.
+
+   Universal Resource Identifiers (URI).  URI is chartered to define a
+   set of standards for the encoding of system independent Resource
+   Location and Identification information for the use of Internet
+   information services.
+
+   User Documentation (USERDOC2).  UserDoc2 is preparing a revised
+   bibliography of on-line and hard copy documents/reference materials/
+   training tools addressing general networking information and how to
+   use the Internet.  (Target audience: those individuals who provide
+   services to end users and end users themselves.)
+
+   User Glossary (USERGLOSS).  User-Gloss is chartered to create an
+   Internet glossary of networking terms and acronyms for the Internet
+   community.
+
+   User Services (USWG).  The User Services Working Group provides a
+   regular forum for people interested in all user services to identify
+   and initiate projects designed to improve the quality of information
+   available to end-users of the Internet.
+
+   Whois and Network Information Lookup Service (WNILS).  The purpose of
+   WNILS is to expand and define the standard for WHOIS services, to
+   resolve issues associated with the variations in access, and to
+   promote a consistent and predictable service across the network.
+
+         +-----------------------------------------------------------+
+         | WG            Chair(s)          Mailing List              |
+         +-----------------------------------------------------------+
+         |                                                           |
+         | DISI          Chris Weider      disi@merit.edu            |
+         |                                                           |
+         +-----------------------------------------------------------+
+         |                                                           |
+         | IAFA          Peter Deutsch     iafa@cc.mcgill.ca         |
+         |               Alan Emtage                                 |
+         |                                                           |
+         +-----------------------------------------------------------+
+
+
+
+
+Cooper                                                         [Page 40]
+
+Internet Monthly Report                                    February 1993
+
+
+         |                                                           |
+         |  IIIR         Chris Weider      iiir@merit.edu            |
+         |                                                           |
+         |                                                           |
+         +-----------------------------------------------------------+
+         |                                                           |
+         | ISN           John Clement      isn-wg@bitnic.educom.edu  |
+         |               Art St. George                              |
+         |               Connie Stout                                |
+         |                                                           |
+         +-----------------------------------------------------------+
+         |                                                           |
+         | NIR           George Brett       nir@cc.mcgill.ca         |
+         |               Jill Foster                                 |
+         |                                                           |
+         +-----------------------------------------------------------+
+         |                                                           |
+         | NISI          April Marine      nisi@merit.edu            |
+         |               Pat Smith                                   |
+         |                                                           |
+         +-----------------------------------------------------------+
+         |                                                           |
+         | URI           Peter Deutsch     uri@bunyip.com            |
+         |               Alan Emtage                                 |
+         |                                                           |
+         +-----------------------------------------------------------+
+         |                                                           |
+         | USERDOC2      Ellen Hoffman     userdoc@merit.edu         |
+         |               Lenore Jackson                              |
+         |                                                           |
+         +-----------------------------------------------------------+
+         |                                                           |
+         | USERGLOSS     Gary Malkin       usergloss@xylogics.com    |
+         |               Tracy LaQuey Parker                         |
+         |                                                           |
+         +-----------------------------------------------------------+
+         |                                                           |
+         | USWG          Joyce K. Reynolds us-wg@nnsc.nsf.net        |
+         |                                                           |
+         +-----------------------------------------------------------+
+         |                                                           |
+         | WNILS         Joan C. Gargano   ietf-wnils@ucdavis.edu    |
+         |                                                           |
+         |                                                           |
+         +-----------------------------------------------------------+
+
+
+
+
+
+
+Cooper                                                         [Page 41]
+
+Internet Monthly Report                                    February 1993
+
+
+              Internet Documentation for USERS (not Wizards!)
+                            The FYI RFC Series
+
+           FYI 16  "Connecting to the Internet: What Connecting
+                   Institutions Should Anticipate", (Also RFC 1359),
+                   August 1992.
+
+           FYI 15  "Privacy and Accuracy Issues in Network
+                   Information Center Databases", (Also RFC 1355),
+                   August 1992.
+
+           FYI 14  "Technical Overview of Directory Services Using
+                   the X.500 Protocol", (Also RFC 1309), March 1992.
+
+           FYI 13  "Executive Introduction to Directory Services Using
+                   the X.500 Protocol", (Also RFC 1308), March 1992.
+
+           FYI 12  "Building a Network Information Services
+                   Infrastructure", (Also RFC 1302), February 1992.
+
+           FYI 11  "A Catalog of Available X.500 Implementations",
+                   (Also RFC 1292), January 1992.
+
+           FYI 10  "There's Gold in them thar Networks! or Searching for
+                   Treasure in all the Wrong Places", (Also RFC 1290),
+                   December 1991.
+
+           FYI 9  "Who's Who in the Internet: Biographies of IAB, IESG
+                  and IRSG Members", (Also RFC 1336), May 1992.
+
+           FYI 8  "Site Security Handbook", (Also RFC 1244), July 1991.
+
+           FYI 7  "FYI on Questions and Answers: Answers to Commonly
+                  Asked "Experienced Internet User" Questions",
+                  (Also RFC  1207), February 1991.
+
+           FYI 6  "FYI on the X Window System", (Also RFC 1198),
+                  January 1991.
+
+           FYI 5  "Choosing a Name for Your Computer", (Also RFC 1178),
+                  August 1990.
+
+           FYI 4  "FYI on Questions and Answers: Answers to Commonly
+                  asked "New Internet User" Questions", (Also RFC 1325),
+                  May 1992.
+
+           FYI 3  "FYI on Where to Start: A Bibliography of Internet-
+                   working Information", (Also RFC 1175), August 1990.
+
+
+
+Cooper                                                         [Page 42]
+
+Internet Monthly Report                                    February 1993
+
+
+           FYI 2  "FYI on a Network Management Tool Catalog: Tools for
+                  Monitoring and Debugging TCP/IP Internets and
+                  Interconnected Devices", (Also RFC 1147), April 1990.
+
+           FYI 1  "F.Y.I. on F.Y.I.: Introduction to the F.Y.I.
+                  Notes", (Also RFC 1150), March 1990.
+
+   Details on obtaining FYI RFCs via FTP or EMAIL may be obtained by
+   sending an EMAIL message to "rfc-info@ISI.EDU" with the message body
+   "help: ways_to_get_rfcs".  For example:
+
+           To: rfc-info@ISI.EDU
+           Subject: getting rfcs
+
+           help: ways_to_get_rfcs
+   =======================================================================
+
+                   "Integrated Information Architecture"
+
+   Many new networked services to identify, access, and retrieve
+   information resources have sprung up in the last several years --
+   archie, WAIS, and Netfind, to name only three.  Now, much as the
+   Internet has tied many disparate networks together into an integrated
+   system, the pressing problem is how to integrate these many new
+   services into a single coordinated Internet information naming,
+   discovery, and retrieval system.
+
+   There are three vital areas of this integration effort that the IESG
+   is interested in pursuing:
+
+           1) The identification, cataloging, and documentation of
+              networked information services, new and old.
+
+           2) The standardization of descriptions and identification
+              schemes for networked resources, and the distribution and
+              implementation of these identifiers.
+
+           3) The integration and interoperability of the various
+              new information services.
+
+   To this end, the IESG is creating three new working groups:
+
+      1) Networked Information Retrieval (NIR) -- NIR will work on the
+         first issue above by identifying, cataloging, and documenting
+         networked information services.  The result will be a published
+         catalog of network information retrieval services.  In addition,
+         NIR will liase with other organizations working on this goal,
+         such as RARE ISUS and CNI.
+
+
+
+Cooper                                                         [Page 43]
+
+Internet Monthly Report                                    February 1993
+
+
+      2) Uniform Resource Identifiers (URI) --  URI will concentrate
+         on the second issue above, particularly on the standardization
+         and implementation of identification schemes for networked
+         resources.  There will be two primary components in this
+         effort: a Uniform Resource Locator (URL) which is a string
+         which tells how to locate a document.  The second part is a
+         Universal Resource Serial Number, which is used to uniquely
+         identify a resource, so that one can, for example tell if
+         two documents with different file names are, in fact, the
+         same.  The standard identification scheme developed by
+         URI will be used by NIR to define the standard resource
+         formats.
+
+      3) Integration of Internet Information Resources (IIIR) --
+         IIIR will work on the third issue by developing technical
+         specifications and documentation for a) interoperation between
+         the various information services and b) the integration of
+         new information services into the existing CIM (combined
+         information mesh).  After the specifications for interoperation
+         have been completed, IIIR will examine the need for additional
+         protocols necessary to further integrate the CIM, including
+         gateway protocols, query routing protocols, and other
+         mechanisms.
+
+   In addition to the above named groups, the IETF wishes to facilitate
+   the standardization of descriptions and data formats for various
+   specific information services by chartering single-protocol working
+   groups which will work on this standardization.  Examples of such
+   groups are the Internet Anonymous FTP Archive group (IAFA), which is
+   working on standardization of anonymous FTP archives, and the new
+   Whois Network Information Lookup Service (WNILS), which is working on
+   standardization of services using the WHOIS protocol.
+
+   The IESG considers these WGs to be components of a single coordinated
+   IETF effort to create an integrated Internet information
+   architecture.  Therefore, the chairs and membership of each group
+   will be active participants in the other groups.  The overall
+   coordination of this effort will be under the joint management of the
+   Applications and User Services Area.
+
+   Due to the importance of an Integrated Internet Information Service
+   Architecture, the IESG requests the working group chairs and the
+   Applications and User Services area directors to jointly expand this
+   brief overview into a more fully fleshed out architectural statement,
+   and to issue periodic progress reports describing how the integrated
+   information service is developing.
+
+
+
+
+
+Cooper                                                         [Page 44]
+
+Internet Monthly Report                                    February 1993
+
+
+RIPE Parallel Meetings Attended
+
+   IP Registry/Addressing BOF
+
+      Rudiger Volk suggested that there should be a list of the local
+      registries.  Daniel Karrenberg mentioned that the list is changing
+      daily and that is not the way to operate.  There is also the
+      semantics of different categories of commercial, research, and
+      government.  Elise Gerich pointed out that we are waiting for the
+      NSF NIS solicitation to be announced.
+
+      80-90% of the requests that the IR receives are paper submissions,
+      not via electronic mail.  Model of supernetting - US backbones and
+      regionals.  Not the case in Europe and not an easy task due to the
+      interconnection of things in Europe right now.
+
+      The distributed scheme is local/homogenus, with all registries
+      which will refer requests between different registries.  It is
+      absolutely necessary and feasible to create local templates
+      (primary in English, secondary in a native language).  There needs
+      to be more documentation spelling out procedure and how the
+      template could be uniform.
+
+   Set of Documents to be Developed
+
+      1) Create a common user document.  Bob Day volunteered
+         to be the focal point for the user documents.
+
+      2) Create a common template - Daniel Karrenberg volunteered for
+         template development.  Joyce K. Reynolds took an action item to
+         initiate a quick line to the new IR (InterNICs), once it has been
+         announced and established.  She also volunteered the IANA to help
+         out about how the template should be developed
+
+      3) Exchange and document evaluation criteria.  This still needs to
+         be determined.
+
+   Nebulous addressing.  There are too many Class As and Class Bs.  What
+   is the substantiation??  What about Class Cs??  There is also the
+   consideration of the growth factor.  It is evolutionary and ready to
+   take on the challenge.  Focus on topological, not geographics...then
+   subdivide.  There are no firm guidelines on how Class Bs are
+   assigned.  The IANA needs to provide a set of guidelines for each set
+   of IP addresses.  Also, to clarify the rationale to maintain the
+   Class Bs, as there are no instructions.  The guidelines should
+   provide different scenarios so that one can judge how to assign a
+   number.  There is a need to take the "class" out of "Class B"
+   flavors.  There is a notion that a Class B is the "prestigious big
+
+
+
+Cooper                                                         [Page 45]
+
+Internet Monthly Report                                    February 1993
+
+
+   thing" to obtain in the Internet.
+
+   Registry system funding was not discussed, due to time constraints.
+   Regarding the Rekhter I-D on network numbers, it is considered a good
+   draft.  There are some reservations about Class B's being retained by
+   the IR.  It is considered okay for now, but this topic will be
+   reevaluated later.
+
+RIPE Database WG
+
+   Included in the agenda was the proposed structure of the DB,
+   organizational and legal issues, operational issues, and technical
+   issues.  There was approval of the RIPE-DB leaflet for publication.
+
+      1) Ownership/copyright of database use.  Review of RIPE-02 paper.
+         The X.400/X.500/MHS issues liaison with the RTC.  No formal
+         result.  This is a very complicated issue that needs consulting via
+         a lawyer.  There should also be interaction with OSI.
+
+      2) Operational.  There is a need for a change to the database
+         format.  The DDN NIC has changed its format, with additional
+         information available.  What about the non-standard use of fields??
+         Contact the US representatives first.
+
+      3) "Major Part" of Technical issues.  Modification of the "in"
+         field for supernetting.  Domain objects and general purpose
+         extensions.  GSI/Merit/RIPE NCC exchange format is almost finished.
+         Routing Object and Routing privilege updates.  Method for deleting
+         an object.  Sending in a whole object and pseudo attributes.  New
+         line "d", plain text as to why it is deleted.
+
+The RIPE Meeting Audiocast
+
+   The 13th RIPE meeting was broadcast "To all of Europe and Israel",
+   The audiocast went well at this meeting.  A group of volunteers needs
+   to be assembled near strategic points in the physical infrastructure.
+   It is to be called, MBONE-EU.  An emergency shut off mechanism needs
+   to be installed, if there develops an excessive load on the net.
+
+Network Information Discovery for Users Support (NIDUS WG)
+
+   The NIDUS WG, chaired by Nandor Hovarth, lead a discussion to
+   identify services to give to users that will be provided by the RIPE
+   database and the RIPE NCC document store.
+
+   Joyce K. Reynolds, in response to her previous NIDUS WG action items
+   at the RIPE last meeting, presented the IETF Network Information
+   Services Infrastructure (NISI) Working Group's NIC template, and the
+
+
+
+Cooper                                                         [Page 46]
+
+Internet Monthly Report                                    February 1993
+
+
+   "Global Notable NICs" file (see below).  While the Notable NICs file
+   it not complete, it is a start.  Joyce also distributed updates to
+   the IETF User Services Area's Working Groups and new FYI RFC
+   publications (see section, "Internet Engineering Task Force (IETF)
+   User Services Reports", above).
+
+   Milan Sterba commented that the RIPE NIDUS should draw on Jill
+   Foster's RARE ISUS group and Joyce Reynolds' IETF User Services
+   working groups, as the BBN NNSC's Internet Resource Guide is not
+   "global".  The NIDUS group should try to appoint each country to
+   provide information of their site.  This information can be collected
+   in a central place, in a database (Milan's proposed database).
+
+   Geza Turchanyi commented that there are two ways to approach this:
+
+      1) Plan for the future (Milan's database)
+      2) Do what is needed now immediately (Geza's plan)
+
+   NIDUS should start with existing US templates - BBN's template and
+   the DDN NIC's template.  These can be obtained from the RARE
+   Secretariat.  Milan's reasoning is that collecting information:
+
+      1) can be used for service providers
+      2) might be a tool which could be given to the users to help at
+         their databases directly.
+
+   It is also good idea to use/include the information already collected
+   by Jill Foster's group (RTR 1), but NOT via each national network,
+   but by each country, with user support information and local updates.
+   The RTR 1 report as a paper copy is too definitive, the RIPE database
+   is moving and evolving constantly.
+
+   It was suggested that WAIS is good in aggregating multiple databases.
+   It works from the bottom up; local NICs first, then get the
+   information on what they are doing.  Not GUIDES, but WHERE one can
+   FIND things.  The RIPE NCC should be the right place to store this
+   information, once it is collected.  It was decided at the next RIPE
+   meeting to focus on database specific issues.  It was also proposed
+   to improve the template until the next meeting.  Index information,
+   put all information on-line, and connect it directly to the server.
+
+   Nandor commented on how the NIDUS WG should to proceed with their
+   work.  There are large amounts of existing documents (informational,
+   and so on) that could be made available on the RIPE NCC.  What is
+   already out there??  What else could be put in that is not already in
+   the database?  Also, put in global NIC information.  Geza and Daniel
+   will help with this task.
+
+
+
+
+Cooper                                                         [Page 47]
+
+Internet Monthly Report                                    February 1993
+
+
+   Milan suggested to define a new RIPE database object for resource
+   information, resource guides, and access methods.  There are
+   different opinions about this concept.
+
+      1) This information cannot be structured.  The RIPE DB is not the
+         best forum to store information.
+
+      2) What kind of information should one collect about resources??
+         The RIPE DB is a valuable tool.  Milan will continue to refine and
+         resolve this issue.  He will bring and enhanced proposal to the
+         next RIPE meeting.
+
+                            NISI WG "NIC-Template"
+
+      The Network Information Services Infrastructure (NISI) Working
+      Group in the User Services Area of the IETF is exploring the
+      requirements for common, shared Internet-wide network information
+      services.  The goal is to develop an understanding for what is
+      required to implement an information services "infrastructure" for
+      the Internet.  April Marine (SRI International) and Pat Smith
+      (Merit) are co-chairs of this group.  The NISI WG has produced an
+      FYI RFC on, "Building a Network Information Services
+      Infrastructure" (FYI 12, RFC 1302).
+
+      One of their projects is to initiate development of a central
+      point where profiles of existing Network Information Centers can
+      be maintained for NICs around the world to access.  They also have
+      available a mailing list called "nic-forum@merit.edu" to provide
+      NIC personnel with a means of soliciting information from other
+      NICs, offering solutions to common problems, and posting
+      information of general NIC interest.
+
+      Besides providing valuable information, this will be a
+      contribution to needed communication between NICs at this level
+      and also a boost for the X.500 effort.
+
+      Additional information and the template are included below.  If
+      you have further questions please send a message to
+      april@nisc.sri.com and psmith@merit.edu.
+
+      The NISI WG co-chairs are excited about this project and are
+      looking forward to your participation!
+
+      ====================================================================
+
+
+
+
+
+
+
+Cooper                                                         [Page 48]
+
+Internet Monthly Report                                    February 1993
+
+
+   1)  JOINING the nic-profiles and the nic-forum
+
+      To join the nic-forum, send a note to: nic-forum-
+      request@merit.edu.
+
+      To join the nic-profiles, please complete the attached template
+      and return to: psmith@merit.edu.  When the template comes back to
+      merit.edu, your NIC profile entry will be added to the database.
+
+   2)  MODIFYING INFORMATION -- Who has access?
+
+      Note that the means of allowing access for modifying information
+      which is described in the following paragraph is only a temporary
+      measure.  Eventually a "modification password" will be required in
+      addition to the proper e-mail address.
+
+      When the initial template is completed, one piece of information
+      requested is the e-mail address of the NIC contact person
+      (contactPersonEmail).  That electronic address becomes the
+      "password" for updating your NIC information.  Any corrections or
+      changes will be sent to: nic-profile-update@merit.edu.  The
+      incoming mail will be checked to ensure that the e-mail address in
+      the "From:" field matches the e-mail address of the contact
+      person.  If it matches, then the information will be changed.  If
+      not, the mail will be returned to sender with an explanatory note.
+
+   3)  ACCESSING NIC-PROFILES
+
+      In order to access X.500, your site must have a Directory User
+      Agent (DUA) set up which can speak to Merit's Directory Service
+      Agent (DSA).  If the DUA is running all that is necessary is to go
+      to Merit's branch of the directory tree which is:
+
+                  @o=Internet@NICProfiles
+
+      If your site doesn't have this capability, send a note to
+      psmith@merit.edu for further information.
+
+      Information on availability of X.500 Directory User Agents (DUAs)
+      and Directory System Agents (DSAs) is available in FYI 11, RFC
+      1292 (" Catalog of Available X.500 Implementations"), written by
+      Ruth Lang (SRI International) and Russ Wright (Lawrence Berkeley
+      Laboratory) of the Directory Information Services Infrastructure
+      (DISI) Working Group in the User Services Area of the IETF.
+
+      For those who do not have X.500 software at their site, efforts
+      are underway to provide the capability for updating nic-profiles
+      entries and accessing the information using electronic mail.
+
+
+
+Cooper                                                         [Page 49]
+
+Internet Monthly Report                                    February 1993
+
+
+   4)  NOTES ABOUT THE TEMPLATE
+
+       1.  "objectClass" will always be nicProfile.
+
+       2.  An example of "parentOrganizationName" and "commonName"
+           might be:
+
+              parentOrganizationName=Bolt, Beranek and Newman, Inc.;
+              commonName=NSF Network Service Center;
+              commonName=NNSC
+
+       3.  contactPersonEmail is the "password" that will be
+           matched before any changes to the NIC entry can be
+           made.
+
+       4.  Under "servicesOffered" please include one-line
+           bulleted items, not paragraphs of prose.
+
+      The Template follows.  Please return to psmith@merit.edu: (Note:
+      Initially, there will be human interaction in making these
+      entries, so don't worry about format, punctuation, spaces, etc.)
+
+      ====================================================================
+
+      objectClass: nicProfile
+
+      primary name of nic:
+
+      secondary name of nic (if applicable):
+
+      parent organization:
+
+      street number and name:
+
+      city,state/province,zip/postal code:
+
+      area/country code, telephone number:
+
+      nic e-mail address:
+
+      accessControlList:  (default):
+
+      name of nic contact person:
+
+      contact person's e-mail address:
+
+      days of week nic is open:
+
+
+
+
+Cooper                                                         [Page 50]
+
+Internet Monthly Report                                    February 1993
+
+
+      hours of operation (GMT and local time - indicate time
+      zone):
+
+      principal language spoken at this nic:
+
+      services offered by this nic:
+
+      publications offered by this nic:
+
+      ====================================================================
+
+              Notable NICs - Joyce K. Reynolds (ISI)
+                      18 September 1992
+
+
+              AARNet Network Information
+              DDN (NIC)
+              French National Network (FNET)
+              GARR (NIS)
+              Japan Network Information Center (JNIC)
+              Merit
+              NASA Science Internet (NSI NIC)
+              New England Academic and Research Network (NEARnet)
+              NorthWestNet NIC (NUSIRG)
+              NSF (NNSC)
+              RIPE (NCC)
+              SRI (NISC)
+
+               AARNet Network Information
+
+          Provides information services, connectivity
+          and reachability information for Australia
+
+          Including:
+             online information
+             ftp archive service, including archie server
+             resource cataloging
+             technical support
+             number assignments
+
+            and we answer any question about any aspect of Internet
+            connectivity in this area of the globe ( :-) )
+
+          AARNet Network Information is reachable at:
+              +61 6 249 3385
+              +61 6 249 1369 (FAX)
+              and via electronic mail to:
+              aarnet@aarnet.edu.au
+
+
+
+Cooper                                                         [Page 51]
+
+Internet Monthly Report                                    February 1993
+
+
+         Defense Data Network (DDN)
+         Network Information Center
+
+         Assists DDN users in obtaining
+         information about the DDN and
+         the Internet.
+
+
+          Assigns IP network numbers,
+          autonomous system numbers,
+          and administrates Domains
+          Maintains "WHOIS" database.
+          Issues TAC cards to uthorized DDN users.
+          Maintains library of network documents
+          including RFC's.
+
+         The DDN NIC is reachable at:
+         (800) 365-3642, and via
+         electronic mail to:
+         "nic@nic.ddn.mil"
+
+
+              French National Network (FNET)
+
+              Assigns IP network numbers, administrates
+              Domains, provides various network services
+              such as mail (SMTP and X.400), time services,
+              News, anonymous FTP of various documents,
+              standards, and software.
+
+              Fnet is reachable at:
+
+              Administrative:
+                 +33(1)39.63.55.34
+                 +33(1)39.63.53.30 (fax)
+                 fnet-admin@inria.fr
+              Technical:
+                 +33(1)39.63.52.13
+                 +33(1)39.63.53.30 (fax)
+                 fnet-tech@inria.fr
+              Operations:
+                 nocmaster@inria.fr
+
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 52]
+
+Internet Monthly Report                                    February 1993
+
+
+              Japan Network Information Center (JNIC)
+              (locates at Univ. of Tokyo)
+
+              Assigns IP network numbers for Japan,
+              administrates JP domains,
+              and provides information services
+
+              The JNIC is reachable at:
+              +81 3 3812-2111 ext.2720
+              +81 3 3814-7279 (FAX), and via
+              electronic mail to:
+              "jnic@nic.ad.jp"
+
+
+              GARR - Network Information Service
+
+              GARR - Italian Research and Academic Network
+              Network Information Service
+
+              Provides support to the GARR regionals network managers
+              Assigns IP network numbers, and administrates Domains under IT
+
+              Provides information services including:
+
+              FTP repository of RFCs
+              online information services
+              GARR Electronic Bullettin
+              GARR Resource Catalog
+              X.500 directory
+
+              The GARR-NIS is reachable at:
+              +39 50 593360, and via e-mail to:
+              info@nis.garr.it
+
+              Merit/NSFNET
+              Information Services
+
+              Services include:
+                 Merit Networking Seminars
+                 NSFNET publications
+                 online information services
+                 consulting
+
+              Merit/NSFNET is reachable at:
+                 (313) 936-3000 and via
+                 electronic mail to:
+                 "nsfnet-info@merit.edu"
+
+
+
+
+Cooper                                                         [Page 53]
+
+Internet Monthly Report                                    February 1993
+
+
+         NASA Science Internet
+         Network Information Center (NSI NIC)
+
+         Serves as a central point of contact for
+         NSI research & engineering community.
+         Provides Help Desk Hotline, on-line information
+         services, documentation, and outreach.
+         Note: NSI is an international dual protocol
+         (TCP/IP & DECnet) backbone network.
+
+         Including:
+            annual user forum
+            dial-up access
+            Directory Services (NSI_DB, X.500)
+            e-mail distribution lists
+            FTP repository (The NSI File Cabinet)
+            Help Desk (questions,problems,consulting)
+            interoperability gateways (EAST, NSINIC)
+            online information services (NONA)
+            USENET News feeds
+
+         The NSI NIC is reachable at:
+
+            help@nic.nsi.nasa.gov (preferred)
+            (301) 286-7251 (Hotline)
+            (301) 286-5152 (FAX)
+            and also via electronic mail (DECnet)
+            TO: nsinic::nsihelp
+
+
+         New England Academic and Research Network (NEARnet)
+         NEARnet User Services
+
+         Provides information services to the NEARnet community.
+
+         Services include:
+          online information available via anonymous FTP at nic.near.net
+          publication of the NEARnet Newsletter
+          publication of the "NEARnet This Month" online bulletin
+          Technical and User Seminars (six mini-seminars and one annual
+          seminar)
+          videotape collection of previous seminars
+          support of library and K-12 communities through affinity groups
+          training program development and user liaison support
+          Hotline and "Help" Mailbox
+
+
+
+
+
+
+Cooper                                                         [Page 54]
+
+Internet Monthly Report                                    February 1993
+
+
+         The NEARnet User Services Staff is reachable at:
+             (617) 873-8730, and via electronic mail to:
+             "nearnet-us@nic.near.net"
+
+
+      NorthWestNet NIC  (8/10/92)
+              NorthWestNet User Services Internet Resource Guide (NUSIRG)
+              Online resources
+              Training for member organizations
+
+           For more information and questions contact:
+              info@nwnet.net
+              (206) 562-3000
+
+
+                 NSF Network Service Center
+
+              Provides information services
+              to the NSFNET/Internet end-user community
+
+              Services Include:
+                 online information
+                 workshops
+                 resource cataloging
+                 technical support
+                 NSF Network Newsletter publication
+                 contact information
+                 Hotline and "Help" Mailbox
+
+              The NNSC is reachable at:
+                 (617) 873-3400, and via
+                 electronic mail to:
+                 "nnsc@nnsc.nsf.net"
+
+
+                   RIPE (NCC)
+
+         Reseaux IP Europeens (RIPE)
+         Network Coordination Centre
+
+         Assists European Internet operators.
+         Refers users to apropriate operators.
+
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 55]
+
+Internet Monthly Report                                    February 1993
+
+
+         Services include:
+
+              delegated registry for network and AS numbers
+
+              whois database at whois.ripe.net
+
+              document store at ftp.ripe.net
+              (also accessible via gopher and wais)
+
+              interactive information service
+              via telnet at info.ripe.net
+
+          The RIPE NCC is reachable at:
+
+              +31 20 592 5065
+              +31 20 592 5155 (fax)
+              or via electronic mail at
+              ncc@ripe.net
+
+
+         SRI Network Information
+         Systems Center
+
+         Provides network tools and
+         information services to
+         the Internet community
+
+         Including:
+            online information
+            FTP repository of RFCs
+            Only service offering
+            hardcopy RFCs
+            Several hardcopy information documents
+            CD-ROM with all online RFCs and other info
+
+         The SRI NISC is reachable at:
+
+         (415) 859-6387
+         (415) 859-3695
+         (415) 859-6028 (FAX)
+         and via electronic mail
+         to: nisc@nisc.sri.com
+
+      ===================================================================
+
+
+
+
+
+
+
+Cooper                                                         [Page 56]
+
+Internet Monthly Report                                    February 1993
+
+
+The NETF Meeting
+
+      The NETF meeting was held in a suburb outside of Oslo, Norway, with
+      approximately 75 attendees.
+
+NORDUnet Services/Events
+
+
+      -A cisco based system provides better response time.  This is
+       a the major event.
+
+      -DECnet out from UNI-C now runs on a cisco.
+
+      -DECnet Phase V experiment is beginning to study this and
+       hopes are that this will be an application in the future.
+
+      -Tender/SRNETT project
+
+      -Nordic Schools Project - a collective for schools to
+       communication via NORDUnet.
+
+      -Baltic activities
+
+      -Computer Emergency Response Team (CERT).  Set up a "CERT" in
+       Stockholm.  Formalized by becoming a member of "FIRST", which
+       is a club of "CERTS".  NORDUnet is the first European member of this
+       club. "FIRST"'s objective is to obtain information on security holes,
+       etc., and find out how to protect sites.
+
+NORDUnet Relations
+
+   NORDUnet will be a part of the common EBONE, starting 3 January 1993.
+   It has an operations unit, and is a member of FIRST.  Work is in
+   progress to make NORDUnet an "A/S" (that is, making NORDUnet a legal
+   body).  NORDUnet is a founding original member of the Internet
+   Society.
+
+EBONE in Europe - IP Backbone
+
+   Bernhard Stockman presented a talk on EBONE.  Routing was going on
+   before EBONE, but it was cost inefficient.  Wanted optimization for
+   technical and economic reasons.  The EBONE backbone currently
+   comprises five major sites in Europe.  In 1993, the extensions to the
+   backbone will be to an EBONE border system.  This border system will
+   be between an extension EBONE and internal sites in Europe.  EBONE
+   1993 will include:
+
+
+
+
+
+Cooper                                                         [Page 57]
+
+Internet Monthly Report                                    February 1993
+
+
+      -neutral interconnections among all operators.
+      -Pan European Backbone (no such thing as yet).
+      -sound organization (proper, fair financing)
+      -neutrality (no government subsidizing of commercial enterprises)
+      -long-term EBONE (3-5 years).
+
+   The EBONE organization in 1992 included:
+
+      ECCO - RBS connections
+      EAT (EBONE Action Team) - Engineers
+      EOT (EBONE Operations Team) - Operations
+      EMC (EBONE Management Committee) - The Board
+
+NETF Nordic Program
+
+   There is a NORDUnet program proposal, which includes:
+
+      -bi-lateral discussions
+      -Nordic schools projects (distance education)
+      -Library sector
+      -"NORDinfo"
+      -Research collaboration
+      -Sweden/Norwegian activities
+
+   The future program focuses on being able to compete on "equal terms"
+   with Europe, the US, and Japan.  Also, to initiate closer ties onto
+   "building a chain" between:
+
+      -R&D activities in IT and communication
+      -Pilot use of new technology
+      -Deployment of technology
+
+   A report has been published (in Swedish).  The evaluation of this
+   report has been positive.  A formal request was made for funding, but
+   it was turned down, due to bad financial situations.  A new program
+   is not possible at this point in time.
+
+   So, what now??  A new program should be based on existing activities.
+
+      -need to develop the ideas into another proposal.
+      -should be national level discussion ("lobbying" is needed)
+      -immediate support to the NETF is needed
+      -NORDREN@searn.sunet.se - will be the email distribution list
+
+NTR - Norwegian Telecom Research
+
+   Per Einar Dybuik presented a talk on the NTR.  A workplan has been
+   established, called the CoMMedia initiative (Communication
+
+
+
+Cooper                                                         [Page 58]
+
+Internet Monthly Report                                    February 1993
+
+
+   Cooperation and Multimedia).  This is a Norwegian Telecom Agreement.
+   The workplan will try to establish a major national research project
+   in the area of distributed multimedia applications.  The study is not
+   in place yet.  The background on this effort came out of an agreement
+   at the multimedia seminar on 24 April 92.
+
+   The workplan ambitions include:
+
+      -national distributed multimedia lab
+      -interaction with other initiatives
+      -identify applications
+      -conclusions and future work
+
+   Planned and on-going applications include:
+
+      -distributed electronic classrooms
+      -multimedia library services
+      -distributed meetings and cooperation
+      -electronic maps
+      -electronic newspapers
+      -distributed medical and environmental services
+      -entertainment market
+      -multimedia document interchange
+
+   Major participants include all major Norwegian universities and
+   colleges, UNINETT, Norwegian Telecom, and the National Research
+   Council (NRC).
+
+SIREN - A Swedish Initiative in IT and communications
+
+   The goals of the SIREN initiative include:
+
+   -deploy use of IT and communication services to:
+      schools, universities, industry, government, etc.
+
+   -find mechanism to turn research results into public use.
+      What protocol stacks are needed??
+
+   Pilot user of new transmission/network concept
+      Dynamic Time Division (DTM)
+
+   Funding is needed for this project.
+
+Background on a Network Information Services Infrastructure
+
+   Establishment of a NISI (SUNET and NORDUnet)
+
+      -public service providers.
+
+
+
+Cooper                                                         [Page 59]
+
+Internet Monthly Report                                    February 1993
+
+
+      -collaborative research program (Multi G)
+      -a "whois" SIREN (with a bottom up approach - not delegated from
+       on-high, government entities)
+
+   Research issues:
+
+      -multimedia, distributed, integrated
+      -network technology: fiber and mobile
+      -host interface design
+      -operations system
+      -user interface
+
+   Pilot services:
+
+      -multimedia mail, videoconferencing, interactive TV
+
+   Research and Education improvements:
+
+      -university and school level education (must start at the school
+       level)
+      -research profile (educate educator for public market education)
+      -international collaboration and industry collaboration
+
+CNI - Coalition of Networked Information
+
+   Craig Summerhill presented a talk on CNI.  CNI was founded in March
+   of 1990 by ARL, CAUSE, and EDUCOM.  There is a 9 person steering
+   committee, a 150 member task force, 8 working groups, a 3 person
+   secretariat, and a variety of network services.
+
+   CNI is content oriented, making the assumption that there are other
+   frameworks in existence and promulgating vision statements.  Working
+   groups focus on the modernization of scholarly publishing, the
+   transformation of scholarly communications, and directories and
+   resource information services.  Architecture and standards are looked
+   at in the form of legislation, codes, policies and practices.  Access
+   to government information, teaching and learning, management and
+   professional and user education.  CNI works on networking
+   partnerships in research and education.
+
+   CNI project criteria includes:
+
+      -full disclosure
+      -collaborative
+      -advance state of the art or state of understanding
+      -open architecture and standards
+
+
+
+
+
+Cooper                                                         [Page 60]
+
+Internet Monthly Report                                    February 1993
+
+
+Information and User Services Session
+
+      Nordhagen.  Anders Gillner presented a talk on structuring Gopher.
+      Joyce Reynolds presented a talk on the current projects in the
+      User Services Area of the IETF and the new "Integrated Information
+      Architecture" plan put forth by the IESG (see RIPE meeting notes,
+      sections, "Network Information Discovery for Users Support" (NIDUS
+      WG)", and "Internet Engineering Task Force (IETF) User Services
+      Reports", above).  Rolf lead a discussion on future ideas and
+      activities in the user services realm in the NETF.
+
+NETF Multimedia
+
+      -mime-information exchange - projects, problems, achievements
+      -pilot experiments
+
+   MIME is structuring the body of mail
+
+      -identification: What?  encoding: How? (Anything beyond US-ASCII)
+      -character sets (binary transfer, multiport)  This is not focussed
+       on defining new formats, but a question of labelling
+
+   The status of MIME is that it is now a Proposed Standard Protocol
+   (RFC 1341).  The future of MIME:
+
+      -no big changes
+      -more body parts
+      -better user agents
+      -MIME mail servers
+
+   In five years, most Internet mail will use MIME.  To quote Marshall
+   Rose, "If MIME is adopted, X.400 is dead."
+
+Distance Education in Scandinavia
+
+   Astrid Jenssen, University of Oslo, presented a talk on distance
+   education.  The definition of "distance education" in this talk is,
+   any education activity where teacher and students are separated in
+   space and/or in time.  The technical media are applied for
+   distribution of subject content and for real two-way exchanges.
+
+   The Distance Education Model:
+
+      -Large Scale Model (Large, front end development)
+      -Small Scale Model (number of students much smaller)
+      -Text based communications
+
+   The most important aspect is two way communication.
+
+
+
+Cooper                                                         [Page 61]
+
+Internet Monthly Report                                    February 1993
+
+
+   This model helps to:
+
+      -facilitate group communication between students, teachers,
+       and administrative staff
+      -Distribute information
+      -Handle assignments
+      -Professional, social, and administrative communications
+      -asking for help, discussions, group collaboration, and guest
+       lecturing
+      -information must be organized in different forms
+
+   On-line education activities at USIT
+
+      -pedagogic on-line seminars (provides an introduction to
+       on-line uses and protocols) -introduction to Unix (FUNIX)
+      -Electronic networking (introduction to TCP/IP-based services (FIK)
+
+   Electronic networking (FIK) goals include to become familiar to the
+   services and to get an introduction to network technology.  The
+   target group is persons at educational institutions that are linked
+   to UNINETT (Norwegian academic network, which is part of the
+   Internet).  An on-line educational model includes:
+
+      -face-to-face meetings
+      -reproduced written material
+      -electronic exercises and individual assignments
+      -obligatory use of the server
+
+   Administrative Routines include:
+
+      -developing administrative routines for announcing registrations,
+       payments, etc.
+      -check local equipment and access to computer network services
+      -administrating user accounts (this must be initiated)
+      -user support for solving technical problems
+      -written material by giving step-by-step guidance (this started
+       4 1/2 - 5 years ago)
+
+   There are copyright issues regarding teaching materials.  For
+   example, in Music History.  Luckily, the copyright issues in Europe
+   are not a bad in the the United States.
+
+
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 62]
+
+Internet Monthly Report                                    February 1993
+
+
+CALENDAR
+--------
+
+Readers are requested to send in dates of events that are appropriate
+for this calendar section.  Please send your submissions to
+(cooper@isi.edu).
+
+1993 CALENDAR
+
+     Feb 28-Mar 3    Modeling & Analysis of Telecommunication
+                     Systems, Nashville, TN
+     Mar 8-12        INTEROP93, Wasington, D.C.
+                     Dan Lynch (dlynch@interop.com)
+     Mar 8-12        OIW, NIST, Gaithersburg, MD
+     Mar 8-12        IEEE802 Plenary, Omni Inner Harbor, Baltimore, MD
+     Mar 15-19       Uniform, San Francisco
+     Mar 24-31       CEBIT 93, Hannover, Germany
+     Mar 29 - Apr 2, IETF, Columbus, Ohio
+     Apr 5-19        TCOS WG, Boston (tentative)
+     Apr 14-16       National Net'93, Wash D.C. (net93@educom.edu)
+     Apr 18-23       IFIP WG 6.6 Third International Symposium
+                     on Integrated Network Management, Sheraton
+                     Palace Hotel, San Francisco, CA (kzm@hls.com)
+     Apr 20-22       ANSI  X3S3.3, Orlando, FL
+     May 10-13       4th Joint European Networking COnf., JENC93
+                     Trondheim, Norway
+     May 13-14       RARE Council of Administration, Trondheim
+     May 23-26       ICC'93, Geneva, Switzerland
+     May-Jun         PSTV-XIII, University of Liege.
+                     Contact: Andre Danthine,
+     Jun 2-4         ANSI  X3S3.3, Raleigh, NC
+     Jun 7-11        OIW, NIST, Gaithersburg, MD
+     Jun 15-30       ISO/IEC JTC1/SC21, Yokohama
+     Jun 21-25       USENIX, Cincinnati
+     Jun 30          RARE Technical Committee, Amsterdam
+     Jul 12-16       IETF, Amsterdam, The Netherlands
+     Jul 12-16       IEEE802 Plenary, Sheraton Denver Tech Center,
+                     Denver, CO
+     Jul 12-16       TCOS WG,  Hawaii (tentative)
+     Aug 1-6         Multimedia '93, Anaheim, CA
+     Aug 17-20       INET '93, San Francisco,
+     Aug 23-27       INTEROP93, San Francisco
+                     Dan Lynch (dlynch@interop.com)
+     Sep 13-17       SIGCOMM 93, San Francisco
+     Sep ??          6th SDL Forum, Darmstadt
+                     Ove Faergemand (ove@tfl.dk)
+     Sep 8-9         ANSI  X3S3.3, Boulder, CO
+     Sep 13-17       OIW, NIST, Gaithersburg, MD
+
+
+
+Cooper                                                         [Page 63]
+
+Internet Monthly Report                                    February 1993
+
+
+     Sep 20-31       ISO/IEC JTC1/SC6, Seoul, Korea.
+     Sep 28-29       September RIPE Technical Days, TBC
+     Sep 30-Oct 2    Paris
+     Oct             INTEROP93, Paris, France
+     Oct 12-14       Conference on Network Information Processing,
+                     Sofia, Bulgaria;  Contact: IFIP-TC6
+     Oct 18-22       TCOS WG, Atlanta, GA (tentative)
+     Nov 2-4         ANSI  X3S3.3, TBD
+     Nov 9-13        IEEE802 Plenary, Crown Sterling Suites,
+                     Ft. Lauderdale, FL
+     Nov 15-19       Supercomputing 93, Portland, OR
+     Dec 6-10        OIW, NIST, Gaithersburg, MD
+
+1994 CALENDAR
+
+     Apr 18-22       INTEROP94, Washington, D.C.
+                     Dan Lynch (dlynch@interop.com)
+     Jun 1-3         IFIP WG 6.5 ULPAA, Barcelona, Spain
+                     Einar Stefferud (stef@nma.com)
+     Aug 28-Sep 2    IFIP World Computer Congress
+                     Hamburg, Germany; Contact: IFIP
+     Sep 12-16       INTEROP94, San Francisco
+                     Dan Lynch (dlynch@interop.com)
+
+1995 CALENDAR
+
+     Sep 18-22       INTEROP95, San Francisco, CA
+                     Dan Lynch (dlynch@interop.com)
+========================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 64]
+

@@ -1,0 +1,1907 @@
+
+
+
+
+
+
+~
+
+
+
+
+
+
+
+
+July 1995
+
+
+INTERNET MONTHLY REPORTS
+------------------------
+
+The purpose of these reports is to communicate to the Internet Research
+Group the accomplishments, milestones reached, or problems discovered by
+the participating organizations.
+
+     This report is for Internet information purposes only, and is not
+     to be quoted in other publications without permission from the
+     submitter.
+
+Each organization is expected to submit a 1/2 page report on the first
+business day of the month describing the previous month's activities.
+
+These reports should be submitted via network mail to "IMR@ISI.EDU".
+
+Requests to be added or deleted from the Internet Monthly report list
+should be sent to "imr-request@isi.edu".
+
+     Details on obtaining the current IMR, or back issues, via FTP or
+     EMAIL may be obtained by sending an EMAIL message to "rfc-
+     info@ISI.EDU" with the message body "help: ways_to_get_imrs".  For
+     example:
+
+             To: rfc-info@ISI.EDU
+             Subject: getting imrs
+
+             help: ways_to_get_imrs
+
+
+
+
+
+
+
+
+
+
+
+Cooper                                                          [Page 1]
+
+Internet Monthly Report                                        July 1995
+
+
+TABLE OF CONTENTS
+
+  INTERNET ARCHITECTURE BOARD
+
+     INTERNET RESEARCH REPORTS . . . . . . . . . . . . . . . . page  3
+       RESOURCE DISCOVERY AND DIRECTORY SERVICE. . . . . . . . page  3
+     INTERNET ENGINEERING REPORTS  . . . . . . . . . . . . . . page  3
+
+  Internet Projects
+
+     ACM SIGCOMM . . . . . . . . . . . . . . . . . . . . . . . page 11
+     INTERNIC. . . . . . . . . . . . . . . . . . . . . . . . . page 12
+       Registration Services . . . . . . . . . . . . . . . . . page 12
+       Directory Services. . . . . . . . . . . . . . . . . . . page 14
+       US Domain Registry. . . . . . . . . . . . . . . . . . . page 15
+     MERIT/NSFNET ENGINEERING. . . . . . . . . . . . . . . . . page 18
+     UCL . . . . . . . . . . . . . . . . . . . . . . . . . . . page 22
+
+  CALENDAR OF EVENTS . . . . . . . . . . . . . . . . . . . . . page 23
+    TERENA List of Meetings. . . . . . . . . . . . . . . . . . page 27
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cooper                                                          [Page 2]
+
+Internet Monthly Report                                        July 1995
+
+
+
+INTERNET ARCHITECTURE BOARD
+---------------------------
+
+The minutes of the IAB back to 1990 are available for anonymous ftp
+access on host ftp.isi.edu, directory /pub/IAB, or via the IAB World-
+Wide Web page with URL http://www.iab.org/iab/.
+
+Brian Carpenter  <brian@dxcoms.cern.ch> IAB Chair
+
+
+INTERNET RESEARCH REPORTS
+-------------------------
+
+     RESOURCE DISCOVERY AND DIRECTORY SERVICE
+     ----------------------------------------
+
+        The Internet Research Task Force on Resource Discovery is
+        continuing its experimental efforts with the Harvest system
+        (http://harvest.cs.colorado.edu/).  We are moving Harvest
+        increasingly towards an interoperation architecture for network
+        search systems, by working with commercial search & retrieval
+        engine vendors to (a) integrate their engines, and (b) define
+        promising future research problems related to this integration
+        effort.  We are also working on support for distributed
+        searching, repluggable object storage managers, local post-
+        processing of query results, and deployment of an experimental
+        national caching infrastructure.
+
+     - Mike Schwartz
+       University of Colorado - Boulder
+       Chair, IRTF-RD
+       schwartz@cs.colorado.edu
+
+INTERNET ENGINEERING REPORTS
+----------------------------
+
+     1. The summer IETF meeting was held in Stockholm, Sweden the week
+        of July 17-21, 1995. The meeting was very well attended,
+        approximately 20% higher than the attendence level in Amsterdam,
+        the first IETF meeting.
+
+        The IETF will be meeting in Dallas, Texas on December 4-8, 1995.
+        Our local host for this meeting is MCI. At this time, two
+        meetings have been tentatively scheduled for 1996: March 4-8 in
+        Los Angelas, California followed by a meeting in Montreal,
+        Canada which is scheduled for June 24-28, 1996. Once all the
+        arrangements have been made, notifications will be sent to the
+
+
+
+Cooper                                                          [Page 3]
+
+Internet Monthly Report                                        July 1995
+
+
+        IETF Announcement list. Remember that information on future IETF
+        meetings can be always be found in the file 0mtg-sites.txt which
+        is located on the IETF shadow directories. This information can
+        also be viewed from the IETF Home Page on the Web. The URL is:
+
+                     http://www.ietf.cnri.reston.va.us
+
+
+     2. The minutes of the IESG teleconferences have been publicly
+        available on the IETF Shadow directories since 1991. These files
+        are placed in the /ftp/iesg directory.
+
+        The following IESG minutes have been added:
+
+           June 22, 1995 (iesg.95-06-22)
+
+
+     3. The IESG approved or recommended the following 12 Protocol
+        Actions during the month of July, 1995:
+
+        o  The Content-MD5 Header Field <RFC1544> for publication as a
+           Draft Standard.
+
+        o  The ESP DES-CBC Transform for publication as a Proposed
+           Standard.
+
+        o  Security Multiparts for MIME: Multipart/Signed and
+           Multipart/Encrypted for publication as a Proposed Standard.
+
+        o  Security Architecture for the Internet Protocol for
+           publication as a Proposed Standard.
+
+        o  IP Encapsulating Security Payload (ESP) for publication as
+           a Proposed Standard.
+
+        o  IP Authentication Header for publication as a Proposed
+           Standard.
+
+        o  IP Authentication using Keyed MD5 for publication as a
+           Proposed Standard.
+
+        o  XDR: External Data Representation Standard for publication
+           as a Proposed Standard.
+
+        o  Binding Protocols for ONC RPC Version 2 for publication as
+           a Proposed Standard.
+
+        o  RPC: Remote Procedure Call Protocol Specification Version 2
+
+
+
+Cooper                                                          [Page 4]
+
+Internet Monthly Report                                        July 1995
+
+
+           for publication as a Proposed Standard.
+
+        o  MIME Object Security Services for publication as a Proposed
+           Standard.
+
+        o  EDI Meets the Internet: Frequently Asked Questions about
+           Electronic Data Interchange (EDI) on the Internet for
+           publication as an Informational RFC.
+
+
+     4. The IESG issued one Last Call to the IETF during the month of
+        July, 1995:
+
+        o  Hypertext Markup Language - 2.0 <draft-ietf-html-spec-04>
+           being considered for the status of Proposed Standard.
+
+
+     5. Two Working Groups were created during this period:
+
+           MessageWay (msgway)
+           Process for Organization of Internet Standards 95 (poised95)
+
+        Additionally, one Working Group was concluded:
+
+           Electronic Data Interchange (edi)
+
+     6. A total of 96 Internet-Draft actions were taken during the month
+        of July, 1995:
+
+                 (Revised draft (o), New Draft (+) )
+
+      (avt)      o  RTP Profile for Audio and Video Conferences with
+                    Minimal Control <draft-ietf-avt-profile-05.txt, .ps>
+      (avt)      o  RTP payload format for H.261 video streams
+                    <draft-ietf-avt-h261-01.txt>
+      (cat)      o  FTP Security Extensions
+                    <draft-ietf-cat-ftpsec-08.txt>
+      (svrloc)   o  Service Location Protocol
+                    <draft-ietf-svrloc-protocol-06.txt>
+      (rsvp)     o  Resource ReSerVation Protocol (RSVP) -- Version 1
+                    Functional Specification
+                    <draft-ietf-rsvp-spec-07.txt, .ps>
+      (ipatm)    o  IP over ATM: A Framework Document
+                    <draft-ietf-ipatm-framework-doc-04.txt, .ps>
+      (mobileip) o  IP Mobility Support
+                    <draft-ietf-mobileip-protocol-11.txt>
+      (ids)      o  A Specification for the Simple Internet White Pages
+                    Service <draft-ietf-ids-iwps-design-spec-01.txt>
+
+
+
+Cooper                                                          [Page 5]
+
+Internet Monthly Report                                        July 1995
+
+
+      (none)     o  Mobility Support in IPv6
+                    <draft-perkins-ipv6-mobility-sup-02.txt>
+      (ipngwg)   o  IPv6 Program Interfaces for BSD Systems
+                    <draft-ietf-ipngwg-bsd-api-02.txt>
+      (trainmat) o  Catalogue of Network Training Materials
+                    <draft-ietf-trainmat-catalogue-03.txt>
+      (snmpv2)   o  Textual Conventions for Version 2 of the Simple
+                    Network Management Protocol (SNMPv2)
+                    <draft-ietf-snmpv2-tc-ds-03.txt>
+      (snmpv2)   o  SNMPv2 Management Information Base for the Internet
+                    Protocol <draft-ietf-snmpv2-ip-ds-02.txt>
+      (snmpv2)   o  SNMPv2 Management Information Base for the User
+                    Datagram Protocol <draft-ietf-snmpv2-udp-ds-02.txt>
+      (snmpv2)   o  SNMPv2 Management Information Base for the
+                    Transmission Control Protocol
+                    <draft-ietf-snmpv2-tcp-ds-02.txt>
+      (dnsind)   o  Incremental Zone Transfer in DNS
+                    <draft-ietf-dnsind-ixfr-02.txt>
+      (cat)      o  Independent Data Unit Protection Generic Security
+                    Service Application Program Interface (IDUP-GSS-API)
+                    <draft-ietf-cat-idup-gss-02.txt>
+      (mobileip) o  Route Optimization in Mobile IP
+                    <draft-ietf-mobileip-optim-02.txt>
+      (wts)      +  The Secure HyperText Transfer Protocol
+                    <draft-ietf-wts-shttp-00.txt>
+      (dnsind)   o  Notify: a mechanism for prompt notification of
+                    authority zone changes
+                    <draft-ietf-dnsind-notify-02.txt>
+      (uri)      o  Mailserver URL Specification
+                    <draft-ietf-uri-url-mailserver-02.txt>
+      (none)     o  IP Architecture Extensions for ATM
+                    <draft-rekhter-ip-atm-architecture-01.txt>
+      (mimesgml) o  The MIME Multipart/Related Content-type
+                    <draft-ietf-mimesgml-related-02.txt>
+      (dhc)      o  Dynamic Host Configuration Protocol for IPv6
+                    <draft-ietf-dhc-dhcpv6-02.txt>
+      (addrconf) o  IPv6 Stateless Address Autoconfiguration
+                    <draft-ietf-addrconf-ipv6-auto-03.txt>
+      (dnsind)   o  Dynamic Updates in the Domain Name System (DNS)
+                    <draft-ietf-dnsind-dynDNS-02.txt>
+      (ipsec)    o  The Photuris Session Key Management Protocol
+                    <draft-ietf-ipsec-photuris-02.txt>
+      (uri)      o  finger URL Specification
+                    <draft-ietf-uri-url-finger-03.txt>
+      (mailext)  o  Common Internet Message Attributes
+                    <draft-ietf-mailext-mail-attributes-02.txt>
+      (cat)      o  Generic Security Service API Version 2 : C-bindings
+                    <draft-ietf-cat-gssv2-cbind-01.txt>
+
+
+
+Cooper                                                          [Page 6]
+
+Internet Monthly Report                                        July 1995
+
+
+      (uri)      o  The Path URN Specification
+                    <draft-ietf-uri-urn-path-01.txt>
+      (none)     o  Internet Security Association and Key Management
+                    Protocol (ISAKMP) <draft-nsa-isakmp-01.txt, .ps>
+      (aft)      o  GSS-API Authentication Method for SOCKS Version 5
+                    <draft-ietf-aft-gssapi-02.txt>
+      (atommib)  o  Definitions of Supplemental Managed Objects for ATM
+                    Management <draft-ietf-atommib-atm2-02.txt>
+      (intserv)  o  Specification of Controlled Delay Quality of Service
+                    <draft-ietf-intserv-control-del-svc-01.txt>
+      (intserv)  o  Network Element Service Specification Template
+                    <draft-ietf-intserv-svc-template-01.txt>
+      (none)     o  OSPF with Digital Signatures
+                    <draft-murphy-ospf-signature-01.txt>
+      (cat)      o  Independent Data Unit Protection Generic Security
+                    Service Application Program Interface: C-bindings
+                    <draft-ietf-cat-idup-cbind-01.txt>
+      (pppext)   o  PPP Extensible Authentication Protocol (EAP)
+                    <draft-ietf-pppext-eap-auth-01.txt>
+      (none)     o  IP Broadcast over ATM Networks.
+                    <draft-smith-ipatm-bcast-01.txt>
+      (none)     o  Post Office Protocol - Version 3
+                    <draft-myers-pop-pop3-04.txt>
+      (run)      o  Netiquette Guidelines
+                    <draft-ietf-run-netiquette-guide-01.txt>
+      (mimesgml) o  Encapsulating SGML Documents Using the
+                    Multipart/Related Content-Type
+                    <draft-ietf-mimesgml-encap-01.txt>
+      (none)     o  A One-Time Password System <draft-haller-otp-01.txt>
+      (ipngwg)   o  Neighbor Discovery for IP Version 6 (IPv6)
+                    <draft-ietf-ipngwg-discovery-01.txt>
+      (none)     +  Coexistence between Version 1 and Version 2 of the
+                    Internet-standard Network Management Framework
+                    <draft-kzm-snmpv2-coex-alt-00.txt>
+      (none)     +  Conformance Statements for Version 2 of the Simple
+                    Network Management Protocol (SNMPv2)
+                    <draft-kzm-snmpv2-conf-alt-00.txt>
+      (none)     +  Introduction to Version 2 of the Internet-standard
+                    Network Management Framework
+                    <draft-kzm-snmpv2-intro-alt-00.txt>
+      (none)     +  Management Information Base for Version 2 of the
+                    Simple Network Management Protocol (SNMPv2)
+                    <draft-kzm-snmpv2-mib-alt-00.txt>
+      (none)     o  Transport Mappings for Version 2 of the Simple
+                    Network Management Protocol (SNMPv2)
+                    <draft-kzm-snmpv2-tm-ds-03.txt>
+      (none)     +  Protocol Operations for Version 2 of the Simple
+                    Network Management Protocol (SNMPv2)
+
+
+
+Cooper                                                          [Page 7]
+
+Internet Monthly Report                                        July 1995
+
+
+                    <draft-kzm-snmpv2-proto-alt-00.txt>
+      (none)     +  Structure of Management Information for Version 2
+                    of the Simple Network Management Protocol (SNMPv2)
+                    <draft-kzm-snmpv2-smi-alt-00.txt>
+      (none)     +  Administrative Infrastructure for Version 2 of the
+                    Simple Network Management Protocol (SNMPv2)
+                    <draft-kzm-snmpv2-adminv2-alt-00.txt>
+      (none)     +  User-based Security Model for Version 2 of the
+                    Simple Network Management Protocol (SNMPv2)
+                    <draft-kzm-snmpv2-sec-alt-00.txt>
+      (none)     +  Simple Network Paging Protocol - Version 3 - Two-Way
+                    Enhanced <draft-gwinn-paging-protocol-v3-00.txt>
+      (http)     +  HTTP Session Extension
+                    <draft-ietf-http-ses-ext-00.txt>
+      (none)     +  SMTP Service Extension for Remote Message Queue
+                    Starting <draft-dewinter-queue-start-00.txt>
+      (cat)      +  Simple GSS-API Negotiation Mechanism
+                    <draft-ietf-cat-snego-00.txt>
+      (mixer)    +  Equivalences between 1988 X.400 and RFC-822 Message
+                    Bodies <draft-ietf-mixer-bodymap-00.txt>
+      (cat)      +  PEM-Based IDUP Mechanism (PIM)
+                    <draft-ietf-cat-pim-00.txt>
+      (atommib)  +  Definitions of Textual Conventions for ATM
+                    Management <draft-ietf-atommib-atm2TC-00.txt>
+      (none)     +  An Application Level Internet Payment Syntax
+                    <draft-eastlake-internet-payment-00.txt>
+      (none)     +  Problems with TCP Connections Terminated by RSTs or
+                    Timers <draft-heavens-problems-rsts-00.txt>
+      (none)     +  Guidelines for IETF Meeting Sites
+                    <draft-prior-future-host-guidelines-00.txt>
+      (none)     o  A Means for Expressing Location Information in the
+                    Domain Name System <draft-davis-dns-loc-02.txt>
+      (none)     +  Simple Authentication Mechanism for SNMP.
+                    <draft-romanov-simple-snmp-00.txt>
+      (avt)      +  RTP Payload Format for MPEG1/MPEG2 Video
+                    <draft-ietf-avt-mpeg-00.txt>
+      (uri)      +  Issues Concerning URN Assignment and Resolution
+                    <draft-ietf-uri-urn-issues-00.txt>
+      (none)     +  SONAR - A Network Proximity Service
+                    <draft-moore-sonar-00.txt>
+      (cat)      +  The FIPS PUB JJJ Entity Authentication GSS-API
+                    Mechanism <draft-ietf-cat-fipsjjjgss-00.txt>
+      (none)     +  CyberCash Credit Card Protocol Version 0.8
+                    <draft-eastlake-cybercash-v08-00.txt>
+      (asid)     +  Managing the X.500 Root Naming Context
+                    <draft-ietf-asid-name-context-00.txt>
+      (cidrd)    o  Address Allocation for Private Internets
+                    <draft-ietf-cidrd-private-addr-01.txt>
+
+
+
+Cooper                                                          [Page 8]
+
+Internet Monthly Report                                        July 1995
+
+
+      (mobileip) +  IP Encapsulation within IP
+                    <draft-ietf-mobileip-ip4inip4-00.txt>
+      (mobileip) +  Minimal Encapsulation within IP
+                    <draft-ietf-mobileip-minenc-00.txt>
+      (ipatm)    +  IP Multicasting over ATM: System Architecture Issues
+                    <draft-ietf-ipatm-arch-00.txt>
+      (none)     +  Integrated Servces IP Multicasting over ATM
+                    <draft-milliken-ipatm-services-00.txt>
+      (none)     +  MMUSIC/ITU Interoperability Scenarios
+                    <draft-bormann-mmusic-itu-interop-00.txt>
+      (mmusic)   +  Managing Shared Ephemeral Teleconferencing State:
+                    Policy and Mechanism
+                    <draft-ietf-mmusic-agree-00.txt, .ps>
+      (none)     +  The Finger User Information Protocol
+                    <draft-zimmerman-finger-use-00.txt>
+      (none)     +  Telnet Authentication and Encryption Option
+                    <draft-galvin-telnet-authenc-00.txt>
+      (html)     +  HTML Tables <draft-ietf-html-tables-00.txt>
+      (none)     +  Telnet Authentication and Encryption: GSSAPI Option
+                    <draft-galvin-telnet-gssapi-00.txt>
+      (ssh)      +  Site Security Handbook for System and Network
+                    Administrators <draft-ietf-ssh-handbook-00.txt>
+      (uri)      +  How Roy would Implement URNs and URCs Today
+                    <draft-ietf-uri-roy-urn-urc-00.txt>
+      (none)     +  Session Identity Notification Protocol (SINP)
+                    <draft-goto-sinp-00.txt>
+      (none)     +  Session Identity Notification Protocol (SINP)
+                    <draft-goto-sinp-00.txt>
+      (none)     +  Document Classification Descriptors
+                    <draft-treese-class-desc-00.txt>
+      (radius)   +  Remote Authentication Dial In User Service (RADIUS)
+                    <draft-ietf-radius-radius-00.txt>
+      (none)     +  Session Indentify <draft-goto-sinp-00.txt->
+      (radius)   +  RADIUS Accounting
+                    <draft-ietf-radius-accounting-00.txt>
+      (none)     +  Session Identify Notification Protocol
+                    <draft-goto-sinp-00.txt-.txt>
+      (asid)     +  A MIME Content-Type for Directory Information
+                    <draft-ietf-asid-mime-direct-00.txt>
+      (asid)     +  A Simple Caching Scheme for LDAP and X.500
+                    Directories <draft-ietf-asid-ldap-cache-00.txt>
+      (none)     +  Addendum to RFC 1602 -- Variance Procedure
+                    <draft-postel-variance-00.txt>
+      (bridge)   +  Definitions of Managed Objects for Source Routing
+                    Bridges <draft-ietf-bridge-sr-obj-00.txt>
+
+
+
+
+
+
+Cooper                                                          [Page 9]
+
+Internet Monthly Report                                        July 1995
+
+
+     7. There was one RFC published during the month of July, 1995:
+
+        RFC     St   WG        Title
+        ------- --  --------   -------------------------------------
+        RFC1800 S   (none)     INTERNET OFFICIAL PROTOCOL STANDARDS
+
+
+     St(atus):  ( S) Internet Standard
+                (PS) Proposed Standard
+                (DS) Draft Standard
+                ( E) Experimental
+                ( I) Informational
+
+     Steve Coya (scoya@cnri.reston.va.us)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 10]
+
+Internet Monthly Report                                        July 1995
+
+
+INTERNET PROJECTS
+-----------------
+
+ACM SIGCOMM 1995
+----------------
+
+
+                            Call for Participation
+                            ----------------------
+
+                                ACM SIGCOMM 1995
+
+     Conference on Applications, Technologies, Architectures, and Protocols
+                           for Computer Communication
+
+                            Cambridge Marriott Hotel
+                          Cambridge, Massachusetts, USA
+
+
+                          August 28 to September 1, 1995
+                    (Tutorials and Workshop, August 28 and 29)
+
+     * The conference will be preceded by eight tutorials covering
+       issues from protocol design, multimedia and wireless technology,
+       to high performance networks, security and client/server computing.
+
+     * The technical conference begins August 30 with a keynote address by
+       this year's ACM SIGCOMM award winner, Prof. David Farber. This will
+       be followed by a highly selective three-day single track technical
+       program with 30 papers in eleven sessions.
+
+     * The deadline for early registration is 1 August, 1995. The hotel
+        registration deadline is 11 August, 1995.
+
+     * On-site registration will be available from 7:30 a.m. to 5:00 p.m.
+       August 28- September 1 and during the welcoming reception, 7:00-9:00
+       p.m., Tuesday, August 29.
+
+     * For more information: WWW: http://www.acm.org/sigcomm/sigcomm95/
+
+       S. Keshav  keshav@research.att.com
+       Telephone: +1 908 582 3384   Fax: +1 908 582 5857
+       AT&T Bell Laboratories, 600 Mountain Avenue,
+       Murray Hill, NJ 07974, USA.
+
+
+
+
+
+
+
+Cooper                                                         [Page 11]
+
+Internet Monthly Report                                        July 1995
+
+
+     Tutorials and Technical Program
+     -------------------------------
+
+     * Hot Topics in Networking, Including ATM, Multimedia, Wireless
+             Raj Jain, (Ohio State U.).
+
+     * Designing Protocols using Techniques from Distributed Systems
+             George Varghese, (Washington U., St.  Louis).
+
+     * Rethinking Client/Server Computing
+             Marc Andressen, (Netscape Communications).
+
+     * Host-Network Interface Issues in High Performance Networks
+             Bruce Davie, (Bellcore).
+
+     * Designing Secure Protocols
+             Radia Perlman,(Novell Inc.) & Charlie Kaufman, (Lotus Corp.).
+
+     * Multimedia Networks
+             Aurel Lazar, (Columbia U.).
+
+     * The Ethernet Renaissance: Key Protocol Enhancements
+             Henry Yang, (Digital Equipment Corp.).
+
+     * Congestion Management in High Speed Networks
+             K.K. Ramakrishnan, (AT&T Bell Laboratories).
+
+
+     The technical program includes sessions on Bandwidth Reservation,
+     Switching & Routing, Protocols, Traffic Characterization, Protocol
+     Implementations, Scheduling, Wireless, Application Support, and
+     Multicast.
+
+     Detailed descriptions of the tutorials and technical program can be
+     found in the Sigcomm '95 home page
+     http://www.acm.org/sigcomm/sigcomm95.
+
+
+INTERNIC
+--------
+
+     REGISTRATION SERVICES
+
+     I.  Significant Events
+
+     InterNIC Registration Services assigned over 6,914 network
+     addresses and registered over 12,190 domains.  There were four (4)
+     top-level country domains registered during June: Madagascar (MG),
+
+
+
+Cooper                                                         [Page 12]
+
+Internet Monthly Report                                        July 1995
+
+
+     Kyrgyzstan (KG), Tanzania (TZ), and Samoa (WS).
+
+     The suit that Knowledgenet has filed against Network Solutions and
+     David L. Boone over the knowledgenet.com domain has been dismissed.
+     David Boone has agreed to relinquish the domain name to
+     Knowledgenet, Inc.
+
+     During the month of July, domain requests are averaging between
+     700- 800+ for new submissions per day. Adjustments continue to be
+     made in domain processing.  Additional, staffing is being acquired
+     to accommodate the growth in registration requests. At the close of
+     July 1995, the domain processing queue had again increased from
+     6,000 to 15,000+ new domain registrations.
+
+     Mark Kosters, Debbie Fuller and Dave Graves attended the Quarterly
+     Review of InterNIC Registration Services (Network Solutions) and
+     Directory Services (AT&T) at the National Science Foundation in
+     Arlington, VA.  Susan Calcari who has relocated to the University
+     of Wisconsin and resumed the weekly production and distribution of
+     the Scout Report also presented.
+
+     Mark Kosters, Stan Borinski and Kim Hubbard attended the IETF
+     meeting in Stockholm July 16-21, 1995.  They presented the
+     RFC1466BIS draft.  Parts of the draft were accepted.  Additional
+     work is required for portability of address space and assignment
+     criteria.
+
+     The computer equipment which was ordered for the Info Scout and the
+     Assistant Scout has been delivered.  Susan Calcari assisted NSI in
+     the NIC Liaison recruitment process in which a candidate has been
+     selected and will start working soon at NSI.
+
+
+     II.  Current Status
+
+     During the month of July 1995, InterNIC Registration Services
+     received communications as shown below.  The majority of the
+     correspondence concerned the assignment and re-assignment of
+     network numbers and the registration or change of domain names.
+
+          E-mail     27,278    (hostmaster@internic.net)
+          Postal/Fax    277    (primarily IP number requests)
+          Phone       4,959
+
+     The Registrations Services host computer supported a large volume
+     of information retrieval requests during the month of June.
+
+
+
+
+
+Cooper                                                         [Page 13]
+
+Internet Monthly Report                                        July 1995
+
+
+                     Connections   Retrievals
+          Gopher      43,387          41,429
+          WAIS        29,642          28,093
+          FTP         45,623         130,352
+          Mailserv     3,412
+          Telnet     103,626
+          Http       124,864
+
+     In addition, for WHOIS the number of queries were:
+
+                       Client        Server
+                      544,452     2,011,513
+
+
+     Mark Kosters              markk@internic.net        +1 703 742 4795
+     Software Engineer   InterNIC Registration Services
+
+
+     INTERNIC DIRECTORY AND DATABASE SERVICES
+
+     We made a number of improvements to our Web services during July.
+     We have supported Web access to the X.500 directory for some time,
+     but we recently improved the interface.  The former system used a
+     Gopher to X.500 gateway to support Web access.  It has been
+     replaced with a direct Web to X.500 gateway.  The Gopher to X.500
+     interface remains available for Gopher users.
+
+     We have also installed a Web based form to allow users to enter
+     information about a resource they feel should be included in our
+     Directory of Directories.  A resource owner may also use the form
+     to tell us about their resource.
+
+     Take a look at our Web pages starting at:
+
+              http://ds.internic.net
+
+     A reminder - if you would like to help the Internet community find a
+     resource that you offer, send mail to admin@ds.internic.net and we
+     will send information about listing your resource in the Directory of
+     Directories.  If you prefer, you can enter information about your
+     resource in our WWW suggestion form.  The form can be reached through
+     our Directory of Directories Web page at:
+
+               http://ds.internic.net:80/ds/dsdirofdirs.html
+
+     by Rick Huber <rvh@ds.internic.net>
+
+
+
+
+
+Cooper                                                         [Page 14]
+
+Internet Monthly Report                                        July 1995
+
+
+     US DOMAIN REGISTRY
+
+     Below is the latest results from the July '95 "Internet Domain
+     Survey" produced by Network Wizards.  According to the January '95
+     survey, the US Top-Level Domain was ranked 18th with a total of
+     37,615 hosts.  It has moved to 14th place and the current total is
+     113,226 hosts.
+
+     For more information see RFC 1296; for more data see the zone
+     directory on ftp.nw.com, or http://nw.com.
+
+                       Host Distribution by Top-Level Domain Name
+
+       1743390 com     36964 dk       2403 ee        268 lt         11 kz
+       1411013 edu     23791 kr       2075 co        224 ir         11 ae
+        350707 de      23706 be       2035 hr        214 eg          9 md
+        300481 net     18223 il       1992 sk        163 cy          9 fj
+        291258 uk      16166 tw       1516 lu        142 ag          6 pk
+        273855 gov     15692 pl       1339 ua        127 pa          5 sn
+        262644 ca      15392 hk       1242 int       102 jm          5 mk
+        224778 mil     14842 cz       1087 my         83 pr          5 mc
+        207426 au      11576 br       1029 cr         65 tn          5 gh
+        201905 org     11298 hu       1023 cn         59 ni          5 by
+        159776 jp       9941 ie        950 lv         50 am          5 bb
+        135462 nl       8748 pt        891 ro         47 mo          4 gl
+        113974 fr       8382 mx        853 ve         41 li          4 aq
+        113226 us       8208 sg        848 id         41 ky          4 ai
+        111861 fi       6800 is        776 kw         29 uz          3 ci
+        106725 se       6664 cl        645 in         28 gb          2 gn
+         66608 no       5700 ru        639 bg         27 do          1 ug
+         63795 ch       5575 gr        550 bm         20 zw          1 lb
+         46143 it       5467 su        471 fo         19 np          1 ke
+         43863 nz       3381 si        372 ec         18 sa          1 az
+         41329 za       3270 ar        367 pe         18 gu
+         40696 at       2790 tr        365 ph         16 dz
+         39919 es       2481 th        273 uy         11 zm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 15]
+
+Internet Monthly Report                                        July 1995
+
+
+                         GROWTH OF THE US DOMAIN (*)
+                         ---------------------------
+
+                                         6-mos     1-year
+                     Date        US   % change   % change
+
+                   Jan 93       692
+
+                   Jul 93      1340      93.64
+
+                   Jan 94      6541     388.13     84.23
+
+                   Jul 94     16556     153.11    113.52
+
+                   Jan 95     37615      51.30    475.06
+
+                   Jul 95    113226     201.01    583.89
+
+                   (*) Based on Mark Lottors data.
+
+
+     US DOMAIN ADMINISTRATIVE INFORMATION
+     ------------------------------------
+
+     EMAIL/FAX               850
+     PHONE                   325
+     ----------------------------
+     Total Contacts         1175
+
+
+     DELEGATIONS              60
+     DIRECT REGISTRATIONS:    13
+     OTHER US DOMAIN MSGS:  1102
+     ---------------------------
+     Total                  1175
+
+
+     OTHER US DOMAIN MESSAGES INCLUDE: referrals to other subdomains or
+     to/from the InterNic, phone calls, modifications, application
+     requests, discussion and clarification of the requests, questions
+     about names, resolving technical problems with zone files and name
+     servers, and whois listings.
+
+     The list of delegations below does not reflect the entire number of
+     registrations and delegations in the whole US Domain.  Many subdomains
+     have been delegated and administrators of those subdomains register
+     applicants in their domains.  Below are direct registrations in the US
+     Domain.
+
+
+
+Cooper                                                         [Page 16]
+
+Internet Monthly Report                                        July 1995
+
+
+     To obtain a copy of the list of other delegated localities and
+     subdomains get the file "us-domain-delegated.txt" below.
+
+        URL: ftp://ftp.isi.edu/in-notes/us-domain-delegated.txt
+
+                           MAJOR SUBDOMAINS DELEGATED
+
+     K12     CC      TEC     STATE   LIB     MUS     GEN     DST     COG
+     ===================================================================
+     48      35      32      48      36      23      22      10      3
+     ===================================================================
+
+     -----------------------
+     THIRD LEVEL DELEGATIONS
+     -----------------------
+
+     STATE.OK.US                     STATE, OKLAHOMA
+     STATE.MD.US                     STATE, MARYLAND
+     DST.NC.US                       DISTRICT, NORTH CAROLINA
+     DST.PA.US                       DISTRICT, PENNSYLVANIA
+     CC.NJ.US                        COMMUNITY COLLEGE, NEW JERSEY
+     CC.PA.US                        COMMUNITY COLLEGE, PENNSYLVANIA
+     TEC.PA.US                       TECHNICAL SCHOOL, PENNSYLVANIA
+     LIB.CT.US                       LIBRARY, CONNECTICUT
+     LIB.PA.US                       LIBRARY, PENNSYLVANIA
+     MUS.PA.US                       MUSEUMS, PENNSYLVANIA
+     GEN.PA.US                       GENERAL, PENNSYLVANIA
+     COG.PA.US                       COUNCIL OF GOVERNMENT, PENNSYLVANIA
+     COG.NC.US                       COUNCIL OF GOVERNMENT, NORTH CAROLINA
+
+     LOCALITIES
+     ----------
+
+     PLAINVIEW.TX.US                 CANYON.TX.US
+     ODESSA.TX.US                    MIDLAND.TX.US
+     SAC.CA.US                       RACINE.WI.US
+     ANCHORAGE.AK.US                 WILMINGTON.NY.US
+     SHEBOYGAN.WI.US                 RAY-BROOK.NY.US
+     STATE-COLLEGE.PA.US             INDIANOLA.IA.US
+     PEORIA.IL.US                    MILFORD.NH.US
+
+
+     ---------------------------
+     OTHER US DOMAIN DELEGATIONS
+     ---------------------------
+
+     ALEXBBS.ALEXANDRIA.VA.US        CI.OAK-BLUFFS.MA.US
+     PATHWAY.MILPITAS.CA.US          CI.SANTA-CLARITA.CA.US
+
+
+
+Cooper                                                         [Page 17]
+
+Internet Monthly Report                                        July 1995
+
+
+     KAW.STERLING.VA.US              CI.HUNTSVILLE.AL.US
+     DHDTREE.COG.MI.US               CI.PARK-CITY.UT.US
+     WWW.ANAHEIM.CA.US               CI.CHULA-VISTA.CA.US
+     MMA.MEXICO.MO.US                CI.ANAHEIM.CA.US
+     WWW.PALMDALE.CA.US              CI.ST-PETERS.MO.US
+     GRAHAM.GLENN-DALE.MD.US         CI.RICHFIELD.MN.US
+     DWCCMHB.CO.WAYNE.MI.US          CI.MUNSTER.IN.US
+     SARANAC-LAKE.NY.US              CI.BALTIMORE.MD.US
+     MANCHESTER.CC.CT.US             CO.HILLSBORO.FL.US
+     RPBBS.HUNTINGTON.WV.US          CO.COOK.IL.US
+     DIGITAL.ANDOVER.MA.US           CO.ERIE.NY.US
+     WWW.CI.BEVERLY-HILLS.CA.US      IDIR.LAWRENCE.KS.US
+     FAIRLINGTON.ARLINGTON.VA.US     WESTMINSTER.PVT.K12.CT.US
+     SKYWISE.DEARBORN.MI.US          WHITEWATER.FREDERICK.MD.US
+
+     For more information about the US Domain, send a message to:
+     US-DOMAIN@ISI.EDU, or select one of the URLs below.
+
+        URL: ftp://ftp.isi.edu/in-notes/us-domain-questionnaire.txt
+        URL: ftp://ftp.isi.edu/in-notes/us-domain-blurb.txt
+
+     Ann Cooper (Cooper@ISI.EDU)
+
+MERIT/NSFNET ENGINEERING
+------------------------
+
+     This report summarizes recent activities of Merit's Internet
+     Engineering group on behalf of the Routing Arbiter (RA) Project.
+
+     ROUTING ARBITER SERVICES
+
+     Routing Arbiter services are now fully operational at the Sprint
+     NAP.  Located in Pennsauken NJ, the facility comprises an FDDI LAN
+     that supports both shared and dedicated bandwidth with DEC
+     GIGASwitch-based crossbar switching.  The RA Web pages provide
+     information for providers who are interested in establishing a
+     peering session with the Sprint Route Server:
+
+         http://www.ra.net/routing.arbiter/RA/.how.to.peer.html
+
+     The status of BGP peering sessions at all the connection points is
+     shown in the following table:
+
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 18]
+
+Internet Monthly Report                                        July 1995
+
+
+     ------------------------------------------------------------------
+
+                   BGP Peer Sessions with the RA Route Servers
+
+     Route Server    Status  Peer            IP Address            AS
+     ------------    ------  ----            ----------            --
+     rs1.aads                                198.32.130.130
+                          *  Alpha           198.32.130.20         4550
+                          *  NETCOM          198.32.130.15         2551
+
+     rs1.mae-east                            192.41.177.166
+                          *  AGIS            192.41.177.145        4200
+                          *  AlterNet        192.41.177.249         701
+                          *  ANS             192.41.177.140         690
+                          *  DANTE           192.41.177.220        1133
+                          *  Interpath       192.41.177.160        3407
+                          *  MCI             192.41.177.181        3561
+                          *  Net99           192.41.177.170        3830
+                          *  Netcom          192.41.177.210        2551
+                          *  PIPEX           192.41.177.190        1849
+                          *  Sprint          192.41.177.241        1239
+                          *  SURAnet         192.41.177.6            86
+                          *  WIS.COM         192.41.177.150        4136
+                          *  DIGEX           192.41.177.115        2548
+                          *  ThePlanet       192.41.177.90         5388
+
+     rs2.mae-east                            192.41.177.169
+                          *  AGIS            192.41.177.145        4200
+                          *  AlterNet        192.41.177.249         701
+                          *  ANS             192.41.177.140         690
+                          *  DANTE           192.41.177.220        1133
+                          *  Interpath       192.41.177.160        3407
+                          -  MCI             192.41.177.181        3561
+                          *  Net99           192.41.177.170        3830
+                          *  Netcom          192.41.177.210        2551
+                          *  PIPEX           192.41.177.190        1849
+                          *  Sprint          192.41.177.241        1239
+                          *  SURAnet         192.41.177.6            86
+                          *  WIS.COM         192.41.177.150        4136
+                          *  DIGEX           192.41.177.115        2548
+                          *  ThePlanet       192.41.177.90         5388
+
+     rs1.pacbell                             192.32.128.130
+                          *  AGIS            198.32.128.19         4200
+                          *  ANS             198.32.128.66          690
+                          *  Exodus          198.32.128.25         3967
+                          *  Global-Net      198.32.128.24         3356
+                          *  Net99           198.32.128.16         3830
+
+
+
+Cooper                                                         [Page 19]
+
+Internet Monthly Report                                        July 1995
+
+
+                          *  NETCOM          198.32.130.15         2551
+                          -  WELL            198.32.130.26         4540
+
+     rs1.sprint                              192.157.69.250
+                          *  AGIS            192.157.69.19         4200
+                          *  ANS             192.157.69.4           690
+                          *  WIS.COM         192.157.69.10         4136
+
+         Status codes:   - Configured, but never recorded active
+                          * Up
+
+     This information is also available from:
+
+         http://www.ra.net/routing.arbiter/RA/.bgp.peers.html
+
+     Brian Renaud is working with staff at CA*net to coordinate the task
+     of identifying--and deleting--RADB references to routes belonging
+     to the CA Autonomous System.  This effort is one of several ongoing
+     projects that will help eliminate duplicate registrations in the
+     Internet Routing Registry.
+
+     CISCO QUERY TOOL
+
+     Internet Routing Registry (IRR) users have long recognized the need
+     for tools that check the IRR against routes actually propagated in
+     the Internet.  A tool is now available from Merit that obtains and
+     analyzes routing information from production Ciscos, and compares
+     the data with routes in the Routing Arbiter Database and other
+     registries in the IRR.  Called CiscoBGP, the software also flags
+     prefixes that are reserved by RFC1597.  An alpha version is
+     available from:
+
+         ftp://ftp.ra.net/routing.arbiter/RADB/tools/cisco.01.tar.Z
+
+     Two scripts are provided with CiscoBGP.  Cisco_fetch takes the
+     Cisco's IP address and password as input, automatically sets up a
+     telnet session to the router, issues a 'show ip bgp' command, and
+     dumps the BGP routing tables to a file on the local workstation.
+     Usage is as follows:
+
+         cisco_fetch hostname password enable_password
+
+     The cisco_check script then processes the 'show ip bgp' output and
+     lists prefixes with AS origins different than those registered in
+     the IRR.  Usage is as follows:
+
+         cisco_check inputfile
+
+
+
+
+Cooper                                                         [Page 20]
+
+Internet Monthly Report                                        July 1995
+
+
+     This command produces output in this format:
+
+         0.0.0.0 [????] 6503 185 i
+         12.0.0.0 [????] 6503 185 3561 701 i
+         35.42.1.0/24 [237] 6503 185 i
+         39.2.254.0 [????] 6503 185 3561 1133 1128 2043 766 i
+         39.7.8.0 [????] 6503 185 3561 1800 i
+         39.7.88.0 [????] 6503 185 3561 1800 1883 1880 i
+         39.7.90.0 [????] 6503 185 3561 1800 1883 1880 1882 i
+         39.11.6.0 [????] 6503 185 3561 1849 2822 i
+         39.13.135.0 [????] 6503 185 3561 1239 1795 3463 i
+         39.13.229.0 [????] 6503 185 3561 701 3557 i
+         128.35.0.0 [560] 6503 185 3561 560 701 6 i
+         128.60.0.0 [86] 6503 185 3561 86 48 i
+         128.91.0.0 [3576] 6503 185 3561 690 1324 1336 55 i
+         128.122.0.0 [1785] 6503 185 3561 1239 1785 3973 12 i
+         128.140.0.0 [279] 6503 185 3561 279 3591 i
+         128.151.0.0 [1785] 6503 185 3561 1239 1785 20 i
+
+     If the origin AS differs from the origin registered in the
+     RADB/IRR, the correct origin is given in brackets.  '?????'
+     indicates that the route object for a given prefix is not
+     registered in the IRR.
+
+     OTHER ACTIVITIES
+
+     Jessica Yu attended an AADS NAP peering meeting this month.  Among
+     the topics discussed were transit agreements among NAP customers
+     and the status of the NAP's Multi-Lateral Peering Agreement (MLPA),
+     which was developed jointly by Yu and the AADS NAP staff.
+
+     Brian Renaud, Craig Labovitz, Sue Hares, and Elise Gerich attended
+     the 33rd IETF in Stockholm during the week of July 17.  Labovitz
+     collaborated with Cengiz Alaettinoglu in presenting the "Routing
+     Policy Specification Language Dictionary" at the Routing Policy
+     System (RPS) Working Group meetings.  At the IEPG meeting, Gerich
+     gave a presentation on issues relating to the reliability of data
+     in the RADB, and discussed the actions Merit plans to take in order
+     to ensure consistency of data in the RADB with other registries in
+     the Internet Routing Registry.
+
+     Susan R. Harris (srh@merit.edu)
+
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 21]
+
+Internet Monthly Report                                        July 1995
+
+
+UCL
+----
+
+     Mark Handley attended the Stockholm IETF, and co-chaired the MMUSIC
+     WG with Ruth Lang and Eve Schooler, as well as attending numerous
+     other WGs including int-serv and rsvp. We also helped coordinate
+     the use of the Pan-European PNO ATM Network (PNO = Public Network
+     Operator, which is a newer term for telco or PTT. ATM=Asynchronous
+     Transfer Mode, which is a new term for X.25:-)
+
+     Tony Ballardie helped run a useful IDMR WG session.
+
+     The Terena working group on IP and the MICE project coordinated the
+     use of the 34Mbps cross connected ATM trial to carry the mbone to
+     many countries around Europe. There were somne outages (and due to
+     best effort only support for the switch infrastructure, MTTR was a
+     little high) but the access to higher bandwidth meant that many
+     more people were able to join in and actually appreciate the
+     technology, and the value of the IETF.
+
+     Various US collaborators in the areas of resource reservation and
+     multicast passed through UCL o ntheir way back home. Some work on
+     policy based multicast routing may be forthcoming.
+
+     John Crowcroft (j.crowcroft@CS.UCL.AC.UK)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 22]
+
+Internet Monthly Report                                        July 1995
+
+
+CALENDAR
+--------
+
+Last update 8/7/95
+
+The information below has been submitted to the IETF Secretariat
+as a means of notifying readers of future events. Readers are
+requested to send in dates of events that are appropriate for this
+calendar section. Please send submissions, corrections, etc., to:
+
+               <meeting-planning@cnri.reston.va.us>
+
+Please note: The Secretariat does not maintain on-line information
+for the events listed below.
+
+FYI - New Dates for ULPAA in 1995, was Dec. 4-8, 1995 NOW Dec. 11-15, 1995
+
+    - The 4th Intntl Conf. on Telecom Systems, Modelling and Analysis
+      originally scheduled for March 14-17, 1996 has been moved to
+      March 21-24, 1996. Nashville, TN.
+
+A copy of this calendar is available as follows:
+
+VIA FTP
+-------
+IETF Information is available by anonymous FTP from several sites.
+
+        US East Coast Address:  ds.internic.net (198.49.45.10)
+        US West Coast Address:  ftp.isi.edu (128.9.0.32)
+        Europe Address:  nic.nordu.net (192.36.148.17)
+        Pacific Rim Address:  munnari.oz.au (128.250.1.21)
+        Africa Address:       ftp.is.co.za (196.4.160.8)
+
+cd ietf
+ls *0mtg*
+
+Gopher
+-------
+Available on the Gopher Server running on IETF.CNRI.RESTON.VA.US (132.151.1.35)
+under "Internet Engineering Task Force (IETF) / IETF Meetings / Scheduling
+Calendar".
+
+WWW
+-------
+<http://www.ietf.cnri.reston.va.us/home.html> Click on the link
+for "meetings" and you should find an entry "listing of other Internet
+related events".
+
+
+
+
+Cooper                                                         [Page 23]
+
+Internet Monthly Report                                        July 1995
+
+
+************************************************************************
+
+
+1995
+---------
+Aug. 6-11         ATM Forum                       Toronto, CA
+Aug. 7-11         ANSI X3T11 (Tentative)          Denver area
+Aug. 14-18        ANSI X3T11 (Tentative)          Denver area
+Aug. 19-21        14th Intntl Conf. on AI
+                   (IJCAI-95)                     Montreal, CA
+Aug. 21-24        ICCC '95                        Seoul, Korea
+Aug. 21-24        APPN Implementers Wkshp (AIW)   RTP, NC
+Aug. 21-24        CONCUR'95 6th Intl. Conf
+                  Concurrency Theory              Philadelphia, PA
+Aug. 23-25        IEEE Wkshp on Arch. & Implement
+                   of HPC Subsystems HPCS'95      Mystic, CT
+Aug. 28-31        IFIP IN'95 Working Conf. &
+                   Workshop                       Copenhagen, Denmark
+Aug. 29-Sep. 1    Windows Solutions San Fran.     San Francisco, CA
+Aug. 30-Sep. 1    ACM SIGCOMM '95                 Cambridge, MA
+SEPTEMBER         Windows Solutions Paris         Paris, France
+Sep. 4-6          8th IFIP WG6.1 Int'l Wkshp
+                  on Protocol Test Systems        Every, France
+Sep. 12-14        IEEE 802.10 Interim Meeting     Linthicum, MD
+Sep. 18-22        Ninth Systems Admin Conf (LISA) Monterey, CA
+Sep. 18-22        Forum of Incident Handling &
+                   Security Teams (First)         Karlsruhe, Germany
+Sep. 20-23        IC3N'95 - 4th Intntl Conf. on
+                   Comp. Commun. & Networks       Las Vegas, NV
+Sep. 25-29        7th SDL Forum                   Oslo, Sweden
+FALL 1995         Seybold Europe
+Sep. 4-6          8th IFIP WG6.1 Intntl Wkshp on
+                   Protocol Test Systems          Every, France
+Sep. 4-7          APPC/APPN Tech. Conf. (AATC)    London, England
+Sep. 11-15        6th IFIP High Performance
+                   Networking, HPN'95             Palma de Mallorca, Spain
+Sep. 11-15        OIW (Firm)
+Sep. 18-22        7th Annual Comp. Security
+                   Incident Handling Workshop     Karlsruhe, Germany
+Sep. 20-23        4th Intntl Conf. Computer
+                   Commun. & Networks (IC3N'95)   Las Vegas, NV
+Sep. 25-29        NetWorld+Interop                Atlanta, GA
+Sep. 26-29        Seybold San Francisco           San Francisco, CA
+Oct. 1-6          ATM Forum                       Honolulu, HI
+Oct. 2-6          ANSI X3T11                      Toronto, Ontario, Canada
+Oct. 3-11         Telecom '95                     Geneva, Switzerland
+Oct. 9-12         PROMS '95                       Salzburg, Austria
+Oct. 10-11        ANSI X3T11
+
+
+
+Cooper                                                         [Page 24]
+
+Internet Monthly Report                                        July 1995
+
+
+Oct. 11-13        Intntl Symp. on Multimedia
+                   Comm. & Video Coding           New York City, NY
+Oct. 15-18        20th Conf. on Local Computer
+                   Netwks (sponsored by IEEE)     Minneapolis, MN
+Oct. 16-19        APPC/APPN Tech. Conf. (AATC)    Sydney, AU
+Oct. 17-20        IFIP WG6.1 FORTE '95            Montreal, Quebec
+Oct. 31-Nov. 2    APPN Implementers Wkshp (AIW)   RTP, NC
+NOV.              6th MD. Wkshp on Very High
+                   Speed Networks                 Maryland
+Nov. 3            CPI-C Implementers Wkshp (CIW)  RTP, NC
+Nov. 5-9          ACM Multimedia '95              San Francisco, CA
+Nov. 6-9          IEEE 802 Plenary (Firm)         Montreal, Quebec
+Nov. 6-10         NetWorld+Interop                Paris, France
+Nov. 7-9          OPENNET '95                     Goettingen, Germany
+Nov. 7-10         ICNP '95                        Tokyo, Japan
+Nov. 8            Membermtg/GIGI e.V.
+                   German Internet User Group     Goettingen, Germany
+Nov. 13-17        GLOBECOM '95                    Singapore
+Nov. 14-16        NORDUnet'95 Conf.               Copenhagen, Denmark
+Nov. 27-29        European IT Conf. (IETC'95)     Brussels, Belgium
+Nov. 27-Dec. 1    Email World (Definite)          Boston, MA
+Nov. 27-Dec. 1    Windows Solutions Germany       Frankfurt, Germany
+Dec. 3-6          ACM SIGOPS
+Dec. 4-8          OIW (Firm)
+Dec. 4-8          34th IETF (Firm)                Dallas, TX
+Dec. 4-8          ANSI X3T11 (Possible)           San Diego, CA
+Dec. 4-8          Supercomputing '95 (Firm)       San Diego, CA
+Dec. 4-8          Windows Solutions Tokyo         Tokyo, Japan
+Dec. 4-8          X/Open Security
+Dec. 10-15        ATM Forum                       London, UK
+Dec. 11-12        2nd Intntl. Wkshp on High Perf.
+                   Protocol Arch. HIPPARCH'95     Sydney, AU
+Dec. 11-15        11th Comp. Sec. Applications    New Orleans, LO
+Dec. 11-15        1995 IFIP Intntl. Working Conf. Sydney, AU
+Dec. 11-15        ULPAA (upper layers)            Sydney, AU
+
+
+1996
+-----------
+Jan. 22-26        USENIX 1996 Tech. Conference    San Diego, CA
+Jan. 23-25        IEEE 802.10 Interim Meeting     Salt Lake City, UT
+Jan. 29-31        Multimedia Computing & Netwkg   San Jose, CA
+Feb. 5-9          ANSI X3T11
+Feb. 5-9          ATM Forum                       Los Angeles, CA
+Feb. 19-21        EMail World & Internet Expo     San Jose, CA
+Feb. 19-23        Int'l Zurich Sem. on Digital
+                   Communications                 Zurich, Switzerland
+Feb. 22-23        Internet Society Symp on Ntwk
+
+
+
+Cooper                                                         [Page 25]
+
+Internet Monthly Report                                        July 1995
+
+
+                   & Distributed System Security  San Diego, CA
+Feb. 27-Mar. 1    ICDP '96-IFIP/IEEE Intntl Conf.
+                   on Distributed Platforms       Dresden, Germany
+Mar. 4-6          FM-OODS'96, Formal Methods for
+                  Open Object-based Distributed
+                  Systems                         Paris, France
+Mar. 4-8          35th IETF (Under Consideration)
+Mar. 11-14        UniForum                        San Francisco, CA
+Mar. 11-15        35th IETF (Under Consideration)
+Mar. 18-22        35th IETF (Under Consideration)
+Mar. 18-22        OIW (Firm)
+Mar. 21-24        4th Intntl Conf. on Telecom Syst.
+                   Modeling & Analysis            Nashville, TN
+Mar. 24-28        IEEE INFOCOM'96                 San Francisco, CA
+Apr. 8-13         ANSI X3T11 (Tentative)          Irvine, CA
+Apr. 11-12        2nd ACM/SIGRAPH Conf. on
+                   Assistive Technologies         Vancouver, Canada
+Apr. 15-19        ANSI X3T11 (Tentative)          Irvine, CA
+Apr. 14-19        ATM Forum (Tentative)
+May 13-16         7th Joint European Ntwk Conf.   Budapest, Hungary
+May 13-29         ISO/IEC JTC 1/SC 21
+                   WGs and Plenary (Firm)         Kansas City, MO
+Jun.  9-14        ATM Forum (Tentative)
+Jun. 10-14        OIW (Firm)
+Jun. 10-14        ANSI X3T11
+Jun. 11-13        EMail World & Internet Expo     Chicago, IL
+Jun. 23-27        1st Intntl IEEE Wkshp on
+                   Enterprise Ntwkg - w/ICC
+                   SUPERCOM'96                    Dallas, TX
+Jun. 24-27        ICC '96/SUPERCOMM'96            Dallas, TX
+Jun. 24-28        36th IETF (Under Consideration)
+Jul. 8-12         36th IETF (Under Consideration)
+Jul. 22-26        36th IETF (Under Consideration)
+Jul. 29-Aug. 2    36th IETF (Under Consideration)
+Aug. 5-9          ANSI X3T11
+Aug. 18-23        ATM Forum (Tentative)
+FALL              NSC'96 - Network Services Conf. Bled, Slovenia
+Sep. 2-6          14th IFIP Conf.                 Canberra, AU
+Sep. 9-13         OIW (Firm)
+Sep. 10-12        EMail World & Internet Expo     Boston, MA
+Sep. 24-27        IFIP WG6.1 w/FORTE/PSTV (Under Consideration)
+Oct. 1-3          Email World & Internet Expo     Toronto, Ontario, CA
+Oct. 7-11         ANSI X3T11                      St. Petersburg Bch, FL
+Oct. 6-11         ATM Forum (Tentative)
+Oct. 8-11         IFIP WG6.1
+                  Combined FORTE/PSTV'96          Kaiserslauten
+Oct. 28-30        IFIP WG6.1 Protocols for
+                  High-Speed Networks             Sophia Antipolis
+
+
+
+Cooper                                                         [Page 26]
+
+Internet Monthly Report                                        July 1995
+
+
+Nov. 11-15        37th IETF (Under Consideration)
+Nov. 18-22        37th IETF (Under Consideration)
+Nov. 18-22        Supercomputing '96 (Firm)       Pittsburgh, PA
+Nov. 18-22         GLOBECOM'96                    London
+Dec. 2-6          ANSI X3T11
+Dec. 1-6          ATM Forum (Tentative)
+Dec. 9-13         OIW (Firm)
+
+1997
+-----------
+Mar. 10-13        UniForum                        San Francisco, CA
+Mar. 10-14        OIW (Firm)
+Apr. 7-11         IEEE INFOCOM'97                 Kobe, Japan
+Jun. 8-12         ICC '97                         Montreal
+Jun. 9-13         OIW (Firm)
+Sep. 8-12         OIW (Firm)
+Dec. 8-12         OIW (Firm)
+
+
+1998
+-----------
+Aug. 23-29        15th IFIP World. Com. Conf.     Vienna, Austria and
+                                                   Budapest, Hungary
+
+**********************************************************************
+Ref. TSec(95)001                                          August 1995
+
+This list of meetings is provided for information. Many of the
+meetings are closed or by invitation; if in doubt, please contact the
+chair of the meeting or the TERENA Secretariat. If you have
+additions/corrections/comments, please mail <secretariat@terena.nl>.
+
+**********************************************************************
+
+
+MEETING/DATE                    LOCATION
+============                    ========
+
+
+TERENA Executive Committee
+--------------------------
+15 September                    Amsterdam
+
+
+TERENA Technical Committee
+--------------------------
+18 September                    Amsterdam
+
+
+
+
+Cooper                                                         [Page 27]
+
+Internet Monthly Report                                        July 1995
+
+
+TERENA General Assembly
+-----------------------
+GA4
+19-20 October                   Rome
+
+GA5
+16-17 May 1996                  Budapest
+
+
+TERENA Working Groups
+---------------------
+WG-MSG
+(with DANTE MAILFlow and EEMA ICE)
+23-24 October                   Utrecht
+
+
+TERENA - Other
+--------------
+NCC-Contributor's
+1 September                     Amsterdam
+
+
+-----------------------------------------------------------------
+=================================================================
+
+
+TEN-34
+------
+11 September                    Paris
+
+
+DANTE BoD
+---------
+22 September                    Cambridge
+
+
+EBONE
+-----
+ECCO (Ebone Consortium of Contributing Organisations)
+12 September                     Paris
+
+EMC (Ebone Management Committee)
+29 August                       Paris
+
+
+RIPE
+----
+11-13 October                   Amsterdam
+
+
+
+Cooper                                                         [Page 28]
+
+Internet Monthly Report                                        July 1995
+
+
+April/May 1996                  Berlin
+
+
+NATO/INSIGHT
+------------
+16-18 November                  Budapest
+
+
+IETF
+----
+4-8 December                    Dallas, Texas, USA
+
+
+EWOS
+----
+Technical Assembly
+19/20 September                 Brussels
+12/13 December                     "
+
+Workshops
+23-26 October                   Brussels
+15-19 January 1996                 "
+25-29 March 1996                   "
+24-28 June 1996                    "
+21-25 October 1996                 "
+
+
+ETSI
+----
+GA22 5-6 December               Nice, France
+GA23 25-26 April, 1996            "
+GA24 10-11 December, 1996         "
+
+TA23 7-9 November                 "
+TA24 22-24 April, 1996            "
+TA25 23-25 October, 1996          "
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+TERENA CONFERENCES
+------------------
+
+
+JENC7 - 7th Joint European Networking Conference
+------------------------------------------------
+13-16 May 1996
+Hungarian Academy of Sciences, in Budapest, Hungary
+
+
+
+Cooper                                                         [Page 29]
+
+Internet Monthly Report                                        July 1995
+
+
+For information, email <jenc7-sec@terena.nl>
+WWW access address is: http://www.terena.nl/terena/jenc7
+
+
+
+NSC'96 - Network Services Conference 1996
+-----------------------------------------
+Autumn 1996,
+Convention Centre, Bled, Slovenia
+
+
+For information, email <nsc96-sec@terena.nl>
+WWW access address is: http://www.terena.nl/terena/nsc96/
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+OTHER CONFERENCES
+-----------------
+
+nb. For some of the following events, full text information may be
+available from the TERENA Document Store under the directory calendar,
+in which case the file name is specified under the information
+presented below. The files may be retrieved via:
+
+anonymous FTP:   ftp.terena.nl
+Email:           server@terena.nl
+Gopher:          gopher.terena.nl
+World Wide Web:  http://www.terena.nl/terena/information/calendar/
+
+
+
+NANOG - North American Network Operators Group
+----------------------------------------------
+11-12 September
+hosted by the Pittsburgh Super Computer Center,
+Pittsburgh, Penn., USA
+For information contact: www.merit.edu
+or call +1 313 936 26 56
+
+
+
+95 FIRST Conference/Workshop
+----------------------------
+The Forum of Incident Handling and Security Teams (FIRST)
+will hold its annual conference from:
+
+
+
+Cooper                                                         [Page 30]
+
+Internet Monthly Report                                        July 1995
+
+
+18-22 September
+University of Karlsruhe, Karlsruhe, Germany
+For information contact:
+<first95@rz.uni-karlsruhe.de>   or fax no: +49 721 32 550
+
+
+JOINT WORKING CONFERENCE IFIP TC-6 TC-11 and
+AUSTRIAN COMPUTER SOCIETY
+--------------------------------------------
+20-21 September
+Graz, Austria
+on professional communication and multimedia application in
+relation to security aspects.
+Deadline paper submission 28 February to
+<rposch@iaik.tu-graz.ac.at>
+For further information contact Dr. Peter Lipp at:
+<plipp@iaik.tu-graz.ac.at>
+tel: +43 316 82 65 88 13.     fax:+43 316 85 0144
+
+
+
+IC3N'95 - FOURTH INTERNATIONAL CONFERENCE
+ON COMPUTER COMMUNICATIONS AND NETWORKS
+-----------------------------------------
+20-23 September
+Las Vegas, Nevada, USA
+Call for Papers information: <ic3n@cacs.usl.edu> or
+URL: http://www.nscee.edu/~eugene/ic3n/.
+Paper submission deadline is 17 March.
+For conference information: <ic3n@cacs.usl.edu>
+or WWW home page. URL is http://www.nscee.edu/~eugene/ic3n/.
+
+
+PROMS '95
+---------
+9-12 October
+Salzburg University, Salzburg, Austria
+Second workshop on Protocols for Multimedia Systems
+"Mozart on Multimedia Highways"
+Call for Papers
+to be submitted by 20 August. To:
+email  <proms-submission@cosy.sbg.ac.at>
+ftp    ftp.cosy.sbg.ac.at /pub/proms
+For further information also contact: http://www.cosy.sbg.ac.at/proms
+
+
+IEE/BMVA COLLOQUIUM
+-------------------
+
+
+
+Cooper                                                         [Page 31]
+
+Internet Monthly Report                                        July 1995
+
+
+DOCUMENT IMAGE PROCESSING FOR MULTIMEDIA ENVIRONMENT
+4 November
+IEE Savoy Place, London, U.K.
+Papers to be submitted by 4 August to:
+Dr. R.B. Johnson, Dept. of Electrical & Electronic Engineering, Bristol
+email  <r.b.johnson@bristol.ac.uk>
+or
+Dr. t. Tan, Faculty of Science, Dept. of Computer Science, University
+of Reading - email <t.tan@rdg.ac.uk>   or   <k.d.baker@rdg.ac.uk>
+
+
+OPENNET'95
+----------
+7-9 November
+Goettingen, Germany
+For information email <konferenz@digi.de> or <schweiger@multinet.de>
+
+
+NORDUnet'95 Conference
+----------------------
+14-16 November
+Sheraton Copenhagen Hotel, Copenhagen, Denmark
+Organized by UNI-C, this 15th annual conference will provide a
+forum for universities, industry and public organizations.
+For information email  <Niels.E.Raun@uni-c.dk> or
+tel: +45 35 82 83 55    fax: +45 31 83 79 49
+
+
+European IT Conference (IETC'95)
+--------------------------------
+27-29 November
+Palais des Congres, Brussels, Belgium
+Organized by the European Commission, DGIII, the theme of this conference
+is "Managing Change" and will focus on the challenges to individuals,
+enterprises and the public secton in contributing and adapting to the
+Information Society.
+For information contact EITC'95 on Internet:
+http://www.cordis.lu
+or fax: +32 2 296 99 30
+
+
+1995 IFIP International Working Conference
+on User Layer Protocols, Architectures and Applications (ULPAA)
+---------------------------------------------------------------
+11-15 December
+Sydney, Australia
+Deadline for submission of papers by 15 May
+For further info-> http:/www.ee.uts.edu.au/ifip/ULPAA95.html
+
+
+
+Cooper                                                         [Page 32]
+
+Internet Monthly Report                                        July 1995
+
+
+MULTIMEDIA COMPUTING AND NETWORKING 1996
+----------------------------------------
+29-31 January 1996
+San Jose, California
+This conference is part of the IS&T/SPIE 1996 International Symposium
+on Electronic Imaging to be held 28 Jan. - 2 Feb.1996
+Deadline of paper submission 10 July - electronic versions to:
+<mmcn96@cs.utexas.edu>
+For up-to-date information about MMCN96 access web page at:
+http://www.cs.utexas.edu/users/mmcn96
+
+
+INTERNATIONAL ZURICH SEMINAR ON DIGITAL COMMUNICATIONS 1996
+-----------------------------------------------------------
+Broadband Communiations: Networks, Services, Applications,
+Future Directions
+19-23 February 1996
+Swiss Institute of Technology (ETH), Zurich, Switzerland
+Deadline for submission of papers is 15 May 1995
+For further information, email Prof. Dr. Bernhard Plattner
+<izs96-pc-chair@tik.ethz.ch>, fax.+41 1 632 1035
+Call for Papers on TERENA Document Server under
+rare/information/calendar.  The file is called izs96-cfp.txt.
+
+
+
+ASSETS'96 - The 2nd ACM/SIGCAPH Conference on Assistive Technologies
+--------------------------------------------------------------------
+(sponsored by ACM's Special Interest Group on Computers and the
+Physically Handicapped)
+11-12 April 1996
+Vancouver Renaissance Hotel, Vancouver, Canada
+The conference scope spans disability and special needs of all kinds,
+including but not limited to: sensory; motor; cognitive; and emotional.
+Submission of papers (17 October) and further info. contact:
+David L. Jaffe, Program Chair  <jaffe@roses.stanford.edu>   or
+Ephraim P. Glinert, General Chair  <glinert@cs.rpi.edu>
+
+
+                        ==================
+
+                        updated 31.07.1995
+
+                        ==================
+
+--------------------
+Madeleine Oberholzer
+TERENA Secretary
+
+
+
+Cooper                                                         [Page 33]
+
+Internet Monthly Report                                        July 1995
+
+
+Address:
+TERENA Secretariat
+Singel 466 - 468
+NL - 1017 AW  AMSTERDAM
+Voice   : + 31 20 639 11 31
+Fax     : + 31 20 639 32 89
+Email   : secretariat@terena.nl  (for all general matters)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 34]
+

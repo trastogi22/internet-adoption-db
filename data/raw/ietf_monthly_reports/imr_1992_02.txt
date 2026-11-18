@@ -1,0 +1,1907 @@
+
+
+
+
+
+
+~
+
+
+
+
+
+
+
+
+
+February 1992
+
+
+INTERNET MONTHLY REPORTS
+------------------------
+
+The purpose of these reports is to communicate to the Internet Research
+Group the accomplishments, milestones reached, or problems discovered by
+the participating organizations.
+
+     This report is for Internet information purposes only, and is not
+     to be quoted in other publications without permission from the
+     submitter.
+
+Each organization is expected to submit a 1/2 page report on the first
+business day of the month describing the previous month's activities.
+
+These reports should be submitted via network mail to:
+
+     Ann Westine Cooper (Cooper@ISI.EDU)
+     NSF Regional reports - Corinne Carroll (ccarroll@NNSC.NSF.NET)
+     Directory Services reports - Tom Tignor (TPT2@ISI.EDU)
+
+Requests to be added or deleted from the Internet Monthly report list
+should be sent to "cooper@isi.edu".
+
+Back issues of the Internet Monthly Report can be copied via FTP:
+
+     FTP>  nis.nsf.net
+     Login: anonymous guest
+     ftp> cd imr
+     ls
+     get IMRYY-MM.TXT
+
+For example, JUNE 1991 is in the file IMR91-06.TXT.
+
+
+
+
+
+
+Cooper                                                          [Page 1]
+
+Internet Monthly Report                                    February 1992
+
+
+TABLE OF CONTENTS
+
+  INTERNET ACTIVITIES BOARD
+
+     IAB MESSAGE  . . . .  . . . . . . . . . . . . . . . . . . page  4
+     INTERNET RESEARCH REPORTS . . . . . . . . . . . . . . . . page  4
+        AUTONOMOUS NETWORKS  . . . . . . . . . . . . . . . . . page  4
+        END-TO-END SERVICES  . . . . . . . . . . . . . . . . . page  4
+     RESOURCE DISCOVERY AND DIRECTORY SERVICE. . . . . . . . . page  4
+     INTERNET ENGINEERING REPORTS  . . . . . . . . . . . . . . page  4
+
+  Internet Projects
+
+     BARRNET . . . . . . . . . . . . . . . . . . . . . . . . . page  8
+     BOLT BERANEK AND NEWMAN, INC.,  . . . . . . . . . . . . . page  8
+     CERFNET . . . . . . . . . . . . . . . . . . . . . . . . . page  8
+     CIX (COMMERCIAL INTERNET EXCHANGE). . . . . . . . . . . . page  9
+     CONCERT . . . . . . . . . . . . . . . . . . . . . . . . . page 10
+     CSUNET (CALIFORNIA STATE UNIVERSITY NETWORK). . . . . . . page 10
+     ISI . . . . . . . . . . . . . . . . . . . . . . . . . . . page 11
+     JVNCNET . . . . . . . . . . . . . . . . . . . . . . . . . page 13
+     LOS NETTOS  . . . . . . . . . . . . . . . . . . . . . . . page 14
+     MITRE . . . . . . . . . . . . . . . . . . . . . . . . . . page 14
+     NEARNET (NEW ENGLAND ACADEMIC AND RESEARCH NETWORK) . . . page 15
+     NNSC, UCAR/BOLT BERANEK and NEWMAN, INC., . . . . . . . . page 15
+     NSFNET/ANSNET BACKBONE ENGINEERING. . . . . . . . . . . . page 16
+     NSFNET/INFORMATION SERVICES . . . . . . . . . . . . . . . page 21
+     NORTHWESTNET  . . . . . . . . . . . . . . . . . . . . . . page 23
+     PREPnet . . . . . . . . . . . . . . . . . . . . . . . . . page 23
+     SAIC. . . . . . . . . . . . . . . . . . . . . . . . . . . page 24
+     SESQUINET . . . . . . . . . . . . . . . . . . . . . . . . page 25
+     SRI . . . . . . . . . . . . . . . . . . . . . . . . . . . page 25
+     SURANET . . . . . . . . . . . . . . . . . . . . . . . . . page 26
+     UCL . . . . . . . . . . . . . . . . . . . . . . . . . . . page 26
+
+  DIRECTORY SERVICES ACTIVITIES
+
+     DIRECTORY SERVICES MESSAGE  . . . . . . . . . . . . . . . page 29
+     IETF OSIDS & DISI WORKING GROUPS. . . . . . . . . . . . . page 29
+     FOX - FIELD OPERATIONAL X.500 PROJECT . . . . . . . . . . page 29
+        ISI. . . . . . . . . . . . . . . . . . . . . . . . . . page 30
+        SRI. . . . . . . . . . . . . . . . . . . . . . . . . . page 30
+     PSI DARPA/NNT X.500 PROJECT . . . . . . . . . . . . . . . page 30
+     PSI WHITE PAGES PILOT . . . . . . . . . . . . . . . . . . page 31
+
+  CALENDAR OF EVENTS . . . . . . . . . . . . . . . . . . . . . page 32
+
+
+
+
+
+Cooper                                                          [Page 2]
+
+Internet Monthly Report                                    February 1992
+
+
+
+IAB MESSAGE
+
+     No progress to report this month.
+
+     Bob Braden (Braden@ISI.EDU)
+
+INTERNET RESEARCH REPORTS
+-------------------------
+
+     AUTONOMOUS NETWORKS
+     -------------------
+
+        The ANRG is still in the process of reorganizing.
+
+        Deborah Estrin (Estrin@USC.EDU)
+
+     END-TO-END SERVICES
+     -------------------
+
+        No progress to report this month.
+
+        Bob Braden (Braden@ISI.EDU)
+
+     RESOURCE DISCOVERY AND DIRECTORY SERVICE
+     ----------------------------------------
+
+        In prepartion for a meeting we will hold in March, we have been
+        discussing ideas about supporting resource discovery by building
+        resource content summaries and distributing/caching these
+        summaries according to network topology.  The goal is to allow
+        the information to be efficiently searched throughout a wide
+        area network.  At the meeting we will discuss techniques for
+        distribution and caching, and ways we can explore these ideas in
+        the context of the various measurement and prototyping efforts
+        being carried out by the group members.
+
+        Mike Schwartz@latour.cs.colorado.edu.
+
+INTERNET ENGINEERING REPORTS
+----------------------------
+
+                   IETF MONTHLY REPORT for February, 1992
+
+     1. The next IETF meeting will be held at the Hyatt Islandia in
+        San Diego from March 16-20, 1992. The Sunday night reception
+        will begin at 6:30 on March 15th.
+
+
+
+
+Cooper                                                          [Page 3]
+
+Internet Monthly Report                                    February 1992
+
+
+        The summer meeting of the IETF has been scheduled for
+        July 13-17 in the Boston/Cambridge area, with the Sunday night
+        registration-reception being held July 12th. Details will be
+        provided in a future Internet Monthly report.
+
+     2. The IESG received seven requests to approve the publication
+        of the following Internet Drafts:
+
+          1. Character MIBs to Proposed Standard
+          2. SNMP Security to Proposed Standard
+          3. Frame Relay MIB to Proposed Standard
+          4. TCP Extensions for High Performance to Proposed Standard
+          5. PPP LCP to Proposed Standard
+          6. PPP Authentication to Proposed Standard
+          7. PPP Link Quality Monitoring to Proposed Standard
+
+        Last call notifications were sent to the IETF mailing list by
+        the IESG Secretary. Following the two week Last Call period,
+        the IESG will add these items to its meeting agenda.
+
+     3. The IESG made the following recommendations to the IAB during
+        the month of February, 1992:
+
+        a. IP Forwarding Table MIB <draft-ietf-rreq-forwarding-04> be
+           published as a Proposed Standard. A subsequent version of the
+           document, -05, was distributed by the authors, and that is
+           version being evaluated by the IAB.
+
+        b. Definitions of Managed Objects for the SIP Interface Type
+           <draft-ietf-snmp-smdssipmib-06> be published as a Proposed
+           Standard.
+
+        c. Definitions of Managed Objects for RS-232-like Hardware Devices
+           <draft-ietf-charmib-rs232like-03> be published as a Proposed
+           Standard.
+
+        d. Definitions of Managed Objects for Parallel-printer-like
+           Hardware Devices <draft-ietf-charmib-parallelprinter-02>
+           be published as a Proposed Standard.
+
+        e. Definitions of Managed Objects for Character Stream Devices
+           <draft-ietf-charmib-charmib-02> be published as a Proposed
+           Standard.
+
+        f. Building a Network Information Services Infrastructure
+           <draft-ietf-nisi-infrastructure-00> be published as a FYI
+           Informational RFC.
+
+
+
+
+Cooper                                                          [Page 4]
+
+Internet Monthly Report                                    February 1992
+
+
+        Additionally, the IESG reviewed the Dynamic Link Control Protocol
+        (DCNL) and informed the RFC Editor that they had no objection to
+        its publication as an experimental RFC.
+
+     4. The following Working Group was created during the month of
+        of February:
+
+             Token Ring Remote Monitoring (trmon)
+
+     5. Seventeen Internet Draft Actions were taken between
+        February 1 and 29, 1992:
+
+      (Revised draft (o), New Draft (+) )
+
+        WG             I-D Title  <Filename>
+      ------       -------------------------------------------------------
+      (charmib)  o Definitions of Managed Objects for RS-232-like Hardware
+                   Devices
+                                  <draft-ietf-charmib-rs232like-04.txt>
+      (iplpdn)   o Management Information Base for Frame Relay DTEs
+                                  <draft-ietf-iplpdn-frmib-06.txt>
+      (netdata)  o Network Database Protocol
+                                  <draft-ietf-netdata-netdata-02.txt>
+      (pppext)   o The Point-to-Point Protocol for the Transmission of
+                   Multi-Protocol Datagrams Over Point-to-Point Links
+                                  <draft-ietf-pppext-lcp-03.txt>
+      (822ext)   o Mnemonic Character Sets
+                                  <draft-ietf-822ext-mnemonics-03.txt>
+      (822ext)   o Character Mnemonics and Character Sets
+                                  <draft-ietf-822ext-charsets-04.txt>
+      (hubmib)   o Definitions of Managed Objects for IEEE 802.3
+                   Repeater Devices
+                                  <draft-ietf-hubmib-mib-01.txt>
+      (rreq)     o IP Forwarding Table MIB
+                                  <draft-ietf-rreq-forwarding-05.txt>
+      (x25mib)   o SNMP MIB extension for IP over X.25
+                                  <draft-ietf-x25mib-ipox25mib-01.txt>
+      (x25mib)   o SNMP MIB extension for LAPB
+                                  <draft-ietf-x25mib-lapbmib-01.txt>
+      (x25mib)   o SNMP MIB extension for the X.25 Packet Layer
+                                  <draft-ietf-x25mib-x25packet-01.txt>
+      (netfax)   o A File Format for the Exchange of Images in
+                   the Internet
+                                  <draft-ietf-netfax-netimage-03.txt>
+      (none)     o Multiprotocol Interconnect on X.25 and ISDN in the
+                   Packet Mode
+                                  <draft-ietf-iplpdn-x25_isdn-01.txt>
+
+
+
+
+Cooper                                                          [Page 5]
+
+Internet Monthly Report                                    February 1992
+
+
+      (tcplw)    o TCP Extensions for High Performance
+                                  <draft-ietf-tcplw-tcpext-02.txt>
+      (netdata)  o Network Database Implementation Information
+                                  <draft-ietf-netdata-implement-01.txt>
+      (pppext)   o PPP Link Quality Monitoring
+                                  <draft-ietf-pppext-lqm-01.txt>
+      (none)     o IP and ARP on HIPPI
+                                  <draft-renwick-hippilan-01.txt>
+
+     6) Three RFC's based on IETF WG activity were produced during the
+        month of February, 1992
+
+
+       RFC  Status WG        Title
+     ------- -- --------   -------------------------------------------
+     RFC1298  I  (snmp)    SNMP over IPX
+     RFC1302  I  (nisi)    Building a Network Information Services
+                           Infrastructure
+     RFC1304  PS (snmp)    Definitions of Managed Objects for the SIP
+                           Interface Type
+
+     Phill Gross (pgross@NRI.RESTON.VA.US)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cooper                                                          [Page 6]
+
+Internet Monthly Report                                    February 1992
+
+
+INTERNET PROJECTS
+-----------------
+
+BARRNET
+-------
+
+     In February, BARRNet connected one new T1 site, upgraded one 9600bps
+     site to 56kbps and one 56kpbs site to T1, bringing the total connected
+     membership to 116. Also in February BARRNet deployed cisco beta
+     release 9.0 on three "core" routers, putting OSPF into limited
+     operational use on the cisco platform.
+
+     Paul Baer (baer@jessica.stanford.edu0
+
+BOLT BERANEK AND NEWMAN INC.
+----------------------------
+
+     Inter-Domain Policy Routing
+
+     During the month of February, we completed extensive testing of the
+     IDPR configuration database software for the "gated" version of IDPR.
+     We have also been communicating with members of the Internet community
+     interested in using IDPR, in preparation for getting IDPR
+     implementations into the Internet.  Our objectives in introducing IDPR
+     to the Internet are:
+
+     (1) To satisfy existing needs for policy-based routing in the Internet.
+     (2) To gain field experience with IDPR in order to determine what must
+         be improved.
+     (3) To prepare for a multiple-site Internet demo of IDPR, with real
+         applications and real networks.
+
+     If you are interested in using IDPR, please contact
+     msteenst@bbn.com.
+
+     Jil Westcott (westcott@BBN.COM)
+
+CERFNET
+-------
+
+     On Friday, February 28 CERFnet announced a new service offering,
+     Dial n Cerf USA, which allows 800 number dial-in access to CERFnet
+     accounts from around the country. Dial n Cerf USA has the same low
+     installation and monthly costs as CERFnet's other dial-in
+     offerings, and has a set hourly cost which is the same no matter
+     what your location in the country.
+
+
+
+
+
+Cooper                                                          [Page 7]
+
+Internet Monthly Report                                    February 1992
+
+
+     CERFnet is using a new Autonomous System number - AS 1740. CERFnet
+     is now using the T3 backbone for traffic destined for other
+     networks which are also using the T3. All other traffic remains on
+     the T1.
+
+     During February CERFnet saw the formation of a new department to
+     serve its users, Network Information Services. New staff members in
+     this group include Susan Calcari, Director, Network Information
+     Services, and Dan Matzke, Network Information Consultant.
+
+     The first CERFnet User Group meeting was held and approximately 75
+     users attended from university, research, and commercial
+     organizations. The purpose of the User Group is to provide a formal
+     conduit for communication between CERFnet and its users for
+     planning regional and national Internet services and to facilitate
+     communication among CERFnet users.
+
+     Susan Calcari (calcaris@cerf.net)
+
+CIX (COMMERCIAL INTERNET EXCHANGE)
+----------------------------------
+
+     The following report outlines CIX-WEST usage for the month of
+     February, 1992.
+
+     CIX        In                             Out
+     Member        Octets   Packets  Errors     Octets     Packets  Errors
+     --------- ----------------------------  -----------------------------
+     AlterNet  37691705876  91618153  13872  14818226055   79668885     0
+     CERFnet   22802486844  93674766  26550  27221367284   81745577     0
+     PSINet    21014273559  90867579      0  39446236007  115173939     0
+
+     Starting: Jan 31 1992 at 23:47
+     Ending: Feb 29 1992 at 23:36
+     SNMP Polling Intervals: 2747
+     SNMP Polling Frequency: 15 minutes
+
+     In - traffic entering the CIX from the CIX member network
+     Out - traffic exiting the CIX into the CIX member network
+     -----
+
+     At the present time, approximately 550 networks within AlterNet,
+     CERFNet, and PSINet are using the CIX-WEST.
+
+
+
+
+
+
+
+
+Cooper                                                          [Page 8]
+
+Internet Monthly Report                                    February 1992
+
+
+     A complete list of networks accessible via the CIX is available via
+     anonymous FTP from cix.org in the file cix.nets.  The current
+     revision of this list is: 3-MAR-1992.
+
+     Send mail to info@cix.org for information regarding the CIX.
+
+     Mark Fedor (fedor@psi.com)
+
+CONCERT
+-------
+
+     Development is underway on a trouble ticket system to be used by
+     the CONCERT NOC in reporting and tracking network related problems.
+     We are trying to incorporate as many of the RFC 1297 features as
+     possible, and to follow the ticket handoff procedures coming out of
+     the IETF UCP working group.  The system is being developed from
+     publicly available tools (e.g., it uses the postgres database
+     management system from Berkeley), with the intention that it will
+     be made available to other NOCs.  A prototype is now being
+     evaluated at the CONCERT NOC.
+
+     CONCERT has upgraded its OSI test machines, with the installation
+     of ISODE 7.0, PP 6.0, and SunNET 7.0.  When combined, these
+     packages provide full dual-stack (CLNP and RFC-1006) support for
+     the OSI applications X.400 (e-mail), X.500 (white pages), FTAM
+     (file transfer) and VT (virtual terminal).
+
+     A two day workshop on Wide Area Information Servers (WAIS) was held
+     at MCNC early in February. It was jointly sponsored by NSF and
+     CONCERT and was attended by about 75 people from around the
+     country.
+
+     Joe Ragland represented CONCERT at the FARNET meeting in Atlanta.
+
+     Tom Sandoski (tom@concert.net)
+
+CSUNET (THE CALIFORNIA STATE UNIVERSITY NETWORK)
+-----------------------------------------------
+
+     CSUnet now has three campuses using Compressed Video over it's
+     private T-1 Network (CSUnet).  Those campuses are: Sacramento,
+     Dominguez Hills, and Bakersfield.  On January 16, 1992, the Vice
+     Presidents of Academic Affairs successfully completed a Video
+     Teleconference  between Dominguez Hills and Sacramento using
+     compressed 384kbs.
+
+     This spring, CSUnet begins a pilot test with the Sprint Meeting
+     Channel.  The Chancellor or any CSU campus with a CODEC will be
+
+
+
+Cooper                                                          [Page 9]
+
+Internet Monthly Report                                    February 1992
+
+
+     able to set up a Video Teleconference to any other CSU campus/site
+     or directly to locations on the Sprint Meeting Channel.
+
+     The significance of the pilot is the potential:  1) in that the
+     Sprint Meeting Channel will be available for use across the State
+     of California via CSUnet; and 2) in that CSU campuses and other
+     CSUnet members if equipped with CODEC could meet with organizations
+     outside of California.
+
+     Mike Marcinkevicz (mdm@CSU.net)
+
+ISI
+---
+
+     GIGABIT NETWORKING
+
+     Joyce Reynolds travelled to Orlando, Florida to the FARNET meetings
+     as an invited participant, February 10-12.
+
+     Joyce Reynolds gave an Internet seminar on, "User Services Planning
+     in the Internet", on 20 February.
+
+     Bob Braden gave an invited presentation to the DARPA Local ATM
+     meeting held at DEC SRC in Palo Alto, CA, Thursday, February 27th.
+     The title of his talk was "Resource Allocation - the E2E
+     Viewpoint".
+
+     Danny Cohen gave a seminar at the CS dept of UCLA on ATOMIC,
+     Tuesday, February 4th.  Danny Cohen gave a presentation at the
+     Government/Industry Computing Meeting on: "DoD Force Structure in
+     the year 2020 - One Man's Views", Tuesday, February 18th.
+
+     Six RFCs were published this month.
+
+        RFC 1298:  Wormley, R., and S. Bostock, "SNMP Over IPX",
+                   Novell, Inc., February 1992.
+
+        RFC 1300:  Greenfield, S., "Remembrances of Things Past",
+                   Ziff-Davis, February 1992.
+
+        RFC 1301:  Armstrong, S., (XEROX), Freier, A., (APPLE),
+                   K. Marzullo (CORNELL), "Multicast Transport
+                   Protocol", February 1992.
+
+        RFC 1302:  Sitzler, D. (MERIT), Smith, P., (MERIT),
+                   A. Marine (SRI), February 1992, "Building a
+                   Network Information Services Infrastructure",
+                   February 1992.
+
+
+
+Cooper                                                         [Page 10]
+
+Internet Monthly Report                                    February 1992
+
+
+        RFC 1303:  McCloghrie, K., (HUGHES), M. Rose, (Dover Beach
+                   Consulting), "A Convention for Describing
+                   SNMP-based Agents", February 1992.
+
+        RFC 1304:  Cox, T., and K. Tesink, "Definitions of Managed
+                   Objects for the SIP Interface Type", Bell
+                   Communications Research, February 1992.
+
+     Ann Westine Cooper (Cooper@ISI.EDU)
+
+     MULTIMEDIA CONFERENCING
+
+     On February 18, the IETF Audio/Video Transport working group met
+     via a packet audio teleconference that spanned three continents and
+     16 timezones.  At least 24 people participated from 14 different
+     locations.  The packet audio was distributed over an IP multicast
+     topology spanning 30 network segments.  In addition, 5 sites
+     directly connected to DARTnet also shared packet video via IP
+     multicast.  A second teleconference with some additional sites was
+     held March 5.
+
+     The primary purpose of these teleconferences was to gauge how well
+     UDP packet audio will work over an IP multicast topology consisting
+     of DARTnet as a transcontinental US backbone plus multicast tunnels
+     reaching out to other sites.  The results varied depending upon the
+     paths traversed by the tunnels, but on the whole it worked pretty
+     well.  For large scale use of packet audio and video, it is clear
+     that resource management will be required in the network to provide
+     low delay service.
+
+     These teleconferences were also in preparation for a packet
+     "audiocast" of the general sessions at the March IETF meeting in
+     San Diego.  This first audiocast will be a small-scale pilot, but
+     may be expanded for future IETF meetings if successful.
+
+     Steve Casner, Eve Schooler (casner@ISI.EDU, schooler@ISI.EDU)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 11]
+
+Internet Monthly Report                                    February 1992
+
+
+JVNCNET
+-------
+
+     I. General information
+
+     A. How to reach us:
+             1-800-35-TIGER  (from anywhere in the United States)
+             by e-mail
+                     NOC:  noc@jvnc.net
+                     Service desk:  service@jvnc.net
+             by mail:  U.S. mail address:
+             Princeton University
+             B6 von Neumann Hall
+             Princeton, NJ  08544
+             (Director: Sergio Heker)
+     B.  Hours
+             NOC:  24 hours/day, seven days a week
+             Service desk:  9:00 to 5:00 pm, M - F (except holidays)
+     C.  Other info available on-line from NICOL
+             Telnet to nicol.jvnc.net.
+             Login ID is nicol and no password.
+
+     II.   New Information
+
+     A. RFCs on-line
+             To obtain RFCs from the official JvNCnet repository (two methods)
+             ftp nicol.jvnc.net; username:  nicol;  password: <your email
+             address>
+             RFC automailer
+             Send email to sendrfc@jvnc.net.  Subject line is RFCxxxx.
+             xxxx represents the RFC number.  RFCs with three digits only
+             need three digits in the request.
+
+     B.  Operational information
+             JvNCnet availability for January 1992 and February 1992 are
+             99.75% and 99.92%, respectively.
+
+     C.  New on-line members (fully operational January 1992)
+             Educational Testing Service, Lawrenceville, NJ
+             University of Bridgeport, Bridgeport, CT
+             Ciba-Geigy Research Corporation, Summit, NJ
+             Central Connecticut State University, New Britain, CT
+             Science University of Tokyo, Tokyo, Japan
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 12]
+
+Internet Monthly Report                                    February 1992
+
+
+     E.  JvNCnet Symposium on Friday, April 3, 1992
+             The next symposium in the continuing series will focus
+             on Send Mail, Domain Name Service, and Network News.
+
+             Specific audience:  Highly recommended for network managers
+                                 and system administrators.
+
+             Meeting location:  Princeton University, 105 Computer
+             Science Bldg.
+
+             Agenda and logistics will be prepared shortly.  For further
+             details, please send email to send email to
+             "symposium@jvnc.net" or call 1-800-35-TIGER.
+
+     F.  Miscellaneous
+             Please stop by the JvNCnet booth at Interop (Washington,DC)
+             and say hello......May 20-22, 1992.
+
+     Rochelle Hammer (hammer@jvnc.net)
+
+LOS NETTOS
+----------
+
+     Walt Prue attended the first CERFnet Users Group meeting.
+
+     An agreement with Nrad (NOSC) and CERFnet was reached to do BGP
+     routing with the NSFNET backbone over the 132.249.16.0 subnet from
+     Nrad.  This will need to evolve as this DMZ net changes as CERFnet
+     anticipates.  We will want to wait until the AGS+ is installed at
+     Nrad so BGP2 may be used.
+
+     Walt Prue (Prue@Isi.Edu)
+
+MITRE CORPORATION
+-----------------
+
+     Work on a white paper concerning OSI packet filtering continued.
+     It will be published to the IETF NOOP working group list in early
+     March.
+
+     Net management tutorials were aided by the introduction of the "Net
+     Pet" MIB and agent. The audio-based agent (graphics are coming)
+     runs on a Sparc.  Commands can be sent (via SET) to the agent,
+     causing a change in mood (seen via GET).  This simple model
+     illustrates a MIB-at-a-glance, a feedback loop familiar to all, and
+     the concepts of both monitoring and control.
+
+     Walt Lazear (lazear@gateway.mitre.org)
+
+
+
+Cooper                                                         [Page 13]
+
+Internet Monthly Report                                    February 1992
+
+
+NEARNET (NEW ENGLAND ACADEMIC AND RESEARCH NETWORK)
+---------------------------------------------------
+
+     NEARnet has grown to 121 members.
+
+     NEARnet has published and distributed the Winter issue of the
+     NEARnet Newsletter.
+
+     The February 1992 issue of the electronic bulletin "NEARnet This
+     Month" has been distributed.  Past issues of the bulletin are
+     available via anonymous FTP at nic.near.net, in the directory
+     /newsletters/nearnet-this-month.
+
+     Please note the following correction to last month's entry: the
+     directory for the NEARnet This Month bulletin is nearnet-this-month
+     and not nearnet_this_month, as previously mentioned.
+
+     Corinne Carroll (ccarroll@nic.near.net)
+
+NNSC, UCAR/BOLT BERANEK and NEWMAN, INC.
+----------------------------------------
+
+     Due to a feature article entitled "Applying the Internet" published
+     in the February 1992 issue of BYTE Magazine, the NNSC has received
+     a tremendous amount of requests for information on the Internet
+     Resource Guide and the Network Provider Referral List.
+
+     Online information at the NNSC is available via anonymous FTP and
+     also through the NNSC Info-Server, which sends files by electronic
+     mail.
+
+     To receive the help file from the Info-Server, send a message to
+     info@nnsc.nsf.net with the following text in the body of the message:
+
+             Request: info
+             Topic: help
+
+     New or revised documents in the NNSC collection on the nnsc.nsf.net
+     machine are:
+
+     A shadow copy of the new NSF Backbone Services Acceptable Use
+     Policy.  In the nsfnet directory, the filenames are: netuse.txt,
+     (for the text version) and netuse.ps (for the PostScript version).
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 14]
+
+Internet Monthly Report                                    February 1992
+
+
+     A shadow copy of the PostScript version of the first edition of the
+     "Zen and the Art of the Internet: A Beginner's Guide to the
+     Internet", by Brendan Kehoe of Widener University.  In the nsfnet
+     directory, the filenames are: zen-1.0.PS and zen.readme.
+
+     Corinne Carroll (ccarroll@nnsc.nsf.net)
+
+NSFNET/ANSNET BACKBONE ENGINEERING
+----------------------------------
+
+     Summary
+     =======
+
+     The T3 network continues to perform extremely well as it has since
+     last November.  During February, we have cut over a significant
+     load of traffic from the T1 backbone to the T3 backbone.  Midlevel
+     networks that were cutover to use T3 in February include SURAnet
+     (at both College Park and Atlanta), NyserNet/PSI, San Diego (SDSC
+     and CERFNet), and SesquiNet.  These are in addition to the other
+     midlevel & regional networks that have previously been cut over to
+     use the T3 system.  We are coordinating with several other midlevel
+     networks that we plan to cutover to T3 during the month of March.
+
+     The midlevel networks continue to peer with both the T1 and T3
+     networks, and continue to use the T1 backbone to communicate with
+     sites that have not yet cut over to the T3 backbone.  This
+     minimizes the load on the T1/T3 interconnect gateways in Ann Arbor,
+     Houston, and San Diego.  The interconnect gateway load has
+     decreased as we have added load to the T3 system.  We are also in
+     the process of installing a 4th interconnect gateway at Princeton.
+
+     The total inbound packet count for the T1 network was
+     11,253,312,682, up 1.3% from January.  618,694,272 of these packets
+     entered from the T3 network.
+
+     The total inbound packet count for the T3 network was
+     3,217,861,812, up 71.6% from January. 470,927,893 of these packets
+     entered from the T1 network. The number of networks announced to
+     the T3 backbone was 2390 as of February 28, up from 1160 at the end
+     of January. As of the last day of February, the T3 backbone was
+     carrying 30% of total traffic.
+
+     The combined total inbound packet count for the T1 and T3 networks
+     (less cross network traffic) was 13,381,552,329, up 10% from
+     January.
+
+     Testing of the new RS/960 T3 interfaces has begun on the T3
+     Research Network. System and unit testing has been in progress
+
+
+
+Cooper                                                         [Page 15]
+
+Internet Monthly Report                                    February 1992
+
+
+     since January. Deployment of the new technology will begin in mid-
+     April, with gradual installation taking place on the nodes at one
+     POP at a time.  More details on the new technology, testing and
+     rollout plan will be released within the next few weeks.
+
+     Performance on the T1 backbone has not been as good. A number of
+     problems have been observed, and this is where a large part of our
+     efforts have been focused over the last month. Congestion at NSS 10
+     has been minimized by cutover of PSI/NyserNet traffic.  The "DCD
+     Waffle" problem has at long last been identified as two separate
+     problems, and corrections to these problems are partially deployed
+     with the remaining software updates on the research network in test
+     phase. The "extra ICMP net unreachable" problem has been corrected
+     on the T1 backbone.  A recurrent PSP crash is still being analyzed
+     to find a possible RT kernel bug. A routing problem where IS-IS
+     link state PDUs were being truncated was identified, having
+     occurred when some regionals began announcing over 2000 networks to
+     the backbone. A patch to allow up to 2200 networks was made, and a
+     new routing daemon that compresses the encoding of networks in the
+     LSPs is now in test phase. Finally, the RCP nodes are experiencing
+     CPU starvation, as the routing daemon is processing the large and
+     growing number of routes learned from the regional networks. That
+     problem is being addressed by a temporary workaround which suffers
+     a tradeoff for backup capability, the installation of a faster
+     processor board in some nodes, and some optimizations to the
+     routing daemon.
+
+     T3 Network Status
+     =================
+
+     Performance on the T3 network has been very good.  There have been
+     reports of intermittent packet loss, but this has been isolated to
+     sources outside of the T3/T1 systems.  As we migrate additional
+     traffic onto the T3 network we are collecting daily reports on peak
+     traffic load, and any packet discards on all CNSS/ENSS nodes in
+     order to detect any problems caused by the added load.  We are now
+     measuring daily average sustained loads of about 5Mbps across a
+     typical CNSS node (all interfaces) with an average packet size of
+     about 200 bytes.
+
+     The T3 backbone continues to be very reliable.  There was a
+     hardware problem on the backbone CNSS machine at Cleveland that
+     resulted in two outages.  We also continue to experience an
+     occasional black link on CNSS-CNSS links.  With the redundancy in
+     the T3 network, none of these problems have resulted in extended
+     outages for any end users. There was also a routing software
+     problem with the flooding of external BGP updates between the IBM
+     and Cisco routers which we have worked around.
+
+
+
+Cooper                                                         [Page 16]
+
+Internet Monthly Report                                    February 1992
+
+
+     An SNMP monitoring problem proved to be an interesting case.  One
+     night the NOC staff observed that the monitor (rover) was reporting
+     all circuits on the T3 backbone being down at once, though it did
+     not report any nodes themselves as being unreachable. This problem
+     was traced to a buffer overflow condition in the internal
+     communication between the snmpd and smux.routed programs. It seems
+     that the 44th autonomous system was announced to the backbone that
+     day, that this caused the data structure that was passed between
+     the two programs to overflow the buffer. This caused an SNMP error
+     code to be returned to rover, so that it knew the nodes were
+     responding but could not get any information on interfaces or
+     circuits of any kind. This situation lasted for several hours and
+     did not actually disrupt any network activity or affect user
+     traffic. It was corrected temporarily by disabling the peering
+     sessions with several internal backbone cisco AS's that were not
+     being used by any customers, and more permanently by installing a
+     new version of the rcp_routed and smux.routed programs.
+
+     T1->T3 Cutover Status
+     =====================
+
+     Cutover of traffic began in February as part of the plan begun in
+     December with the "stability period". Following that period, a
+     number of software enhancements were made to the backbone routers,
+     and traffic was cut over one regional (autonomous system) at a time
+     beginning in February. The following schedule shows sites that have
+     been cut over and indicates a proposed date for new cutovers. The
+     Merit staff has been working with the folks at each regional to
+     plan the cutover and routing plan.
+
+     Cutovers completed:
+
+     Feb 11: Suranet AS 86 College Park
+     Feb 19: PSI AS 174 Ithaca
+             SURAnet AS 279 Georgia Tech (Atlanta)
+     Feb 20: OARnet AS 690 Columbus
+     Feb 25: Sesquinet AS 280 and 114 Houston
+             San Diego AS 195
+
+     Cutovers scheduled:
+
+     Mar 11: JVNC AS 97 Princeton
+     Mar 18: UIUC AS 38
+     Mar 25: Midnet AS 93 Lincoln
+     Apr  1: Westnet-E AS 209 Boulder
+     Apr  7: CICnet 267 Champaign, Ann Arbor
+
+
+
+
+
+Cooper                                                         [Page 17]
+
+Internet Monthly Report                                    February 1992
+
+
+     T1 Network Status Summary
+     =========================
+
+     DCD Waffle Problem on T1 Backbone
+     =================================
+
+     This problem was difficult to track down. In short, the problem was
+     broken down into two parts: 1) short duration DCD outages being
+     handled incorrectly by the NSS, and 2) T1 interface card freezes
+     not being reset properly.
+
+     --Short Duration DCD Outages
+
+     The Cylink ACSUs on the T1 backbone are configured to drop the DCD
+     signal on the interface to the RT when an alarm condition occurs on
+     the circuit. The number of allowable alarm conditions per day
+     varies with circuit mileage and other issues. These alarms are due
+     to errored seconds or out of frame conditions. If the number of
+     alarms on a circuit exceeds the threshold for that circuit, MCI is
+     notified and takes immediate action to resolve the problem.  The
+     original intent on the configuration for DCD transition was that
+     the routers could produce a network management alarm when a
+     threshold was exceeded so that the NOC could take action. However
+     this implementation was flawed. The actual behavior of the router
+     was that a logical link outage of up to 2-3 minutes could occur
+     even for a momentary DCD/alarm condition. Further, this interval
+     was short enough that the NOC would not necessarily notice it since
+     it would appear on the problem screen for at most one polling
+     interval (less than 5 minutes), and there is a possibility it would
+     not appear at all. Thus, the original intent of having the NOC
+     notice problems on circuits before the users notice so that advance
+     action could be taken was not valid.
+
+     To resolve this, a decision to configure the software to ignore DCD
+     transitions was made. This is an interim change, until there is a
+     design and implementation of a new system to detect short duration
+     circuit alarms. A routing daemon was deployed that ignores signals
+     from the T1 driver when DCD fluctuates. A further change to the T1
+     card driver in the kernel is being deployed in Build 280, which
+     notably protects split-EPSP links from being affected by this
+     problem. Full deployment of this kernel was completed the last week
+     of February.
+
+     --T1 Interface Freeze Problem
+
+     Due to a known microcode problem on the T1 interface card, these
+     cards go into a frozen condition where no traffic is passed, up to
+     several times per day. The recovery from this was that a background
+
+
+
+Cooper                                                         [Page 18]
+
+Internet Monthly Report                                    February 1992
+
+
+     process would detect this condition and reset the card when this
+     happened. However, after analyzing the script that performs the
+     reset, it was observed that the reset did not occur for 1-2 minutes
+     after the freeze condition began. This guaranteed a routing
+     transition and additional delay before the logical link would be
+     useful again.
+
+     A new version of the reset script (known as "ricd") has been
+     deployed This version performs additional logging, has a shorter
+     time to reset, and also definitively identifies which interface has
+     frozen (ie. local interface or remote end). The logging allows us
+     to take action to replace a card that has been freezing too many
+     times.
+
+     Also in the process of analyzing this problem, a daily internal
+     report has been implemented which gives statistics on how many DCD
+     and interface reset conditions have occurred on each node. This has
+     been very helpful in tracking problems, and we will continue to use
+     and enhance this report for generating action items to improve
+     performance.
+
+     Congestion at NSS 10 (Ithaca)
+
+     Congestion at NSS10 has been minimized by cutover of PSI/NyserNet
+     traffic to the T3 system.  We also replaced the PSP-10-16 node to
+     ensure that we were not having any intermittent hardware problems.
+
+     T1 Backbone Circuit Outages
+
+     We recorded an above average number of T1 circuit outages reported
+     during February.  The increase in outages was largely due to two
+     unrelated fiber cuts in the MCI network during the week of 2/17.
+
+     IS-IS Link State PDU Truncation Problem
+
+     Due to the increasing number of networks advertised by the
+     regionals to the backbone, the interior routing protocol data units
+     (IS-IS PDUs) which convey this information between nodes, grew to
+     the point where they exceeded the maximum packet size supported
+     (25KB). The symptom was that routing announcements were truncated
+     and reachability information was not consistently conveyed between
+     T1 backbone nodes.
+
+     This was patched quickly by deployment of a new rcp_routed daemon
+     that allowed a 32KB PDU size. This allows 2200 routes to be carried
+     rather than 2000, which buys a few weeks time given the growth in
+     the Internet.
+
+
+
+
+Cooper                                                         [Page 19]
+
+Internet Monthly Report                                    February 1992
+
+
+     A longer term solution is now being deployed. A further enhancement
+     to the rcp_routed includes a two phased change to compress the
+     encoding of network numbers within the IS-IS PDU. These changes are
+     being deployed along with performance enhancements to the routing
+     software to prevent the CPU starvation conditions outlined below.
+
+     Routing Control Processor CPU Starvation
+
+     The large number of routes carried in the IS-IS packets on the T1
+     backbone caused another problem, namely CPU starvation when the
+     routing daemon generates or processes the long PDUs. This situation
+     is independent of the amount of traffic on the T1 backbone, and
+     will simply increase as the number of networks announced to the T1
+     backbone increases.  As long as the T1 backbone is being used for
+     backup purposes for the T3 backbone, the T1 must carry these
+     routes.
+
+     This problem is being addressed in several ways:
+
+     1) Temporarily eliminate use of T1/T3 interconnect as backup for T1
+     sites to reach sites that have cut over to T3. This allows a
+     reduced set of networks to be announced to the T1 nodes, and gives
+     the RCPs some breathing room. This is clearly not an acceptable
+     condition, as it removes the backup capability, but is necessary to
+     allow several of the more heavily loaded RCPs to run.
+
+     2) Install faster processor cards ("EAPC") in the RT nodes. There
+     are a limited number of these cards available, and they are
+     currently being deployed in the RCPs and PSPs in which they are
+     needed. RCP-13-1 at Palo Alto was particularly heavily affected by
+     these problems.
+
+     3) Deploy the new rcp_routed program described above. This version
+     contains code optimizations which should allow more efficient CPU
+     utilization.
+
+     Mark Knopper, mak@merit.edu
+     Jordan Becker, becker@ans.net
+
+NSFNET/INFORMATION SERVICES
+---------------------------
+
+     At the close of February, 1992, 4,775 nets have been configured for
+     announcement on the NSFNET infrastructures.  Of this total, 2,390
+     nets are configured for T3 announcement, and 1,601 nets are located
+     outside of the United States. Venezuela and South Africa are the
+     most recent international connections to the NSFNET.  A discussion
+     of packet traffic for February on the NSFNET, as well as an
+
+
+
+Cooper                                                         [Page 20]
+
+Internet Monthly Report                                    February 1992
+
+
+     engineering update, may be found in the NSFNET/ANSNET Backbone
+     Engineering report to the Internet Monthly Report.
+
+     The NSF Division of Networking and Communications Research and
+     Infrastructure has issued The NSFNET Backbone Services Acceptable
+     Use Policy.  This statement supercedes the interim acceptable use
+     policy previously cited and agreed to by nets configured for
+     announcement on the NSFNET Backbone.  The new policy is available
+     for anonymous ftp from NIS.NSF.NET as acc-use.ps (a postscript
+     version) in the directory CISE. Also available via e-mail query to
+     the NIS.NSF.NET server, send mail to
+
+                        nis-info@nis.nsf.net
+     with the first line of text (not subject)
+                        send netuse.txt
+
+     NSFNET and FARNET will be hosting "The Internet in Action," a
+     demonstration booth at National Net '92.  FARNET members and all
+     regionals are encouraged to participate in an exhibition of  WAIS,
+     gopher, Cleveland FreeNet and other tools to navigate Internet
+     resources.  Regional newsletters, users guides, documentation,
+     brochures and K-12 materials are desired contributions.  A list of
+     materials available for anonymous FTP from regional sites is also
+     being compiled for distribution at Net '92.  Contact Laura Kelleher
+     (lak@merit.edu), Merit/NSFNET Information Services, for further
+     details on how to participate.
+
+     Kelleher and Mark Davis-Craig, of the Merit Technical Support
+     Group, attended the Wide Area Information Server (WAIS) Conference
+     at MCNC on February 3 & 4.  Elise Gerich and Jessica Yu were the
+     Merit Internet Engineering representatives to the NREN architecture
+     meeting convened by the FEPG. Gerich also attended the meeting of
+     the FEPG in San Francisco, February 25-27.  Eric Aupperle,
+     President of Merit Network, Inc. and Mark Knopper, manager of Merit
+     Internet Engineering, met with the National Science Foundation and
+     NEARNET in Washington, D.C. Ellen Hoffman, manager of Merit/NSFNET
+     Information Services, attended the User and Nic Services committee
+     meeting which preceeded the FARNET workshop held in Orlando,
+     Florida.  Hoffman, Gerich, Knopper, and Dale Johnson represented
+     Merit at the FARNET meeting.  Jim Williams has joined Merit
+     Network, Inc. as the Associate Director for National Networking.
+     Jim is known to the Internet community through his participation on
+     the FARNET Board and his leadership at the University of Nevada
+     System.
+
+
+
+
+
+
+
+Cooper                                                         [Page 21]
+
+Internet Monthly Report                                    February 1992
+
+
+     Early registration for "Making Your NSFNET Connection Count," a
+     Merit Networking Seminar scheduled for June 1 & 2 in Las Vegas, NV,
+     is open.  Donna Cox, NCSA; Art St. George, UNM; Tom Grudner, NTPN;
+     and George Brett, MCNC, are among the several speakers who will
+     discuss "Navigating the Internet."  Topics in "Network Tools and
+     Futures" will be addressed by Ann Okerson, ARL; Linda Delzite,
+     NPTN; and Phil Gross, ANS.  Limited scholarships are available.  To
+     receive the agenda and registration details, send electronic mail
+     to seminar@merit.edu or call 1-800-66-MERIT.
+
+     Jo Ann Ward (jward@merit.edu)
+
+NORTHWESTNET
+------------
+
+     On February 20, 1992 NorthWestNet held the first of three training
+     sessions for K-12 educators as part of a prototype project co-
+     sponsored by the University of Washington, a NorthWestNet founding
+     member.  The project involves six schools in Washington and Oregon
+     states and is designed to encourage use of the Internet in
+     curriculum development, educational reform, and collaboration among
+     K-12 teachers.
+
+     Close to 50 educators attended the first class, which covered
+     Internet applications such as email, file transfer, Archie, and
+     news groups.  The class was taught by University of Washington
+     staff from Central Computing and faculty from the College of
+     Education.
+
+     NorthWestNet
+     15400 SE 30th Place, Suite 202          Phone: (206) 562-3000
+     Bellevue, WA  98007                     Fax:   (206) 562-4822
+
+     Dr. Eric S. Hood, Executive Director
+     Dan L. Jordt, Director of Technical Services
+     Schele Gislason, Administrative Assistant
+
+     Schele Gislason (schele@nwnet.net)
+
+PREPNET
+-------
+
+     PREPnet had four new members in February.  Shadyside Hospital and
+     Ansoft Corp. will be connected to the Pittsburgh hub via a T1 link.
+     Community College of Allegheny County will be connected to the
+     Pittsburgh hub via a 56Kbps link.  Feith Systems and Software use a
+     dial-up connection to the Philadelphia terminal server.
+
+
+
+
+Cooper                                                         [Page 22]
+
+Internet Monthly Report                                    February 1992
+
+
+     Tom Bajzek, PREPnet Executive Director, and Tony Zikesh, Bell of PA
+     Network Operations Manager, participated in the FARNET "Hardening
+     the Regionals" workshop on February 11th - 12th.  Bell of PA is the
+     contracted PREPnet NOC.
+
+     Tom Bajzek was reelected as the FARNET Secretary.
+
+     PREPnet NIC (prepnet+@andrew.cmu.edu)
+
+SAIC
+----
+     SAIC Activities for February
+
+     During the month of February, the integration of the IDPR parser
+     with gated was begun.  Removal of the old inter-process
+     communication mechanisms was scheduled for later, but in order to
+     allow more complete testing of the modules as they incorporate the
+     database utilities, it is being resolved first.  A new interface to
+     CMTP has been defined that will simplify packet generation and
+     significantly reduce the number of memory allocation calls.  The
+     new scheme allows for re-use of most message buffers, and preloads
+     many of the fields in CMTP headers further reducing copying.
+
+     The MIB has been completed, although it requires a few days of
+     editing before a new submission is made.  The solution for the
+     representation of policies has been to use the OPAQUE object type.
+     This may generate some controversy, however, the alternatives were
+     unacceptable.
+
+     Chi Chu continued work on NVLAP, although poor connectivity to DCEC
+     and hardware problems on the development host have caused
+     considerable difficulties.  Ken Carlberg is continuing work on the
+     prototype that uses multicast extensions to CLNP.
+
+     Planned Activities:
+
+     Integration and testing of the VGP module.  We may be able to
+     install SNMP management via the SMUX interface in gated.  This will
+     provide both an extra debugging tool and allow experimentation with
+     the IDPR MIB.
+
+     Robert "Woody" Woodburn (woody@sparta.com)
+
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 23]
+
+Internet Monthly Report                                    February 1992
+
+
+SESQUINET
+---------
+
+     Sesquinet expanded to 35 member institutions this month with the
+     additions of Advanced Network Technology in Waco, TX, the Prairie
+     View A&M School of Nursing in Houston, TX, and Northern Telecom in
+     Dallas, TX.
+
+     Sesquinet was moved over to the T3 backbone on February 26 and is
+     now routing all traffic over the T3.
+
+     Problem status information is now available by fingering
+     noc@sesqui.net.
+
+     Evan Wetstone (evan@rice.edu)
+
+SRI
+----
+
+     SRI's Network Information System Center (NISC) updated the RFC
+     Index in response to each RFC issued in February.  There were six
+     RFCs issued in February 1992.
+
+     The RFC Index contains citations of all RFCs issued to date in
+     reverse numeric order.  It's also a quick reference to determine if
+     any RFC has been obsoleted and gives a pointer to the replacement
+     RFC.
+
+     The RFC Index also supplies the equivalent FYI number, if the RFC
+     was also issued as an FYI document.
+
+     Paper copies of all RFCs are available from SRI, either
+     individually or on a subscription basis (for more information
+     contact nisc@nisc.sri.com or call 1-415-859-6387).  Online copies
+     are available via FTP from ftp.nisc.sri.com as rfc/rfc####.txt or
+     rfc/rfc####.ps (#### is the RFC number without leading zeroes).
+
+     Additionally, RFCs may be requested through electronic mail from
+     SRI's automated mail server by sending a message to mail-
+     server@nisc.sri.com.  In the body of the message, indicate the RFC
+     to be sent, e.g. "send rfcNNNN" where NNNN is the number of the
+     RFC.  For PostScript RFCs, specify the extension, e.g. "send
+     rfcNNNN.ps".  Multiple requests can be sent in a single message by
+     specifying each request on a separate line.  The RFC Index can be
+     requested by typing "send rfc-index".
+
+     The update to the TCP-IP CD-ROM is now available from the NISC.
+     The update contains all RFCs issued through Feb. 7, 1992.  New
+
+
+
+Cooper                                                         [Page 24]
+
+Internet Monthly Report                                    February 1992
+
+
+     information, such as Release 7.0 of the ISODE software and source
+     code for the X window system (version 11, release 5), is also
+     included.  Document files are now compatible with DOS, UNIX and
+     Macintosh systems as well.
+
+     Sue Kirkpatrick (sue@NISC.SRI.COM)
+
+SURANET
+-------
+
+     Two SURAnet staff members attended the February NSFnet Advanced
+     Topics meeting hosted by Merit.
+
+     As part of the changeover to SURAnet's new topology, collocation
+     equipment has been installed in 12 MCI Points of Presense.  The
+     remaining six collocation sites will be installed during February.
+
+     Two new people have joined SURAnet.  Erik Sherk has joined the
+     staff as a Network Engineer and Kurt Lidl has joined the NIC to
+     strengthen its technical expertise.
+
+     SURAnet is holding a User Services Meeting in Atlanta on March 9th
+     and 10th.  A one day seminar on the Internet is being held in
+     College Park on April 20th and a Technical Seminar is planned for
+     June.  For further details contact info@sura.net
+
+     Peter Liebscher (plieb@sura.net)
+
+UCL
+----
+
+     In Policy Based Routing area, we are liasing with ULCC and the
+     JANET IP Service, and hope to be in BGP pilot in RIPE - Tony Bates
+     from ULCC is attending RIPE Meetings.
+
+     On a lighter note, we believe GB is now registered.
+
+     In multimedia program, Peter Kirstein has circulated a revised
+     European proposal for an infrastructure for Multi-media
+     conferencing in the EC, with interworking to the US.
+
+     On a lesser scale in some senses, but broader in others, UCL took
+     part in the voice conference with ISI/BBN/DARTNET/OZ/Sweden et al,
+     as reported elsewhere by Steve Casner. Problems at UCL may have
+     been partly caused by queueing delay variations for IP packets with
+     options in some gateways,
+
+
+
+
+
+Cooper                                                         [Page 25]
+
+Internet Monthly Report                                    February 1992
+
+
+     The following project in authentication and security is just
+     starting at UCL:
+
+                 PILOTING AUTHENTICATION AND SECURITY SERVICES WITHIN
+                   OSI APPLICATIONS FOR RTD INFORMATION (PASSWORD)
+
+     COLLABORATORS:
+          University College London (Coordinating Partner)
+          Cambridge U
+          DANET
+          E3X
+          GMD
+          INRIA
+          XTEL
+
+     PROJECT SUMMARY
+
+     The project will last for 21 months, with the technical development
+     concentrated into the first 15 months, and the last six months
+     being for pilots with ever larger numbers of users and sites.
+
+     The project will determine the Security Services required in the
+     Research and Technical Development (RTD) community for the
+     provision of specific OSI Applications.  The services to be
+     examined will include the following: Authentication Services,
+     Directory Services, Message Handling Services, and Document
+     Handling Services.  By offering a variety of pilot services to the
+     user communities, we expect to obtain an understanding of the
+     requirements related to data access, data integrity, and data
+     confidentiality for RTD Community information.  We aim to
+     demonstrate that the pilot services we introduce can be implemented
+     within the research user environment without hampering unduly the
+     overall openness and usability of the systems, and provide an
+     assessment of the usability of the provided services.
+
+     The project aims to demonstrate that a security architecture can be
+     identified which allows usage of a common set of security services
+     for the above applications.
+
+     The project aims to introduce pilot cryptographic security services
+     in some of the sites connected to the European National Research
+     Networks.  These should be able to be incremental additions to
+     existing services.  To ensure a reasonably open set of facilities,
+     we will provide more than one toolkit of security components to
+     provide at least the following: RSA Public Key systems, MD4 Hash
+     Functions, DES symmetric encryption/ decryption for
+     confidentiality, and certificates based on the above.
+
+
+
+
+Cooper                                                         [Page 26]
+
+Internet Monthly Report                                    February 1992
+
+
+     We will provide Authentication Services using X.509, with multiple
+     implementations of this core technology.  The certificates will be
+     distributed by X.500 directory services.  We will provide
+     implementations of tools to manage a distributed authentication
+     service using multiple Certification Authorities with different
+     implementations, and cross-certification.  The structure of the
+     Certification Services will be provided taking due care of
+     potential scaling issues - thus we will liaise closely with US
+     activities which are looking at these same problems in the context
+     of the intoduction of Privacy Enhanced Mail (PEM) in the Internet.
+
+     We aim to provide a framework for the organisational and
+     operational aspects of introducing certain security services within
+     the European RTD networking infrastructure.  We propose to
+     implement a key distribution scheme, which will be workable for the
+     proposed user community.
+
+     John Crowcroft (j.crowcroft@CS.UCL.AC.UK)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 27]
+
+Internet Monthly Report                                    February 1992
+
+
+DIRECTORY SERVICES
+------------------
+
+This section of the Internet Monthly is devoted to efforts working to
+develop directory services that are for, or effect, the Internet.  We
+would like to encourage any organization with news about directory
+service activities to use this forum for publishing brief monthly news
+items.  The current reporters list includes:
+
+        o IETF OSIDS Working Group                            [included]
+
+        o IETF DISI Working Group                             [no]
+        o Field Operational X.500 Project
+           - ISI                                              [included]
+           - Merit                                            [no]
+           - PSI                                              [no]
+           - SRI                                              [included]
+        o National Institute of Standards and Technology      [no]
+        o North American Directory Forum                      [no]
+        o OSI Implementor's Workshop                          [no]
+        o PARADISE Project                                    [no]
+        o PSI DARPA/NNT X.500 Project                         [included]
+        o PSI WHITE PAGES PILOT                               [included]
+        o Registration Authority Committee (ANSI USA RAC      [no]
+        o U.S. Department of State, Study Group D,            [no]
+            MHS Management Domain subcommittee (SG-D MHS-MD)  [no]
+
+Tom Tignor (tpt2@isi.edu)
+DS Report Coordinator
+
+
+IETF OSIDS WORKING GROUP
+------------------------
+
+     Not much to report. Will save until March.
+
+     Steve Hardcastle-Kille (s.kille@cs.ucl.ac.uk)
+
+
+FOX -- FIELD OPERATIONAL X.500 PROJECT
+--------------------------------------
+
+     The FOX project is a DARPA and NSF sponsored effort to provide a
+     basis for operational X.500 deployment in the NREN/Internet.  This
+     work is being carried out at Merit, NSYERNet/PSI, SRI and ISI.  ISI
+     is the main contractor and responsible for project oversight.
+
+
+
+
+
+Cooper                                                         [Page 28]
+
+Internet Monthly Report                                    February 1992
+
+
+     ISI
+     ---
+
+        ISI is currently updating its DSA data so that it conforms
+        exactly to our phone listing. This will enable us to
+        automatically (programatically) determine differences between
+        our EDBs and the phone list, which is updated each month.
+
+        Like so many others, we are also preparing for the IETF
+        conference in San Diego.
+
+        Tom Tignor (tpt2@isi.edu)
+
+     SRI
+     ----
+
+        No internet-related progress to report this month.
+
+        Ruth Lang (rlang@nisc.sri.com)
+
+
+PSI DARPA/NNT X.500 Project
+---------------------------
+
+     Software to load information from Domain Name System zone files
+     into the DIT was completed, and is now undergoing testing.
+
+     Testing continues on the version of the NADF KAN software that
+     reflects changes made to the NADF agreements at the last NADF
+     meeting.  Some modifications and enhancements have been made to the
+     software by PSI, which will be fed back to the authors of the
+     software.
+
+     Development was begun on software to generate KAN updates from the
+     DIT (this software complements the NADF KAN software). A major
+     module of this software is almost complete and will probably be
+     ready for testing in the next few weeks.
+
+     An initial draft of the Lightweight Directory Browsing Protocol
+     (LDBP) was completed, and has been released for comment by the IETF
+     OSI-DS group.
+
+     An initial draft specifying encodings of attribute syntaxes for use
+     by the lightweight directory protocols was completed and has been
+     released for comment by the IETF OSI-DS group.
+
+     Wengyik Yeong (yeongw@psi.com)
+
+
+
+
+Cooper                                                         [Page 29]
+
+Internet Monthly Report                                    February 1992
+
+
+PSI WHITE PAGES PILOT PROJECT
+-----------------------------
+
+     To provide "local" access to European information, as well as to
+     serve as backups, the c=US Master and Slave, cn=Alpaca and cn=Fruit
+     Bat are now slaving l=Europe.
+
+     New organizations added to the pilot this month are:
+
+             Rochester Institute of Technology
+             Harvard University
+             McDonnell Douglas Corporation
+
+     Wengyik Yeong (yeongw@psi.com)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 30]
+
+Internet Monthly Report                                    February 1992
+
+
+CALENDAR
+--------
+
+Readers are requested to send in dates of events that are
+appropriate for this calendar section.
+
+
+1992 CALENDAR
+
+     Mar 2           T1S1, Call Control and Signaling (ISDN, Frame
+                     Relay, Broadband ATM)
+     Mar 2-6         ANSI X3T5
+     Mar 2-6         CAIA '92  8th IEEE Conference on AI Application
+     Mar 3-5         ACM CSC, Kansas City, MO
+     Mar 9-13        IEEE802 Plenary, Irvine, CA
+     Mar 9-13        OIW, NIST, Gaithersburg, MD
+     Mar 16-18       Multipeer/Multicast Forum,
+                     Orlando, Fl, (mloper@ucf1vm.cc.ucf.edu)
+     Mar 16-19       INDC-92 (Info Networks & Data Communication)
+                     Espoo, Helsinki, Finland
+                     indc92@cs.helsinki.fi, tienari@cs.helsinki.fi
+     Mar 16-19       Int'l Zurich Seminar on Digital Comm.
+                     Zurich, Contact: schlegel@tech.ascom.ch
+     Mar 16-20       IETF, San Diego, CA
+                     Megan Davies (mdavies@nri.reston.ca.us)
+     Mar 18-20       Computers, Freedom & Privacy II,
+                     Grand Hyatt Hotel, Washington, DC
+     Mar 23          T1M1, Management and Maintenance (ISDN,
+                     Broadband, Frame Relay, etc.), Raleigh, NC,
+                     Fujitsu
+     Mar 25-27       National Net 92, Washington DC
+                     Elizabeth Barnhart (barnhart@educom.edu)
+     Apr 6-16        CCITT SG VII    Geneva, Switzerland
+     Apr 21-23       ANSI X3S3.3, Mountaon View, Ca.
+     May 4-6         ANSI X3T5
+     May 4-8         DECUS '92, Atlanta, GA
+     May 4-8         IEEE INFOCOM'92, See IEEE Pub., Florence, Italy
+     May 11          T1E1,  Physical Layer Interfaces (ISDN, T1,
+                     Broadband, etc.)
+                     Williamsburg, VA, Bell Atlantic
+     May 12-14       Joint Network Conference 3, Innsbruck, Austria
+                     (this is the RARE Networkshop - renamed)
+     May 13-15       Third IFIP International Workshop on Protocols
+                     for High Speed Networks, Stockholm, Sweden
+                     Contact: Per Gunningberg, per@sics.se
+                         Bjorn Pehrson, bjorn@sics.se,
+                         Stephen Pink, steve@sics.se
+
+
+
+
+Cooper                                                         [Page 31]
+
+Internet Monthly Report                                    February 1992
+
+
+     May 18-25       INTEROP92, Washington, D.C.
+                     Dan Lynch (dlynch@interop.com)
+     May 19-29       ISO/IEC JTC 1/SC 21, Ottawa, Ontario, Canada
+     May 27-29       IFIP WG 6.5 Int'l Conference on Upper Layer
+                     Protocols, Architectures and Applications
+                     Vancouver, Canada
+                     plattner<plattner@komsys.tik.ethz.ch>
+                     Gerald Neufeld <neufeld@cs.ubc.ca>
+     Jun 8           T1M1, Management and Maintenance (ISDN,
+                     Broadband, Frame Relay, etc.)
+                     Minneapolis, MN, ADC TElecom
+     Jun 8-12        OIW, NIST, Gaithersburg, MD
+     Jun 10-11       RARE WG1, tentative-Location unknown
+     Jun 11-12       RARE COSINE MHS MGR, tentative-Location unknown
+     Jun 14-17       ICC-SUPERCOMM'92, Chicago, IL. See IEEE Publ..
+     Jun 15-19       INET92, Kobe, Japan
+                     Jun Murai (jun@wide.ad.jp), KEIO University
+                     Elizabeth Barnhart (barnhart@educom.edu)
+                     "North America Contact"
+     Jun 16-18       ANSI X3S3.3, Minneapolos, MN
+     Jun 22-25       PSTV-XII, Orlando, Florida
+                     Umit Uyar, ATT Bell Labs, <umit@honet5.att.com>
+                     Jerry Linn, NIST <linnrj@ECF.NCSL.NIST.GOV>
+     Jun 29-Jul 1    Fourth Workshop on Computer-Aided Verification
+                     (CAV 92); see Sigact News, Vol, 22 No. 4
+                     Montreal Canada
+                     G. Bockmann:  bochmann@iro.umontreal.ca
+     Jul 6-10        IEEE802 Plenary, Bloomington, MN
+     Jul 13-17       ANSI X3T5
+     Jul 13-24       ISO/IEC JTC1/SC6, San Diego, CA
+     Aug 2           T1S1, Call Control and Signaling (ISDN,
+                     Frame Relay, Broadband ATM)
+     Aug 16          T1S1, Call Control and Signaling (ISDN,
+                     Frame Relay, Broadband ATM)
+     Aug 17-20       SIGCOMM, Baltimore, MD
+                     Deepinder Sidhu, UMBC
+     Aug 18-21       ACM SIGCOMM '92, Baltimore, Maryland
+                     <sigcomm92@nri.reston.va.us>
+     Aug 24-27       CONCUR '92 -- Third Int'l Conference on
+                     Concurrency Theory (Paper deadline March 1, 1992)
+                     Rance Cleaveland (rance@csc.ncsu.edu)
+                     Scott Smolka  (sas@sunysb.edu)
+                     Stony Brook
+     Sep 7-11        12th IFIP World Computer Congress
+                     Madrid, Spain;  Contact: IFIP92@dit.upm.es
+     Sep 14-18       ANSI X3T5
+     Sep 21-25       OIW, NIST, Gaithersburg, MD
+     Sep 22-24       ANSI X3S3.3, Boston, MA
+
+
+
+Cooper                                                         [Page 32]
+
+Internet Monthly Report                                    February 1992
+
+
+     Sep 28-30       5th IFIP International Workshop on Protocol
+                     Test Systems (IWPTS), Montreal, Canada
+                     iwpts@iro.umontreal.ca
+     Oct 12-16       FORTE'92, Lannion, France
+                     Roland Groz (groz@lannion.cnet.fr)
+                     Michel Diaz (diaz@droopy.laas.fr)
+     Oct 26-30       INTEROP92, San Francisco
+                     Dan Lynch (dlynch@interop.com)
+     Oct 28-29       NETWORKS '92, Trivandrum, India
+                     S.V. Raghavan (raghavan@shiva.ernet.in)
+     Nov 9-13        ANSI X3T5
+     Dec             ANSI X3S3.3, Boulder, CO
+     Dec 6-9         GLOBECOM '92, Orlando, Florida (See IEEE Publications)
+     Dec 7-11        DECUS '92, Las Vegas, NV
+     Dec 14-18       OIW, NIST, Gaithersburg, MD
+
+
+1993 CALENDAR
+
+     Mar 8-12        INTEROP93, Wasington, D.C.
+                     Dan Lynch (dlynch@interop.com)
+     Mar 8-12        OIW, NIST, Gaithersburg, MD
+     Apr 18-23       IFIP WG 6.6 Third International Symposium
+                     on Integrated Network Management, Sheraton
+                     Palace Hotel, San Francisco, CA (kzm@hls.com)
+     May 23-26       ICC'92, Geneva, Switzerland
+     May-Jun         PSTV-XIII, University of Liege.
+                     Contact: Andre Danthine,
+     May 23-26       ICC '93, Geneva, See IEEE Publications.
+     Jun 7-11        OIW, NIST, Gaithersburg, MD
+     Aug 18-21       INET93,  San Francisco Bay Area
+     Aug 23-27       INTEROP93, San Francisco
+                     Dan Lynch (dlynch@interop.com)
+     Aug             SIGCOMM, San Francisco
+     Sep ??          6th SDL Forum, Darmstadt
+                     Ove Faergemand (ove@tfl.dk)
+     Sep 13-17       OIW, NIST, Gaithersburg, MD
+     Sep 20-31       ISO/IEC JTC1/SC6, Seoul, Korea.
+     Oct 12-14       Conference on Network Information Processing,
+                     Sofia, Bulgaria;  Contact: IFIP-TC6
+     Nov 9-13        IEEE802 Plenary, LaJolla, CA
+     Dec 6-10        OIW, NIST, Gaithersburg, MD
+
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 33]
+
+Internet Monthly Report                                    February 1992
+
+
+1994 CALENDAR
+
+     Apr 18-22       INTEROP94, Washington, D.C.
+                     Dan Lynch (dlynch@interop.com)
+     Aug 29-Sep 2    IFIP World Congress
+                     Hamburg, Germany; Contact: IFIP
+     Sep 12-16       INTEROP94, San Francisco
+                     Dan Lynch (dlynch@interop.com)
+
+1995 CALENDAR
+
+     Sep 18-22       INTEROP95, San Francisco, CA
+                     Dan Lynch (dlynch@interop.com)
+
+-------------------------------
+Note:
+
+       T1E1: Physical Layer Interfaces (ISDN, T1, Broadband, etc.,)
+       T1M1:  Management and Maintenance (ISDN, Broadband, Frame
+              Relay, etc.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cooper                                                         [Page 34]
+

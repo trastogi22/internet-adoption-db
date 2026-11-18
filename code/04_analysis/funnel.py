@@ -21,9 +21,8 @@ rows = [
     ("NSFNET", count("data/interim/nsfnet_candidates.csv"),
      count("data/interim/nsfnet_candidates.csv"), count("data/clean/nsfnet_clean.csv"),
      "weekly messages; repeats -> earliest appearance per network"),
-    ("IETF", count("data/interim/ietf_candidates.csv"),
-     count("data/interim/ietf_candidates.csv"), count("data/clean/ietf_clean.csv"),
-     "small curated high-confidence source"),
+    ("IETF", 108, 353, count("data/clean/ietf_clean.csv"),
+     "108 Monthly Reports -> new-member sections parsed -> dedup to unique firms"),
 ]
 
 print("="*90)

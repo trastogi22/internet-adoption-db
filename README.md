@@ -10,8 +10,8 @@ Clean dataset: firm name, network, first-connection date, location, entity type,
 source, notes.
 
 ## Dataset at a glance
-- **19,277 observations** across **4 sources**, spanning **1974–1993**
-- **15,418 firms** (+ schools/military/government/infrastructure, flagged + filterable)
+- **19,545 observations** across **4 sources**, spanning **1974–1994**
+- **15,646 firms** (+ schools/military/government/infrastructure, flagged + filterable)
 - 22 countries (USA-dominated; international firms mainly via NSFNET)
 
 ## Structure
@@ -36,10 +36,14 @@ ARPANET/DDN (transcribed directories in data/raw/arpanet_1978/):
 
     python code/02_clean/clean_arpanet.py
 
-IETF + UUCP:
+IETF Monthly Reports (bulk download 108 reports + parse new-member sections):
 
-    python code/02_clean/clean_ietf.py
-    python code/02_clean/finalize_ietf.py
+    python code/01_download/download_imr.py
+    python code/02_clean/clean_ietf_bulk.py
+    python code/02_clean/finalize_ietf_bulk.py
+
+UUCP:
+
     python code/02_clean/clean_uucp.py
     python code/02_clean/finalize_uucp.py
 
@@ -64,11 +68,11 @@ Aggregate + classify + analyze:
 - [x] ARPANET/DDN directories (1974–1984; 7 snapshots; ~2,800 orgs; transcribed)
 - [x] UUCP Mapping Project (encse/uucp-map; 1987–1992; ~9,400 firms; medium/low)
 - [x] NSFNET PRDB routing additions (1992–1993; ~7,000 rows; medium)
-- [x] IETF Internet Monthly Reports (Oct 1992; 9 firms, JvNCnet; high confidence)
+- [x] IETF Internet Monthly Reports (108 reports 1988–96; 277 member-firms 1991–94; high confidence)
 
 ## entity_type field
 Each row classified: firm / school / military / government / infrastructure.
-Lets analyses include/exclude groups. Firms (15,418) are the main analysis set;
+Lets analyses include/exclude groups. Firms (15,646) are the main analysis set;
 the other ~3,900 are retained but filterable.
 
 ## Key outputs
@@ -80,7 +84,9 @@ the other ~3,900 are retained but filterable.
   adoption_by_country (US vs intl), uucp_to_nsfnet_gap
 
 ## Key findings
-- **Timeline 1974–1993**, full arc ARPANET -> UUCP -> NSFNET.
+- **Timeline 1974–1994**, full arc ARPANET -> UUCP -> NSFNET + regional IP.
+- **IETF expansion:** bulk-parsed 108 Monthly Reports -> IETF source grew from
+  9 to 277 high-confidence member-firms (new-member/operational statements).
 - **Email before IP:** of firms observed on both UUCP (email) and NSFNET (IP
   routing), ~95% appeared on UUCP first, median ~1.1 years earlier (robust to
   exact vs. LinkTransformer matching). e.g., Adobe: UUCP 1987 -> NSFNET 1992.

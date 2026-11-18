@@ -45,5 +45,10 @@
 | 2026-10-27 | 10 | Verify classification + handle edge cases | 0.25h | Univ-of-NM-at-Los-Alamos correctly = school |
 | 2026-10-27 | 10 | Refilter firm-level finding (entity_type==firm) | 0.25h | 308 firms, 95.5% UUCP-first holds |
 | 2026-10-27 | 11 | Prepare slide deck (sources, dedup, examples, next steps) | 1h | Per supervisor request; content from data |
-
-Approximate total: ~28 hours
+| 2026-11-07 | 11 | Integrate ARPANET/DDN (7 directories 1974-84); fix military classification | 1.5h | 33k people-rows -> 2,845 orgs; entity_type for cryptic mil codes |
+| 2026-11-07 | 11 | Sample funnel, country maps, two-panel adoption charts | 1.5h | VS Code save issue -> wrote files from terminal; cache-stale PNGs |
+| 2026-11-17 | 12 | Locate IETF Monthly Reports bulk source | 1h | mailarchive Cloudflare-blocked; found history.rfc-editor.org/imr/ |
+| 2026-11-17 | 12 | Bulk-download 108 IMRs (1988-96) + reproducible script | 0.5h | download_imr.py; verified real content vs HTML |
+| 2026-11-17 | 12 | Survey formats + write new-member parser | 1h | multi-network: JvNCnet/NEARnet/PREPnet |
+| 2026-11-17 | 12 | Iterate parser (page breaks, prose filter, precision) | 1h | precision over recall; cleaned junk |
+| 2026-11-17 | 12 | Finalize + integrate (IETF 9->277); funnel/docs | 0.5h | pipeline re-run, verified |

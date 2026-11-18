@@ -49,6 +49,8 @@ def map_connectivity_type(row):
         return "Internet access (routing record)"
     if src == "arpanet_ddn":
         return "ARPANET/DDN"
+    if src == "ietf_imr":
+        return "Regional IP (IETF IMR)"
     return "unknown"
 
 df = pd.read_csv(IN)

@@ -1,4 +1,4 @@
-"""Adoption-over-time visualizations (firms only), 1974-1993."""
+"""Adoption-over-time visualizations (firms only), 1974-1994."""
 import pandas as pd
 import matplotlib
 matplotlib.use("Agg")
@@ -18,7 +18,7 @@ pivot = (df.groupby(["year", "connectivity_type"]).size()
            .unstack(fill_value=0).reindex(YEARS, fill_value=0))
 fig, ax = plt.subplots(figsize=(11, 5))
 pivot.plot(kind="bar", stacked=True, ax=ax)
-ax.set_title("Firm observations per year, by network (1974-1993)")
+ax.set_title("Firm observations per year, by network (1974-1994)")
 ax.set_xlabel("Year"); ax.set_ylabel("Number of firms")
 ax.legend(title="Network", fontsize=8)
 plt.figtext(0.5, -0.03,
@@ -36,7 +36,7 @@ by_year = first.value_counts().reindex(YEARS, fill_value=0).sort_index()
 cumulative = by_year.cumsum()
 fig, ax = plt.subplots(figsize=(11, 5))
 ax.plot(cumulative.index, cumulative.values, marker="o", linewidth=2)
-ax.set_title("Cumulative firms first observed online (1974-1993)")
+ax.set_title("Cumulative firms first observed online (1974-1994)")
 ax.set_xlabel("Year"); ax.set_ylabel("Cumulative unique firms")
 ax.axvspan(1984.5, 1986.5, color="gray", alpha=0.08)
 ax.axvspan(1988.5, 1990.5, color="red", alpha=0.08)
@@ -67,7 +67,7 @@ axR.set_title("Top non-US countries per year")
 axR.set_xlabel("Year"); axR.set_ylabel("Number of firms")
 axR.legend(title="Country", fontsize=8)
 
-fig.suptitle("Firm observations per year: USA vs. other countries (1974-1993)")
+fig.suptitle("Firm observations per year: USA vs. other countries (1974-1994)")
 plt.figtext(0.5, -0.03,
             "USA shown separately (dominates, ~13,700 firms). International firms "
             "appear mainly via NSFNET (1992+). Reflects source coverage, "

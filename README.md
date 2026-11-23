@@ -11,7 +11,9 @@ source, notes.
 
 ## Dataset at a glance
 - **19,545 observations** across **4 sources**, spanning **1974–1994**
-- **15,646 firms** (+ schools/military/government/infrastructure, flagged + filterable)
+- **15,646 firm-classified observations** -> **~11,582 unique firms** after
+  cross-source dedup (LinkTransformer)
+- (+ schools/military/government/infrastructure, flagged + filterable)
 - 22 countries (USA-dominated; international firms mainly via NSFNET)
 
 ## Structure
@@ -72,12 +74,15 @@ Aggregate + classify + analyze:
 
 ## entity_type field
 Each row classified: firm / school / military / government / infrastructure.
-Lets analyses include/exclude groups. Firms (15,646) are the main analysis set;
-the other ~3,900 are retained but filterable.
+Lets analyses include/exclude groups. Firms (15,646 observations; ~11,582 unique
+after cross-source dedup) are the main analysis set; the other ~3,900 observations
+are retained but filterable.
 
 ## Key outputs
 - data/clean/firm_internet_connectivity.csv — **MAIN DELIVERABLE** (one row per
-  observed connectivity event; includes entity_type and firm_group_id)
+  observed connectivity event; includes entity_type and firm_group_id
+  [within-source; cross-source unique-firm linking via global_firm_id in
+  cross_source.py])
 - data/clean/firm_network_timeline.csv — first connection per firm per network
 - output/tables/ — sample funnel, multi-network firms
 - output/figures/ — country_map(_log), adoption_by_network, adoption_cumulative,
@@ -86,8 +91,11 @@ the other ~3,900 are retained but filterable.
 ## Key findings
 - **Timeline 1974–1994**, full arc ARPANET -> UUCP -> NSFNET + regional IP.
 - **IETF expansion:** bulk-parsed 108 Monthly Reports -> IETF source grew from
-  9 to 277 high-confidence member-firms (new-member/operational statements).
-- **Email before IP:** of firms observed on both UUCP (email) and NSFNET (IP
+  9 to 277 high-confidence member-firms; ~205 genuinely new to the dataset
+  (regional-network members: JvNCnet/NEARnet/PREPnet), ~31 corroborate existing
+  firms (via LinkTransformer). Note: IETF is high-confidence but modest volume
+  (~2% of observations) — adds regional coverage/quality more than aggregate scale.
+- **Email before IP:** of 305 firms observed on both UUCP (email) and NSFNET (IP
   routing), ~95% appeared on UUCP first, median ~1.1 years earlier (robust to
   exact vs. LinkTransformer matching). e.g., Adobe: UUCP 1987 -> NSFNET 1992.
 - **Sample funnel:** large raw->clean reductions are deduplication of repeat
@@ -95,7 +103,8 @@ the other ~3,900 are retained but filterable.
   maps), NOT discarded data. Reproducible via code/04_analysis/funnel.py.
 - **Dedup method:** normalized-name matching + LinkTransformer (agglomerative,
   threshold 0.1 cross-source / 0.2 within-source, blocked by state/country),
-  validated by cluster inspection. See docs/dedup_analysis.md.
+  validated by cluster inspection. 11,582 unique firms; 439 span >1 network.
+  See docs/dedup_analysis.md.
 - Recognizable early adopters: Xerox PARC, BBN, Sun, TI, Motorola, HP, Adobe,
   3M, plus international firms.
 
@@ -103,26 +112,31 @@ the other ~3,900 are retained but filterable.
 - Dates = "first observed in source," NOT verified first connection.
 - Coverage gaps: 1985–86 (no source), UUCP 1989–90 (sparse snapshots) —
   annotated on all charts; not real adoption pauses.
-- Source date windows differ (ARPANET 1974–84, UUCP 1987–92, NSFNET 1992–93),
-  biasing the email-before-IP gap; read as a lower bound.
+- Source date windows differ (ARPANET 1974–84, UUCP 1987–92, NSFNET 1992–93,
+  IETF 1991–94), biasing the email-before-IP gap; read as a lower bound.
 - ARPANET/DDN: transcribed from scans (some OCR artifacts); entity_type noisier
   (cryptic 1970s–80s military codes); early-era "firm" subset should be spot-checked.
 - UUCP dates = first appearance in available map snapshots; left-censored at 1987-04.
 - NSFNET = routing-database announcements; weekly messages deduped to earliest;
   includes some T1->T3 migrations of already-connected nets.
 - USA dominance partly real, partly source coverage (UUCP/ARPANET US-heavy).
+- firm_group_id in the main CSV is within-source only; cross-source unique-firm
+  linking lives in cross_source.py (global_firm_id). TODO: write global_firm_id
+  back into the main deliverable for a unified ID.
 - BITNET evaluated and excluded (unverifiable single-snapshot source).
 
 ## Open questions / supervisor guidance
 - Scope of "firm": universities/schools excluded from the firm set but retained +
   flagged via entity_type; military kept + flagged (per supervisor).
 - UUCP/ARPANET date interpretation: "first observed" accepted (per supervisor).
-- Entity granularity: branches kept granular, linked via firm_group_id; cross-
-  source linking implemented (LinkTransformer).
+- Entity granularity: branches kept granular; cross-source unique-firm linking via
+  LinkTransformer (global_firm_id in cross_source.py).
 - Target: any predecessor, tracking first connection per network (per supervisor)
   — implemented via per-network timelines.
 - Next: breadth (Harte Hanks/Aberdeen representative panel, needs access) vs.
-  depth (more IETF months, HOSTS.TXT, RFCs). See professor correspondence.
+  depth (more early-adopter sources: CSNET, HOSTS.TXT, RFCs). Early-adopter
+  sources add quality but modest volume; Harte Hanks is the lever for scale.
+  See professor correspondence.
 
 ## Progress log
 - 2026-10-13: Project initialized.
@@ -133,5 +147,8 @@ the other ~3,900 are retained but filterable.
   320-message extraction; dual-format parser.
 - 2026-11-05: entity_type classification (firm/school/military/gov/infra);
   cross-source finding (95% email-before-IP); refined academic/military filters.
-- 2026-11-07: ARPANET/DDN integrated (1974–84) -> timeline now 1974–1993;
+- 2026-11-07: ARPANET/DDN integrated (1974–84) -> timeline now 1974–1994;
   sample funnel, country maps, two-panel adoption charts.
+- 2026-11-17: Bulk-downloaded + parsed 108 IETF Monthly Reports -> IETF source
+  9 -> 277 firms (~205 new, ~31 overlap); dataset now 19,545 obs, 1974–1994,
+  ~11,582 unique firms.

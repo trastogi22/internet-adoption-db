@@ -158,3 +158,15 @@ Ruled out: National ICT surveys (restricted microdata — too costly/not viable)
 - entity_type tags ~70 as school, ~200 as firm. Date = report month (filename).
 - Limitation: precision favored over recall; page-break/wrap formatting misses
   some firms per list (accepted after iteration). No prose/address junk remains.
+
+## 2026-11-27 — CSNET evaluated, no extractable member data
+- CSNET was priority #3 (admitted industrial research labs).
+- Only accessible primary source: CSNET Transition Bulletins at
+  history.rfc-editor.org (csnet-transition-bulletin.n1.1). Only ONE real
+  bulletin exists; others 404 (HTML pages).
+- The bulletin is administrative (NSF->UCAR transition, ops moving to BBN);
+  confirms "~100 members, academic + corporate research centers" but does NOT
+  list them. No member directory found.
+- Decision: CSNET not viable from accessible sources. Even a full member list
+  would be ~100 mostly-academic orgs (small; won't materially grow dataset).
+  Could revisit if an authoritative CSNET membership directory surfaces.

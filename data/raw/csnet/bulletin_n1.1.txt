@@ -1,0 +1,123 @@
+5-Oct-83 12:30:29-PDT,6302;000000000001  
+Return-Path: <Adrion%NSF-CS%NSF-CS@UDel-Relay>
+Received: FROM udel-relay BY USC-ISIF.ARPA WITH TCP ; 5 Oct 83 06:06:01 PDT
+Date:      5 Oct 83 8:14:19-EDT (Wed)
+From: Rick Adrion <adrion%nsf-cs@UDel-Relay>
+Return-Path: <Adrion%NSF-CS%NSF-CS@UDel-Relay>
+Subject:   CSNET Transition Plan Bulletin #1
+To: csnet-liaisons%Nsf-Cs@UDel-Relay
+Cc: csnet-mc%Nsf-Cs@UDel-Relay, css%Nsf-Cs@UDel-Relay
+Via:  NSF-CS; 5 Oct 83 8:43-EDT
+
+###############################################################################
+#                                                                             #
+#		           CSNET TRANSITION PLAN                              #
+#                              BULLETIN NO. 1                                 #
+#                             October 5, 1983                                 #
+#                                                                             #
+###############################################################################
+
+Dear CSNET Liaisons and Users,
+
+CSNET will reach an important milestone in 1984.  After a successful three-year
+development effort, the network will become a fully operational utility,
+offering telephone and high-speed public data network access for CSNET members
+and an online database of user information.  Since 1981, membership in CSNET
+has grown from a handful of institutions to nearly 100, representing many of
+the major academic and corporate research centers in the United States.
+
+From its inception, CSNET was intended to become a self-financing and
+self-managing organization based on member support.  To this end, the National
+Science Foundation has awarded a new contract to the University Corporation for
+Atmospheric Research (UCAR) in Boulder, Colorado to assume the management of
+CSNET.  UCAR was chosen in part because of its long experience with and
+commitment to member-run organizations: it is a non-profit corporation which
+for 25 years has managed a major scientific facility, the National Center for
+Atmospheric Research, on behalf of a consortium of more than 50 universities.
+
+One of UCAR's first tasks will be to establish an Executive Committee, made up
+of representatives of the CSNET user community, to oversee the operation of the
+network and plan future directions.  Plans also call for UCAR to hire an
+Executive Director for CSNET (we will be soliciting your suggestions about
+this) and to organize the network to be self-supporting within three years.
+Dr. Leonard Romney, Executive Officer of UCAR, will assume the director's
+responsibilities until that position is filled.  If you have any questions
+about UCAR's new role, you may contact him by sending netmail to
+romney@csnet-sh or by calling his office, (303) 497-1662.
+
+As part of the management transition, network operations will be centralized at
+Bolt Beranek and Newman Inc. (BBN), currently the host of the CIC.  This means
+that all of the network computing facilities -- the two relays and the Service
+Host -- will be moving to BBN in the coming months.  The shifts have been
+planned to minimize disruptions in your service; a complete schedule is below.
+
+We do know that some inconvenience to you will be unavoidable.  We'll do all we
+can to prepare you for these changes and to assist you if you have problems.
+And to keep you posted about upcoming events, we will be sending you a series
+of Bulletins like this one.  In addition, liaisons at sites where technical
+revisions will be necessary will receive detailed, specific information about
+those changes.  If you have any questions during the transition, please contact
+the CIC by sending a message to cic@csnet-sh or by calling (617) 497-2777.
+
+
+		     =================================
+		     SCHEDULE OF TRANSITION ACTIVITIES
+		     =================================
+
+
+MACHINE NOMENCLATURE
+          Machine         Current name
+          csnet1           UDel-relay
+          csnet2           Rand-relay
+          csnet3           Csnet-sh
+          csnet4           Csnet-cic
+
+TRANSITION TASKS
+1) Move UDel dialout sites to Rand relay.
+2) Configure csnet4 as a relay; move UDel dialin sites to csnet4.
+3) Complete Name Server Phase 2 software and testing.
+4) Move csnet3 to BBN, re-install and move users.
+5) Complete MMDF2 software and testing.
+6) Move csnet1 to BBN and re-install with MMDF2.
+7) Move PhoneNet sites from Rand to csnet1.
+8) Move csnet2 to BBN.
+9) Install MMDF2 on csnet2; move PhoneNet sites from csnet4 to csnet2;
+   complete all MMDF2 and Name Server testing and documentation.
+
+SCHEDULE
+=============================================================================
+Task   09/26   10/10   10/24   11/07   11/21   12/05   12/19   01/02    01/16
+1)       S....F
+2)         S........F
+3)                                   F
+4)                                   S.......F
+5)                                                F
+6)                                                S.......F
+7)                                                        S..........F
+8)                                                                   S.....>
+9) (in 1984)
+=============================================================================
+
+
+CSNET is the product of thousands of hours of work by the project sponsor
+(NSF), the project contractors (Delaware, Wisconsin, Purdue, Rand, and BBN),
+and volunteer professionals representing many different organizations who have
+contributed their advice and guidance.  Many of you are among the latter.  We
+look forward to working with you to keep CSNET a vital and viable organization.
+
+Sincerely,
+
+CSNET MANAGEMENT COMMITTEE
+
+Lawrence Landweber, Chair
+University of Wisconsin
+
+W. Richards Adrion                      David Farber                  
+National Science Foundation             University of Delaware        
+					                              
+Peter Denning                           Anthony Hearn                 
+NASA Ames Research Center               The Rand Corporation          
+					                              
+Richard Edmiston                        Leonard Romney                
+Bolt Beranek and Newman Inc.            University Corporation for    
+					   Atmospheric Research       
